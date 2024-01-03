@@ -4,7 +4,7 @@
 	<body>
 		<nav></nav>
 		<header>
-			<h1>Gisnet</h1>
+			<h1>Gisnet git</h1>
 		</header>
 		<main>
 			<section>
