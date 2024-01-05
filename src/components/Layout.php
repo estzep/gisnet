@@ -1,6 +1,5 @@
-<?php include("/Navbar.php");?>
+<?php include("src/components/Navbar.php");?>
 <main>
-    layout1
     <?php
         // $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         $path = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
@@ -10,7 +9,7 @@
             case '/':
                 include('src/pages/Home.php');
                 break;
-            case `/contact/`:
+            case '/contact/':
                 include('../src/pages/Contact.php');
                 break;
             default:
