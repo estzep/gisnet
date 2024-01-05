@@ -3,8 +3,9 @@
     layout1
     <?php
         $base = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+        echo "The base: " . $base;
         $path = substr($_SERVER['REQUEST_URI'], strlen($base));
-        echo "The path to the current file is: " . $path;
+        echo "The path: " . $path;
 
         switch ($path) {
             case '/contact':
