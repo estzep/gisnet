@@ -9,8 +9,7 @@
 
         switch ($path) {
             case '/':
-                echo "/";
-                include('/../pages/Home.php');
+                include('./../pages/Home.php');
                 break;
             case '/contact':
                 include('../pages/Contact.php');
