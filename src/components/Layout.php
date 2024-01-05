@@ -1,7 +1,10 @@
 <?php include("/Navbar.php");?>
 <main>
+    layout1
     <?php
-        $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+        $base = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+        $path = substr($_SERVER['REQUEST_URI'], strlen($base));
+        echo "The path to the current file is: " . $path;
 
         switch ($path) {
             case '/contact':
@@ -13,12 +16,11 @@
         }
     ?>
     <section>
-        layout
+        layout2
         <?php
-            $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
             $currentFilePath = __FILE__;
             
-            echo "The path to the current file is: " . $path;
+            echo "The path to the current file is: " . $currentFilePath;
         ?>
     </section>
 </main>
