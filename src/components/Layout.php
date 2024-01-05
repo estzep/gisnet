@@ -4,7 +4,7 @@
     <?php
         $base = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         echo "The base: " . $base;
-        $path = substr($_SERVER['REQUEST_URI'], strlen($base));
+        $path = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
         echo "The path: " . $path;
 
         switch ($path) {
