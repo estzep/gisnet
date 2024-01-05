@@ -10,7 +10,7 @@
         switch ($path) {
             case '/':
                 echo "/";
-                include('../pages/Home.php');
+                require('../pages/Home.php');
                 break;
             case '/contact':
                 include('../pages/Contact.php');
