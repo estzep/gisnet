@@ -2,8 +2,7 @@
 <main>
     layout1
     <?php
-        $base = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-        echo "The base: " . $base;
+        // $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         $path = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
         echo "The path: " . $path;
 
@@ -12,21 +11,13 @@
                 include('src/pages/Home.php');
                 break;
             case '/contact':
-                include('../pages/Contact.php');
+                include('src/pages/Contact.php');
                 break;
             default:
-                include('../pages/Home.php');
+                include('src/pages/Home.php');
                 break;
         }
     ?>
-    <section>
-        layout2
-        <?php
-            $currentFilePath = __FILE__;
-            
-            echo "The path to the current file is: " . $currentFilePath;
-        ?>
-    </section>
 </main>
 <footer></footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
