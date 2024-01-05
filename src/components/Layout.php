@@ -11,7 +11,7 @@
                 include('src/pages/Home.php');
                 break;
             case `/contact/`:
-                include('src/pages/Contact.php');
+                include('../src/pages/Contact.php');
                 break;
             default:
                 include('src/pages/Home.php');
