@@ -3,20 +3,23 @@
     <?php
         $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
+        echo
+
         switch ($path) {
             case '/contact':
-                require('pages/Contact.php');
+                include('pages/Contact.php');
                 break;
             default:
-                require('pages/Home.php');
+                include('pages/Home.php');
                 break;
         }
     ?>
     <section>
         <?php
+            $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
             $currentFilePath = __FILE__;
             
-            echo "The path to the current file is: " . $currentFilePath;
+            echo "The path to the current file is: " . $path;
         ?>
     </section>
 </main>
