@@ -1,4 +1,4 @@
-<?php require("/Navbar.php");?>
+<?php include("/Navbar.php");?>
 <main>
     <?php
         $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -13,6 +13,7 @@
         }
     ?>
     <section>
+        layout
         <?php
             $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
             $currentFilePath = __FILE__;
