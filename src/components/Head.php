@@ -29,5 +29,6 @@
     <!-- <link rel="stylesheet" href="assets/css/fonts.css"> -->
     <!-- <link rel="stylesheet" href="assets/css/keyframes.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
     <!-- <link rel="stylesheet" href="assets/css/scrollAppearEffect.css"> -->
 </head>
