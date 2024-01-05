@@ -10,7 +10,7 @@
             case '/':
                 include('src/pages/Home.php');
                 break;
-            case '/contact':
+            case `/contact/`:
                 include('src/pages/Contact.php');
                 break;
             default:
