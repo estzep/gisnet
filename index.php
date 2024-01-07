@@ -2,12 +2,17 @@
     $title = 'Gisnet';
     $robots = 'noindex, nofollow';
     $url = 'https://qartaonline.com/gisnet';
+
+    $base = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
+    $segments = count(array_filter(explode('/', $base)));
+    $path = str_repeat('../', $segments);
 ?>
 
 <!DOCTYPE html>
 <html lang="es">
-    <?php require("src/components/Head.php");?>
+    <?php require($path."src/components/Head.php");?>
 	<body>
-        <?php require("src/components/Layout.php");?>
+        <?php echo($path); ?>
+        <?php require($path."src/components/Layout.php");?>
 	</body>
 </html>
