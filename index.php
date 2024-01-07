@@ -12,7 +12,7 @@
 <html lang="es">
     <?php require($path."src/components/Head.php");?>
 	<body>
-        <?php echo($path); ?>
+        <?php echo $path; ?>
         <?php require($path."src/components/Layout.php");?>
 	</body>
 </html>
