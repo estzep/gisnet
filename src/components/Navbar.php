@@ -29,7 +29,7 @@
                 </ul>
             </div>
             <div class="contact">
-                <a href="contacto" class="btn-type-1 contact-btn">
+                <a href="contact" class="btn-type-1 contact-btn">
                     Contacto
                 </a>
             </div>
