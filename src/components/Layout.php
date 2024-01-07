@@ -3,10 +3,14 @@
     <?php
         // $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         $path = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
-        
+        // echo "The path: " . $path;
+
         switch ($path) {
             case '/':
                 include('src/pages/Home.php');
+                break;
+            case '/contact/':
+                include('../src/pages/Contact.php');
                 break;
             default:
                 include('src/pages/Home.php');
