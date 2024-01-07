@@ -1,7 +1,7 @@
 <header>
     <div class="container">
         <div class="content">
-            <h1>Líderes en soluciones y consultorías especializadas </h1>
+            <h1>Líderes en soluciones y consultorías especializadas</h1>
             <h4 class="subtitle">
                 20 años de experiencia innovando en el sector gubernamental y financiero
             </h4>
