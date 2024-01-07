@@ -1,7 +1,7 @@
 <?php
     $title = 'Gisnet';
     $robots = 'noindex, nofollow';
-    $url = 'https://qartaonline.com/gisnet/contact';
+    $url = 'https://qartaonline.com/gisnet';
 
     $base = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
     $segments = count(array_filter(explode('/', $base)));
