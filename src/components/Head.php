@@ -38,5 +38,6 @@ if ($path == "") { $path = ''; }
     <link rel="stylesheet" href="<?php echo($path);?>src/assets/styles/global.css">
     <!-- <link rel="stylesheet" href="assets/styles/keyframes.css"> -->
     <link rel="stylesheet" href="<?php echo($path);?>src/assets/styles/navbar.css">
+    <link rel="stylesheet" href="<?php echo($path);?>src/assets/styles/footer.css">
     <!-- <link rel="stylesheet" href="assets/styles/scrollAppearEffect.css"> -->
 </head>
