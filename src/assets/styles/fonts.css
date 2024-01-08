@@ -1,0 +1,43 @@
+/*
+100 - Thin
+200 - ExtraLight
+300 - Light
+400 - Regular
+500 - Medium
+600 - SemiBold
+700 - Bold
+800 - ExtraBold
+900 - Black
+*/
+
+/**********EuclidCircularA**********/
+@font-face {
+    font-family: "EuclidCircularA";
+    src: url("../fonts/EuclidCircularA/EuclidCircularA-Light.ttf");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "EuclidCircularA";
+    src: url("../fonts/EuclidCircularA/EuclidCircularA-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "EuclidCircularA";
+    src: url("../fonts/EuclidCircularA/EuclidCircularA-Medium.ttf");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "EuclidCircularA";
+    src: url("../fonts/EuclidCircularA/EuclidCircularA-SemiBold.ttf");
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: "EuclidCircularA";
+    src: url("../fonts/EuclidCircularA/EuclidCircularA-Bold.ttf");
+    font-style: normal;
+    font-weight: 700;
+}

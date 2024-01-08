@@ -1,8 +1,16 @@
+<?php
+    $base = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
+    $segments = count(array_filter(explode('/', $base)));
+    $path = str_repeat('../', $segments);
+?>
+
 <nav>
     <div class="nav-container container">
         <div class="content">
             <div class="logo">
-                <img src="" alt="GISnet logo">
+                <a href="">
+                    <img src="" alt="GISnet logo">
+                </a>
             </div>
             <div class="links">
                 <ul>
