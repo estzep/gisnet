@@ -2,11 +2,11 @@ footer { background-color: blue; }
 footer .container {  }
 footer .container .content { padding-top: 3rem; padding-bottom: 2rem; width: 100%; display: flex; }
 
-footer .sitemap {  }
-footer .about {  }
+footer .sitemap { flex: 0 0 60%; }
+footer .about { flex: 0 0 40%; }
 footer .about .logo {  }
 footer .about .logo img {  }
-footer .copyright {  }
+footer .copyright { flex: 1; }
 
 footer .column {  }
 
