@@ -14,15 +14,6 @@
                         <li>
                             <p><a href="<? echo($path) ?>nosotros">Sobre Gisnet</a></p>
                         </li>
-                        <li>
-                            <p><? echo($base) ?></p>
-                        </li>
-                        <li>
-                            <p><? echo($segments) ?></p>
-                        </li>
-                        <li>
-                            <p><? echo($path) ?></p>
-                        </li>
                     </ul>
                 </div>
                 <div class="column">
