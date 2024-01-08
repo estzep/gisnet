@@ -1,5 +1,45 @@
 :root {
-    --primary-color: #ffffff;
+    --black: #;
+    --white: #;
+
+    --pri-color: #236FB3;
+    /* --light-pri-color: #;
+    --dark-pri-color: #; */
+
+    --sec-color: #;
+    /* --light-sec-color: #;
+    --dark-sec-color: #; */
+
+    --ter-color: #;
+    /* --light-ter-color: #;
+    --dark-ter-color: #; */
+
+    --accent-color: #;
+    /* --light-accent-color: #;
+    --dark-accent-color: #; */
+
+    --info-color: #;
+    /* --light-info-color: #;
+    --dark-info-color: #; */
+    
+    --text-color: #;
+    /* --light-text-color: #;
+    --dark-text-color: #; */
+
+    --bg-color: #;
+
+    --danger-color: #ED555F;
+    --light-danger-color: #FFD7D7;
+    --danger-color-filter: invert(43%) sepia(27%) saturate(2759%) hue-rotate(321deg) brightness(99%) contrast(88%);
+    --success-color: #7CBD8E;
+    --light-success-color: #ECF7EF;
+    --success-color-filter: invert(83%) sepia(29%) saturate(457%) hue-rotate(81deg) brightness(81%) contrast(84%);
+    --warning-color: #EDB955;
+    --light-warning-color: #FFFAE9;
+    --warning-color-filter: invert(72%) sepia(53%) saturate(545%) hue-rotate(346deg) brightness(104%) contrast(86%);
+    --alert-color: #7684CB;
+    --light-alert-color: #E8EFF9;
+    --alert-color-filter: invert(50%) sepia(58%) saturate(364%) hue-rotate(193deg) brightness(94%) contrast(90%);
 }
 
 * { box-sizing: border-box; padding: 0; margin: 0; }
