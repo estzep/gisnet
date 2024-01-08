@@ -9,7 +9,7 @@
         <div class="content">
             <div class="sitemap">
                 <div class="column">
-                    <h5><a href="/#empresa">Empresa</a></h5>
+                    <h5><a href="#empresa">Empresa</a></h5>
                     <ul>
                         <li>
                             <p><a href="<? echo($path) ?>/nosotros">Sobre Gisnet</a></p>
