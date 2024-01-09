@@ -1,7 +1,7 @@
 <?php
-    $title = 'Gisnet';
+    $title = 'Gisnet contacto';
     $robots = 'noindex, nofollow';
-    $url = 'https://qartaonline.com/gisnet';
+    $url = 'https://qartaonline.com/gisnet/contacto';
 
     $base = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
     $segments = count(array_filter(explode('/', $base)));
@@ -12,7 +12,6 @@
 <html lang="es">
     <?php require($path."src/components/Head.php");?>
 	<body>
-        <?php echo $path; ?>
-        <?php require($path."src/components/Layout.php");?>
+        <?php require($path."app.php");?>
 	</body>
 </html>

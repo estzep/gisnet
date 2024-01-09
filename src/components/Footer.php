@@ -17,7 +17,7 @@
                     </ul>
                 </div>
                 <div class="column">
-                    <h5><a href="">Servicios</a></h5>
+                    <h5><a href="<? echo($path) ?>#servicios">Servicios</a></h5>
                     <ul>
                         <li>
                             <p><a href="<? echo($path) ?>servicios/migracion-de-acervos">Migración de acervos</a></p>
@@ -34,7 +34,7 @@
                     </ul>
                 </div>
                 <div class="column">
-                    <h5><a href="">Productos</a></h5>
+                    <h5><a href="<? echo($path) ?>#productos">Productos</a></h5>
                     <ul>
                         <li>
                             <p><a href="<? echo($path) ?>productos/panini">PANINI</a></p>
@@ -55,12 +55,12 @@
                             <p><a href="<? echo($path) ?>productos/scale-fusion">Scale Fusion</a></p>
                         </li>
                         <li>
-                            <p><a href="<? echo($path) ?>/productos/tassta">TASSTA</a></p>
+                            <p><a href="<? echo($path) ?>productos/tassta">TASSTA</a></p>
                         </li>
                     </ul>
                 </div>
                 <div class="column">
-                    <h5><a href="">Ayuda</a></h5>
+                    <h5><a href="<? echo($path) ?>#contacto">Ayuda</a></h5>
                     <ul>
                         <li>
                             <p><a href="<? echo($path) ?>contacto">Contactar</a></p>
@@ -69,8 +69,8 @@
                 </div>
             </div>
             <div class="about">
-                <a href="" class="logo">
-                    <img src="" alt="">
+                <a href="<? echo($path) ?>" class="logo">
+                    <img src="<? echo($path) ?>src/assets/img/logos/logo-gisnet-white.png" alt="Gisnet logo">
                 </a>
                 <p>
                     Gisnet es una empresa especializada en la integración de soluciones y brindando consultarías especializadas.
