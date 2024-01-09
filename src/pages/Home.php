@@ -40,3 +40,13 @@
         </div>
     </div>
 </section>
+
+<section id="contacto">
+    <div class="container">
+        <div class="content">
+            <h3>¿Listo para empezar?</h3>
+            <p>Habla con uno de nuestros expertos y te contestaremos a la brevedad</p>
+            <a href="" class="btn-type-2">Contactar a ventas</a>
+        </div>
+    </div>
+</section>
