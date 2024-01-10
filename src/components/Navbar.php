@@ -8,6 +8,9 @@
     <div class="nav-container container">
         <div class="content">
             <ul class="links">
+                <li class="logo">
+                    <a href=""><img src="" alt="GISnet logo"></a>
+                </li>
                 <li>
                     <a href="">Empresa</a>
                 </li>
@@ -18,12 +21,6 @@
                 <li>
                     <a href="">Productos</a>
                 </li>
-                <li class="logo">
-                    <a href=""><img src="" alt="GISnet logo"></a>
-                </li>
-                <ul>
-                    
-                </ul>
             </ul>
             <div class="contact">
                 <a href="contact" class="btn-type-1 contact-btn">
