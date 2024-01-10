@@ -11,7 +11,11 @@
                 <h2>¿Listo para empezar?</h2>
                 <p>Habla con nuestros expertos y te contestaremos a la brevedad</p>
                 <a href="<? echo($path) ?>contacto" class="btn-type-3">
-                    Contactar a ventas <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Go to">
+                    Contactar a ventas
+                    <span class="arrow">
+                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Go to" class="tail">
+                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                    </span>
                 </a>
             </div>
         </div>
