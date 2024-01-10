@@ -54,7 +54,7 @@ footer .bottom .column { flex: 1; padding: 0 2rem; }
     footer .top .container .content { width: 100%; padding-top: 5rem; padding-bottom: 5rem; }
 
     footer .bottom .container .content { padding-top: 4rem; }
-    footer .bottom .sitemap { flex: 0 0 100%; padding-bottom: 6rem; order: 2; }
+    footer .bottom .sitemap { flex: 0 0 100%; padding-bottom: 3rem; order: 2; }
     footer .bottom .about { flex: 0 0 60%; padding: 0 0 3rem 0; order: 1; }
     footer .bottom .copyright { order: 3; }
 }
