@@ -7,25 +7,24 @@
 <nav>
     <div class="nav-container container">
         <div class="content">
-            <div class="links">
-                <div class="logo">
-                    <a href="">
-                        <img src="" alt="GISnet logo">
-                    </a>
-                </div>
+            <ul class="links">
+                <li>
+                    <a href="">Empresa</a>
+                </li>
+                <li>
+                    <a href="">Servicios</a>
+                    <!-- aqui dropdown -->
+                </li>
+                <li>
+                    <a href="">Productos</a>
+                </li>
+                <li class="logo">
+                    <a href=""><img src="" alt="GISnet logo"></a>
+                </li>
                 <ul>
-                    <li>
-                        <a href="">Empresa</a>
-                    </li>
-                    <li>
-                        <a href="">Servicios</a>
-                        <!-- aqui dropdown -->
-                    </li>
-                    <li>
-                        <a href="">Productos</a>
-                    </li>
+                    
                 </ul>
-            </div>
+            </ul>
             <div class="contact">
                 <a href="contact" class="btn-type-1 contact-btn">
                     Contacto

@@ -1,7 +1,12 @@
-nav { border: 1px solid red; }
+nav { border: 1px solid red; position: fixed; top: 0; right: 0; left: 0; width: 100%; transition: 0.6s; }
 nav .container {  }
-nav .container .content { display: flex; }
+nav .container .content { display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; align-content: space-between; justify-content: center; }
 
-nav .links { flex-grow: 1; }
-nav .links .logo {  }
+nav ul.links { flex-grow: 1; display: flex; }
+nav ul.links li {  }
+nav ul.links li.logo {  }
+nav ul.links li a {  }
+nav ul.links li a img {  }
+
 nav .contact {  }
+nav .contact a {  }
