@@ -9,4 +9,4 @@ nav ul.links li a { color: var(--text-color); font-weight: 400; line-height: 1; 
 nav ul.links li a img {  }
 
 nav .contact {  }
-nav .contact a {  }
+nav .contact a { font-size: .9rem; padding: .5rem; }
