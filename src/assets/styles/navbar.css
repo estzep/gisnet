@@ -1,1 +1,7 @@
-nav {  }
+nav { border: 1px solid red; }
+nav .container {  }
+nav .container .content { display: flex; }
+
+nav .links { flex-grow: 1; }
+nav .links .logo {  }
+nav .contact {  }
