@@ -51,11 +51,15 @@ footer .bottom .column { flex: 1; padding: 0 2rem; }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-    footer .top .container .content { width: 100%; }
+    footer .top .container .content { width: 100%; padding-top: 2rem; }
 
-    footer .bottom .sitemap { flex: 0 0 100%; }
-    footer .bottom .about { flex: 0 0 60%; }
+    footer .bottom .sitemap { flex: 0 0 100%; padding-bottom: 6rem; order: 2; }
+    footer .bottom .about { flex: 0 0 60%; padding: 0 0 3rem 0; order: 1; }
+    footer .bottom .copyright { order: 3; }
 }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    footer .bottom .sitemap { padding-bottom: 3rem; }
+    footer .bottom .column { flex: 1 1 100%; padding-bottom: 2rem; }
+}
