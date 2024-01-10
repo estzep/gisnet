@@ -1,5 +1,5 @@
 footer {  }
-footer .top { background: var(--darker-pri-color); }
+footer .top { background: url('../img/grid-bg.png'), var(--darker-pri-color); }
 footer .top .container {  }
 footer .top .container .content { display: block; width: 40%; margin: 0 auto; text-align: center; padding-top: 6.5rem; padding-bottom: 6.5rem; }
 footer .top p { text-align: center; font-size: 1rem; line-height: 1.5; width: 55%; margin: 0 auto; margin-bottom: 1.5rem; }
@@ -19,7 +19,7 @@ footer ul { list-style: none; margin-bottom: 0; padding-left: 0; }
 footer ul li {  }
 
 footer .bottom .sitemap { flex: 0 0 70%; margin-right: -2rem; padding-bottom: 6rem; margin-left: -2rem; display: flex; flex-direction: row; align-items: stretch; align-content: flex-start; flex-wrap: wrap; justify-content: flex-start; }
-footer .bottom .about { flex: 0 0 20%; padding: 0 2rem 6rem 2rem; }
+footer .bottom .about { flex: 0 0 30%; padding: 0 2rem 6rem 2rem; }
 footer .bottom .about .logo {  }
 footer .bottom .about .logo img { height: 1.3rem; width: auto; display: block; margin-bottom: 1.5rem; }
 footer .bottom .copyright { flex: 1 1 100%; padding-top: 2rem; }
