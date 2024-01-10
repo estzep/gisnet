@@ -1,7 +1,7 @@
 footer {  }
 footer .top { background: var(--darker-pri-color); }
 footer .top .container {  }
-footer .top .container .content { display: block; width: 40%; margin: 0 auto; }
+footer .top .container .content { display: block; width: 40%; margin: 0 auto; text-align: center; }
 footer .top p { text-align: center; font-size: 1.1rem; line-height: 1.5; }
 footer .top a { text-align: center; text-decoration: none; }
 
