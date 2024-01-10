@@ -7,4 +7,4 @@ section {  }
 .btn-type-3 .arrow img { vertical-align: bottom; height: 1rem; width: 1rem; filter: var(--pri-color-filter); }
 .btn-type-3 .arrow .tail { position: absolute; }
 .btn-type-3 .arrow .head { transition: 0.3s; }
-.btn-type-3:hover .arrow .head { transform: translateX(.5rem); }
+.btn-type-3:hover .arrow .head { transform: translateX(.35rem); }
