@@ -9,14 +9,14 @@ footer ul { list-style: none; margin-bottom: 0; padding-left: 0; }
 footer ul li {  }
 footer hr { border-top: 2px solid red; }
 
-footer .sitemap { flex: 0 0 70%; padding-right: .5rem; padding-bottom: 3rem; padding-left: .5rem; display: flex; flex-direction: row; align-items: stretch; align-content: flex-start; flex-wrap: wrap; justify-content: flex-start; }
+footer .sitemap { flex: 0 0 70%; margin-right: -.6rem; padding-bottom: 3rem; margin-left: -.6rem; display: flex; flex-direction: row; align-items: stretch; align-content: flex-start; flex-wrap: wrap; justify-content: flex-start; }
 footer .about { flex: 0 0 20%; padding-bottom: 3rem; }
 footer .about .logo {  }
 footer .about .logo img { height: 1.3rem; width: auto; display: block; margin-bottom: 1.5rem; }
 footer .copyright { flex: 1 1 100%; padding-top: 2rem; }
 footer .copyright p { font-size: .75rem; }
 
-footer .column { flex: 1; }
+footer .column { flex: 1; padding: 0 .6rem; }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {}
