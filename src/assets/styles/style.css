@@ -3,8 +3,9 @@ section {  }
 .btn-type-1 { font-size: 1rem; display: inline-block; border: 1px solid var(--text-color); color: var(--text-color); text-decoration: none; line-height: 1; padding: .5rem 1rem; border-radius: 2rem; background: transparent; }
 
 .btn-type-3 { font-size: 1rem; display: inline-block; border: 1px solid var(--white); color: var(--pri-color); text-decoration: none; line-height: 1; padding: .5rem 1rem; border-radius: 0; background: var(--white); }
+/* .btn-type-3:hover { box-shadow: ; } */
 .btn-type-3 .arrow { position: relative; display: inline-block; margin-left: .25rem; }
 .btn-type-3 .arrow img { vertical-align: middle; height: .6rem; width: .6rem; filter: var(--pri-color-filter); }
 .btn-type-3 .arrow .tail { position: absolute; top: 3.5px; }
 .btn-type-3 .arrow .head { transition: 0.3s; }
-.btn-type-3:hover .arrow .head { transform: translateX(.12rem); }
+.btn-type-3:hover .arrow .head { transform: translateX(.15rem); }
