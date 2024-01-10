@@ -4,6 +4,7 @@ section {  }
 
 .btn-type-3 { font-size: 1rem; display: inline-block; border: 1px solid var(--white); color: var(--pri-color); text-decoration: none; line-height: 1; padding: .5rem 1rem; border-radius: 0; background: var(--white); }
 .btn-type-3 .arrow { position: relative; display: inline-block; margin-left: .5rem; }
+.btn-type-3 .arrow img { vertical-align: bottom; }
 .btn-type-3 .arrow .tail { position: absolute; }
 .btn-type-3 .arrow .head { transition: 0.3s; }
-.btn-type-3 .arrow:hover .head { transform: translateX(.5rem); }
+.btn-type-3:hover .arrow .head { transform: translateX(.5rem); }
