@@ -5,7 +5,17 @@
 ?>
 
 <footer>
-    <section class="top"></section>
+    <section id="contacto" class="top">
+        <div class="container">
+            <div class="content">
+                <h2>¿Listo para empezar?</h2>
+                <p>Habla con nuestros expertos y te contestaremos a la brevedad</p>
+                <a href="<? echo($path) ?>contacto" class="btn-type-3">
+                    Contactar a ventas
+                </a>
+            </div>
+        </div>
+    </section>
     <section class="bottom">
         <div class="container">
             <div class="content">
@@ -62,7 +72,7 @@
                         </ul>
                     </div>
                     <div class="column">
-                        <h5><a href="<? echo($path) ?>#contacto">Ayuda</a></h5>
+                        <h5><a href="#contacto">Ayuda</a></h5>
                         <ul>
                             <li>
                                 <p><a href="<? echo($path) ?>contacto">Contactar</a></p>
