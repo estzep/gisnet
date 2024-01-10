@@ -14,7 +14,7 @@ footer .about { flex: 0 0 25%; padding-bottom: 3rem; }
 footer .about .logo {  }
 footer .about .logo img { height: 1.3rem; width: auto; display: block; margin-bottom: 1.5rem; }
 footer .copyright { flex: 1 1 100%; padding-top: 2rem; }
-footer .copyright p { font-size: .9rem; }
+footer .copyright p { font-size: .7rem; }
 
 footer .column { flex: 1; }
 
