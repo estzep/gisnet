@@ -1,5 +1,10 @@
+:root {
+    --ft-lg-perc: 6%;
+    --ft-rg-perc: 60%;
+}
+
 footer {  }
-footer .top { background: linear-gradient(180deg, rgba(var(--darker-pri-color-rgb), 0) 90%, rgba(var(--darker-pri-color-rgb), 1) 100%), linear-gradient(0deg, rgba(var(--darker-pri-color-rgb), 0) 90%, rgba(var(--darker-pri-color-rgb), 1) 100%), radial-gradient(circle, rgba(var(--darker-pri-color-rgb), 0) 60%, rgba(var(--darker-pri-color-rgb), 1) 100%), url('../img/grid-bg.png'), var(--darker-pri-color); background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: local; }
+footer .top { background: linear-gradient(180deg, rgba(var(--darker-pri-color-rgb), 0) calc(100% - var(--ft-lg-perc)), rgba(var(--darker-pri-color-rgb), 1) 100%), linear-gradient(0deg, rgba(var(--darker-pri-color-rgb), 0) calc(100% - var(--ft-lg-perc)), rgba(var(--darker-pri-color-rgb), 1) 100%), radial-gradient(circle, rgba(var(--darker-pri-color-rgb), 0) var(--ft-rg-perc), rgba(var(--darker-pri-color-rgb), 1) 100%), url('../img/grid-bg.png'), var(--darker-pri-color); background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: local; }
 footer .top .container {  }
 footer .top .container .content { display: block; width: 40%; margin: 0 auto; text-align: center; padding-top: 6.5rem; padding-bottom: 6.5rem; }
 footer .top p { text-align: center; font-size: 1rem; line-height: 1.5; width: 55%; margin: 0 auto; margin-bottom: 1.5rem; }
