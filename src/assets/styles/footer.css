@@ -1,6 +1,11 @@
-footer { background-color: var(--darker-pri-color); }
-footer .container {  }
-footer .container .content { padding-top: 5rem; padding-bottom: 4rem; width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: space-between; align-content: space-between; }
+footer {  }
+footer .top {  }
+footer .top .container {  }
+footer .top .container .content {  }
+
+footer .bottom { background-color: var(--darker-pri-color); }
+footer .bottom .container {  }
+footer .bottom .container .content { padding-top: 5rem; padding-bottom: 4rem; width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: space-between; align-content: space-between; }
 
 footer h5 { color: var(--light-text-color); font-weight: 500; line-height: 1.6; margin-bottom: 1.5rem; font-size: 1.1rem; }
 footer h5 a { text-decoration: none!important; }
@@ -11,14 +16,14 @@ footer ul { list-style: none; margin-bottom: 0; padding-left: 0; }
 footer ul li {  }
 footer hr { border-top: 2px solid red; }
 
-footer .sitemap { flex: 0 0 70%; margin-right: -1rem; padding-bottom: 5rem; margin-left: -1rem; display: flex; flex-direction: row; align-items: stretch; align-content: flex-start; flex-wrap: wrap; justify-content: flex-start; }
-footer .about { flex: 0 0 20%; padding-bottom: 5rem; }
-footer .about .logo {  }
-footer .about .logo img { height: 1.3rem; width: auto; display: block; margin-bottom: 1.5rem; }
-footer .copyright { flex: 1 1 100%; padding-top: 2rem; }
-footer .copyright p { font-size: .8rem; }
+footer .bottom .sitemap { flex: 0 0 70%; margin-right: -1rem; padding-bottom: 5rem; margin-left: -1rem; display: flex; flex-direction: row; align-items: stretch; align-content: flex-start; flex-wrap: wrap; justify-content: flex-start; }
+footer .bottom .about { flex: 0 0 20%; padding-bottom: 5rem; }
+footer .bottom .about .logo {  }
+footer .bottom .about .logo img { height: 1.3rem; width: auto; display: block; margin-bottom: 1.5rem; }
+footer .bottom .copyright { flex: 1 1 100%; padding-top: 2rem; }
+footer .bottom .copyright p { font-size: .8rem; }
 
-footer .column { flex: 1; padding: 0 1rem; }
+footer .bottom .column { flex: 1; padding: 0 1rem; }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {}
