@@ -11,7 +11,23 @@
                 <h2>¿Listo para empezar?</h2>
                 <p>Habla con nuestros expertos y te contestaremos a la brevedad</p>
                 <a href="<? echo($path) ?>contacto" class="btn-type-3">
-                    Contactar a ventas <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Go to">
+                    Contactar a ventas
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1166_25868)">
+                            <g clip-path="url(#clip1_1166_25868)">
+                                <path d="M1 8H15" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8 1L15 8L8 15" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_1166_25868">
+                                <rect width="16" height="16" fill="white"/>
+                            </clipPath>
+                            <clipPath id="clip1_1166_25868">
+                                <rect width="16" height="16" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
                 </a>
             </div>
         </div>
