@@ -1,32 +1,32 @@
 :root {
-    --black: #;
-    --white: #;
+    --black: #272932;
+    --white: #FFFFFF;
+    --gray: #4D5B7C;
+    --light-gray: #F3F6F8;
+    --light-blue-1: #F4FAFF;
+    --light-blue-2: #F7FBFF;
 
     --pri-color: #236FB3;
-    /* --light-pri-color: #;
-    --dark-pri-color: #; */
+    --light-pri-color: #AFD0EE;
+    --lighter-pri-color: #CDE1F4;
+    --dark-pri-color: #1F629E;
+    --darker-pri-color: #18548B;
 
-    --sec-color: #;
-    /* --light-sec-color: #;
-    --dark-sec-color: #; */
+    --sec-color: #01805F;
 
-    --ter-color: #;
-    /* --light-ter-color: #;
-    --dark-ter-color: #; */
-
-    --accent-color: #;
-    /* --light-accent-color: #;
-    --dark-accent-color: #; */
-
-    --info-color: #;
-    /* --light-info-color: #;
-    --dark-info-color: #; */
+    --stroke-color: #EDF2F7;
+    --light-stroke-color: #F4F7FF;
+    --dark-stroke-color: #D7DCEB;
     
-    --text-color: #;
-    /* --light-text-color: #;
-    --dark-text-color: #; */
+    --text-color: var(--black);
+    --light-text-color: var(--white);
 
-    --bg-color: #;
+    --bg-color: var(--white);
+    --dark-bg-color: var(--light-gray);
+    --darker-bg-color: var(--lighter-pri-color);
+    --bg-color-1: var(--light-blue-1);
+    --bg-color-2: var(--light-blue-2);
+    --bg-color-3: var(--darker-pri-color);
 
     --danger-color: #ED555F;
     --light-danger-color: #FFD7D7;
