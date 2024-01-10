@@ -5,7 +5,7 @@ footer .container .content { padding-top: 5rem; padding-bottom: 4rem; width: 100
 footer h5 { color: var(--light-text-color); font-weight: 500; line-height: 1.6; margin-bottom: 1.5rem; font-size: 1.1rem; }
 footer p { color: var(--light-text-color); font-weight: 400; line-height: 1.8; margin-bottom: .75rem; font-size: .9rem; }
 footer a { color: var(--light-text-color); text-decoration: none; transition: 0.4s; }
-footer a:hover { color: var(--lighter-pri-color); text-decoration: underline; }
+footer a:hover { color: var(--dark-stroke-color); text-decoration: underline; }
 footer ul { list-style: none; margin-bottom: 0; padding-left: 0; }
 footer ul li {  }
 footer hr { border-top: 2px solid red; }
