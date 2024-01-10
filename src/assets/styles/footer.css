@@ -62,7 +62,6 @@ footer .bottom .column { flex: 1; padding: 0 2rem; }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    /* footer h2 { font-size: 2.5rem; } */
     footer h5 { margin-bottom: .5rem; }
 
     footer .top .container .content { padding-top: 7rem; padding-bottom: 7rem; }

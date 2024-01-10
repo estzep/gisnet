@@ -13,7 +13,7 @@
                 <a href="<? echo($path) ?>contacto" class="btn-type-3">
                     Contactar a ventas
                     <span class="arrow">
-                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Go to" class="tail">
+                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-tail.svg" alt="Go to tail" class="tail">
                         <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
                     </span>
                 </a>
