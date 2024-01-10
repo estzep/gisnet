@@ -1,9 +1,9 @@
 footer {  }
 footer .top { background: var(--darker-pri-color); }
 footer .top .container {  }
-footer .top .container .content {  }
+footer .top .container .content { display: block; width: 40%; margin: 0 auto; }
 footer .top p { text-align: center; }
-footer .top a { text-align: center; }
+footer .top a { text-align: center; text-decoration: none; }
 
 footer .bottom { background-color: var(--darker-pri-color); }
 footer .bottom .container {  }
