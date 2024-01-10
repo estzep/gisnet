@@ -2,17 +2,17 @@ footer { background-color: #113C64; }
 footer .container {  }
 footer .container .content { padding-top: 3rem; padding-bottom: 2rem; width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: space-between; align-content: space-between; }
 
-footer h5 { color: var(--light-text-color); font-weight: 500; line-height: 1.6; margin-bottom: 1.5rem; font-size: 1.3rem; }
-footer p { color: var(--light-text-color); font-weight: 400; line-height: 1.8; margin-bottom: .75rem; font-size: 1rem; }
+footer h5 { color: var(--light-text-color); font-weight: 500; line-height: 1.6; margin-bottom: 1.5rem; font-size: 1.1rem; }
+footer p { color: var(--light-text-color); font-weight: 400; line-height: 1.8; margin-bottom: .75rem; font-size: .8rem; }
 footer a { color: var(--light-text-color); text-decoration: none; }
 footer ul { list-style: none; margin-bottom: 0; padding-left: 0; }
 footer ul li {  }
 footer hr { border-top: 2px solid red; }
 
-footer .sitemap { flex: 0 0 60%; padding-bottom: 3rem; display: flex; flex-direction: row; align-items: stretch; align-content: flex-start; flex-wrap: wrap; justify-content: flex-start; }
+footer .sitemap { flex: 0 0 65%; padding-bottom: 3rem; display: flex; flex-direction: row; align-items: stretch; align-content: flex-start; flex-wrap: wrap; justify-content: flex-start; }
 footer .about { flex: 0 0 25%; padding-bottom: 3rem; }
 footer .about .logo {  }
-footer .about .logo img {  }
+footer .about .logo img { height: 1.3rem; width: auto; display: block; margin-bottom: 1.5rem; }
 footer .copyright { flex: 1 1 100%; padding-top: 2rem; }
 footer .copyright p { font-size: .9rem; }
 
