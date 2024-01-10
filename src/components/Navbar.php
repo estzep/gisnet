@@ -9,7 +9,7 @@
         <div class="content">
             <ul class="links">
                 <li class="logo">
-                    <a href=""><img src="" alt="GISnet logo"></a>
+                    <a href=""><img src="<? echo($path) ?>src/assets/img/logos/logo-gisnet.png" alt="GISnet"></a>
                 </li>
                 <li>
                     <a href="">Empresa</a>
