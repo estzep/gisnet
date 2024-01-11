@@ -13,6 +13,7 @@ nav.open .toggle-btn button .bar2 { opacity: 0; }
 nav.open .toggle-btn button .bar3 { -webkit-transform: rotate(45deg) translate(-4px, -4px); transform: rotate(45deg) translate(-4px, -4px); }
 
 nav .links { flex-grow: 1; display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; align-content: flex-start; justify-content: center; }
+nav .links .links-container {  }
 nav .links ul { flex-grow: 1; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; align-items: center; align-content: flex-start; gap: 4rem; list-style: none; padding-left: 0; margin-bottom: 0; }
 nav .links ul li {  }
 nav .links ul li a { color: var(--text-color); font-weight: 400; line-height: 1; margin-bottom: 0; font-size: .9rem; text-decoration: none; transition: 0.4s; }
@@ -34,6 +35,7 @@ nav .contact-btn a { font-size: .9rem; padding: .5rem; font-weight: 400; }
     nav .toggle-btn { display: grid; }
     
     nav .links { background: var(--bg-color); position: fixed; top: calc(var(--navbar-height) - 1px); right: 0; bottom: 0; left: 0; z-index: 20; display: flex; flex-direction: column; flex-wrap: nowrap; align-items: stretch; justify-content: space-between; }
+    nav .links .links-container {  }
 
     nav .links ul { flex-grow: 1; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; align-items: center; align-content: flex-start; gap: 4rem; list-style: none; padding-left: 0; margin-bottom: 0; }
     nav .links ul li {  }

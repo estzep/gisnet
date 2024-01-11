@@ -17,23 +17,25 @@
                     <div class="bar bar3"></div>
                 </button>
             </div>
-            <div class="links container">
-                <ul>
-                    <li>
-                        <a href="">Empresa</a>
-                    </li>
-                    <li>
-                        <a href="">Servicios</a>
-                        <!-- aqui dropdown -->
-                    </li>
-                    <li>
-                        <a href="">Productos</a>
-                    </li>
-                </ul>
-                <div class="contact-btn">
-                    <a href="contact" class="btn-type-1">
-                        Contacto
-                    </a>
+            <div class="links">
+                <div class="links-container container">
+                    <ul>
+                        <li>
+                            <a href="">Empresa</a>
+                        </li>
+                        <li>
+                            <a href="">Servicios</a>
+                            <!-- aqui dropdown -->
+                        </li>
+                        <li>
+                            <a href="">Productos</a>
+                        </li>
+                    </ul>
+                    <div class="contact-btn">
+                        <a href="contact" class="btn-type-1">
+                            Contacto
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
