@@ -1,5 +1,5 @@
 main { padding-top: var(--navbar-height); background: var(--bg-color); }
-main :is(header, section) { min-height: 60vh; border: 1px solid red; }
+main :is(header, section) { min-height: 60vh; border: 1px solid red; scroll-margin-block-start: 110px; scroll-margin-block-end: 110px; }
 
 .btn-type-1 { font-size: 1rem; display: inline-block; border: 1px solid var(--pri-color); color: var(--white); text-decoration: none; line-height: 1; padding: .5rem 1rem; border-radius: 0; background: var(--pri-color); }
 
