@@ -23,14 +23,14 @@
                         <li>
                             <a href="<? echo($path) ?>#empresa" onclick="closeNav()">Empresa</a>
                         </li>
-                        <li class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseServicios" aria-expanded="false" aria-controls="collapseServicios">
-                            <a>Servicios</a>
+                        <li>
+                            <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseServicios" aria-expanded="false" aria-controls="collapseServicios">Servicios</a>
                         </li>
                         <div id="collapseServicios" class="accordion-collapse collapse" data-bs-parent="#accordionLinks">
                             hola, soy un accordion de servicios.
                         </div>
-                        <li class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">
-                            <a>Productos</a>
+                        <li>
+                            <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">Productos</a>
                         </li>
                         <div id="collapseProductos" class="accordion-collapse collapse" data-bs-parent="#accordionLinks">
                             hola, soy un accordion de productos.
