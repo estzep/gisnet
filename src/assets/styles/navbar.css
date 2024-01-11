@@ -31,9 +31,9 @@ nav .contact-btn a { font-size: .9rem; padding: .5rem; font-weight: 400; }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-    nav .toggle-btn { display: block; }
+    nav .toggle-btn { display: grid; }
     
-    nav .links { background: var(--bg-color); position: fixed; top: calc(var(--navbar-height) - 1px); right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 20; display: flex; flex-direction: column; flex-wrap: nowrap; align-items: stretch; justify-content: space-between; }
+    nav .links { background: var(--bg-color); position: fixed; top: calc(var(--navbar-height) - 1px); right: 0; bottom: 0; left: 0; z-index: 20; display: flex; flex-direction: column; flex-wrap: nowrap; align-items: stretch; justify-content: space-between; }
 
     nav .links ul { flex-grow: 1; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; align-items: center; align-content: flex-start; gap: 4rem; list-style: none; padding-left: 0; margin-bottom: 0; }
     nav .links ul li {  }
