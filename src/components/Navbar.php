@@ -32,10 +32,10 @@
                         </div>
                         <li class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">
                             <a>Productos</a>
-                            <div id="collapseProductos" class="accordion-collapse collapse" data-bs-parent="#accordionLinks">
-                                hola, soy un accordion de productos.
-                            </div>
                         </li>
+                        <div id="collapseProductos" class="accordion-collapse collapse" data-bs-parent="#accordionLinks">
+                            hola, soy un accordion de productos.
+                        </div>
                     </ul>
                     <div class="contact-btn">
                         <a href="contact" class="btn-type-1">
