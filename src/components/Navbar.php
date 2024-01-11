@@ -26,7 +26,7 @@
                         </li>
                         <li class="accordion-item">
                             <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseServicios" aria-expanded="false" aria-controls="collapseServicios">Servicios</a>
-                            <div id="collapseServicios" class="accordion-collapse collapse show" data-bs-parent="#accordionLinks">
+                            <div id="collapseServicios" class="accordion-collapse collapse" data-bs-parent="#accordionLinks">
                                 hola, soy un accordion de servicios.
                             </div>
                         </li>
