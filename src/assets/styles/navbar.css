@@ -1,12 +1,12 @@
 nav { z-index: 20; position: relative; background: var(--bg-color); position: fixed; top: 0; right: 0; left: 0; width: 100%; transition: 0.6s; box-shadow: 0px 4px 15px 0px rgba(75, 83, 91, 0.02); }
 nav .container {  }
-nav .container .content { display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; align-content: space-between; justify-content: center; padding: 1rem 0; }
+nav .container .content { display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; align-content: space-between; justify-content: space-between; padding: 1rem 0; }
 
 nav .logo { margin-right: 4rem; }
 nav .logo img { display: block; height: 1.5rem; width: auto; }
 
 nav .toggle-btn {  }
-nav .toggle-btn button {  }
+nav .toggle-btn button { outline: none; border: 0; background: rgba(0,0,0,0); padding-top: .25rem; padding-bottom: .25rem; transition: 0.4s; padding-left: 6px; padding-right: 6px; }
 nav .toggle-btn button .bar { width: 30px; height: 2px; background-color: var(--pri-color); margin: 6px 0; transition: 0.5s; }
 nav.open .toggle-btn button .bar1 { -webkit-transform: rotate(-45deg) translate(-9px, 6px); transform: rotate(-45deg) translate(-9px, 6px); }
 nav.open .toggle-btn button .bar2 { opacity: 1; }
