@@ -19,7 +19,6 @@
             </div>
             <div class="links">
                 <div class="links-container container">
-                    
                     <ul id="accordionLinks" class="accordion">
                         <li>
                             <a href="<? echo($path) ?>#empresa" onclick="closeNav()">Empresa</a>
@@ -38,7 +37,7 @@
                         </div>
                     </ul>
                     <div class="contact-btn">
-                        <a href="contact" class="btn-type-1">
+                        <a href="<? echo($path) ?>contacto" class="btn-type-1">
                             Contacto
                         </a>
                     </div>

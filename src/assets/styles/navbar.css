@@ -45,8 +45,8 @@ nav .contact-btn a { font-size: .9rem; padding: .5rem; font-weight: 400; }
         padding-left: calc(var(--bs-gutter-x) * var(--navbar-sm-multiplier)); padding-bottom: 1rem; }
 
     nav .links ul { flex-direction: column; align-items: stretch; gap: 0; flex-wrap: nowrap; }
-    nav .links ul li { padding: 1rem 0; border-bottom: 1px solid var(--light-stroke-color); }
-    nav .links ul li a { color: var(--text-color); font-weight: 400; line-height: 1; margin-bottom: 0; font-size: 1.1rem; text-decoration: none; transition: 0.4s; }
+    nav .links ul li { border-bottom: 1px solid var(--light-stroke-color); }
+    nav .links ul li a { padding: 1rem 0; display: block; color: var(--text-color); font-weight: 400; line-height: 1; margin-bottom: 0; font-size: 1.1rem; text-decoration: none; transition: 0.4s; }
 
     nav .contact-btn { display: block; }
     nav .contact-btn a { font-size: 1.1rem; width: 100%; text-align: center; padding: 1rem 0; font-weight: 400; }
