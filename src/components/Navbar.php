@@ -8,7 +8,7 @@
     <div class="nav-container container">
         <div class="content">
             <div class="logo">
-                <a href="<? echo($path) ?>"><img src="<? echo($path) ?>src/assets/img/logos/logo-gisnet.png" alt="GISnet"></a>
+                <a href="<? echo($path) ?>#inicio"><img src="<? echo($path) ?>src/assets/img/logos/logo-gisnet.png" alt="GISnet"></a>
             </div>
             <div class="toggle-btn">
                 <button onclick="toggleNav()">
@@ -28,7 +28,7 @@
                             <!-- aqui dropdown -->
                         </li>
                         <li>
-                            <a href="">Productos</a>
+                            <a>Productos</a>
                         </li>
                     </ul>
                     <div class="contact-btn">

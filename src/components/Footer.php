@@ -85,7 +85,7 @@
                     </div>
                 </div>
                 <div class="about">
-                    <a href="<? echo($path) ?>" class="logo">
+                    <a href="<? echo($path) ?>#inicio" class="logo">
                         <img src="<? echo($path) ?>src/assets/img/logos/logo-gisnet-white.png" alt="Gisnet logo">
                     </a>
                     <p>

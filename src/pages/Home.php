@@ -1,4 +1,4 @@
-<header>
+<header id="inicio">
     <div class="container">
         <div class="content">
             <h1>Líderes en soluciones y consultorías especializadas</h1>
