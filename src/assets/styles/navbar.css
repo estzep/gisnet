@@ -6,7 +6,7 @@ nav .logo { margin-right: 4rem; }
 nav .logo img { display: block; height: 1.5rem; width: auto; }
 
 nav .toggle-btn { display: none; }
-nav .toggle-btn button { outline: none; border: 0; background: rgba(0,0,0,0); padding-top: .25rem; padding-bottom: .25rem; transition: 0.4s; padding-left: 6px; padding-right: 6px; }
+nav .toggle-btn button { outline: none; border: 0; background: rgba(0,0,0,0); transition: 0.4s; }
 nav .toggle-btn button .bar { width: 22px; height: 2px; background-color: var(--pri-color); margin: 4px 0; transition: 0.5s; }
 nav.open .toggle-btn button .bar1 { -webkit-transform: rotate(-45deg) translate(-4px, 4px); transform: rotate(-45deg) translate(-4px, 4px); }
 nav.open .toggle-btn button .bar2 { opacity: 0; }
