@@ -5,12 +5,12 @@ nav .container .content { display: flex; flex-direction: row; flex-wrap: wrap; a
 nav .logo { margin-right: 4rem; }
 nav .logo img { display: block; height: 1.5rem; width: auto; }
 
-nav .toggle-btn {  }
+nav .toggle-btn { display: none; }
 nav .toggle-btn button { outline: none; border: 0; background: rgba(0,0,0,0); padding-top: .25rem; padding-bottom: .25rem; transition: 0.4s; padding-left: 6px; padding-right: 6px; }
-nav .toggle-btn button .bar { width: 30px; height: 2px; background-color: var(--pri-color); margin: 6px 0; transition: 0.5s; }
-nav.open .toggle-btn button .bar1 { -webkit-transform: rotate(-45deg) translate(-9px, 6px); transform: rotate(-45deg) translate(-9px, 6px); }
-nav.open .toggle-btn button .bar2 { opacity: 1; }
-nav.open .toggle-btn button .bar3 { -webkit-transform: rotate(45deg) translate(-5px, -3px); transform: rotate(45deg) translate(-5px, -3px); }
+nav .toggle-btn button .bar { width: 22px; height: 2px; background-color: var(--pri-color); margin: 4px 0; transition: 0.5s; }
+nav.open .toggle-btn button .bar1 { -webkit-transform: rotate(-45deg) translate(-4px, 4px); transform: rotate(-45deg) translate(-4px, 4px); }
+nav.open .toggle-btn button .bar2 { opacity: 0; }
+nav.open .toggle-btn button .bar3 { -webkit-transform: rotate(45deg) translate(-4px, -4px); transform: rotate(45deg) translate(-4px, -4px); }
 
 /* #btn-nav { position: fixed; top: 5%; right: 2%; z-index: 6; outline: none; border: 0; background: rgba(0,0,0,0); padding-top: .25rem; padding-bottom: .25rem; transition: 0.4s; border-radius: 5px; padding-left: 6px; padding-right: 6px; }
 .nav-scroll { background-color: var(--dark-black)!important; }
@@ -34,7 +34,9 @@ nav .contact-btn a { font-size: .9rem; padding: .5rem; font-weight: 400; }
 @media (max-width: 991.98px) {}
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+    nav .toggle-btn { display: block; }
+}
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {}
