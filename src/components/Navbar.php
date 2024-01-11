@@ -37,7 +37,7 @@
                         </div>
                     </ul>
                     <div class="contact-btn">
-                        <a href="<? echo($path) ?>contacto" class="btn-type-1">
+                        <a href="<? echo($path) ?>contacto" onclick="closeNav()" class="btn-type-1">
                             Contacto
                         </a>
                     </div>
