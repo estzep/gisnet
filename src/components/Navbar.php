@@ -19,16 +19,22 @@
             </div>
             <div class="links">
                 <div class="links-container container">
-                    <ul>
+                    
+                    <ul id="accordionLinks" class="accordion">
                         <li>
                             <a href="<? echo($path) ?>#empresa" onclick="closeNav()">Empresa</a>
                         </li>
-                        <li>
-                            <a>Servicios</a>
-                            <!-- aqui dropdown -->
+                        <li class="accordion-item">
+                            <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseServicios" aria-expanded="false" aria-controls="collapseServicios">Servicios</a>
+                            <div id="collapseServicios" class="accordion-collapse collapse show" data-bs-parent="#accordionLinks">
+                                hola, soy un accordion de servicios.
+                            </div>
                         </li>
-                        <li>
-                            <a>Productos</a>
+                        <li class="accordion-item">
+                            <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">Productos</a>
+                            <div id="collapseProductos" class="accordion-collapse collapse" data-bs-parent="#accordionLinks">
+                                hola, soy un accordion de productos.
+                            </div>
                         </li>
                     </ul>
                     <div class="contact-btn">

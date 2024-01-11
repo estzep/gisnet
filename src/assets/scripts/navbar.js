@@ -1,3 +1,18 @@
+document.addEventListener("DOMContentLoaded", function() {
+    function mainPadding() {
+        var navbar = document.getElementsByTagName("nav")[0];
+        var navbarHeight = navbar.offsetHeight;
+        
+        document.documentElement.style.setProperty('--navbar-height', navbarHeight + "px");
+    }
+    
+    mainPadding();
+    
+    window.addEventListener("resize", function() {
+        mainPadding();
+    });
+});
+
 function toggleNav() {
     var html = document.getElementsByTagName("html")[0];
     var navbar = document.getElementsByTagName("nav")[0];
