@@ -33,10 +33,9 @@
     document.addEventListener("DOMContentLoaded", function() {
         function mainPadding() {
             var navbar = document.getElementsByTagName("nav")[0];
-            var main = document.getElementsByTagName("main")[0];
-            
             var navbarHeight = navbar.offsetHeight;
-            main.style.paddingTop = navbarHeight + "px";
+            
+            document.documentElement.style.setProperty('--navbar-height', navbarHeight + "px");
         }
         
         mainPadding();

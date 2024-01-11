@@ -42,6 +42,8 @@
     --alert-color: #7684CB;
     --light-alert-color: #E8EFF9;
     --alert-color-filter: invert(50%) sepia(58%) saturate(364%) hue-rotate(193deg) brightness(94%) contrast(90%);
+
+    --navbar-height: 0;
 }
 
 * { box-sizing: border-box; padding: 0; margin: 0; }
