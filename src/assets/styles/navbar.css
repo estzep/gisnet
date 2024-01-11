@@ -41,8 +41,8 @@ nav .contact-btn a { font-size: .9rem; padding: .5rem; font-weight: 400; }
     
     nav .links { background: var(--bg-color); position: fixed; top: var(--navbar-height); right: 0; bottom: 0; left: 0; z-index: 20; transform: translateX(100%); }
     nav.open .links { transform: translateX(0%); }
-    nav .links .links-container { display: flex; flex-direction: column; flex-wrap: nowrap; align-items: stretch; justify-content: space-between; padding-right: calc(var(--bs-gutter-x) * .5);
-        padding-left: calc(var(--bs-gutter-x) * .5); padding-bottom: 1rem; }
+    nav .links .links-container { display: flex; flex-direction: column; flex-wrap: nowrap; align-items: stretch; justify-content: space-between; padding-right: calc(var(--bs-gutter-x) * var(--navbar-sm-multiplier));
+        padding-left: calc(var(--bs-gutter-x) * var(--navbar-sm-multiplier)); padding-bottom: 1rem; }
 
     nav .links ul { flex-direction: column; align-items: stretch; gap: 0; flex-wrap: nowrap; }
     nav .links ul li { padding: 1rem 0; border-bottom: 1px solid var(--light-stroke-color); }

@@ -44,6 +44,7 @@
     --alert-color-filter: invert(50%) sepia(58%) saturate(364%) hue-rotate(193deg) brightness(94%) contrast(90%);
 
     --navbar-height: 0;
+    --navbar-sm-multiplier: 1.1;
 }
 
 * { box-sizing: border-box; padding: 0; margin: 0; }
@@ -65,7 +66,7 @@ body { color: var(--text-color); background: var(--bg-color); font-family: "Eucl
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .container {
-        padding-right: calc(var(--bs-gutter-x) * 1.1);
-        padding-left: calc(var(--bs-gutter-x) * 1.1);
+        padding-right: calc(var(--bs-gutter-x) * var(--navbar-sm-multiplier));
+        padding-left: calc(var(--bs-gutter-x) * var(--navbar-sm-multiplier));
     }
 }
