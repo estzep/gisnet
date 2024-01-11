@@ -7,7 +7,7 @@ nav .logo img { display: block; height: 1.5rem; width: auto; }
 
 nav .toggle-btn { z-index: 22; display: none; }
 nav .toggle-btn button { outline: none; border: 0; background: rgba(0,0,0,0); transition: 0.4s; }
-nav .toggle-btn button .bar { width: 22px; height: 2px; background-color: var(--pri-color); margin: 4px 0; transition: 0.5s; }
+nav .toggle-btn button .bar { width: 30px; height: 2px; background-color: var(--pri-color); margin: 6px 0; transition: 0.5s; }
 nav.open .toggle-btn button .bar1 { -webkit-transform: rotate(-45deg) translate(-4px, 4px); transform: rotate(-45deg) translate(-4px, 4px); }
 nav.open .toggle-btn button .bar2 { opacity: 0; }
 nav.open .toggle-btn button .bar3 { -webkit-transform: rotate(45deg) translate(-4px, -4px); transform: rotate(45deg) translate(-4px, -4px); }
@@ -32,6 +32,11 @@ nav .contact-btn a { font-size: .9rem; padding: .5rem; font-weight: 400; }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+    nav .container .content { padding: 1.5rem 0; }
+
+    nav .logo { margin-right: 0; }
+    nav .logo img { height: 2rem; }
+
     nav .toggle-btn { display: grid; }
     
     nav .links { background: var(--bg-color); position: fixed; top: calc(var(--navbar-height) - 1px); right: 0; bottom: 0; left: 0; z-index: 20; }
@@ -39,11 +44,11 @@ nav .contact-btn a { font-size: .9rem; padding: .5rem; font-weight: 400; }
         padding-left: calc(var(--bs-gutter-x) * .5); padding-bottom: 1rem; }
 
     nav .links ul { flex-direction: column; align-items: stretch; gap: 0; flex-wrap: nowrap; }
-    nav .links ul li {  }
-    nav .links ul li a { color: var(--text-color); font-weight: 400; line-height: 1; margin-bottom: 0; font-size: .9rem; text-decoration: none; transition: 0.4s; }
+    nav .links ul li { padding: 1rem 0; border-bottom: 1px solid var(--light-stroke-color); }
+    nav .links ul li a { color: var(--text-color); font-weight: 400; line-height: 1; margin-bottom: 0; font-size: 1.1rem; text-decoration: none; transition: 0.4s; }
 
     nav .contact-btn { display: block; }
-    nav .contact-btn a { width: 100%; text-align: center; padding: .75rem 0; font-weight: 400; }
+    nav .contact-btn a { font-size: 1.1rem; width: 100%; text-align: center; padding: 1rem 0; font-weight: 400; }
 }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
