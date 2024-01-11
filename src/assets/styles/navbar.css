@@ -8,9 +8,9 @@ nav .logo img { display: block; height: 1.5rem; width: auto; }
 nav .toggle-btn { z-index: 22; display: none; }
 nav .toggle-btn button { outline: none; border: 0; background: rgba(0,0,0,0); transition: 0.4s; }
 nav .toggle-btn button .bar { width: 25px; height: 2px; background-color: var(--pri-color); margin: 5px 0; transition: 0.5s; }
-nav.open .toggle-btn button .bar1 { -webkit-transform: rotate(-45deg) translate(-4px, 4px); transform: rotate(-45deg) translate(-4px, 5px); }
+nav.open .toggle-btn button .bar1 { -webkit-transform: rotate(-45deg) translate(-4px, 4px); transform: rotate(-45deg) translate(-5px, 4px); }
 nav.open .toggle-btn button .bar2 { opacity: 0; }
-nav.open .toggle-btn button .bar3 { -webkit-transform: rotate(45deg) translate(-4px, -4px); transform: rotate(45deg) translate(-4px, -6px); }
+nav.open .toggle-btn button .bar3 { -webkit-transform: rotate(45deg) translate(-4px, -4px); transform: rotate(45deg) translate(-5px, -5px); }
 
 nav .links { flex-grow: 1; position: relative; transition: 0.4s; }
 nav .links .links-container { display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; align-content: flex-start; justify-content: center; padding-right: 0; padding-left: 0; height: 100%; }
