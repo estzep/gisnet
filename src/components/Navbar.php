@@ -11,7 +11,7 @@
                 <a href="<? echo($path) ?>"><img src="<? echo($path) ?>src/assets/img/logos/logo-gisnet.png" alt="GISnet"></a>
             </div>
             <div class="toggle-btn">
-                <button id="" class="" onclick="toggleNav()">
+                <button onclick="toggleNav()">
                     <div class="bar bar1"></div>
                     <div class="bar bar2"></div>
                     <div class="bar bar3"></div>
@@ -21,10 +21,10 @@
                 <div class="links-container container">
                     <ul>
                         <li>
-                            <a href="">Empresa</a>
+                            <a href="<? echo($path) ?>#empresa" onclick="closeNav()">Empresa</a>
                         </li>
                         <li>
-                            <a href="">Servicios</a>
+                            <a>Servicios</a>
                             <!-- aqui dropdown -->
                         </li>
                         <li>
