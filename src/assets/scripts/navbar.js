@@ -19,12 +19,12 @@ function closeNav() {
     html.classList.remove("overflow-y-hidden");
     navbar.classList.remove("open");
 
-    var accordionBtns = document.getElementsByClassName("accordion-button");
+    var accordionToggler = document.getElementsByClassName("accordion-toggler");
     var accordionCollapse = document.getElementsByClassName("accordion-collapse");
-    for (var i = 0; i < accordionBtns.length; i++) {
-        const btn = accordionBtns[i];
-        btn.classList.add("collapsed");
-        btn.setAttribute("aria-expanded", "false");
+    for (var i = 0; i < accordionToggler.length; i++) {
+        const toggler = accordionToggler[i];
+        toggler.classList.add("collapsed");
+        toggler.setAttribute("aria-expanded", "false");
     }
     for (var i = 0; i < accordionCollapse.length; i++) {
         const collapse = accordionCollapse[i];
