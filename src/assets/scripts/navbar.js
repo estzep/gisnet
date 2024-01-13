@@ -18,6 +18,19 @@ function closeNav() {
     var navbar = document.getElementsByTagName("nav")[0];
     html.classList.remove("overflow-y-hidden");
     navbar.classList.remove("open");
+
+    var accordionBtns = document.getElementsByClassName("accordion-button");
+    var accordionCollapse = document.getElementsByClassName("accordion-collapse");
+    for (var i = 0; i < accordionBtns.length; i++) {
+        const btn = accordionBtns[i];
+        btn.classList.add("collapsed");
+        btn.setAttribute("aria-expanded", "false");
+    }
+    for (var i = 0; i < accordionCollapse.length; i++) {
+        const collapse = accordionCollapse[i];
+        collapse.classList.remove("show");
+    }
+
 }
 
 function openNav() {
