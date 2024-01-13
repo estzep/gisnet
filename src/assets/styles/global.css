@@ -2,6 +2,7 @@
     --black: #272932;
     --white: #FFFFFF;
     --gray: #4D5B7C;
+    --gray-filter: invert(33%) sepia(17%) saturate(999%) hue-rotate(184deg) brightness(96%) contrast(84%);
     --light-gray: #F3F6F8;
     --light-blue-1: #F4FAFF;
     --light-blue-2: #F7FBFF;
