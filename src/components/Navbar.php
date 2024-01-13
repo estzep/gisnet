@@ -24,13 +24,17 @@
                             <a href="<? echo($path) ?>#empresa" onclick="closeNav()">Empresa</a>
                         </li>
                         <li>
-                            <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseServicios" aria-expanded="false" aria-controls="collapseServicios">Servicios</a>
+                            <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseServicios" aria-expanded="false" aria-controls="collapseServicios">
+                                Servicios <img src="<? echo($path) ?>src/assets/icons/icon-chevron.svg" alt="Chevron icon" class="icon">
+                            </a>
                         </li>
                         <div id="collapseServicios" class="accordion-collapse collapse" data-bs-parent="#accordionLinks">
                             hola, soy un accordion de servicios.
                         </div>
                         <li>
-                            <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">Productos</a>
+                            <a class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">
+                                Productos <img src="<? echo($path) ?>src/assets/icons/icon-chevron.svg" alt="Chevron icon" class="icon">
+                            </a>
                         </li>
                         <div id="collapseProductos" class="accordion-collapse collapse" data-bs-parent="#accordionLinks">
                             hola, soy un accordion de productos.
