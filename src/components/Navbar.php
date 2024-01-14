@@ -33,44 +33,44 @@
                                 <li class="dropdown-item">
                                     <a href="<? echo($path) ?>servicios/migracion-de-acervos">
                                         <div class="icon">
-                                            <img src="<? echo($path) ?>src/assets/icons/icon-1.svg" alt="Icon 1">
+                                            <img src="<? echo($path) ?>src/assets/icons/icon-10.svg" alt="Icon 10">
                                         </div>
                                         <div class="info">
                                             <h6>Migración de Acervos</h6>
-                                            <p>Documentales a medios electrónicos.</p>
+                                            <p>Documentales a medios electrónicos</p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="dropdown-item">
-                                    <a href="<? echo($path) ?>servicios/migracion-de-acervos">
+                                    <a href="<? echo($path) ?>servicios/implementacion-de-sistemas">
                                         <div class="icon">
-                                            <img src="<? echo($path) ?>src/assets/icons/icon-1.svg" alt="Icon 1">
+                                            <img src="<? echo($path) ?>src/assets/icons/icon-12.svg" alt="Icon 12">
                                         </div>
                                         <div class="info">
-                                            <h6>Migración de Acervos</h6>
-                                            <p>Documentales a medios electrónicos.</p>
+                                            <h6>Implementación de Sistemas</h6>
+                                            <p>Registrales, Catastrales y de Gestión Documental</p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="dropdown-item">
-                                    <a href="<? echo($path) ?>servicios/migracion-de-acervos">
+                                    <a href="<? echo($path) ?>servicios/limpieza-de-datos">
                                         <div class="icon">
-                                            <img src="<? echo($path) ?>src/assets/icons/icon-1.svg" alt="Icon 1">
+                                            <img src="<? echo($path) ?>src/assets/icons/icon-5-sm.svg" alt="Icon 5">
                                         </div>
                                         <div class="info">
-                                            <h6>Migración de Acervos</h6>
-                                            <p>Documentales a medios electrónicos.</p>
+                                            <h6>Limpieza de Datos</h6>
+                                            <p>De la Base de Datos Registrales</p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="dropdown-item">
-                                    <a href="<? echo($path) ?>servicios/migracion-de-acervos">
+                                    <a href="<? echo($path) ?>servicios/desarrollo-soporte-mantenimiento">
                                         <div class="icon">
-                                            <img src="<? echo($path) ?>src/assets/icons/icon-1.svg" alt="Icon 1">
+                                            <img src="<? echo($path) ?>src/assets/icons/icon-14.svg" alt="Icon 14">
                                         </div>
                                         <div class="info">
-                                            <h6>Migración de Acervos</h6>
-                                            <p>Documentales a medios electrónicos.</p>
+                                            <h6>Desarrollo, Soporte y Mantenimiento</h6>
+                                            <p>A los Sistemas Instalados</p>
                                         </div>
                                     </a>
                                 </li>
@@ -82,7 +82,52 @@
                             </a>
                         </li>
                         <div id="collapseProductos" class="accordion-collapse collapse" data-bs-parent="#accordionLinks">
-                            hola, soy un accordion de productos.
+                            <ul class="dropdown">
+                                <li class="dropdown-item">
+                                    <a href="<? echo($path) ?>servicios/migracion-de-acervos">
+                                        <div class="icon">
+                                            <img src="<? echo($path) ?>src/assets/icons/icon-10.svg" alt="Icon 10">
+                                        </div>
+                                        <div class="info">
+                                            <h6>Migración de Acervos</h6>
+                                            <p>Documentales a medios electrónicos</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="<? echo($path) ?>servicios/implementacion-de-sistemas">
+                                        <div class="icon">
+                                            <img src="<? echo($path) ?>src/assets/icons/icon-12.svg" alt="Icon 12">
+                                        </div>
+                                        <div class="info">
+                                            <h6>Implementación de Sistemas</h6>
+                                            <p>Registrales, Catastrales y de Gestión Documental</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="<? echo($path) ?>servicios/limpieza-de-datos">
+                                        <div class="icon">
+                                            <img src="<? echo($path) ?>src/assets/icons/icon-5-sm.svg" alt="Icon 5">
+                                        </div>
+                                        <div class="info">
+                                            <h6>Limpieza de Datos</h6>
+                                            <p>De la Base de Datos Registrales</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="<? echo($path) ?>servicios/desarrollo-soporte-mantenimiento">
+                                        <div class="icon">
+                                            <img src="<? echo($path) ?>src/assets/icons/icon-14.svg" alt="Icon 14">
+                                        </div>
+                                        <div class="info">
+                                            <h6>Desarrollo, Soporte y Mantenimiento</h6>
+                                            <p>A los Sistemas Instalados</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </ul>
                     <div class="contact-btn">
