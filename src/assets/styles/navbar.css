@@ -2,10 +2,10 @@ nav { z-index: 21; position: relative; background: var(--bg-color); position: fi
 nav .container {  }
 nav .container .content { position: relative; display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; align-content: space-between; justify-content: space-between; padding: 1rem 0; }
 
-nav .logo { z-index: 22; margin-right: 4rem; }
+nav .logo { z-index: 23; margin-right: 4rem; }
 nav .logo img { display: block; height: 1.5rem; width: auto; }
 
-nav .toggle-btn { z-index: 22; display: none; }
+nav .toggle-btn { z-index: 23; display: none; }
 nav .toggle-btn button { outline: none; border: 0; background: rgba(0,0,0,0); transition: 0.4s; }
 nav .toggle-btn button .bar { width: 25px; height: 2px; background-color: var(--pri-color); margin: 5px 0; transition: 0.5s; }
 nav.open .toggle-btn button .bar1 { -webkit-transform: rotate(-45deg) translate(-4px, 4px); transform: rotate(-45deg) translate(-5px, 4px); }
@@ -14,13 +14,13 @@ nav.open .toggle-btn button .bar3 { -webkit-transform: rotate(45deg) translate(-
 
 nav .links { flex-grow: 1; position: relative; transition: 0.4s; }
 nav .links .links-container { display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; align-content: flex-start; justify-content: center; padding-right: 0; padding-left: 0; height: 100%; position: relative; }
-nav .links ul.links-content { flex-grow: 1; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; align-items: center; align-content: flex-start; gap: 4rem; list-style: none; padding-left: 0; margin-bottom: 0; position: relative; overflow-y: auto; }
+nav .links ul.links-content { flex-grow: 1; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; align-items: center; align-content: flex-start; gap: 4rem; list-style: none; padding-left: 0; margin-bottom: 0; position: relative; overflow-y: visible; }
 nav .links ul.links-content li.links-item {  }
 nav .links ul.links-content li.links-item a { cursor: pointer; color: var(--text-color); font-weight: 400; line-height: 1; margin-bottom: 0; font-size: .9rem; text-decoration: none; transition: 0.4s; }
 nav .links ul.links-content li.links-item a .icon { height: .6rem; width: .6rem; vertical-align: baseline; margin-left: .5rem; transition: 0.4s; filter: var(--gray-filter); }
 nav .links ul.links-content li.links-item a[aria-expanded="true"] .icon { transform: rotateX(180deg); }
 
-nav .links .accordion-collapse {  }
+nav .links .accordion-collapse { z-index: 22; position: absolute; top: var(--navbar-height); z-index: 22; left: 0; background: var(--bg-color); box-shadow: 0px 4px 40px rgba(25, 85, 139, 0.09); border: 1px solid var(--light-stroke-color); }
 nav .links ul.dropdown { padding-left: 0; display: flex; flex-direction: column; flex-wrap: nowrap; align-items: stretch; justify-content: flex-start; gap: 2rem; padding: 1.5rem 0; }
 nav .links ul.dropdown li.dropdown-item {  }
 nav .links ul.dropdown li.dropdown-item a { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-items: stretch; text-decoration: none; }
@@ -30,7 +30,7 @@ nav .links ul.dropdown li.dropdown-item a .info { flex: 1; padding-left: 1rem; }
 nav .links ul.dropdown li.dropdown-item a .info h6 { color: var(--text-color); font-weight: 500; line-height: 2; margin-bottom: 0; font-size: .9rem; transition: 0.4s; }
 nav .links ul.dropdown li.dropdown-item a .info p { color: var(--gray); font-weight: 400; line-height: 1.2; margin-bottom: 0; font-size: .9rem; transition: 0.4s; white-space: normal; }
 
-nav .contact-btn { padding-top: 1rem; border: 1px solid var(--light-stroke-color); }
+nav .contact-btn {  }
 nav .contact-btn a { font-size: .9rem; padding: .5rem; font-weight: 400; }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
@@ -61,7 +61,17 @@ nav .contact-btn a { font-size: .9rem; padding: .5rem; font-weight: 400; }
     nav .links ul.links-content li.links-item a { padding: 1rem 0; display: block; font-size: 1.1rem; }
     nav .links ul.links-content li.links-item a .icon { height: .8rem; width: .8rem; float: inline-end; position: relative; top: .25rem; }
 
-    nav .contact-btn { display: block; }
+    nav .links .accordion-collapse {  }
+    nav .links ul.dropdown { padding-left: 0; display: flex; flex-direction: column; flex-wrap: nowrap; align-items: stretch; justify-content: flex-start; gap: 2rem; padding: 1.5rem 0; }
+    nav .links ul.dropdown li.dropdown-item {  }
+    nav .links ul.dropdown li.dropdown-item a { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-items: stretch; text-decoration: none; }
+    nav .links ul.dropdown li.dropdown-item a .icon { flex: 0 0 auto; }
+    nav .links ul.dropdown li.dropdown-item a .icon img { width: 3rem; height: 3rem; display: block; padding: .5rem; border: 1px solid var(--dark-stroke-color); }
+    nav .links ul.dropdown li.dropdown-item a .info { flex: 1; padding-left: 1rem; }
+    nav .links ul.dropdown li.dropdown-item a .info h6 { color: var(--text-color); font-weight: 500; line-height: 2; margin-bottom: 0; font-size: .9rem; transition: 0.4s; }
+    nav .links ul.dropdown li.dropdown-item a .info p { color: var(--gray); font-weight: 400; line-height: 1.2; margin-bottom: 0; font-size: .9rem; transition: 0.4s; white-space: normal; }
+
+    nav .contact-btn { display: block; padding-top: 1rem; border: 1px solid var(--light-stroke-color); }
     nav .contact-btn a { font-size: 1.1rem; width: 100%; text-align: center; padding: 1rem 0; font-weight: 400; }
 }
 
