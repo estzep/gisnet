@@ -29,7 +29,7 @@
                             </a>
                         </li>
                         <div id="collapseServicios" class="accordion-collapse collapse" data-bs-parent="#accordionLinks">
-                            <ul class="dropdown">
+                            <ul class="dropdown servicios">
                                 <li class="dropdown-item">
                                     <a href="<? echo($path) ?>servicios/migracion-de-acervos">
                                         <div class="icon">
@@ -82,7 +82,7 @@
                             </a>
                         </li>
                         <div id="collapseProductos" class="accordion-collapse collapse" data-bs-parent="#accordionLinks">
-                            <ul class="dropdown">
+                            <ul class="dropdown productos">
                                 <li class="dropdown-item">
                                     <a href="<? echo($path) ?>productos/panini">
                                         <div class="icon">
