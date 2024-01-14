@@ -58,7 +58,7 @@ nav .contact-btn a { font-size: .9rem; padding: .5rem; font-weight: 400; }
     nav .links .links-container { display: flex; flex-direction: column; flex-wrap: nowrap; align-items: stretch; justify-content: space-between; padding-right: calc(var(--bs-gutter-x) * var(--navbar-sm-multiplier));
         padding-left: calc(var(--bs-gutter-x) * var(--navbar-sm-multiplier)); padding-bottom: 1rem; }
 
-    nav .links ul.links-content { flex-direction: column; align-items: stretch; gap: 0; flex-wrap: nowrap; }
+    nav .links ul.links-content { flex-direction: column; align-items: stretch; gap: 0; flex-wrap: nowrap; overflow-y: auto; }
     nav .links ul.links-content li.links-item { border-bottom: 1px solid var(--light-stroke-color); }
     nav .links ul.links-content li.links-item a { padding: 1rem 0; display: block; font-size: 1.1rem; }
     nav .links ul.links-content li.links-item a .icon { height: .8rem; width: .8rem; float: inline-end; position: relative; top: .25rem; }
