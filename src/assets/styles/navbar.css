@@ -14,7 +14,7 @@ nav.open .toggle-btn button .bar3 { -webkit-transform: rotate(45deg) translate(-
 
 nav .links { flex-grow: 1; position: relative; transition: 0.4s; }
 nav .links .links-container { display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; align-content: flex-start; justify-content: center; padding-right: 0; padding-left: 0; height: 100%; position: relative; }
-nav .links ul.links-content { flex-grow: 1; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; align-items: center; align-content: flex-start; gap: 4rem; list-style: none; padding-left: 0; margin-bottom: 0; position: relative; }
+nav .links ul.links-content { flex-grow: 1; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; align-items: center; align-content: flex-start; gap: 4rem; list-style: none; padding-left: 0; margin-bottom: 0; position: relative; overflow-y: auto; }
 nav .links ul.links-content li.links-item {  }
 nav .links ul.links-content li.links-item a { cursor: pointer; color: var(--text-color); font-weight: 400; line-height: 1; margin-bottom: 0; font-size: .9rem; text-decoration: none; transition: 0.4s; }
 nav .links ul.links-content li.links-item a .icon { height: .6rem; width: .6rem; vertical-align: baseline; margin-left: .5rem; transition: 0.4s; filter: var(--gray-filter); }
