@@ -19,7 +19,7 @@
             </div>
             <div class="links">
                 <div class="links-container container">
-                    <ul id="accordionLinks" class="accordion">
+                    <ul id="accordionLinks" class="links-content accordion">
                         <li>
                             <a href="<? echo($path) ?>#empresa" onclick="closeNav()">Empresa</a>
                         </li>
@@ -29,7 +29,52 @@
                             </a>
                         </li>
                         <div id="collapseServicios" class="accordion-collapse collapse" data-bs-parent="#accordionLinks">
-                            hola, soy un accordion de servicios.
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="<? echo($path) ?>servicios/migracion-de-acervos">
+                                        <div class="icon">
+                                            <img src="<? echo($path) ?>src/assets/icons/icon-1.svg" alt="Icon 1">
+                                        </div>
+                                        <div class="info">
+                                            <h6>Migración de Acervos</h6>
+                                            <p>Documentales a medios electrónicos.</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="<? echo($path) ?>servicios/migracion-de-acervos">
+                                        <div class="icon">
+                                            <img src="<? echo($path) ?>src/assets/icons/icon-1.svg" alt="Icon 1">
+                                        </div>
+                                        <div class="info">
+                                            <h6>Migración de Acervos</h6>
+                                            <p>Documentales a medios electrónicos.</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="<? echo($path) ?>servicios/migracion-de-acervos">
+                                        <div class="icon">
+                                            <img src="<? echo($path) ?>src/assets/icons/icon-1.svg" alt="Icon 1">
+                                        </div>
+                                        <div class="info">
+                                            <h6>Migración de Acervos</h6>
+                                            <p>Documentales a medios electrónicos.</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="<? echo($path) ?>servicios/migracion-de-acervos">
+                                        <div class="icon">
+                                            <img src="<? echo($path) ?>src/assets/icons/icon-1.svg" alt="Icon 1">
+                                        </div>
+                                        <div class="info">
+                                            <h6>Migración de Acervos</h6>
+                                            <p>Documentales a medios electrónicos.</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                         <li>
                             <a class="accordion-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">
