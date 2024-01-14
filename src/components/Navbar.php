@@ -20,17 +20,17 @@
             <div class="links">
                 <div class="links-container container">
                     <ul id="accordionLinks" class="links-content accordion">
-                        <li>
+                        <li class="links-item">
                             <a href="<? echo($path) ?>#empresa" onclick="closeNav()">Empresa</a>
                         </li>
-                        <li>
+                        <li class="links-item">
                             <a class="accordion-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#collapseServicios" aria-expanded="false" aria-controls="collapseServicios">
                                 Servicios <img src="<? echo($path) ?>src/assets/icons/icon-chevron.svg" alt="Chevron icon" class="icon">
                             </a>
                         </li>
                         <div id="collapseServicios" class="accordion-collapse collapse" data-bs-parent="#accordionLinks">
                             <ul class="dropdown">
-                                <li>
+                                <li class="dropdown-item">
                                     <a href="<? echo($path) ?>servicios/migracion-de-acervos">
                                         <div class="icon">
                                             <img src="<? echo($path) ?>src/assets/icons/icon-1.svg" alt="Icon 1">
@@ -41,7 +41,7 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="dropdown-item">
                                     <a href="<? echo($path) ?>servicios/migracion-de-acervos">
                                         <div class="icon">
                                             <img src="<? echo($path) ?>src/assets/icons/icon-1.svg" alt="Icon 1">
@@ -52,7 +52,7 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="dropdown-item">
                                     <a href="<? echo($path) ?>servicios/migracion-de-acervos">
                                         <div class="icon">
                                             <img src="<? echo($path) ?>src/assets/icons/icon-1.svg" alt="Icon 1">
@@ -63,7 +63,7 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="dropdown-item">
                                     <a href="<? echo($path) ?>servicios/migracion-de-acervos">
                                         <div class="icon">
                                             <img src="<? echo($path) ?>src/assets/icons/icon-1.svg" alt="Icon 1">
@@ -76,7 +76,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <li>
+                        <li class="links-item">
                             <a class="accordion-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">
                                 Productos <img src="<? echo($path) ?>src/assets/icons/icon-chevron.svg" alt="Chevron icon" class="icon">
                             </a>
