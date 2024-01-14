@@ -20,9 +20,10 @@ nav .links ul.links-content li.links-item a { cursor: pointer; color: var(--text
 nav .links ul.links-content li.links-item a .icon { height: .6rem; width: .6rem; vertical-align: baseline; margin-left: .5rem; transition: 0.4s; filter: var(--gray-filter); }
 nav .links ul.links-content li.links-item a[aria-expanded="true"] .icon { transform: rotateX(180deg); }
 
+nav .links .accordion-collapse {  }
 nav .links ul.dropwdown {  }
 nav .links ul.dropwdown li.dropdown-item {  }
-nav .links ul.dropwdown li.dropdown-item a {  }
+nav .links ul.dropwdown li.dropdown-item a { display: flex; }
 nav .links ul.dropwdown li.dropdown-item a .icon {  }
 nav .links ul.dropwdown li.dropdown-item a .info {  }
 nav .links ul.dropwdown li.dropdown-item a .info h6 {  }

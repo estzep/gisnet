@@ -95,15 +95,3 @@
         </div>
     </div>
 </nav>
-
-<!-- <div class="dropdown">
-    <div class="dropdown-container container">
-        <div class="content">
-            <ul>
-                <li>
-                    <a href="">Migración de Acervos</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div> -->
