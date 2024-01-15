@@ -26,14 +26,14 @@ nav .links .accordion-collapse.productos { max-width: 900px; }
 nav .links .accordion-collapse ul.dropdown { padding-left: 0; display: flex; flex-direction: column; flex-wrap: wrap; align-items: stretch; justify-content: space-between; row-gap: 1rem; padding: .5rem 0; }
 nav .links .accordion-collapse.servicios ul.dropdown { flex-direction: column; }
 nav .links .accordion-collapse.productos ul.dropdown { flex-direction: row; }
-nav .links .accordion-collapse ul.dropdown li.dropdown-item { flex: 0 0 calc(50% - 1rem); box-sizing: border-box; padding: 1rem .5rem; }
+nav .links .accordion-collapse ul.dropdown li.dropdown-item { flex: 0 0 calc(50% - 1rem); box-sizing: border-box; padding: .7rem .5rem; }
 nav .links .accordion-collapse ul.dropdown li.dropdown-item:hover { background: var(--stroke-color); }
 nav .links .accordion-collapse ul.dropdown li.dropdown-item a { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-items: stretch; text-decoration: none; }
 nav .links .accordion-collapse ul.dropdown li.dropdown-item a .icon { flex: 0 0 auto; }
 nav .links .accordion-collapse ul.dropdown li.dropdown-item a .icon img { width: 3rem; height: 3rem; display: block; padding: .5rem; border: 1px solid var(--dark-stroke-color); }
 nav .links .accordion-collapse ul.dropdown li.dropdown-item a .info { flex: 1; padding-left: 1rem; }
-nav .links .accordion-collapse ul.dropdown li.dropdown-item a .info h6 { color: var(--text-color); font-weight: 500; line-height: 2; margin-bottom: 0; font-size: .9rem; transition: 0.4s; }
-nav .links .accordion-collapse ul.dropdown li.dropdown-item a .info p { color: var(--gray); font-weight: 400; line-height: 1.2; margin-bottom: 0; font-size: .9rem; transition: 0.4s; white-space: normal; }
+nav .links .accordion-collapse ul.dropdown li.dropdown-item a .info h6 { color: var(--text-color); font-weight: 500; line-height: 2; margin-bottom: 0; font-size: .8rem; transition: 0.4s; }
+nav .links .accordion-collapse ul.dropdown li.dropdown-item a .info p { color: var(--gray); font-weight: 400; line-height: 1.2; margin-bottom: 0; font-size: .8rem; transition: 0.4s; white-space: normal; }
 
 nav .contact-btn {  }
 nav .contact-btn a { font-size: .9rem; padding: .5rem; font-weight: 400; }
@@ -68,9 +68,11 @@ nav .contact-btn a { font-size: .9rem; padding: .5rem; font-weight: 400; }
     nav .links ul.links-content li.links-item a { padding: 1.5rem 0; display: block; font-size: 1.1rem; }
     nav .links ul.links-content li.links-item a .icon { height: .8rem; width: .8rem; float: inline-end; position: relative; top: .25rem; }
 
-    nav .links .accordion-collapse { position: relative; width: 100%; top: unset; left: unset; right: unset; background: unset; box-shadow: none; border: 0; padding: 0; margin: 0 -.5rem; }
+    nav .links .accordion-collapse { position: relative; width: 100%; top: unset; left: unset; right: unset; background: unset; box-shadow: none; border: 0; padding: 0; }
     nav .links .accordion-collapse ul.dropdown { flex-wrap: nowrap; }
     nav .links .accordion-collapse.productos ul.dropdown { flex-direction: column; }
+    nav .links .accordion-collapse ul.dropdown li.dropdown-item a .info h6 { font-size: .9rem; }
+    nav .links .accordion-collapse ul.dropdown li.dropdown-item a .info p { font-size: .9rem; }
 
     nav .contact-btn { display: block; padding-top: 1rem; border: 1px solid var(--light-stroke-color); }
     nav .contact-btn a { font-size: 1.1rem; width: 100%; text-align: center; padding: 1rem 0; font-weight: 400; }
