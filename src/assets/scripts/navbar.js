@@ -7,9 +7,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     
     mainPadding();
+    closeNav();
     
     window.addEventListener("resize", function() {
         mainPadding();
+        closeNav();
     });
 });
 
