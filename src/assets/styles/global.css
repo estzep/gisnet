@@ -21,6 +21,7 @@
     --light-gray: #F3F6F8;
     --light-blue-1: #F4FAFF;
     --light-blue-2: #F7FBFF;
+    --light-blue-3: #DEEBF7;
 
     --pri-color: #236FB3;
     --pri-color-filter: invert(38%) sepia(97%) saturate(1238%) hue-rotate(189deg) brightness(74%) contrast(83%);
@@ -67,18 +68,17 @@
 html, body { max-width: 100vw; overflow-x: hidden; }
 body { color: var(--text-color); background: var(--darker-pri-color); font-family: "EuclidCircularA"; }
 
-.btn-type-1 { font-size: 1rem; display: inline-block; border: 1px solid var(--pri-color); color: var(--white); text-decoration: none; line-height: 1; padding: .5rem 1rem; border-radius: 0; background: var(--pri-color); }
+.btn-type-1 { font-size: 1rem; display: inline-block; border: 1px solid var(--pri-color); color: var(--white); text-decoration: none; line-height: 1; padding: .5rem 1rem; border-radius: 0; background: var(--pri-color); transition: 0.4s; }
+.btn-type-1:hover { background-color: var(--dark-pri-color); }
 
 .btn-type-2 { font-size: 1rem; display: inline-block; border: 1px solid var(--white); color: var(--pri-color); text-decoration: none; line-height: 1; padding: .5rem 1rem; border-radius: 0; background: transparent; }
-/* .btn-type-2:hover { box-shadow: ; } */
-.btn-type-2 .arrow { position: relative; display: inline-block; margin-left: .25rem; }
-.btn-type-2 .arrow img { vertical-align: middle; height: .6rem; width: .6rem; filter: var(--pri-color-filter); }
-.btn-type-2 .arrow .tail { position: absolute; top: 3.5px; }
+.btn-type-2 .arrow { position: relative; display: inline-block; margin-left: .5rem; }
+.btn-type-2 .arrow img { vertical-align: baseline; height: .6rem; width: .6rem; filter: var(--pri-color-filter); }
 .btn-type-2 .arrow .head { transition: 0.3s; }
-.btn-type-2:hover .arrow .head { transform: translateX(.15rem); }
+.btn-type-2:hover .arrow .head { transform: translateX(.2rem) scale(1.1); }
 
-.btn-type-3 { font-size: 1rem; display: inline-block; border: 1px solid var(--white); color: var(--pri-color); text-decoration: none; line-height: 1; padding: .5rem 1rem; border-radius: 0; background: var(--white); }
-/* .btn-type-3:hover { box-shadow: ; } */
+.btn-type-3 { font-size: 1rem; display: inline-block; border: 1px solid var(--white); color: var(--pri-color); text-decoration: none; line-height: 1; padding: .5rem 1rem; border-radius: 0; background: var(--white); transition: 0.4s; }
+.btn-type-3:hover { background: var(--light-blue-3); }
 .btn-type-3 .arrow { position: relative; display: inline-block; margin-left: .25rem; }
 .btn-type-3 .arrow img { vertical-align: middle; height: .6rem; width: .6rem; filter: var(--pri-color-filter); }
 .btn-type-3 .arrow .tail { position: absolute; top: 3.5px; }
@@ -104,3 +104,11 @@ body { color: var(--text-color); background: var(--darker-pri-color); font-famil
         padding-left: calc(var(--bs-gutter-x) * var(--navbar-sm-multiplier));
     }
 }
+
+/* <a href="" class="btn-type-3 s-btn">
+    Conoce más
+    <span class="arrow">
+        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-tail.svg" alt="Go to tail" class="tail">
+        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+    </span>
+</a> */
