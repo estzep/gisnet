@@ -64,7 +64,7 @@ nav .contact-btn a { font-size: .9rem; padding: .5rem; font-weight: 400; }
 
     nav .links ul.links-content { flex-direction: column; align-items: stretch; gap: 0; flex-wrap: nowrap; overflow-y: auto; }
     nav .links ul.links-content li.links-item { border-bottom: 1px solid var(--light-stroke-color); }
-    nav .links ul.links-content li.links-item a { padding: 1rem 0; display: block; font-size: 1.1rem; }
+    nav .links ul.links-content li.links-item a { padding: 1.5rem 0; display: block; font-size: 1.1rem; }
     nav .links ul.links-content li.links-item a .icon { height: .8rem; width: .8rem; float: inline-end; position: relative; top: .25rem; }
 
     nav .links .accordion-collapse { position: relative; width: 100%; top: unset; left: unset; right: unset; background: unset; box-shadow: none; border: 0; padding: 0; }

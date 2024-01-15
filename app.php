@@ -12,6 +12,9 @@
             case '/':
                 include($path.'src/pages/Home.php');
                 break;
+            case '/servicios/':
+                include($path.'src/pages/Home.php');
+                break;
             case '/nosotros/':
                 include($path.'src/pages/Contact.php');
                 break;
