@@ -13,6 +13,14 @@ header .links a.s-btn { text-align: center; }
 
 .btn-type-1 { font-size: 1rem; display: inline-block; border: 1px solid var(--pri-color); color: var(--white); text-decoration: none; line-height: 1; padding: .5rem 1rem; border-radius: 0; background: var(--pri-color); }
 
+.btn-type-2 { font-size: 1rem; display: inline-block; border: 1px solid var(--white); color: var(--pri-color); text-decoration: none; line-height: 1; padding: .5rem 1rem; border-radius: 0; background: transparent; }
+/* .btn-type-2:hover { box-shadow: ; } */
+.btn-type-2 .arrow { position: relative; display: inline-block; margin-left: .25rem; }
+.btn-type-2 .arrow img { vertical-align: middle; height: .6rem; width: .6rem; filter: var(--pri-color-filter); }
+.btn-type-2 .arrow .tail { position: absolute; top: 3.5px; }
+.btn-type-2 .arrow .head { transition: 0.3s; }
+.btn-type-2:hover .arrow .head { transform: translateX(.15rem); }
+
 .btn-type-3 { font-size: 1rem; display: inline-block; border: 1px solid var(--white); color: var(--pri-color); text-decoration: none; line-height: 1; padding: .5rem 1rem; border-radius: 0; background: var(--white); }
 /* .btn-type-3:hover { box-shadow: ; } */
 .btn-type-3 .arrow { position: relative; display: inline-block; margin-left: .25rem; }
