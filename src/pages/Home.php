@@ -6,10 +6,10 @@
                 20 años de experiencia innovando en el sector gubernamental y financiero
             </h4>
             <div class="links">
-                <a href="" class="btn-type-1 f-btn">
+                <a href="contacto" class="btn-type-1 f-btn">
                     Hablas con nosotros
                 </a>
-                <a href="" class="btn-type-2 s-btn">
+                <a href="#empresa" class="btn-type-2 s-btn">
                     Conoce más
                     <span class="arrow">
                         <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">

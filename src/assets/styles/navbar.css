@@ -57,7 +57,7 @@ nav .links .accordion-collapse ul.dropdown li.dropdown-item a .info h6 { color: 
 nav .links .accordion-collapse ul.dropdown li.dropdown-item a .info p { color: var(--gray); font-weight: 400; line-height: 1.2; margin-bottom: 0; font-size: .8rem; transition: 0.4s; white-space: normal; }
 
 nav .contact-btn {  }
-nav .contact-btn a { font-size: .9rem; padding: .5rem .7rem; font-weight: 400; }
+nav .contact-btn a { font-size: .85rem; padding: .7rem 1rem; font-weight: 400; }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {}
