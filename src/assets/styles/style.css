@@ -103,6 +103,7 @@ main section#empresa .text-1 { text-align: center; line-height: 2; }
     :root { --n-logos: 2.5; }
     .slider .track .item { padding: 0 .5rem; }
 
+    .squares { padding-top: 0; }
     .squares .square { flex: 1 0 100%; }
     .squares .square .square-content { padding: 1.3rem; }
     .squares .square h4 { margin-bottom: 1rem; }
