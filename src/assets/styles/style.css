@@ -41,7 +41,7 @@ section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-    header .container .content { width: 70%; padding: 10rem 0; }
+    main header .container .content { width: 70%; padding: 10rem 0; }
 
     :root { --n-logos: 4; }
     .slider .track .item { padding: 0 1rem; }
@@ -49,20 +49,21 @@ section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-    header .container .content { width: 80%; padding: 10rem 0; }
+    main header .container .content { width: 80%; padding: 10rem 0; }
 
     :root { --n-logos: 3; }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-    header { background: url('../img/bg-right-mobile.png'), var(--bg-color); background-size: 60%; background-repeat: no-repeat; background-position: right top; background-attachment: local; }
-    header .container .content { width: 95%; padding: 30% 0 35% 0; }
-    header h1 { font-size: 2.3rem; margin-bottom: 2rem; }
-    header h4.subtitle { margin-bottom: 2.5rem; }
-    header .links { gap: .7rem; }
-    header .links a.f-btn.desktop { display: none; }
-    header .links a.f-btn.mobile { display: inline-block; }
+    main h1 { font-size: 2.3rem; margin-bottom: 2rem; }
+    main h5 { margin-bottom: 2.5rem; }
+
+    main header { background: url('../img/bg-right-mobile.png'), var(--bg-color); background-size: 60%; background-repeat: no-repeat; background-position: right top; background-attachment: local; }
+    main header .container .content { width: 95%; padding: 30% 0 35% 0; }
+    main header .links { gap: .7rem; }
+    main header .links a.f-btn.desktop { display: none; }
+    main header .links a.f-btn.mobile { display: inline-block; }
 
     :root { --n-logos: 2.5; }
     .slider .track .item { padding: 0 .5rem; }
