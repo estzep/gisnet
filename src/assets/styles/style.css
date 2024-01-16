@@ -1,9 +1,10 @@
 main { padding-top: var(--navbar-height); background: var(--bg-color); z-index: 1; }
 
 main h1 { color: var(--text-color); font-size: 3rem; font-weight: 500; line-height: 1.3; margin-bottom: 1.5rem; }
-main h2 { color: var(--text-color); font-size: 2.5rem; font-weight: 500; line-height: 1.3; margin-bottom: 1.5rem; }
+main h2 { color: var(--text-color); font-size: 2.3rem; font-weight: 500; line-height: 1.3; margin-bottom: 1.5rem; }
 main h5 { color: var(--gray); font-size: 1rem; font-weight: 400; line-height: 2; margin-bottom: 2.5rem; text-align: center; }
 main p.text-1 { color: var(--gray); font-size: 1.1rem; font-weight: 400; line-height: 1.6; margin-bottom: 2rem; }
+main p.text-2 { color: var(--gray); font-size: 1rem; font-weight: 400; line-height: 2.15; margin-bottom: 0; }
 
 main header { background: url('../img/bg-right.png'), var(--bg-color); background-size: contain; background-repeat: no-repeat; background-position: right center; background-attachment: local; }
 main header .container {  }
@@ -23,10 +24,10 @@ main section#clientes {  }
 main section#clientes .section-container {  }
 main section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
 
-main section#empresa {  }
+main section#empresa { background: var(--bg-color-1); }
 main section#empresa .section-container {  }
-main section#empresa .section-container .content { padding: 2rem 0 4rem 0; }
-main section#empresa .heading { display: block; width: 55%; margin: 0 auto; }
+main section#empresa .section-container .content { padding: 6.5rem 0; }
+main section#empresa .heading { display: block; width: 45%; margin: 0 auto; }
 main section#empresa h2 { text-align: center; }
 main section#empresa .text-1 { text-align: center; }
 
@@ -44,14 +45,15 @@ main section#empresa .text-1 { text-align: center; }
 .slider .track .item img { width: 100%; height: auto; display: block; text-align: center; margin: 0 auto; }
 
 /****** squares ******/
-.squares {  }
-.squares .square {  }
-.squares .square h4 {  }
-.squares .square h4 .icon {  }
+.squares { padding-top: 2rem; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: space-between; align-content: flex-start; gap: 2rem; }
+.squares .square { flex: 1 0 calc(50% - 2rem); background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 40px 0 rgba(25, 85, 139, 0.03); }
+.squares .square .square-content { padding: 1.5rem; }
+.squares .square h4 { color: var(--text-color); font-size: 1.2rem; font-weight: 500; line-height: 1.6; margin-bottom: 1.2rem; }
+.squares .square h4 .icon { width: auto; height: 1.4rem; display: inline-block; vertical-align: bottom; filter: var(--pri-color-filter); }
 .squares .square .text-2 {  }
 .squares .square.f-square {  }
 .squares .square.s-square {  }
-.squares .square .square-content {  }
+
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {}
