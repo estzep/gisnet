@@ -26,6 +26,7 @@ section#empresa {  }
 section#empresa .section-container {  }
 section#empresa .section-container .content { padding: 2rem 0 4rem 0; }
 
+
 :root { --n-logos: 6; }
 @keyframes sliderAnimation {
     0% { transform: translateX(0); }
