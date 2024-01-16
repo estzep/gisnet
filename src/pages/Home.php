@@ -82,7 +82,7 @@
                 <div class="square f-square">
                     <div class="square-content">
                         <h4>
-                            <img src="src/assets/icons/icon-1.svg" alt="Icon 1">
+                            <img src="src/assets/icons/icon-1.svg" alt="Icon 1" class="icon">
                             Sector Gobierno
                         </h4>
                         <p class="text-2">
@@ -93,7 +93,7 @@
                 <div class="square s-square">
                     <div class="square-content">
                         <h4>
-                            <img src="src/assets/icons/icon-2.svg" alt="Icon 2">
+                            <img src="src/assets/icons/icon-2.svg" alt="Icon 2" class="icon">
                             Sector Financiero
                         </h4>
                         <p class="text-2">

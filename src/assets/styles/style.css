@@ -26,7 +26,7 @@ section#empresa {  }
 section#empresa .section-container {  }
 section#empresa .section-container .content { padding: 2rem 0 4rem 0; }
 
-
+/****** slider ******/
 :root { --n-logos: 6; }
 @keyframes sliderAnimation {
     0% { transform: translateX(0); }
@@ -39,6 +39,15 @@ section#empresa .section-container .content { padding: 2rem 0 4rem 0; }
 .slider .track .item { position: relative; flex: 0 0 calc(100% / var(--n-logos)); padding: 0 1.5rem; }
 .slider .track .item img { width: 100%; height: auto; display: block; text-align: center; margin: 0 auto; }
 
+/****** squares ******/
+.squares {  }
+.squares .square {  }
+.squares .square h4 {  }
+.squares .square h4 .icon {  }
+.squares .square .text-2 {  }
+.squares .square.f-square {  }
+.squares .square.s-square {  }
+.squares .square .square-content {  }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {}
