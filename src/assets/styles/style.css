@@ -26,7 +26,7 @@ main section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
 main section#empresa {  }
 main section#empresa .section-container {  }
 main section#empresa .section-container .content { padding: 2rem 0 4rem 0; }
-main section#empresa .heading {  }
+main section#empresa .heading { display: block; width: 55%; margin: 0 auto; }
 main section#empresa h2 { text-align: center; }
 
 /****** slider ******/
