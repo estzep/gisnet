@@ -65,6 +65,12 @@ section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
     header .links { gap: .7rem; }
     header .links a.f-btn.desktop { display: none; }
     header .links a.f-btn.mobile { display: inline-block; }
+
+    @keyframes sliderAnimation {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-300%); }
+    }
+    .slider .track .item { flex: 0 0 calc(100% / 2); }
 }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
