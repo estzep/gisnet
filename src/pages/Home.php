@@ -26,7 +26,7 @@
     <div class="section-container container">
         <div class="content">
             <h4>Con la confianza de</h4>
-            <div>
+            <div class="carousel">
                 carousel...
             </div>
         </div>
