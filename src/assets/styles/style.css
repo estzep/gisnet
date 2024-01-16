@@ -25,7 +25,40 @@ section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
 
 
 
-.carousel { min-height: 50px; text-align: center; }
+.slider { overflow-x: hidden; position: relative; }
+.slider .track { display: flex; animation: slide 15s linear infinite; }
+.slider .track .item { position: relative; flex: 0 0 100%; }
+.slider .track .item img { width: auto; height: 100%; display: block; text-align: center; margin: 0 auto; }
+
+@keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-100%);
+    }
+    45% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    70% {
+      transform: translateX(-200%);
+    }
+    75% {
+      transform: translateX(-300%);
+    }
+    95% {
+      transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
