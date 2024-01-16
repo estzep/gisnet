@@ -23,9 +23,8 @@
     </div>
 </header>
 <section id="clientes">
-    <div class="container">
+    <div class="section-container container">
         <div class="content">
-            <h2>Section 2</h2>
             <h4>Con la confianza de</h4>
             <div>
                 carousel...
@@ -34,7 +33,7 @@
     </div>
 </section>
 <section id="empresa">
-    <div class="container">
+    <div class="section-container container">
         <div class="content">
             <h2>Section 3</h2>
             <h4>Empresa</h4>
@@ -42,7 +41,7 @@
     </div>
 </section>
 <section id="nosotros">
-    <div class="container">
+    <div class="section-container container">
         <div class="content">
             <h2>Section 4</h2>
             <h4>Nosotros</h4>
@@ -50,7 +49,7 @@
     </div>
 </section>
 <section id="servicios">
-    <div class="container">
+    <div class="section-container container">
         <div class="content">
             <h2>Section 5</h2>
             <h4>Servicios</h4>
@@ -58,7 +57,7 @@
     </div>
 </section>
 <section id="productos">
-    <div class="container">
+    <div class="section-container container">
         <div class="content">
             <h2>Section 6</h2>
             <h4>Productos</h4>
@@ -66,7 +65,7 @@
     </div>
 </section>
 <section id="socios">
-    <div class="container">
+    <div class="section-container container">
         <div class="content">
             <h2>Section 7</h2>
             <h4>Socios</h4>
