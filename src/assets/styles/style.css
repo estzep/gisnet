@@ -28,7 +28,7 @@ section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
 .slider { overflow-x: hidden; position: relative; z-index: 4; }
 .slider .overlay { position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 3; background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 5%, rgba(255,255,255,0) 95%, rgba(255,255,255,1) 100%); }
 .slider .track { display: flex; animation: sliderAnimation 30s linear infinite; position: relative; z-index: 2; }
-.slider:hover .track { animation-duration: 60s; }
+.slider:hover .track { animation-play-state: paused; }
 .slider .track .item { position: relative; flex: 0 0 calc(100% / 6); padding: 0 1.5rem; }
 .slider .track .item img { width: 100%; height: auto; display: block; text-align: center; margin: 0 auto; }
 
