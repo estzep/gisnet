@@ -57,7 +57,7 @@ section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
     main h1 { font-size: 2.3rem; margin-bottom: 2rem; }
-    main h5 { margin-bottom: 2.5rem; }
+    main p.text-1 { margin-bottom: 2.5rem; }
 
     main header { background: url('../img/bg-right-mobile.png'), var(--bg-color); background-size: 60%; background-repeat: no-repeat; background-position: right top; background-attachment: local; }
     main header .container .content { width: 95%; padding: 30% 0 35% 0; }
