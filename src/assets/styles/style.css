@@ -46,14 +46,20 @@ section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
 
     @keyframes sliderAnimation {
         0% { transform: translateX(0); }
-        100% { transform: translateX(-200%); }
+        100% { transform: translateX(-150%); }
     }
-    .slider .track .item { flex: 0 0 calc(100% / 3); }
+    .slider .track .item { flex: 0 0 calc(100% / 4); }
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
     header .container .content { width: 80%; padding: 10rem 0; }
+
+    @keyframes sliderAnimation {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-200%); }
+    }
+    .slider .track .item { flex: 0 0 calc(100% / 3); }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
