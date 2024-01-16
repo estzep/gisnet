@@ -44,8 +44,7 @@ main section#empresa h2 { text-align: center; }
 main section#empresa .text-1 { text-align: center; line-height: 2; }
 /****** squares ******/
 .squares { padding-top: 2rem; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: space-between; align-content: flex-start; gap: 3rem; }
-.squares .square { flex: 1 0 calc(50% - 3rem); background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 40px 0 rgba(25, 85, 139, 0.03); transition: 0.4s; }
-.squares .square:hover { transform: scale(1.01); }
+.squares .square { flex: 1 0 calc(50% - 3rem); background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 40px 0 rgba(25, 85, 139, 0.03); }
 .squares .square .square-content { padding: 2.3rem; }
 .squares .square h4 { color: var(--text-color); font-size: 1.2rem; font-weight: 500; line-height: 1.6; margin-bottom: 1.2rem; }
 .squares .square h4 .icon { width: auto; height: 2.4rem; display: inline-block; vertical-align: text-bottom; filter: var(--pri-color-filter); margin-right: .5rem; }
