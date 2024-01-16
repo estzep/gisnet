@@ -19,9 +19,9 @@ section .section-container .content {  }
 
 section h4 { color: var(--gray); font-size: 1rem; font-weight: 400; line-height: 2; margin-bottom: 1.5rem; text-align: center; }
 
-section.clientes {  }
-section.clientes .section-container {  }
-section.clientes .section-container .content { padding: 3rem 0; }
+section#clientes {  }
+section#clientes .section-container {  }
+section#clientes .section-container .content { padding: 3rem 0; }
 
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
