@@ -1,14 +1,14 @@
 main { padding-top: var(--navbar-height); background: var(--bg-color); z-index: 1; }
 
 main h1 { color: var(--text-color); font-size: 3rem; font-weight: 500; line-height: 1.3; margin-bottom: 1.5rem; }
-main h2 { color: var(--text-color); font-size: 2.3rem; font-weight: 500; line-height: 1.3; margin-bottom: 1.5rem; }
+main h2 { color: var(--text-color); font-size: 2.3rem; font-weight: 500; line-height: 1.3; margin-bottom: 1.8rem; }
 main h5 { color: var(--gray); font-size: 1rem; font-weight: 400; line-height: 2; margin-bottom: 2.5rem; text-align: center; }
 main p.text-1 { color: var(--gray); font-size: 1.1rem; font-weight: 400; line-height: 1.6; margin-bottom: 2rem; }
 main p.text-2 { color: var(--gray); font-size: 1rem; font-weight: 400; line-height: 2.15; margin-bottom: 0; }
 
 main header { background: url('../img/bg-right.png'), var(--bg-color); background-size: contain; background-repeat: no-repeat; background-position: right center; background-attachment: local; }
 main header .container {  }
-main header .container .content { padding: 10rem 0 10rem 3rem; width: 60%; margin: 0 auto 0 0; }
+main header .container .content { padding: 10rem 0; width: 55%; margin: 0 auto 0 0; }
 main header .links { display: flex; flex-wrap: wrap; align-content: center; justify-content: flex-start; align-items: center; gap: 1.2rem; }
 main header .links :is(a.f-btn, a.s-btn) { text-align: center; font-size: .9rem; font-weight: 400; line-height: 2; padding: .8rem 1.2rem; }
 main header .links a.f-btn {  }
@@ -18,7 +18,7 @@ main header .links a.s-btn {  }
 
 main section {  }
 main section .section-container {  }
-main section .section-container .content {  }
+main section .section-container .content { padding: 6.5rem 0; }
 
 main section#clientes {  }
 main section#clientes .section-container {  }
@@ -29,7 +29,7 @@ main section#empresa .section-container {  }
 main section#empresa .section-container .content { padding: 6.5rem 0; }
 main section#empresa .heading { display: block; width: 45%; margin: 0 auto; }
 main section#empresa h2 { text-align: center; }
-main section#empresa .text-1 { text-align: center; }
+main section#empresa .text-1 { text-align: center; line-height: 2; }
 
 /****** slider ******/
 :root { --n-logos: 6; }
@@ -45,8 +45,8 @@ main section#empresa .text-1 { text-align: center; }
 .slider .track .item img { width: 100%; height: auto; display: block; text-align: center; margin: 0 auto; }
 
 /****** squares ******/
-.squares { padding-top: 2rem; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: space-between; align-content: flex-start; gap: 2rem; }
-.squares .square { flex: 1 0 calc(50% - 2rem); background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 40px 0 rgba(25, 85, 139, 0.03); }
+.squares { padding-top: 2rem; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: space-between; align-content: flex-start; gap: 3rem; }
+.squares .square { flex: 1 0 calc(50% - 3rem); background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 40px 0 rgba(25, 85, 139, 0.03); }
 .squares .square .square-content { padding: 2.3rem; }
 .squares .square h4 { color: var(--text-color); font-size: 1.2rem; font-weight: 500; line-height: 1.6; margin-bottom: 1.2rem; }
 .squares .square h4 .icon { width: auto; height: 2.4rem; display: inline-block; vertical-align: bottom; filter: var(--pri-color-filter); margin-right: .5rem; }
