@@ -10,6 +10,8 @@ header h4.subtitle { color: var(--gray); font-size: 1rem; font-weight: 400; line
 header .links { display: flex; flex-wrap: wrap; align-content: center; justify-content: flex-start; align-items: center; gap: 1.2rem; }
 header .links :is(a.f-btn, a.s-btn) { text-align: center; font-size: .9rem; font-weight: 400; line-height: 2; padding: .8rem 1.2rem; }
 header .links a.f-btn {  }
+header .links a.f-btn.desktop {  }
+header .links a.f-btn.mobile { display: none; }
 header .links a.s-btn {  }
 
 
@@ -28,10 +30,12 @@ header .links a.s-btn {  }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-    header { background: url('../img/bg-right-mobile.png'), var(--bg-color); background-size: 60%; background-repeat: no-repeat; background-position: right center; background-attachment: local; }
-    header .container .content { width: 100%; padding: calc(25vh - var(--navbar-height)) 0; }
+    header { background: url('../img/bg-right-mobile.png'), var(--bg-color); background-size: 60%; background-position: right top; min-height: 80%; }
+    header .container .content { width: 90%; padding: 30% 0 0 0; }
     header h1 { font-size: 2.3rem; margin-bottom: 2rem; }
     header h4.subtitle { margin-bottom: 2.5rem; }
+    header .links a.f-btn.desktop { display: none; }
+    header .links a.f-btn.mobile { display: inline-block; }
 }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */

@@ -6,8 +6,11 @@
                 20 años de experiencia innovando en el sector gubernamental y financiero
             </h4>
             <div class="links">
-                <a href="contacto" class="btn-type-1 f-btn">
+                <a href="contacto" class="btn-type-1 f-btn desktop">
                     Hablas con nosotros
+                </a>
+                <a href="contacto" class="btn-type-1 f-btn mobile">
+                    Contactanos
                 </a>
                 <a href="#empresa" class="btn-type-2 s-btn">
                     Conoce más
