@@ -46,6 +46,7 @@
                     <div class="item">
                         <img src="<? echo($path) ?>src/assets/img/logos/logo-santander.png" alt="Santander logo">
                     </div>
+                    <!-- repeat -->
                     <div class="item">
                         <img src="<? echo($path) ?>src/assets/img/logos/logo-bbva.png" alt="BBVA logo">
                     </div>
