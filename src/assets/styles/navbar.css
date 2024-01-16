@@ -67,7 +67,7 @@ nav .contact-btn a { font-size: .85rem; padding: .7rem 1rem; font-weight: 400; }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-    nav .links .accordion-collapse { width: 130%; left: -30%; }
+    nav .links .accordion-collapse { width: 150%; left: -30%; }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
