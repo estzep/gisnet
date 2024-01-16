@@ -108,8 +108,20 @@
 <section id="nosotros">
     <div class="section-container container">
         <div class="content">
-            <h2>Section 4</h2>
-            <h4>Nosotros</h4>
+            <div class="column"></div>
+            <div class="column">
+                <h2>Diseñamos nuestras soluciones a tu medida</h2>
+                <p class="text-2">
+                    En Gisnet, nos adaptamos a tus necesidades específicas ofreciendo soluciones a medida que destacan por su excelencia. Ya sea, que busques servicios especializados, productos personalizados o asesoramiento experto.
+                </p>
+                <a href="nosotros" class="btn-type-2 s-btn">
+                    Conoce más
+                    <span class="arrow">
+                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                    </span>
+                </a>
+            </div>
+            
         </div>
     </div>
 </section>
