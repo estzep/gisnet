@@ -27,6 +27,7 @@
         <div class="content">
             <h4>Con la confianza de</h4>
             <div class="slider">
+                <div class="overlay"></div>
                 <div class="track">
                     <div class="item">
                         <img src="<? echo($path) ?>src/assets/img/logos/logo-bbva.png" alt="BBVA logo">
