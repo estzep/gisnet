@@ -74,7 +74,7 @@ section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
     header .links a.f-btn.mobile { display: inline-block; }
 
     :root {
-        --n-logos: 2;
+        --n-logos: 2.5;
     }
     .slider .track .item { padding: 0 .5rem; }
 }
@@ -82,7 +82,7 @@ section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     :root {
-        --n-logos: 1.5;
+        --n-logos: 2;
     }
-    .slider .track .item { padding: 0; }
+    .slider .track .item { padding: 0.2rem; }
 }
