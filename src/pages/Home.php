@@ -74,10 +74,12 @@
 <section id="empresa">
     <div class="section-container container">
         <div class="content">
-            <h2>Más de 22 años modernizando procesos de nuestros clientes</h2>
-            <p class="text-1">
-                Nos concentramos en la evolución tecnológica de nuestros clientes, mediante los servicios y productos que ofrecemos, dirigidos principalmente al sector municipal, estatal y federal.
-            </p>
+            <div class="heading">
+                <h2>Más de 22 años modernizando procesos de nuestros clientes</h2>
+                <p class="text-1">
+                    Nos concentramos en la evolución tecnológica de nuestros clientes, mediante los servicios y productos que ofrecemos, dirigidos principalmente al sector municipal, estatal y federal.
+                </p>
+            </div>
             <div class="squares">
                 <div class="square f-square">
                     <div class="square-content">
