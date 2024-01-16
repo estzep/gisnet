@@ -27,10 +27,10 @@
             case '/servicios/implementacion-de-sistemas/':
                 include($path.'src/pages/ServImplementacion.php');
                 break;
-            case '/servicios/limpieza-de-datos':
+            case '/servicios/limpieza-de-datos/':
                 include($path.'src/pages/ServLimpieza.php');
                 break;
-            case '/servicios/desarrollo-soporte-mantenimiento':
+            case '/servicios/desarrollo-soporte-mantenimiento/':
                 include($path.'src/pages/ServDesarrollo.php');
                 break;
             case '/productos/':
