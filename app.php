@@ -12,17 +12,53 @@
             case '/':
                 include($path.'src/pages/Home.php');
                 break;
-            case '/servicios/':
-                include($path.'src/pages/Home.php');
-                break;
             case '/nosotros/':
-                include($path.'src/pages/Contact.php');
+                include($path.'src/pages/Nosotros.php');
                 break;
             case '/contacto/':
                 include($path.'src/pages/Contact.php');
                 break;
+            case '/servicios/':
+                include($path.'src/pages/Error.php');
+                break;
+            case '/servicios/migracion-de-acervos/':
+                include($path.'src/pages/ServMigracion.php');
+                break;
+            case '/servicios/implementacion-de-sistemas/':
+                include($path.'src/pages/ServImplementacion.php');
+                break;
+            case '/servicios/limpieza-de-datos':
+                include($path.'src/pages/ServLimpieza.php');
+                break;
+            case '/servicios/desarrollo-soporte-mantenimiento':
+                include($path.'src/pages/ServDesarrollo.php');
+                break;
+            case '/productos/':
+                include($path.'src/pages/Error.php');
+                break;
+            case '/productos/panini/':
+                include($path.'src/pages/ProdPanini.php');
+                break;
+            case '/productos/couchbase/':
+                include($path.'src/pages/ProdCouchbase.php');
+                break;
+            case '/productos/acf-technologies/':
+                include($path.'src/pages/ProdAcf.php');
+                break;
+            case '/productos/security-scorecard/':
+                include($path.'src/pages/ProdSecurity.php');
+                break;
+            case '/productos/corsight/':
+                include($path.'src/pages/ProdCorsight.php');
+                break;
+            case '/productos/scale-fusion/':
+                include($path.'src/pages/ProdScale.php');
+                break;
+            case '/productos/tassta/':
+                include($path.'src/pages/ProdTassta.php');
+                break;
             default:
-                include($path.'src/pages/Home.php');
+                include($path.'src/pages/Error.php');
                 break;
         }
     ?>

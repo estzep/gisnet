@@ -1,34 +1,28 @@
-:root {
-    --n-logos: 6;
-}
-
 main { padding-top: var(--navbar-height); background: var(--bg-color); z-index: 1; }
+
+main header { background: url('../img/bg-right.png'), var(--bg-color); background-size: contain; background-repeat: no-repeat; background-position: right center; background-attachment: local; }
+main header .container {  }
+main header .container .content { padding: 10rem 0 10rem 3rem; width: 60%; margin: 0 auto 0 0; }
+main header h1 { color: var(--text-color); font-size: 3rem; font-weight: 500; line-height: 1.3; margin-bottom: 1.5rem; }
+main header h4.subtitle { color: var(--gray); font-size: 1.1rem; font-weight: 400; line-height: 1.6; margin-bottom: 2rem; }
+main header .links { display: flex; flex-wrap: wrap; align-content: center; justify-content: flex-start; align-items: center; gap: 1.2rem; }
+main header .links :is(a.f-btn, a.s-btn) { text-align: center; font-size: .9rem; font-weight: 400; line-height: 2; padding: .8rem 1.2rem; }
+main header .links a.f-btn {  }
+main header .links a.f-btn.desktop {  }
+main header .links a.f-btn.mobile { display: none; }
+main header .links a.s-btn {  }
+
 main section { border-bottom: 1px solid red; }
-
-header { background: url('../img/bg-right.png'), var(--bg-color); background-size: contain; background-repeat: no-repeat; background-position: right center; background-attachment: local; }
-header .container {  }
-header .container .content { padding: 10rem 0 10rem 3rem; width: 60%; margin: 0 auto 0 0; }
-header h1 { color: var(--text-color); font-size: 3rem; font-weight: 500; line-height: 1.3; margin-bottom: 1.5rem; }
-header h4.subtitle { color: var(--gray); font-size: 1.1rem; font-weight: 400; line-height: 1.6; margin-bottom: 2rem; }
-header .links { display: flex; flex-wrap: wrap; align-content: center; justify-content: flex-start; align-items: center; gap: 1.2rem; }
-header .links :is(a.f-btn, a.s-btn) { text-align: center; font-size: .9rem; font-weight: 400; line-height: 2; padding: .8rem 1.2rem; }
-header .links a.f-btn {  }
-header .links a.f-btn.desktop {  }
-header .links a.f-btn.mobile { display: none; }
-header .links a.s-btn {  }
-
-section {  }
-section .section-container {  }
-section .section-container .content {  }
-
-section h4 { color: var(--gray); font-size: 1rem; font-weight: 400; line-height: 2; margin-bottom: 2.5rem; text-align: center; }
+main section .section-container {  }
+main section .section-container .content {  }
+main section h4 { color: var(--gray); font-size: 1rem; font-weight: 400; line-height: 2; margin-bottom: 2.5rem; text-align: center; }
 
 section#clientes {  }
 section#clientes .section-container {  }
 section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
 
 
-
+:root { --n-logos: 6; }
 @keyframes sliderAnimation {
     0% { transform: translateX(0); }
     100% { transform: translateX(calc(-600% / var(--n-logos))); }
@@ -48,9 +42,7 @@ section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
 @media (max-width: 1199.98px) {
     header .container .content { width: 70%; padding: 10rem 0; }
 
-    :root {
-        --n-logos: 4;
-    }
+    :root { --n-logos: 4; }
     .slider .track .item { padding: 0 1rem; }
 }
 
@@ -58,9 +50,7 @@ section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
 @media (max-width: 991.98px) {
     header .container .content { width: 80%; padding: 10rem 0; }
 
-    :root {
-        --n-logos: 3;
-    }
+    :root { --n-logos: 3; }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -73,16 +63,12 @@ section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
     header .links a.f-btn.desktop { display: none; }
     header .links a.f-btn.mobile { display: inline-block; }
 
-    :root {
-        --n-logos: 2.5;
-    }
+    :root { --n-logos: 2.5; }
     .slider .track .item { padding: 0 .5rem; }
 }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    :root {
-        --n-logos: 2;
-    }
+    :root { --n-logos: 2; }
     .slider .track .item { padding: 0.2rem; }
 }
