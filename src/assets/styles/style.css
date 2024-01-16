@@ -28,7 +28,7 @@ section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
 .slider { overflow-x: hidden; position: relative; }
 .slider .track { display: flex; animation: slide 15s linear infinite; }
 .slider .track .item { position: relative; flex: 0 0 calc(100% / 6); }
-.slider .track .item img { width: auto; height: 100%; display: block; text-align: center; margin: 0 auto; }
+.slider .track .item img { width: 100%; height: auto; display: block; text-align: center; margin: 0 auto; }
 
 @keyframes slide {
     0% {

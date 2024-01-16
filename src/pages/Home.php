@@ -46,6 +46,24 @@
                     <div class="item">
                         <img src="<? echo($path) ?>src/assets/img/logos/logo-santander.png" alt="Santander logo">
                     </div>
+                    <div class="item">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logo-bbva.png" alt="BBVA logo">
+                    </div>
+                    <div class="item">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logo-cecoban.png" alt="Cecoban logo">
+                    </div>
+                    <div class="item">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logo-diebold-nixdorf.png" alt="Diebold Nixdorf logo">
+                    </div>
+                    <div class="item">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logo-gbo-gto.png" alt="Gobierno de Guanajuato logo">
+                    </div>
+                    <div class="item">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logo-gbo-nl.png" alt="Goierno de Nuevo León logo">
+                    </div>
+                    <div class="item">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logo-santander.png" alt="Santander logo">
+                    </div>
                 </div>
             </div>
         </div>
