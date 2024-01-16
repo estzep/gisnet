@@ -12,7 +12,7 @@
                 <a href="contacto" class="btn-type-1 f-btn mobile">
                     Contactanos
                 </a>
-                <a href="#empresa" class="btn-type-2 s-btn" onclick="(e)=>{e.preventDefault()}">
+                <a href="#empresa" class="btn-type-2 s-btn">
                     Conoce más
                     <span class="arrow">
                         <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
