@@ -80,4 +80,10 @@ section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
 }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    @keyframes sliderAnimation {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-400%); }
+    }
+    .slider .track .item { flex: 0 0 calc(100% / 1.5); }
+}
