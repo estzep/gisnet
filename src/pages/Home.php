@@ -110,20 +110,57 @@
 <section id="nosotros">
     <div class="section-container container">
         <div class="content">
-            <div class="column"></div>
-            <div class="column">
-                <h2>Diseñamos nuestras soluciones a tu medida</h2>
-                <p class="text-2">
-                    En Gisnet, nos adaptamos a tus necesidades específicas ofreciendo soluciones a medida que destacan por su excelencia. Ya sea, que busques servicios especializados, productos personalizados o asesoramiento experto.
-                </p>
-                <a href="nosotros" class="btn-type-2 s-btn">
-                    Conoce más
-                    <span class="arrow">
-                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
-                    </span>
-                </a>
+            <div class="heading">
+                <div class="column image">
+                    <img src="src/assets/img/nosotros-img.jpg" alt="Imagen representando a Nosotros">
+                </div>
+                <div class="column info">
+                    <h2>Diseñamos nuestras soluciones a tu medida</h2>
+                    <p class="text-1">
+                        En Gisnet, nos adaptamos a tus necesidades específicas ofreciendo soluciones a medida que destacan por su excelencia. Ya sea, que busques servicios especializados, productos personalizados o asesoramiento experto.
+                    </p>
+                    <a href="nosotros" class="btn-type-2 btn">
+                        Conoce más
+                        <span class="arrow">
+                            <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                        </span>
+                    </a>
+                </div>
             </div>
-            
+            <div class="small-squares">
+                <div class="square">
+                    <div class="square-content">
+                        <h5>Más de 10</h5>
+                        <p class="text-2">
+                            Estados del país cuentan con nuestros servicios.
+                        </p>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="square-content">
+                        <h5>Más de 75</h5>
+                        <p class="text-2">
+                            Empresas recurrentes contratan nuestros servicios.
+                        </p>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="square-content">
+                        <h5>Más de 5</h5>
+                        <p class="text-2">
+                            Países en Latinoamérica donde estamos presentes.
+                        </p>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="square-content">
+                        <h5>100%</h5>
+                        <p class="text-2">
+                            Proyectos concluidos de manera satisfactoria.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
