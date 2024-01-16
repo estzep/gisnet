@@ -76,7 +76,7 @@ main section#empresa .text-1 { text-align: center; line-height: 2; }
 @media (max-width: 991.98px) {
     main header .container .content { width: 80%; padding: 10rem 0; }
 
-    main section#empresa .heading { width: 95%; }
+    main section#empresa .heading { width: 75%; }
 
     :root { --n-logos: 3; }
 }
@@ -84,15 +84,19 @@ main section#empresa .text-1 { text-align: center; line-height: 2; }
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
     main h1 { font-size: 2.3rem; margin-bottom: 2rem; }
+    main h2 { font-size: 2.3rem; margin-bottom: 1.6rem; }
+    /* main h5 { color: var(--gray); font-size: 1rem; font-weight: 400; line-height: 2; margin-bottom: 2.5rem; text-align: center; } */
     main p.text-1 { margin-bottom: 2.5rem; }
+    /* main p.text-2 { font-size: 1rem; margin-bottom: 0; } */
 
     main header { background: url('../img/bg-right-mobile.png'), var(--bg-color); background-size: 60%; background-repeat: no-repeat; background-position: right top; background-attachment: local; }
-    main header .container .content { width: 95%; padding: 30% 0 35% 0; }
+    main header .container .content { width: 90%; padding: 30% 0 35% 0; }
     main header .links { gap: .7rem; }
     main header .links a.f-btn.desktop { display: none; }
     main header .links a.f-btn.mobile { display: inline-block; }
 
     main section#empresa .heading { width: 98%; }
+    main section#empresa .text-1 { font-size: 1rem; }
 
     :root { --n-logos: 2.5; }
     .slider .track .item { padding: 0 .5rem; }
@@ -100,6 +104,8 @@ main section#empresa .text-1 { text-align: center; line-height: 2; }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    main section#empresa .heading { width: 100%; }
+
     :root { --n-logos: 2; }
     .slider .track .item { padding: 0.2rem; }
 }
