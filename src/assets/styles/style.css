@@ -42,7 +42,7 @@ main section#empresa { background: var(--bg-color-1); }
 main section#empresa .section-container {  }
 main section#empresa .section-container .content {  }
 main section#empresa .heading { display: block; width: 45%; margin: 0 auto; }
-main section#empresa h2 { text-align: center; }
+main section#empresa h3 { text-align: center; }
 main section#empresa .text-1 { text-align: center; line-height: 2; }
 .squares-1 { padding-top: 2rem; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: space-between; align-content: flex-start; gap: 3rem; }
 .squares-1 .square { flex: 1 0 0%; background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 40px 0 rgba(25, 85, 139, 0.03); }
@@ -61,7 +61,7 @@ main section#nosotros .heading .column { flex: 1 0 0%; }
 main section#nosotros .heading .column.image {  }
 main section#nosotros .heading .column.image img { width: 100%; height: auto; display: block; margin: 0; text-align: start; object-fit: cover; }
 main section#nosotros .heading .column.info {  }
-main section#nosotros .heading .column.info h2 {  }
+main section#nosotros .heading .column.info h3 {  }
 main section#nosotros .heading .column.info .text-1 {  }
 main section#nosotros .heading .column.info a.btn {  }
 main section#nosotros .heading .column.info a.btn .arrow {  }
