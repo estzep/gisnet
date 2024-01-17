@@ -75,12 +75,12 @@
     <div class="section-container container">
         <div class="content">
             <div class="heading">
-                <h2>Más de 22 años modernizando procesos de nuestros clientes</h2>
+                <h3>Más de 22 años modernizando procesos de nuestros clientes</h3>
                 <p class="text-1">
                     Nos concentramos en la evolución tecnológica de nuestros clientes, mediante los servicios y productos que ofrecemos, dirigidos principalmente al sector municipal, estatal y federal.
                 </p>
             </div>
-            <div class="squares">
+            <div class="squares-1">
                 <div class="square f-square">
                     <div class="square-content">
                         <h4>
@@ -115,7 +115,7 @@
                     <img src="src/assets/img/nosotros-img.jpg" alt="Imagen representando a Nosotros">
                 </div>
                 <div class="column info">
-                    <h2>Diseñamos nuestras soluciones a tu medida</h2>
+                    <h3>Diseñamos nuestras soluciones a tu medida</h3>
                     <p class="text-1">
                         En Gisnet, nos adaptamos a tus necesidades específicas ofreciendo soluciones a medida que destacan por su excelencia. Ya sea, que busques servicios especializados, productos personalizados o asesoramiento experto.
                     </p>
@@ -127,11 +127,11 @@
                     </a>
                 </div>
             </div>
-            <div class="small-squares">
+            <div class="squares-2">
                 <div class="square">
                     <div class="square-content">
                         <h5>Más de 10</h5>
-                        <p class="text-2">
+                        <p class="text-3">
                             Estados del país cuentan con nuestros servicios.
                         </p>
                     </div>
@@ -139,7 +139,7 @@
                 <div class="square">
                     <div class="square-content">
                         <h5>Más de 75</h5>
-                        <p class="text-2">
+                        <p class="text-3">
                             Empresas recurrentes contratan nuestros servicios.
                         </p>
                     </div>
@@ -147,7 +147,7 @@
                 <div class="square">
                     <div class="square-content">
                         <h5>Más de 5</h5>
-                        <p class="text-2">
+                        <p class="text-3">
                             Países en Latinoamérica donde estamos presentes.
                         </p>
                     </div>
@@ -155,7 +155,7 @@
                 <div class="square">
                     <div class="square-content">
                         <h5>100%</h5>
-                        <p class="text-2">
+                        <p class="text-3">
                             Proyectos concluidos de manera satisfactoria.
                         </p>
                     </div>
@@ -175,8 +175,142 @@
 <section id="productos">
     <div class="section-container container">
         <div class="content">
-            <h2>Section 6</h2>
-            <h4>Productos</h4>
+            <h2>Productos innovadores para tu negocio</h2>
+            <div class="squares-3">
+                <a href="productos/panini" class="square">
+                    <div class="square-content">
+                        <h4>
+                            <div class="icon">
+                                <img src="src/assets/icons/icon-7.svg" alt="Icon 7">
+                            </div>
+                            Panini
+                        </h4>
+                        <p class="text-3">
+                            Escáner para cheques y para la identificación
+                        </p>
+                        <button type="button" class="btn-type-2">
+                            Leer más
+                            <span class="arrow">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                            </span>
+                        </button>
+                    </div>
+                </a>
+                <a href="productos/acf-technologies" class="square">
+                    <div class="square-content">
+                        <h4>
+                            <div class="icon">
+                                <img src="src/assets/icons/icon-9.svg" alt="Icon 9">
+                            </div>
+                            ACF Technologies
+                        </h4>
+                        <p class="text-3">
+                            Sistema de Gestión de Filas, Citas y Señalización Digital
+                        </p>
+                        <button type="button" class="btn-type-2">
+                            Leer más
+                            <span class="arrow">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                            </span>
+                        </button>
+                    </div>
+                </a>
+                <a href="productos/couchbase" class="square">
+                    <div class="square-content">
+                        <h4>
+                            <div class="icon">
+                                <img src="src/assets/icons/icon-8.svg" alt="Icon 8">
+                            </div>
+                            Couchbase
+                        </h4>
+                        <p class="text-3">
+                            Base de Datos NoSQL para manejo de grandes volúmenes
+                        </p>
+                        <button type="button" class="btn-type-2">
+                            Leer más
+                            <span class="arrow">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                            </span>
+                        </button>
+                    </div>
+                </a>
+                <a href="productos/security-scorecard" class="square">
+                    <div class="square-content">
+                        <h4>
+                            <div class="icon">
+                                <img src="src/assets/icons/icon-11.svg" alt="Icon 11">
+                            </div>
+                            Security ScoreCard
+                        </h4>
+                        <p class="text-3">
+                            Plataforma de calificación de riesgos cibernéticos para todos los sectores
+                        </p>
+                        <button type="button" class="btn-type-2">
+                            Leer más
+                            <span class="arrow">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                            </span>
+                        </button>
+                    </div>
+                </a>
+                <a href="productos/corsight" class="square">
+                    <div class="square-content">
+                        <h4>
+                            <div class="icon">
+                                <img src="src/assets/icons/icon-13.svg" alt="Icon 13">
+                            </div>
+                            Corsight
+                        </h4>
+                        <p class="text-3">
+                            Protección de la Intimidad, "Privacidad por Diseño y por Defecto"
+                        </p>
+                        <button type="button" class="btn-type-2">
+                            Leer más
+                            <span class="arrow">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                            </span>
+                        </button>
+                    </div>
+                </a>
+                <a href="productos/scale-fusion" class="square">
+                    <div class="square-content">
+                        <h4>
+                            <div class="icon">
+                                <img src="src/assets/icons/icon-15.svg" alt="Icon 15">
+                            </div>
+                            Scale Fusion
+                        </h4>
+                        <p class="text-3">
+                            Administración segura, intuitiva, y escalable para dispositivos móviles y terminales
+                        </p>
+                        <button type="button" class="btn-type-2">
+                            Leer más
+                            <span class="arrow">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                            </span>
+                        </button>
+                    </div>
+                </a>
+                <a href="productos/tassta" class="square">
+                    <div class="square-content">
+                        <h4>
+                            <div class="icon">
+                                <img src="src/assets/icons/icon-16.svg" alt="Icon 16">
+                            </div>
+                            TASSTA
+                        </h4>
+                        <p class="text-3">
+                            Sistema de Comunicación Innovadora (Comunicación encriptada, Localización, Organización y Seguridad)
+                        </p>
+                        <button type="button" class="btn-type-2">
+                            Leer más
+                            <span class="arrow">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                            </span>
+                        </button>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </section>
