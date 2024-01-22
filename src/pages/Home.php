@@ -234,6 +234,7 @@
                         </button>
                     </div>
                 </a>
+                <button class="btn-type-4">Mostrar todos los productos</button>
                 <a href="productos/security-scorecard" class="square">
                     <div class="square-content">
                         <h4>

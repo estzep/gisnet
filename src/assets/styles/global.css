@@ -95,6 +95,9 @@ body { color: var(--text-color); background: var(--darker-pri-color); font-famil
 .btn-type-3 .arrow .head { transition: 0.3s; }
 .btn-type-3:hover .arrow .head { transform: translateX(.15rem); }
 
+.btn-type-4 { font-size: 1rem; display: inline-block; border: 0; color: var(--white); text-decoration: underline; line-height: 1; padding: 0 .5rem; border-radius: 0; background: transparent; transition: 0.4s; }
+.btn-type-4:hover { color: var(--dark-stroke-color); }
+
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {}
 
