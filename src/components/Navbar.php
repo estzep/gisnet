@@ -24,11 +24,11 @@
                             <a href="<? echo($path) ?>#empresa" onclick="closeNav()">Empresa</a>
                         </li>
                         <li class="links-item">
-                            <a class="accordion-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#collapseServicios" aria-expanded="false" aria-controls="collapseServicios">
+                            <a class="accordion-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#collapseNavbarServicios" aria-expanded="false" aria-controls="collapseNavbarServicios">
                                 Servicios <img src="<? echo($path) ?>src/assets/icons/icon-chevron.svg" alt="Chevron icon" class="icon">
                             </a>
                         </li>
-                        <div id="collapseServicios" class="accordion-collapse servicios collapse" data-bs-parent="#accordionLinks">
+                        <div id="collapseNavbarServicios" class="accordion-collapse servicios collapse" data-bs-parent="#accordionLinks">
                             <ul class="dropdown">
                                 <li class="dropdown-item">
                                     <a href="<? echo($path) ?>servicios/migracion-de-acervos">
@@ -77,11 +77,11 @@
                             </ul>
                         </div>
                         <li class="links-item">
-                            <a class="accordion-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">
+                            <a class="accordion-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#collapseNavbarProductos" aria-expanded="false" aria-controls="collapseNavbarProductos">
                                 Productos <img src="<? echo($path) ?>src/assets/icons/icon-chevron.svg" alt="Chevron icon" class="icon">
                             </a>
                         </li>
-                        <div id="collapseProductos" class="accordion-collapse productos collapse" data-bs-parent="#accordionLinks">
+                        <div id="collapseNavbarProductos" class="accordion-collapse productos collapse" data-bs-parent="#accordionLinks">
                             <ul class="dropdown">
                                 <li class="dropdown-item">
                                     <a href="<? echo($path) ?>productos/panini">
