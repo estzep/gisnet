@@ -234,7 +234,8 @@
                         </button>
                     </div>
                 </a>
-                <button class="btn-type-4">Mostrar todos los productos</button>
+                <button class="btn-type-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">Mostrar todos los productos</button>
+                <div id="collapseProductos" class="collapse">todos los productos</div>
                 <a href="productos/security-scorecard" class="square">
                     <div class="square-content">
                         <h4>
