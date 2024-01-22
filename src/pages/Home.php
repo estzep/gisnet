@@ -235,7 +235,84 @@
                     </div>
                 </a>
                 <button class="btn-type-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">Mostrar todos los productos</button>
-                <div id="collapseProductos" class="collapse">todos los productos</div>
+                <div id="collapseProductos" class="collapse">
+                    <a href="productos/security-scorecard" class="square">
+                        <div class="square-content">
+                            <h4>
+                                <div class="icon">
+                                    <img src="src/assets/icons/icon-11.svg" alt="Icon 11">
+                                </div>
+                                Security ScoreCard
+                            </h4>
+                            <p class="text-3">
+                                Plataforma de calificación de riesgos cibernéticos para todos los sectores
+                            </p>
+                            <button type="button" class="btn-type-2">
+                                Leer más
+                                <span class="arrow">
+                                    <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                                </span>
+                            </button>
+                        </div>
+                    </a>
+                    <a href="productos/corsight" class="square">
+                        <div class="square-content">
+                            <h4>
+                                <div class="icon">
+                                    <img src="src/assets/icons/icon-13.svg" alt="Icon 13">
+                                </div>
+                                Corsight
+                            </h4>
+                            <p class="text-3">
+                                Protección de la Intimidad, "Privacidad por Diseño y por Defecto"
+                            </p>
+                            <button type="button" class="btn-type-2">
+                                Leer más
+                                <span class="arrow">
+                                    <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                                </span>
+                            </button>
+                        </div>
+                    </a>
+                    <a href="productos/scale-fusion" class="square">
+                        <div class="square-content">
+                            <h4>
+                                <div class="icon">
+                                    <img src="src/assets/icons/icon-15.svg" alt="Icon 15">
+                                </div>
+                                Scale Fusion
+                            </h4>
+                            <p class="text-3">
+                                Administración segura, intuitiva, y escalable para dispositivos móviles y terminales
+                            </p>
+                            <button type="button" class="btn-type-2">
+                                Leer más
+                                <span class="arrow">
+                                    <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                                </span>
+                            </button>
+                        </div>
+                    </a>
+                    <a href="productos/tassta" class="square">
+                        <div class="square-content">
+                            <h4>
+                                <div class="icon">
+                                    <img src="src/assets/icons/icon-16.svg" alt="Icon 16">
+                                </div>
+                                TASSTA
+                            </h4>
+                            <p class="text-3">
+                                Sistema de Comunicación Innovadora (Comunicación encriptada, Localización, Organización y Seguridad)
+                            </p>
+                            <button type="button" class="btn-type-2">
+                                Leer más
+                                <span class="arrow">
+                                    <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                                </span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
                 <a href="productos/security-scorecard" class="square">
                     <div class="square-content">
                         <h4>
