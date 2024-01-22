@@ -63,7 +63,10 @@ nav .contact-btn a { font-size: .85rem; padding: .7rem 1rem; font-weight: 400; }
 @media (max-width: 1399.98px) {}
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {}
+@media (max-width: 1199.98px) {
+    nav .links .accordion-collapse ul.dropdown li.dropdown-item a .info h6 { font-size: .8rem; }
+    nav .links .accordion-collapse ul.dropdown li.dropdown-item a .info p { font-size: .8rem; }
+}
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
