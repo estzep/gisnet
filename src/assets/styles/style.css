@@ -76,8 +76,8 @@ main section#productos { background: var(--bg-color-3); }
 main section#productos .section-container {  }
 main section#productos .section-container .content { padding: 10rem 0; }
 main section#productos h2 { text-align: center; color: var(--light-text-color); width: 40%; margin-left: auto; margin-right: auto; }
-.squares-3 { padding-top: 0; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: center; align-content: flex-start; gap: 3rem; }
-.squares-3 .square { flex: 0 0 calc(100% / 3 - 3rem); background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 25px 0 rgba(0, 0, 0, 0.05); text-decoration: none; }
+.squares-3 { padding-top: 0; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: center; align-content: flex-start; gap: 4rem; }
+.squares-3 .square { flex: 0 0 calc(100% / 3 - 4rem); background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 25px 0 rgba(0, 0, 0, 0.05); text-decoration: none; }
 .squares-3 .square .square-content { position: relative; height: 100%; padding: 1.5rem; display: flex; flex-direction: column; flex-wrap: nowrap; align-items: flex-start; justify-content: flex-start; }
 .squares-3 .square h4 { flex: 0 0 auto; color: var(--text-color); font-size: 1.1rem; font-weight: 500; line-height: 1.6; margin-bottom: 1.2rem; width: 100%; }
 .squares-3 .square h4 .icon { display: inline-block; border: 1px solid var(--dark-stroke-color); padding: .5rem; margin-right: .5rem; vertical-align: middle; }
@@ -104,6 +104,10 @@ main section#productos h2 { text-align: center; color: var(--light-text-color); 
     .slider .track .item { padding: 0 1rem; }
 
     main section#empresa .heading { width: 65%; }
+
+    main section#productos h2 { width: 55%; margin-bottom: 3rem; }
+    .squares-3 { gap: 2rem; }
+    .squares-3 .square { flex: 0 0 calc(100% / 3 - 2rem); }
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
@@ -114,6 +118,9 @@ main section#productos h2 { text-align: center; color: var(--light-text-color); 
 
     main section#empresa .heading { width: 75%; }
     .squares { gap: 2rem; }
+
+    main section#productos h2 { width: 75%; }
+    .squares-3 .square { flex: 0 0 calc(100% / 2 - 2rem); }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -139,6 +146,10 @@ main section#productos h2 { text-align: center; color: var(--light-text-color); 
     .squares .square .square-content { padding: 1.3rem; }
     .squares .square h4 { margin-bottom: 1rem; }
     .squares .square h4 .icon { height: 2.1rem; }
+
+    main section#productos .section-container .content { padding: 10rem 0; }
+    .squares-3 { gap: 1rem; }
+    .squares-3 .square { flex: 0 0 calc(100% / 2 - 1rem); }
 }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
@@ -147,4 +158,8 @@ main section#productos h2 { text-align: center; color: var(--light-text-color); 
     .slider .track .item { padding: 0.2rem; }
 
     main section#empresa .heading { width: 100%; }
+
+    main section#productos h2 { width: 80%; }
+    .squares-3 { gap: 2rem; }
+    .squares-3 .square { flex: 0 0 100%; }
 }
