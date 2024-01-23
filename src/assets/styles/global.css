@@ -82,6 +82,7 @@ body { color: var(--text-color); background: var(--darker-pri-color); font-famil
 .btn-type-1:hover { background-color: var(--dark-pri-color); }
 
 .btn-type-2 { font-size: 1rem; display: inline-block; border: 1px solid var(--white); color: var(--pri-color); text-decoration: none; line-height: 1; padding: .5rem 1rem; border-radius: 0; background: transparent; }
+.btn-type-2:hover { color: var(--pri-color); }
 .btn-type-2 .arrow { position: relative; display: inline-block; margin-left: .5rem; }
 .btn-type-2 .arrow img { vertical-align: baseline; height: .6rem; width: .6rem; filter: var(--pri-color-filter); }
 .btn-type-2 .arrow .head { transition: 0.3s; }
