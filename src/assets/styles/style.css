@@ -73,13 +73,13 @@ main section#empresa .text-1 { text-align: center; line-height: 2; }
 main section#nosotros {  }
 main section#nosotros .section-container {  }
 main section#nosotros .section-container .content {  }
-main section#nosotros .heading { display: flex; }
+main section#nosotros .heading { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-items: stretch; }
 main section#nosotros .heading .column { flex: 1 0 0%; }
 main section#nosotros .heading .column.image {  }
-main section#nosotros .heading .column.image img { width: 100%; height: auto; display: block; margin: 0; text-align: start; object-fit: cover; }
+main section#nosotros .heading .column.image img { width: 100%; height: auto; display: block; margin: 0; text-align: start; object-fit: cover; padding-right: 4.5rem; }
 main section#nosotros .heading .column.info {  }
 main section#nosotros .heading .column.info h3 {  }
-main section#nosotros .heading .column.info .text-1 {  }
+main section#nosotros .heading .column.info .text-1 { line-height: 2; }
 main section#nosotros .heading .column.info a.btn {  }
 main section#nosotros .heading .column.info a.btn .arrow {  }
 main section#nosotros .heading .column.info a.btn .arrow img.head {  }
