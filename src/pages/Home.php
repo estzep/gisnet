@@ -115,18 +115,16 @@
                     <img src="src/assets/img/nosotros-img.jpg" alt="Imagen representando a Nosotros">
                 </div>
                 <div class="column info">
-                    <div class="info-content">
-                        <h3>Diseñamos nuestras soluciones a tu medida</h3>
-                        <p class="text-1">
-                            En Gisnet, nos adaptamos a tus necesidades específicas ofreciendo soluciones a medida que destacan por su excelencia. Ya sea, que busques servicios especializados, productos personalizados o asesoramiento experto.
-                        </p>
-                        <a href="nosotros" class="btn-type-2 btn">
-                            Conoce más
-                            <span class="arrow">
-                                <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
-                            </span>
-                        </a>
-                    </div>
+                    <h3>Diseñamos nuestras soluciones a tu medida</h3>
+                    <p class="text-1">
+                        En Gisnet, nos adaptamos a tus necesidades específicas ofreciendo soluciones a medida que destacan por su excelencia. Ya sea, que busques servicios especializados, productos personalizados o asesoramiento experto.
+                    </p>
+                    <a href="nosotros" class="btn-type-2 btn">
+                        Conoce más
+                        <span class="arrow">
+                            <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                        </span>
+                    </a>
                 </div>
             </div>
             <div class="squares-2">
