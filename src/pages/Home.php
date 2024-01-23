@@ -313,7 +313,7 @@
                         </div>
                     </a>
                 </div>
-                <a href="productos/security-scorecard" class="square">
+                <a href="productos/security-scorecard" class="square square-xs">
                     <div class="square-content">
                         <h4>
                             <div class="icon">
@@ -332,7 +332,7 @@
                         </button>
                     </div>
                 </a>
-                <a href="productos/corsight" class="square">
+                <a href="productos/corsight" class="square square-xs">
                     <div class="square-content">
                         <h4>
                             <div class="icon">
@@ -351,7 +351,7 @@
                         </button>
                     </div>
                 </a>
-                <a href="productos/scale-fusion" class="square">
+                <a href="productos/scale-fusion" class="square square-xs">
                     <div class="square-content">
                         <h4>
                             <div class="icon">
@@ -370,7 +370,7 @@
                         </button>
                     </div>
                 </a>
-                <a href="productos/tassta" class="square">
+                <a href="productos/tassta" class="square square-xs">
                     <div class="square-content">
                         <h4>
                             <div class="icon">

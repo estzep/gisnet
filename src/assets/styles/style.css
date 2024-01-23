@@ -179,4 +179,6 @@ main section#productos h2 { text-align: center; color: var(--light-text-color); 
     main section#productos h2 { width: 80%; }
     .squares-3 { gap: 2rem; }
     .squares-3 .square { flex: 0 0 100%; }
+
+    .square-xs { display: none; }
 }
