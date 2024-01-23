@@ -312,7 +312,10 @@
                         </div>
                     </a>
                 </div>
-                <button class="btn-type-4 squares-3-xs" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">Mostrar todos los productos</button>
+                <button class="btn-type-4 squares-3-xs" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">
+                    <span class="f">Mostrar todos los productos</span>
+                    <span class="s">Ocultar</span>
+                </button>
                 <a href="productos/security-scorecard" class="square square-xs">
                     <div class="square-content">
                         <h4>
