@@ -234,7 +234,6 @@
                         </button>
                     </div>
                 </a>
-                <button class="btn-type-4 squares-3-xs" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">Mostrar todos los productos</button>
                 <div id="collapseProductos" class="squares-3 squares-3-xs collapse">
                     <a href="productos/security-scorecard" class="square">
                         <div class="square-content">
@@ -313,6 +312,7 @@
                         </div>
                     </a>
                 </div>
+                <button class="btn-type-4 squares-3-xs" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">Mostrar todos los productos</button>
                 <a href="productos/security-scorecard" class="square square-xs">
                     <div class="square-content">
                         <h4>
