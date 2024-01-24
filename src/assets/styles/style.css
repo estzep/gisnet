@@ -190,6 +190,7 @@ main section#productos h2 { text-align: center; color: var(--light-text-color); 
     main section#nosotros .heading .column.info .text-1 { text-align: justify; }
     .squares-2 .square { flex: 1 0 100%; }
 
+    main section#productos .section-container .content { padding: 5rem 0; }
     main section#productos h2 { width: 80%; }
     .squares-3 { gap: 2rem; }
     .squares-3 .square { flex: 0 0 100%; }
