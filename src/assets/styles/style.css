@@ -186,6 +186,7 @@ main section#productos h2 { text-align: center; color: var(--light-text-color); 
 
     main section#empresa .heading { width: 100%; }
 
+    main section#nosotros .heading .column.info h3 { width: 100%; }
     .squares-2 .square { flex: 1 0 100%; }
 
     main section#productos h2 { width: 80%; }
