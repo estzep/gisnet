@@ -188,7 +188,7 @@
             <div class="tabs">
                 <div class="column info">
                     <ul role="tablist">
-                        <li id="li-servicio1" class="active" data-bs-toggle="pill" data-bs-target="#tab-servicio1" role="tab" aria-controls="tab-servicio1" aria-selected="true">
+                        <li id="li-servicio1" class="active" data-bs-toggle="tab" data-bs-target="#tab-servicio1" aria-selected="true">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Migración de acervos</h6>
@@ -209,7 +209,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-servicio2" data-bs-toggle="pill" data-bs-target="#tab-servicio2" role="tab" aria-controls="tab-servicio2" aria-selected="false">
+                        <li id="li-servicio2" data-bs-toggle="tab" data-bs-target="#tab-servicio2" aria-selected="false">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Implementación de Sistemas</h6>
