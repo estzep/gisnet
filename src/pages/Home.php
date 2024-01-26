@@ -259,16 +259,16 @@
                 </div>
                 <div class="column image tab-content">
                     <div id="tab-servicio1" class="panel tab-pane fade show active" role="tabpanel" aria-labelledby="li-servicio1" tabindex="0">
-                        <img src="/src/assets/img/placeholder.png" alt="Placeholder image">
+                        <img src="src/assets/img/placeholder.png" alt="Placeholder image">
                     </div>
                     <div id="tab-servicio2" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio2" tabindex="0">
-                        <img src="/src/assets/img/placeholder.png" alt="Placeholder image">
+                        <img src="src/assets/img/placeholder.png" alt="Placeholder image">
                     </div>
                     <div id="tab-servicio3" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio3" tabindex="0">
-                        <img src="/src/assets/img/placeholder.png" alt="Placeholder image">
+                        <img src="src/assets/img/placeholder.png" alt="Placeholder image">
                     </div>
                     <div id="tab-servicio4" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio4" tabindex="0">
-                        <img src="/src/assets/img/placeholder.png" alt="Placeholder image">
+                        <img src="src/assets/img/placeholder.png" alt="Placeholder image">
                     </div>
                 </div>
             </div>
