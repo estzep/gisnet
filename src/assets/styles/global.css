@@ -50,6 +50,7 @@
     --text-color: var(--black);
     --text-color-filter: ;
     --light-text-color: var(--white);
+    --light-text-color-filter: invert(100%);
 
     --bg-color: var(--white);
     --dark-bg-color: var(--light-gray);
