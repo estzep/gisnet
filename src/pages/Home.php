@@ -168,27 +168,10 @@
     <div class="section-container container">
         <div class="content">
             <h3>Servicios digitales para tu empresa</h3>
-
-            <!-- <div class="d-flex align-items-start">
-                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <button class="nav-link active" id="li-servicio1" data-bs-toggle="pill" data-bs-target="#tab-servicio1" type="button" role="tab" aria-controls="tab-servicio1" aria-selected="true">Home</button>
-                    <button class="nav-link" id="li-servicio2" data-bs-toggle="pill" data-bs-target="#tab-servicio2" type="button" role="tab" aria-controls="tab-servicio2" aria-selected="false">Profile</button>
-                    <button class="nav-link" id="li-servicio3" data-bs-toggle="pill" data-bs-target="#tab-servicio3" type="button" role="tab" aria-controls="tab-servicio3" aria-selected="false">Disabled</button>
-                    <button class="nav-link" id="li-servicio4" data-bs-toggle="pill" data-bs-target="#tab-servicio4" type="button" role="tab" aria-controls="tab-servicio4" aria-selected="false">Settings</button>
-                </div>
-                <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">...</div>
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
-                    <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">...</div>
-                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
-                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
-                </div>
-            </div> -->
-
             <div class="tabs">
                 <div class="column info">
                     <ul role="tablist">
-                        <li id="li-servicio1" class="active" data-bs-toggle="tab" data-bs-target="#tab-servicio1">
+                        <li id="li-servicio1" class="active" data-bs-toggle="tab" data-bs-target="#tab-servicio1" role="tab" aria-controls="tab-servicio1" aria-selected="true">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Migración de acervos</h6>
@@ -209,7 +192,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-servicio2" data-bs-toggle="tab" data-bs-target="#tab-servicio2">
+                        <li id="li-servicio2" data-bs-toggle="tab" data-bs-target="#tab-servicio2" role="tab" aria-controls="tab-servicio2" aria-selected="false">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Implementación de Sistemas</h6>
@@ -225,12 +208,53 @@
                                 </div>
                                 <div class="body">
                                     <p class="text-3">
-                                        Transformación de documentales a formatos digitales electrónicos, asegurando la preservación y accesibilidad de información valiosa.
+                                        Implementación de Sistemas TEXT
                                     </p>
                                 </div>
                             </div>
                         </li>
-                        <!-- more -->
+                        <li id="li-servicio3" data-bs-toggle="tab" data-bs-target="#tab-servicio3" role="tab" aria-controls="tab-servicio3" aria-selected="false">
+                            <div class="tab-content">
+                                <div class="heading">
+                                    <h6>Limpieza de Datos</h6>
+                                    <a class="more btn-type-5">
+                                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Más" class="head">
+                                    </a>
+                                    <a href="servicios/limpieza-de-datos/" class="link btn-type-5">
+                                        Leer más
+                                        <span class="arrow">
+                                            <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="body">
+                                    <p class="text-3">
+                                        Limpieza de Datos TEXT
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="li-servicio4" data-bs-toggle="tab" data-bs-target="#tab-servicio4" role="tab" aria-controls="tab-servicio4" aria-selected="false">
+                            <div class="tab-content">
+                                <div class="heading">
+                                    <h6>Desarrollo, Soporte y Mantenimiento</h6>
+                                    <a class="more btn-type-5">
+                                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Más" class="head">
+                                    </a>
+                                    <a href="servicios/desarrollo-soporte-mantenimiento/" class="link btn-type-5">
+                                        Leer más
+                                        <span class="arrow">
+                                            <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="body">
+                                    <p class="text-3">
+                                        Desarrollo, Soporte y Mantenimiento TEXT
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
                 <div class="column image">
