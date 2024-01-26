@@ -93,7 +93,7 @@ main section#servicios {  }
 main section#servicios .section-container {  }
 main section#servicios .section-container .content {  }
 main section#servicios h3 {  }
-.tabs { display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; justify-content: space-between; align-items: stretch; }
+.tabs { display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; justify-content: space-between; align-items: stretch; gap: 4rem; }
 .tabs .column { flex: 1 0 0%; position: relative; }
 .tabs .column.info {  }
 .tabs .column.image {  }
