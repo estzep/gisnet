@@ -15,7 +15,7 @@
                 <a href="#empresa" class="btn-type-2 s-btn">
                     Conoce más
                     <span class="arrow">
-                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
                     </span>
                 </a>
             </div>
@@ -122,7 +122,7 @@
                     <a href="nosotros" class="btn-type-2 btn">
                         Conoce más
                         <span class="arrow">
-                            <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                            <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
                         </span>
                     </a>
                 </div>
@@ -167,8 +167,56 @@
 <section id="servicios">
     <div class="section-container container">
         <div class="content">
-            <h2>Section 5</h2>
-            <h4>Servicios</h4>
+            <h3>Servicios digitales para tu empresa</h3>
+
+            <div class="d-flex align-items-start">
+                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+                    <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false" disabled>Disabled</button>
+                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+                    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+                </div>
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">...</div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
+                    <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">...</div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+                </div>
+            </div>
+
+            <div class="tabs">
+                <div class="column info">
+                    <ul>
+                        <li>
+                            <div class="tab-content">
+                                <div class="heading">
+                                    <h6>Migración de acervos</h6>
+                                    <a href="" class="more btn-type-5">
+                                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Más" class="head">
+                                    </a>
+                                    <a href="/servicios/migracion-de-acervos/" class="link btn-type-5">
+                                        Leer más
+                                        <span class="arrow">
+                                            <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="body">
+                                    <p class="text-3">
+                                        Transformación de documentales a formatos digitales electrónicos, asegurando la preservación y accesibilidad de información valiosa.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- more -->
+                    </ul>
+                </div>
+                <div class="column image">
+                    image
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -191,7 +239,7 @@
                         <button type="button" class="btn-type-2">
                             Leer más
                             <span class="arrow">
-                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
                             </span>
                         </button>
                     </div>
@@ -210,7 +258,7 @@
                         <button type="button" class="btn-type-2">
                             Leer más
                             <span class="arrow">
-                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
                             </span>
                         </button>
                     </div>
@@ -229,7 +277,7 @@
                         <button type="button" class="btn-type-2">
                             Leer más
                             <span class="arrow">
-                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
                             </span>
                         </button>
                     </div>
@@ -249,7 +297,7 @@
                             <button type="button" class="btn-type-2">
                                 Leer más
                                 <span class="arrow">
-                                    <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                                    <img src="src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
                                 </span>
                             </button>
                         </div>
@@ -268,7 +316,7 @@
                             <button type="button" class="btn-type-2">
                                 Leer más
                                 <span class="arrow">
-                                    <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                                    <img src="src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
                                 </span>
                             </button>
                         </div>
@@ -287,7 +335,7 @@
                             <button type="button" class="btn-type-2">
                                 Leer más
                                 <span class="arrow">
-                                    <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                                    <img src="src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
                                 </span>
                             </button>
                         </div>
@@ -306,7 +354,7 @@
                             <button type="button" class="btn-type-2">
                                 Leer más
                                 <span class="arrow">
-                                    <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                                    <img src="src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
                                 </span>
                             </button>
                         </div>
@@ -330,7 +378,7 @@
                         <button type="button" class="btn-type-2">
                             Leer más
                             <span class="arrow">
-                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
                             </span>
                         </button>
                     </div>
@@ -349,7 +397,7 @@
                         <button type="button" class="btn-type-2">
                             Leer más
                             <span class="arrow">
-                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
                             </span>
                         </button>
                     </div>
@@ -368,7 +416,7 @@
                         <button type="button" class="btn-type-2">
                             Leer más
                             <span class="arrow">
-                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
                             </span>
                         </button>
                     </div>
@@ -387,7 +435,7 @@
                         <button type="button" class="btn-type-2">
                             Leer más
                             <span class="arrow">
-                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Go to" class="head">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
                             </span>
                         </button>
                     </div>

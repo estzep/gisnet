@@ -48,6 +48,7 @@
     --dark-stroke-color: #D7DCEB;
     
     --text-color: var(--black);
+    --text-color-filter: ;
     --light-text-color: var(--white);
 
     --bg-color: var(--white);
@@ -98,6 +99,13 @@ body { color: var(--text-color); background: var(--darker-pri-color); font-famil
 
 .btn-type-4 { font-size: 1rem; display: inline-block; border: 0; color: var(--white); text-decoration: underline; line-height: 1; padding: 0 .5rem; border-radius: 0; background: transparent; transition: 0.4s; }
 .btn-type-4:hover { color: var(--dark-stroke-color); }
+
+.btn-type-5 { font-size: 1rem; display: inline-block; border: 0; color: var(--text-color); text-decoration: none; line-height: 1; padding: 0; border-radius: 0; background: transparent; }
+/* .btn-type-5:hover { color: var(--pri-color); } */
+.btn-type-5 .arrow { position: relative; display: inline-block; margin-left: .5rem; }
+.btn-type-5 .arrow img { vertical-align: baseline; height: .6rem; width: .6rem; filter: var(--text-color-filter); }
+.btn-type-5 .arrow .head { transition: 0.3s; }
+.btn-type-5:hover .arrow .head { transform: translateX(.2rem) scale(1.1); }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {}
