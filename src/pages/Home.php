@@ -189,14 +189,35 @@
             <div class="tabs">
                 <div class="column info">
                     <ul>
-                        <li>
+                        <li id="li-servicio1" class="active" data-bs-toggle="pill" data-bs-target="#tab-servicio1" role="tab" aria-controls="tab-servicio1" aria-selected="true">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Migración de acervos</h6>
-                                    <a href="" class="more btn-type-5">
+                                    <a class="more btn-type-5">
                                         <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Más" class="head">
                                     </a>
-                                    <a href="/servicios/migracion-de-acervos/" class="link btn-type-5">
+                                    <a href="servicios/migracion-de-acervos/" class="link btn-type-5">
+                                        Leer más
+                                        <span class="arrow">
+                                            <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="body">
+                                    <p class="text-3">
+                                        Transformación de documentales a formatos digitales electrónicos, asegurando la preservación y accesibilidad de información valiosa.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="li-servicio2" class="" data-bs-toggle="pill" data-bs-target="#tab-servicio2" role="tab" aria-controls="tab-servicio2" aria-selected="false">
+                            <div class="tab-content">
+                                <div class="heading">
+                                    <h6>Implementación de Sistemas</h6>
+                                    <a class="more btn-type-5">
+                                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Más" class="head">
+                                    </a>
+                                    <a href="servicios/implementacion-de-sistemas/" class="link btn-type-5">
                                         Leer más
                                         <span class="arrow">
                                             <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
@@ -214,7 +235,18 @@
                     </ul>
                 </div>
                 <div class="column image">
-                    image
+                    <div id="tab-servicio1" class="panel tab-pane fade show active" role="tabpanel" aria-labelledby="li-servicio1" tabindex="0">
+                        imagen de migracion de acevos
+                    </div>
+                    <div id="tab-servicio2" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio2" tabindex="0">
+                        imagen de implementacion de sistemas
+                    </div>
+                    <div id="tab-servicio3" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio3" tabindex="0">
+                        imagen de limpieza de datos
+                    </div>
+                    <div id="tab-servicio4" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio4" tabindex="0">
+                        imagen de desarrollo, soporte y mantenimiento
+                    </div>
                 </div>
             </div>
         </div>
