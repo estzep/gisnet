@@ -176,13 +176,13 @@
                     <button class="nav-link" id="3-servicio3" data-bs-toggle="pill" data-bs-target="#tab-servicio3" type="button" role="tab" aria-controls="tab-servicio3" aria-selected="false">Disabled</button>
                     <button class="nav-link" id="tab-servicio4" data-bs-toggle="pill" data-bs-target="#tab-servicio4" type="button" role="tab" aria-controls="tab-servicio4" aria-selected="false">Settings</button>
                 </div>
-                <div class="tab-content" id="v-pills-tabContent">
+                <!-- <div class="tab-content" id="v-pills-tabContent">
                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">...</div>
                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
                     <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">...</div>
                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
                     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
-                </div>
+                </div> -->
             </div>
 
             <div class="tabs">
@@ -235,16 +235,16 @@
                 </div>
                 <div class="column image">
                     <div id="tab-servicio1" class="panel tab-pane fade show active" role="tabpanel" aria-labelledby="li-servicio1" tabindex="0">
-                        imagen de migracion de acevos
+                        1 imagen de migracion de acevos
                     </div>
                     <div id="tab-servicio2" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio2" tabindex="0">
-                        imagen de implementacion de sistemas
+                        2 imagen de implementacion de sistemas
                     </div>
                     <div id="tab-servicio3" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio3" tabindex="0">
-                        imagen de limpieza de datos
+                        3 imagen de limpieza de datos
                     </div>
                     <div id="tab-servicio4" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio4" tabindex="0">
-                        imagen de desarrollo, soporte y mantenimiento
+                        4 imagen de desarrollo, soporte y mantenimiento
                     </div>
                 </div>
             </div>
