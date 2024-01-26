@@ -102,7 +102,8 @@ main section#servicios h3 {  }
 .tabs .column ul li.active { background: var(--pri-color); color: var(--light-text-color); }
 .tabs .column ul li .tab-content { padding: 1.5rem; }
 .tabs .column ul li .heading { display: flex; }
-.tabs .column ul li .body {  }
+.tabs .column ul li .body { display: grid; grid-template-rows: 0fr; transition: 0.4s; }
+.tabs .column ul li.active .body { grid-template-rows: 1fr; }
 .tabs .column ul li h6 { flex: 1 0 auto; }
 .tabs .column ul li :is(.more, .link) { flex: 0 1 auto; color: var(--text-color); transition: 0.4s; }
 .tabs .column ul li.active :is(.more, .link) { color: var(--light-text-color); }
@@ -110,8 +111,8 @@ main section#servicios h3 {  }
 .tabs .column ul li:not(.active) .link { display: none; }
 .tabs .column ul li.active .more { display: none; }
 .tabs .column ul li.active :is(.more, .link) img { filter: var(--light-text-color-filter); }
-
-.tabs .column ul li .text-3 {  }
+.tabs .column ul li .text-3 { color: var(--text-color); transition: 0.4s; overflow: hidden; }
+.tabs .column ul li.active .text-3 { color: var(--light-text-color); }
 .tabs .column .panel {  }
 .tabs .column .panel.active {  }
 .tabs .column .panel img {  }
