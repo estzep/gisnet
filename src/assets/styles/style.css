@@ -93,13 +93,13 @@ main section#servicios {  }
 main section#servicios .section-container {  }
 main section#servicios .section-container .content {  }
 main section#servicios h3 {  }
-.tabs {  }
-.tabs .column {  }
+.tabs { display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; justify-content: space-between; align-items: stretch; }
+.tabs .column { flex: 1 0 0%; }
 .tabs .column.info {  }
 .tabs .column.image {  }
-.tabs .column ul {  }
-.tabs .column ul li {  }
-.tabs .column ul li.active { background: var(--pri-color); }
+.tabs .column ul { display: flex; flex-direction: column; justify-content: flex-start; align-items: stretch; margin-bottom: 0; padding-left: 0; list-style: none; }
+.tabs .column ul li { flex: 1 0 100%; color: var(--text-color); }
+.tabs .column ul li.active { background: var(--pri-color); color: var(--light-text-color); }
 .tabs .column ul li .tab-content {  }
 .tabs .column ul li .heading {  }
 .tabs .column ul li .body {  }
