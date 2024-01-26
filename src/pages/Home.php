@@ -257,18 +257,18 @@
                         </li>
                     </ul>
                 </div>
-                <div class="column image">
+                <div class="column image tab-content">
                     <div id="tab-servicio1" class="panel tab-pane fade show active" role="tabpanel" aria-labelledby="li-servicio1" tabindex="0">
-                        1 imagen de migracion de acevos
+                        <img src="/src/assets/img/placeholder.png" alt="Placeholder image">
                     </div>
                     <div id="tab-servicio2" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio2" tabindex="0">
-                        2 imagen de implementacion de sistemas
+                        <img src="/src/assets/img/placeholder.png" alt="Placeholder image">
                     </div>
                     <div id="tab-servicio3" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio3" tabindex="0">
-                        3 imagen de limpieza de datos
+                        <img src="/src/assets/img/placeholder.png" alt="Placeholder image">
                     </div>
                     <div id="tab-servicio4" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio4" tabindex="0">
-                        4 imagen de desarrollo, soporte y mantenimiento
+                        <img src="/src/assets/img/placeholder.png" alt="Placeholder image">
                     </div>
                 </div>
             </div>
