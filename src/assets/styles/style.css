@@ -99,7 +99,7 @@ main section#servicios h3 {  }
 .tabs .column.image {  }
 .tabs .column ul {  }
 .tabs .column ul li {  }
-.tabs .column ul li.active {  }
+.tabs .column ul li.active { background: var(--pri-color); }
 .tabs .column ul li .tab-content {  }
 .tabs .column ul li .heading {  }
 .tabs .column ul li .body {  }
