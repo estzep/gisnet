@@ -187,7 +187,7 @@
 
             <div class="tabs">
                 <div class="column info">
-                    <ul>
+                    <ul role="tablist">
                         <li id="li-servicio1" class="nav-link active" type="button" data-bs-toggle="pill" data-bs-target="#tab-servicio1" role="tab" aria-controls="tab-servicio1" aria-selected="true">
                             <div class="tab-content">
                                 <div class="heading">
