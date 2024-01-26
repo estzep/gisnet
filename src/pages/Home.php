@@ -176,7 +176,7 @@
                                 <div class="heading">
                                     <h6>Migración de acervos</h6>
                                     <a class="more btn-type-5">
-                                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Más" class="head">
+                                        <img src="<? echo($path) ?>src/assets/icons/icon-more.svg" alt="Más" class="head">
                                     </a>
                                     <a href="servicios/migracion-de-acervos/" class="link btn-type-5">
                                         Leer más
@@ -197,7 +197,7 @@
                                 <div class="heading">
                                     <h6>Implementación de Sistemas</h6>
                                     <a class="more btn-type-5">
-                                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Más" class="head">
+                                        <img src="<? echo($path) ?>src/assets/icons/icon-more.svg" alt="Más" class="head">
                                     </a>
                                     <a href="servicios/implementacion-de-sistemas/" class="link btn-type-5">
                                         Leer más
@@ -218,7 +218,7 @@
                                 <div class="heading">
                                     <h6>Limpieza de Datos</h6>
                                     <a class="more btn-type-5">
-                                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Más" class="head">
+                                        <img src="<? echo($path) ?>src/assets/icons/icon-more.svg" alt="Más" class="head">
                                     </a>
                                     <a href="servicios/limpieza-de-datos/" class="link btn-type-5">
                                         Leer más
@@ -239,7 +239,7 @@
                                 <div class="heading">
                                     <h6>Desarrollo, Soporte y Mantenimiento</h6>
                                     <a class="more btn-type-5">
-                                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Más" class="head">
+                                        <img src="<? echo($path) ?>src/assets/icons/icon-more.svg" alt="Más" class="head">
                                     </a>
                                     <a href="servicios/desarrollo-soporte-mantenimiento/" class="link btn-type-5">
                                         Leer más
