@@ -106,9 +106,9 @@ main section#servicios h3 { display: block; width: 30%; margin-left: 0; margin-r
 .tabs .column ul li .heading { display: flex; align-items: center; }
 .tabs .column ul li .body { display: grid; grid-template-rows: 0fr; transition: 0.2s; }
 .tabs .column ul li.active .body { grid-template-rows: 1fr; }
-.tabs .column ul li h6 { transition: 0.4s; flex: 1 0 auto; font-size: 1.1rem; margin-bottom: 0; font-weight: 500; color: var(--text-color); }
+.tabs .column ul li h6 { transition: 0.4s; flex: 1 0 0%; font-size: 1.1rem; margin-bottom: 0; font-weight: 500; color: var(--text-color); }
 .tabs .column ul li.active h6 { color: var(--light-text-color); }
-.tabs .column ul li :is(.more, .link) { flex: 0 1 auto; color: var(--text-color); transition: 0.4s; }
+.tabs .column ul li :is(.more, .link) { flex: 0 1 35%; color: var(--text-color); transition: 0.4s; text-align: end; }
 .tabs .column ul li.active :is(.more, .link) { color: var(--light-text-color); font-size: .9rem; }
 .tabs .column ul li :is(.more, .link) img { display: inline-block; width: .7rem; height: .7rem; filter: var(--text-color-filter); transition: 0.4s; }
 .tabs .column ul li:not(.active) .link { display: none; }
@@ -215,6 +215,8 @@ main section#productos h2 { text-align: center; color: var(--light-text-color); 
     .squares .square h4 .icon { height: 2.1rem; }
 
     main section#servicios h3 { width: 75%; }
+    .tabs .column.info { flex: 1 0 100%; }
+    .tabs .column.image { display: none; flex: 1 0 100%; }
 
     main section#productos .section-container .content { padding: 7rem 0; }
     .squares-3 { gap: 1rem; }
@@ -231,6 +233,8 @@ main section#productos h2 { text-align: center; color: var(--light-text-color); 
     main section#nosotros .heading .column.info h3 { width: 100%; }
     main section#nosotros .heading .column.info .text-1 { text-align: justify; }
     .squares-2 .square { flex: 1 0 100%; }
+
+    main section#servicios h3 { width: 100%; }
 
     main section#productos .section-container .content { padding: 5rem 0; }
     main section#productos h2 { width: 80%; }
