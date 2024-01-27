@@ -92,13 +92,13 @@ main section#nosotros .heading .column.info a.btn .arrow img.head {  }
 main section#servicios {  }
 main section#servicios .section-container {  }
 main section#servicios .section-container .content {  }
-main section#servicios h3 {  }
+main section#servicios h3 { display: block; width: 45%; margin-left: 0; margin-right: auto; }
 .tabs { display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; justify-content: space-between; align-items: stretch; gap: 4rem; }
 .tabs .column { flex: 1 0 0%; position: relative; }
 .tabs .column.info {  }
 .tabs .column.image {  }
 .tabs .column ul { display: flex; flex-direction: column; justify-content: flex-start; align-items: stretch; margin-bottom: 0; padding-left: 0; list-style: none; }
-.tabs .column ul li { flex: 1 0 100%; color: var(--text-color); transition: 0.4s; }
+.tabs .column ul li { cursor: pointer; flex: 1 0 100%; color: var(--text-color); transition: 0.4s; }
 .tabs .column ul li.active { background: var(--pri-color); color: var(--light-text-color); }
 .tabs .column ul li .tab-content { padding: 1.5rem; }
 .tabs .column ul li .heading { display: flex; }
