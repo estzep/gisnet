@@ -99,8 +99,8 @@ main section#servicios h3 { display: block; width: 30%; margin-left: 0; margin-r
 .tabs .column.image {  }
 .tabs .column ul { display: flex; flex-direction: column; justify-content: flex-start; align-items: stretch; margin-bottom: 0; padding-left: 0; list-style: none; }
 .tabs .column ul li { cursor: pointer; flex: 1 0 100%; color: var(--text-color); transition: 0.4s; border-bottom: 1px solid var(--stroke-color); }
-.tabs .column ul li:first-child { border-top: 1px solid var(--stroke-color); }
-.tabs .column ul li.active { background: var(--pri-color); color: var(--light-text-color); border: 0; }
+/* .tabs .column ul li:first-child { border-top: 1px solid var(--stroke-color); } */
+.tabs .column ul li.active { background: var(--pri-color); color: var(--light-text-color); }
 .tabs .column ul li .tab-content { padding: 1.8rem; }
 .tabs .column ul li.active .tab-content { padding: 1.5rem; }
 .tabs .column ul li .heading { display: flex; align-items: center; }
