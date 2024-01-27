@@ -86,7 +86,7 @@ main section#nosotros .heading .column.info a.btn .arrow img.head {  }
 .squares-2 { padding-top: 5rem; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; gap: 2rem; align-items: stretch; justify-content: space-between; }
 .squares-2 .square { flex: 1 0 0%; background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 40px 0px rgba(25, 85, 139, 0.03); }
 .squares-2 .square .square-content { padding: 1.5rem; }
-.squares-2 .square h5 { color: var(--pri-color); font-size: 1.7rem; font-weight: 500; line-height: 1.45; margin-bottom: 0; text-align: start; }
+.squares-2 .square h5 { color: var(--pri-color); font-size: 1.7rem; font-weight: 500; line-height: 1.45; margin-bottom: .5rem; text-align: start; }
 .squares-2 .square .text-3 {  }
 
 main section#servicios {  }
@@ -183,8 +183,8 @@ main section#productos h2 { text-align: center; color: var(--light-text-color); 
     .squares-2 .square { flex: 1 0 calc(50% - 2rem); }
 
     main section#servicios h3 { width: 50%; }
-    .tabs .column.info { flex: 1 0 calc(70% - 2rem); }
-    .tabs .column.image { flex: 1 0 calc(30% - 2rem); }
+    /* .tabs .column.info { flex: 1 0 calc(70% - 2rem); }
+    .tabs .column.image { flex: 1 0 calc(30% - 2rem); } */
 
     main section#productos h2 { width: 75%; }
     .squares-3 .square { flex: 0 0 calc(100% / 2 - 2rem); }
@@ -214,9 +214,12 @@ main section#productos h2 { text-align: center; color: var(--light-text-color); 
     .squares .square h4 { margin-bottom: 1rem; }
     .squares .square h4 .icon { height: 2.1rem; }
 
+    .squares-2 .square h5 { font-size: 1.5rem; }
+
+    main section#servicios .section-container .content { padding-top: 4rem; }
     main section#servicios h3 { width: 75%; }
     .tabs .column.info { flex: 1 0 100%; }
-    .tabs .column.image { display: none; flex: 1 0 100%; }
+    .tabs .column.image { display: none; }
 
     main section#productos .section-container .content { padding: 7rem 0; }
     .squares-3 { gap: 1rem; }
@@ -225,6 +228,8 @@ main section#productos h2 { text-align: center; color: var(--light-text-color); 
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    main :is(header, section) h3 { font-size: 1.8rem; }
+
     :root { --n-logos: 2; }
     .slider .track .item { padding: 0.2rem; }
 
