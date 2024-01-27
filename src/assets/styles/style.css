@@ -101,7 +101,7 @@ main section#servicios h3 { display: block; width: 30%; margin-left: 0; margin-r
 .tabs .column ul li { cursor: pointer; flex: 1 0 100%; color: var(--text-color); transition: 0.4s; border-bottom: 1px solid var(--stroke-color); }
 /* .tabs .column ul li:first-child { border-top: 1px solid var(--stroke-color); } */
 .tabs .column ul li.active { background: var(--pri-color); color: var(--light-text-color); }
-.tabs .column ul li .tab-content { padding: 1.8rem; }
+.tabs .column ul li .tab-content { padding: 1.8rem 1.5rem; }
 .tabs .column ul li.active .tab-content { padding: 1.5rem; }
 .tabs .column ul li .heading { display: flex; align-items: center; }
 .tabs .column ul li .body { display: grid; grid-template-rows: 0fr; transition: 0.2s; }
@@ -183,6 +183,8 @@ main section#productos h2 { text-align: center; color: var(--light-text-color); 
     .squares-2 .square { flex: 1 0 calc(50% - 2rem); }
 
     main section#servicios h3 { width: 50%; }
+    .tabs .column.info { flex: 1 0 calc(70% - 2rem); }
+    .tabs .column.image { flex: 1 0 calc(30% - 2rem); }
 
     main section#productos h2 { width: 75%; }
     .squares-3 .square { flex: 0 0 calc(100% / 2 - 2rem); }
