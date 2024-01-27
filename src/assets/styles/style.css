@@ -92,7 +92,7 @@ main section#nosotros .heading .column.info a.btn .arrow img.head {  }
 main section#servicios {  }
 main section#servicios .section-container {  }
 main section#servicios .section-container .content {  }
-main section#servicios h3 { display: block; width: 45%; margin-left: 0; margin-right: auto; }
+main section#servicios h3 { display: block; width: 30%; margin-left: 0; margin-right: auto; margin-bottom: 2.5rem; }
 .tabs { display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; justify-content: space-between; align-items: stretch; gap: 4rem; }
 .tabs .column { flex: 1 0 0%; position: relative; }
 .tabs .column.info {  }
@@ -104,10 +104,10 @@ main section#servicios h3 { display: block; width: 45%; margin-left: 0; margin-r
 .tabs .column ul li .heading { display: flex; }
 .tabs .column ul li .body { display: grid; grid-template-rows: 0fr; transition: 0.4s; }
 .tabs .column ul li.active .body { grid-template-rows: 1fr; }
-.tabs .column ul li h6 { flex: 1 0 auto; }
+.tabs .column ul li h6 { flex: 1 0 auto; font-size: 1.2rem; margin-bottom: .6rem; font-weight: 500; }
 .tabs .column ul li :is(.more, .link) { flex: 0 1 auto; color: var(--text-color); transition: 0.4s; }
 .tabs .column ul li.active :is(.more, .link) { color: var(--light-text-color); }
-.tabs .column ul li :is(.more, .link) img { display: inline-block; width: 1rem; height: 1rem; filter: var(--text-color-filter); transition: 0.4s; }
+.tabs .column ul li :is(.more, .link) img { display: inline-block; width: .9rem; height: .9rem; filter: var(--text-color-filter); transition: 0.4s; vertical-align: bottom; }
 .tabs .column ul li:not(.active) .link { display: none; }
 .tabs .column ul li.active .more { display: none; }
 .tabs .column ul li.active :is(.more, .link) img { filter: var(--light-text-color-filter); }
