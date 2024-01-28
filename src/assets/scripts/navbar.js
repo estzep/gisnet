@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function() {
         mainPadding();
         closeNav();
     });
-    
-    var navbarCollapse = document.querySelector(".g-navbar-collapse.show");
+
     window.addEventListener("click", function(event) {
+        var navbarCollapse = document.querySelector(".g-navbar-collapse.show");
         if (!navbarCollapse.contains(event.target)) {
             closeAccordions();
         }
