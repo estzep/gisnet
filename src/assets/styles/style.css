@@ -145,8 +145,8 @@ main section#socios {  }
 main section#socios .section-container {  }
 main section#socios .section-container .content { display: flex; }
 main section#socios .column {  }
-main section#socios .column.heading { flex: 1 1 55%; }
-.carousel { flex: 1 1 45%; }
+main section#socios .column.heading { flex: 1 1 45%; }
+.carousel { flex: 1 1 55%; }
 .carousel .inner { display: flex; flex-wrap: wrap; flex-direction: row; align-items: stretch; justify-content: space-between; align-content: flex-start; }
 .carousel .item {  }
 .carousel .item .img {  }
