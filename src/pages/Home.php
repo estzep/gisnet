@@ -208,7 +208,7 @@
                                 </div>
                                 <div class="body">
                                     <p class="text-3">
-                                        Implementación de Sistemas TEXT
+                                        Desarrollo de sistemas Registrales, Catastrales y de Gestión Documental, optimizando procesos y mejorando la eficiencia operativa.
                                     </p>
                                 </div>
                             </div>
@@ -229,7 +229,7 @@
                                 </div>
                                 <div class="body">
                                     <p class="text-3">
-                                        Limpieza de Datos TEXT
+                                        Depuración y saneamiento de bases de datos, eliminando inexactitudes para garantizar la precisión y fiabilidad de la información.
                                     </p>
                                 </div>
                             </div>
@@ -250,7 +250,7 @@
                                 </div>
                                 <div class="body">
                                     <p class="text-3">
-                                        Desarrollo, Soporte y Mantenimiento TEXT
+                                        Servicios continuos para los sistemas instalados, asegurando su óptimo funcionamiento y actualización constante.
                                     </p>
                                 </div>
                             </div>
