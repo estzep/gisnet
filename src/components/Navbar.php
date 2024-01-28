@@ -28,7 +28,7 @@
                                 Servicios <img src="<? echo($path) ?>src/assets/icons/icon-chevron.svg" alt="Chevron icon" class="icon">
                             </a>
                         </li>
-                        <div id="collapseNavbarServicios" class="accordion-collapse servicios collapse navbar-collapse" data-bs-parent="#accordionLinks">
+                        <div id="collapseNavbarServicios" class="accordion-collapse servicios collapse g-navbar-collapse" data-bs-parent="#accordionLinks">
                             <ul class="dropdown">
                                 <li class="dropdown-item">
                                     <a href="<? echo($path) ?>servicios/migracion-de-acervos">
@@ -81,7 +81,7 @@
                                 Productos <img src="<? echo($path) ?>src/assets/icons/icon-chevron.svg" alt="Chevron icon" class="icon">
                             </a>
                         </li>
-                        <div id="collapseNavbarProductos" class="accordion-collapse productos collapse navbar-collapse" data-bs-parent="#accordionLinks">
+                        <div id="collapseNavbarProductos" class="accordion-collapse productos collapse g-navbar-collapse" data-bs-parent="#accordionLinks">
                             <ul class="dropdown">
                                 <li class="dropdown-item">
                                     <a href="<? echo($path) ?>productos/panini">

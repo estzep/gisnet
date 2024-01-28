@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         closeNav();
     });
     
-    var navbarCollapse = document.querySelectorAll(".navbar-collapse.show");
+    var navbarCollapse = document.querySelector(".g-navbar-collapse.show");
     window.addEventListener("click", function(event) {
         if (!navbarCollapse.contains(event.target)) {
             closeAccordions();
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function closeAccordions() {
-    const accordions = document.querySelectorAll('.navbar-collapse');
+    const accordions = document.querySelectorAll('.g-navbar-collapse');
     accordions.forEach(accordion => new bootstrap.Collapse(accordion, { toggle: false }).hide());
     // const close = [...accordions].map(accordion => new bootstrap.Collapse(accordion).hide());
 
