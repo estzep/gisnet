@@ -2,9 +2,6 @@ document.addEventListener("DOMContentLoaded", function() {
     function mainPadding() {
         var navbar = document.getElementsByTagName("nav")[0];
         var navbarHeight = navbar.offsetHeight;
-
-        var navbarCollapse = document.querySelectorAll(".navbar-collapse.show");
-        
         document.documentElement.style.setProperty('--navbar-height', navbarHeight + "px");
     }
     
@@ -15,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         closeNav();
     });
     
+    var navbarCollapse = document.querySelectorAll(".navbar-collapse.show");
     window.addEventListener("click", function(event) {
         if (!navbarCollapse.contains(event.target)) {
             closeAccordions();
