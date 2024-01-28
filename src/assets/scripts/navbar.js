@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var navbar = document.getElementsByTagName("nav")[0];
         var navbarHeight = navbar.offsetHeight;
 
-        // var dropdowns = document.querySelectorAll(".accordion-collapse");
+        // var accordions = document.querySelectorAll(".accordion-collapse");
         
         document.documentElement.style.setProperty('--navbar-height', navbarHeight + "px");
     }
@@ -22,9 +22,12 @@ document.addEventListener("DOMContentLoaded", function() {
     // });
 });
 
-function closeAccordion() {
-    const collapseElementList = document.querySelectorAll('.collapse')
-    const collapseList = [...collapseElementList].map(collapseEl => new bootstrap.Collapse(collapseEl))
+function closeAccordions() {
+    const accordions = document.querySelectorAll('.accordion-collapse');
+    // const bsCollapse = new bootstrap.Collapse('#myCollapse', {
+    //     toggle: false
+    //   })
+    [...accordions].map(accordion => new bootstrap.Collapse(accordion, { toggle: false }));
 
     // var accordionToggler = document.getElementsByClassName("accordion-toggler");
     // var accordionCollapse = document.getElementsByClassName("accordion-collapse");
@@ -44,7 +47,7 @@ function closeNav() {
     var navbar = document.getElementsByTagName("nav")[0];
     html.classList.remove("overflow-y-hidden");
     navbar.classList.remove("open");
-    closeAccordion();
+    closeAccordions();
 }
 
 function openNav() {
