@@ -144,10 +144,10 @@ main section#productos h2 { text-align: center; color: var(--light-text-color); 
 main section#socios {  }
 main section#socios .section-container {  }
 main section#socios .section-container .content { display: flex; }
-main section#socios .column { flex: 1 0 auto; }
-main section#socios .column.heading {  }
-.carousel {  }
-.carousel .inner { display: flex; }
+main section#socios .column {  }
+main section#socios .column.heading { flex: 1 1 55%; }
+.carousel { flex: 1 1 45%; }
+.carousel .inner { display: flex; flex-wrap: wrap; flex-direction: row; align-items: stretch; justify-content: space-between; align-content: flex-start; }
 .carousel .item {  }
 .carousel .item .img {  }
 .carousel .item .img img {  }
