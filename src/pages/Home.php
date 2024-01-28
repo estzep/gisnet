@@ -502,8 +502,26 @@
 <section id="socios">
     <div class="section-container container">
         <div class="content">
-            <h2>Section 7</h2>
-            <h4>Socios</h4>
+            <div class="column heading">
+                <h2>Nuestros socios estratégicos</h2>
+                <p class="text-1">
+                    Contamos con socios estratégicos de primer nivel para poder brindar el servicio de la más alta calidad a nuestros clientes.
+                </p>
+            </div>
+            <div class="column carousel">
+                <!-- <div class="controls"></div> -->
+                <div class="inner">
+                    <div class="item">
+                        <div class="img">
+                            <img src="" alt="Logo Dell">
+                        </div>
+                        <h6>Dell</h6>
+                        <p class="text-3">
+                            Proovedor de equipo de cómputo como monitores y hardware computacional.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

@@ -141,6 +141,19 @@ main section#productos h2 { text-align: center; color: var(--light-text-color); 
 .squares-3-xs[aria-expanded="true"] .f { display: none; }
 .squares-3-xs[aria-expanded="false"] .s { display: none; }
 
+main section#socios {  }
+main section#socios .section-container {  }
+main section#socios .section-container .content { display: flex; }
+main section#socios .column { flex: 1 0 auto; }
+main section#socios .column.heading {  }
+.carousel {  }
+.carousel .inner { display: flex; }
+.carousel .item {  }
+.carousel .item .img {  }
+.carousel .item .img img {  }
+.carousel .item h6 {  }
+.carousel .item .text-3 {  }
+
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
