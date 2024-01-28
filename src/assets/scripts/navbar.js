@@ -13,18 +13,19 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     window.addEventListener("click", function(event) {
-        var navbarCollapse = document.querySelector(".g-navbar-collapse.show");
-        if (!navbarCollapse.contains(event.target)) {
-            closeAccordions();
-        }
+        try {
+            var navbarCollapse = document.querySelector(".g-navbar-collapse.show");
+            if (!navbarCollapse.contains(event.target)) {
+                closeAccordions();
+            }
+        } catch (error) {}
     });
 });
 
 function closeAccordions() {
     const accordions = document.querySelectorAll('.g-navbar-collapse');
     accordions.forEach(accordion => new bootstrap.Collapse(accordion, { toggle: false }).hide());
-    // const close = [...accordions].map(accordion => new bootstrap.Collapse(accordion).hide());
-
+    
     // var accordionToggler = document.getElementsByClassName("accordion-toggler");
     // var accordionCollapse = document.getElementsByClassName("accordion-collapse");
     // for (var i = 0; i < accordionToggler.length; i++) {
