@@ -33,7 +33,7 @@
                 Lo sentimos, la página no fue encontrada.
             </p>
             <div class="links">
-                <a href="<? echo($path) ?>/" class="btn-type-1 f-btn">
+                <a href="<? echo($path) ?>" class="btn-type-1 f-btn">
                     Regresar a inicio
                 </a>
             </div>
