@@ -34,6 +34,8 @@ main header .links a.f-btn {  }
 main header .links a.f-btn.desktop {  }
 main header .links a.f-btn.mobile { display: none; }
 main header .links a.s-btn {  }
+main header.error h1 { font-size: 5.5rem; margin-bottom: 0; }
+main header.error .text-1 { font-size: 1.9rem; }
 
 main section {  }
 main section .section-container {  }
