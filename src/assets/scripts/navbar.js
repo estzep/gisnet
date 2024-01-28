@@ -27,7 +27,7 @@ function closeAccordions() {
     // const bsCollapse = new bootstrap.Collapse('#myCollapse', {
     //     toggle: false
     //   })
-    accordions.forEach(accordion => new bootstrap.Collapse(accordion).hide());
+    accordions.forEach(accordion => new bootstrap.Collapse(accordion, { toggle: false }).hide());
     // const close = [...accordions].map(accordion => new bootstrap.Collapse(accordion).hide());
 
     // var accordionToggler = document.getElementsByClassName("accordion-toggler");
