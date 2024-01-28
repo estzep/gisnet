@@ -503,7 +503,7 @@
     <div class="section-container container">
         <div class="content">
             <div class="column heading">
-                <h2>Nuestros socios estratégicos</h2>
+                <h3>Nuestros socios estratégicos</h3>
                 <p class="text-1">
                     Contamos con socios estratégicos de primer nivel para poder brindar el servicio de la más alta calidad a nuestros clientes.
                 </p>
