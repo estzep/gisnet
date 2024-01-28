@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var navbar = document.getElementsByTagName("nav")[0];
         var navbarHeight = navbar.offsetHeight;
 
-        // var accordions = document.querySelectorAll(".accordion-collapse");
+        var navbarCollapse = document.querySelectorAll(".navbar-collapse.show");
         
         document.documentElement.style.setProperty('--navbar-height', navbarHeight + "px");
     }
@@ -15,18 +15,15 @@ document.addEventListener("DOMContentLoaded", function() {
         closeNav();
     });
     
-    // window.addEventListener("click", function(event) {
-    //     if (!dropdown.contains(event.target)) {
-    //         closeAccordions();
-    //     }
-    // });
+    window.addEventListener("click", function(event) {
+        if (!navbarCollapse.contains(event.target)) {
+            closeAccordions();
+        }
+    });
 });
 
 function closeAccordions() {
-    const accordions = document.querySelectorAll('.accordion-collapse');
-    // const bsCollapse = new bootstrap.Collapse('#myCollapse', {
-    //     toggle: false
-    //   })
+    const accordions = document.querySelectorAll('.navbar-collapse');
     accordions.forEach(accordion => new bootstrap.Collapse(accordion, { toggle: false }).hide());
     // const close = [...accordions].map(accordion => new bootstrap.Collapse(accordion).hide());
 
