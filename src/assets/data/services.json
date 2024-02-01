@@ -1,0 +1,14 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "servicename": "migracion-de-acervos",
+            "name": "Migración de Acervos"
+        },
+        {
+            "id": 2,
+            "servicename": "implementacion-de-sistemas",
+            "name": "Implementación de Sistemas"
+        }
+    ]
+}

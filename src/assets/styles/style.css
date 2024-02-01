@@ -29,11 +29,11 @@ main header { background: url('../img/bg-right.png'), var(--bg-color); backgroun
 main header .container {  }
 main header .container .content { padding: 10rem 0; width: 55%; margin: 0 auto 0 0; }
 main header .links { display: flex; flex-wrap: wrap; align-content: center; justify-content: flex-start; align-items: center; gap: 1.2rem; }
-main header .links :is(a.f-btn, a.s-btn) { text-align: center; font-size: .9rem; font-weight: 400; line-height: 2; padding: .8rem 1.2rem; }
-main header .links a.f-btn {  }
-main header .links a.f-btn.desktop {  }
-main header .links a.f-btn.mobile { display: none; }
-main header .links a.s-btn {  }
+main header :is(a.f-btn, a.s-btn) { text-align: center; font-size: .9rem; font-weight: 400; line-height: 2; padding: .8rem 1.2rem; }
+main header a.f-btn {  }
+main header a.f-btn.desktop {  }
+main header a.f-btn.mobile { display: none; }
+main header a.s-btn {  }
 main header.error h1 { font-size: 5.5rem; margin-bottom: 0; }
 main header.error .text-1 { font-size: 1.9rem; }
 
@@ -147,8 +147,8 @@ main section#socios .section-container .content { display: flex; }
 main section#socios h3 {  }
 main section#socios .text-1 { line-height: 2; }
 main section#socios .column {  }
-main section#socios .column.heading { flex: 1 1 30%; }
-.carousel { flex: 1 1 70%; }
+main section#socios .column.heading { flex: 1 1 35%; padding-right: 3rem; }
+.carousel { flex: 1 1 65%; }
 .carousel .inner { display: flex; flex-wrap: wrap; flex-direction: row; align-items: stretch; justify-content: space-between; align-content: flex-start; }
 .carousel .item {  }
 .carousel .item .img {  }
