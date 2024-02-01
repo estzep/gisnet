@@ -1,15 +1,15 @@
 <?php
-    $title = "Testing test";
-    $description = "This is a testing description.";
+    $titleSP = "Testing test";
+    $descriptionSP = "This is a testing description.";
 ?>
 
 <header>
     <div class="container">
         <div class="content">
             <div class="info">
-                <h1><? echo $title ?></h1>
+                <h1><? echo $titleSP ?></h1>
                 <p class="text-1">
-                    <? echo $description ?>
+                    <? echo $descriptionSP ?>
                 </p>
                 <a href="<? echo $path ?>/contacto" class="btn-type-1 f-btn">
                     Quiero comenzar
