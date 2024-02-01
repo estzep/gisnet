@@ -1,23 +1,25 @@
 <header id="inicio">
     <div class="container">
         <div class="content">
-            <h1>Líderes en soluciones y consultorías especializadas</h1>
-            <p class="text-1">
-                20 años de experiencia innovando en el sector gubernamental y financiero
-            </p>
-            <div class="links">
-                <a href="contacto" class="btn-type-1 f-btn desktop">
-                    Hablas con nosotros
-                </a>
-                <a href="contacto" class="btn-type-1 f-btn mobile">
-                    Contactanos
-                </a>
-                <a href="#empresa" class="btn-type-2 s-btn">
-                    Conoce más
-                    <span class="arrow">
-                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
-                    </span>
-                </a>
+            <div class="info">
+                <h1>Líderes en soluciones y consultorías especializadas</h1>
+                <p class="text-1">
+                    20 años de experiencia innovando en el sector gubernamental y financiero
+                </p>
+                <div class="links">
+                    <a href="contacto" class="btn-type-1 f-btn desktop">
+                        Hablas con nosotros
+                    </a>
+                    <a href="contacto" class="btn-type-1 f-btn mobile">
+                        Contactanos
+                    </a>
+                    <a href="#empresa" class="btn-type-2 s-btn">
+                        Conoce más
+                        <span class="arrow">
+                            <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
+                        </span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
