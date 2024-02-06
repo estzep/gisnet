@@ -160,7 +160,7 @@ main section#socios .column.heading { flex: 1 1 35%; padding-right: 3rem; }
 .carousel .inner { display: flex; flex-wrap: nowrap; flex-direction: row; align-items: stretch; justify-content: flex-start; overflow-x: auto; gap: 1.5rem; }
 .carousel .item { background: var(--bg-color); flex: 0 0 calc(100% / 3); border: 1px solid var(--stroke-color); padding: 1rem; }
 .carousel .item .img {  }
-.carousel .item .img img { width: 2rem; height: auto; display: block; margin: 0; padding: 1rem; }
+.carousel .item .img img { width: 4rem; height: auto; display: block; margin: 0; padding: .6rem; }
 .carousel .item .img img.dell { background: red; }
 .carousel .item h6 {  }
 .carousel .item .text-3 {  }
