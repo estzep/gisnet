@@ -91,7 +91,7 @@ main section#productos .section-container {  }
 main section#productos .section-container .content { padding: 10rem 0; }
 main section#productos h2 { text-align: center; color: var(--light-text-color); width: 40%; margin-left: auto; margin-right: auto; }
 
-main section#socios {  }
+main section#socios { background: var(--darker-bg-color); }
 main section#socios .section-container {  }
 main section#socios .section-container .content { display: flex; }
 main section#socios h3 {  }
@@ -156,9 +156,9 @@ main section#socios .column.heading { flex: 1 1 35%; padding-right: 3rem; }
 .squares-3-xs[aria-expanded="true"] .f { display: none; }
 .squares-3-xs[aria-expanded="false"] .s { display: none; }
 
-.carousel { flex: 1 1 65%; }
-.carousel .inner { display: flex; flex-wrap: wrap; flex-direction: row; align-items: stretch; justify-content: space-between; align-content: flex-start; }
-.carousel .item { flex: 0 0 calc(100% / 3); }
+.carousel { flex: 1 1 65%; position: relative; }
+.carousel .inner { display: flex; flex-wrap: nowrap; flex-direction: row; align-items: stretch; justify-content: flex-start; overflow-x: auto; }
+.carousel .item { background: var(--bg-color); flex: 0 0 calc(100% / 3); border: 1px solid var(--stroke-color); padding: 1rem; }
 .carousel .item .img {  }
 .carousel .item .img img {  }
 .carousel .item h6 {  }
