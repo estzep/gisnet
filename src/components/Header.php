@@ -1,15 +1,16 @@
 <?php
-    $titleSP = "Testing test";
-    $descriptionSP = "This is a testing description.";
+    $base = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
+    $segments = count(array_filter(explode('/', $base)));
+    $path = str_repeat('../', $segments);
 ?>
 
 <header>
     <div class="container">
         <div class="content">
             <div class="info">
-                <h1><? echo $titleSP ?></h1>
+                <h1><? echo $headerTitle ?></h1>
                 <p class="text-1">
-                    <? echo $descriptionSP ?>
+                    <? echo $headerDescription ?>
                 </p>
                 <a href="<? echo $path ?>/contacto" class="btn-type-1 f-btn">
                     Quiero comenzar
