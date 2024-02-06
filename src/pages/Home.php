@@ -515,7 +515,7 @@
                 <div class="inner">
                     <div class="item">
                         <div class="img">
-                            <img src="" alt="Logo Dell">
+                            <img src="src/assets/img/logos/dell.svg" alt="Logo Dell" class="dell">
                         </div>
                         <h6>Dell</h6>
                         <p class="text-3">
