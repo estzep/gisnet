@@ -1,5 +1,7 @@
 <?php
-    if ($path == "") { $path = ''; }
+    $base = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
+    $segments = count(array_filter(explode('/', $base)));
+    $path = str_repeat('../', $segments);
 ?>
 <?php include($path."src/components/Navbar.php");?>
 <main>

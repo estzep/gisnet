@@ -3,7 +3,15 @@
         {
             "id": 1,
             "servicename": "migracion-de-acervos",
-            "name": "Migración de Acervos"
+            "headerTitle": "Migración de Acervos",
+            "headerDescription": "",
+            "headerImg": "",
+            "clientesTitle": "",
+            "clientesDescription": "",
+            "clientes": [
+                "bbva",
+                "dn"
+            ]
         },
         {
             "id": 2,
