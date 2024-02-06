@@ -522,6 +522,42 @@
                             Proovedor de equipo de cómputo como monitores y hardware computacional.
                         </p>
                     </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="" alt="Logo Dell">
+                        </div>
+                        <h6>Dell</h6>
+                        <p class="text-3">
+                            Proovedor de equipo de cómputo como monitores y hardware computacional.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="" alt="Logo Dell">
+                        </div>
+                        <h6>Dell</h6>
+                        <p class="text-3">
+                            Proovedor de equipo de cómputo como monitores y hardware computacional.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="" alt="Logo Dell">
+                        </div>
+                        <h6>Dell</h6>
+                        <p class="text-3">
+                            Proovedor de equipo de cómputo como monitores y hardware computacional.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="" alt="Logo Dell">
+                        </div>
+                        <h6>Dell</h6>
+                        <p class="text-3">
+                            Proovedor de equipo de cómputo como monitores y hardware computacional.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

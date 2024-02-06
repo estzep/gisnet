@@ -158,7 +158,7 @@ main section#socios .column.heading { flex: 1 1 35%; padding-right: 3rem; }
 
 .carousel { flex: 1 1 65%; }
 .carousel .inner { display: flex; flex-wrap: wrap; flex-direction: row; align-items: stretch; justify-content: space-between; align-content: flex-start; }
-.carousel .item {  }
+.carousel .item { flex: 0 0 calc(100% / 3); }
 .carousel .item .img {  }
 .carousel .item .img img {  }
 .carousel .item h6 {  }
