@@ -2,9 +2,6 @@
     $base = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
-    
-    $clientsTitle = "Testing test";
-    $clientsDescription = "This is a testing description.";
 ?>
 <section>
     <div class="container">

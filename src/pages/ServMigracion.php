@@ -5,18 +5,32 @@
     
     $data = json_decode($jsonString);$jsonString = file_get_contents($path.'src/assets/data/services.json');
     $data = json_decode($jsonString, true);
-    
-    if ($data === null) {
-        echo 'Error decoding JSON: ' . json_last_error_msg();
-        $headerTitle = "Error";
-    } else {
-        echo $data->key;
-        $headerTitle = "Migración de acervos";
+
+    $servicename = "migracion-de-acervos";
+
+    foreach ($data['services'] as $service) {
+        if ($service['servicename'] === $servicename) {
+            $headerTitle = $service['headerTitle'];
+            $headerDescription = $service['headerDescription'];
+            $headerImg = $service['headerImg'];
+            $clientsTitle = $service['clientsTitle'];
+            $clientsDescription = $service['clientsDescription'];
+            $clients = $service['clients'];
+
+            // echo "Header Title: $headerTitle<br>";
+            // echo "Header Description: $headerDescription<br>";
+            // echo "Header Image: $headerImg<br>";
+            // echo "Clients Title: $clientsTitle<br>";
+            // echo "Clients Description: $clientsDescription<br>";
+            // echo "Clients: " . implode(', ', $clients) . "<br>";
+
+            break;
+        }
     }
 ?>
 <?
-    $headerTitle = "Migración de acervos";
-    $headerDescription = "El proceso de transferir datos, documentos, imágenes y registros de un formato o sistema de almacenamiento a otro, más moderno y accesible.";
+    // $headerTitle = "Migración de acervos";
+    // $headerDescription = "El proceso de transferir datos, documentos, imágenes y registros de un formato o sistema de almacenamiento a otro, más moderno y accesible.";
     include($path.'src/components/Header.php');
 ?>
 <? include($path.'src/components/Clients.php'); ?>
