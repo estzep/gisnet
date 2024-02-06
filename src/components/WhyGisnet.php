@@ -3,7 +3,7 @@
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
 ?>
-<section>
+<section id="">
     <div class="container">
         <div class="content">
             <h3>¿Por qué Gisnet?</h3>
