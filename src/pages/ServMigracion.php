@@ -28,11 +28,7 @@
         }
     }
 ?>
-<?
-    // $headerTitle = "Migración de acervos";
-    // $headerDescription = "El proceso de transferir datos, documentos, imágenes y registros de un formato o sistema de almacenamiento a otro, más moderno y accesible.";
-    include($path.'src/components/Header.php');
-?>
+<? include($path.'src/components/Header.php'); ?>
 <? include($path.'src/components/Clients.php'); ?>
 <section>
     <div class="container">
