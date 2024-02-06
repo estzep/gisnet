@@ -524,20 +524,20 @@
                     </div>
                     <div class="item">
                         <div class="img">
-                            <img src="" alt="Logo Dell">
+                            <img src="src/assets/img/logos/couchbase.svg" alt="Logo Dell" class="couchbase">
                         </div>
-                        <h6>Dell</h6>
+                        <h6>Couchbase</h6>
                         <p class="text-3">
-                            Proovedor de equipo de cómputo como monitores y hardware computacional.
+                            Base de datos NoSQL para aplicaciones de nube, IA e informática de Edge.
                         </p>
                     </div>
                     <div class="item">
                         <div class="img">
-                            <img src="" alt="Logo Dell">
+                            <img src="src/assets/img/logos/panini.svg" alt="Logo Dell" class="panini">
                         </div>
                         <h6>Dell</h6>
                         <p class="text-3">
-                            Proovedor de equipo de cómputo como monitores y hardware computacional.
+                            Apoyo en la identidad universal para la interacción con el cliente en presencia.
                         </p>
                     </div>
                     <div class="item">
