@@ -223,6 +223,9 @@ main section#socios .column.carousel { flex: 1 1 65%; width: 65%; z-index: 4; }
 
     main section#productos h2 { width: 75%; }
 
+    main section#socios .column.heading { flex: 1 1 45%; width: 45%; padding-right: 1rem; }
+    main section#socios .column.carousel { flex: 1 1 55%; width: 55%; }
+
     :root { --n-logos: 3; }
 
     .squares-1 { gap: 2rem; }
@@ -234,6 +237,8 @@ main section#socios .column.carousel { flex: 1 1 65%; width: 65%; z-index: 4; }
     .tabs .column.image { flex: 1 0 calc(30% - 2rem); } */
 
     .squares-3 .square { flex: 0 0 calc(100% / 2 - 2rem); }
+
+    .carousel .item { flex: 0 0 50%; }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -301,12 +306,9 @@ main section#socios .column.carousel { flex: 1 1 65%; width: 65%; z-index: 4; }
     .square-xs { display: none; }
 }
 
-/* main section#socios .column.heading { flex: 1 1 45%; width: 45%; padding-right: 1rem; }
-main section#socios .column.carousel { flex: 1 1 55%; width: 55%; }
 
-.carousel .item { flex: 0 0 50%; }
 
-main section#socios {  }
+/* main section#socios {  }
 main section#socios .section-container {  }
 main section#socios .section-container .content { padding: 6.5rem 0 8rem 0; display: flex; }
 main section#socios h3 {  }
