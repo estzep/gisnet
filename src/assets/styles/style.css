@@ -97,7 +97,7 @@ main section#socios .section-container .content { padding: 6.5rem 0 10rem 0; dis
 main section#socios h3 {  }
 main section#socios .text-1 { line-height: 2; }
 main section#socios .column {  }
-main section#socios .column.heading { flex: 1 1 35%; padding-right: 3rem; }
+main section#socios .column.heading { flex: 1 1 35%; padding-right: 3rem; box-shadow: 0px 0px 50px 10px #FFFFFF }
 
 .squares-1 { padding-top: 2rem; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: space-between; align-content: flex-start; gap: 3rem; }
 .squares-1 .square { flex: 1 0 0%; background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 40px 0 rgba(25, 85, 139, 0.03); }
@@ -297,3 +297,5 @@ main section#socios .column.heading { flex: 1 1 35%; padding-right: 3rem; }
     .squares-3 .square { flex: 0 0 100%; }
     .square-xs { display: none; }
 }
+
+/* .x { background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 43.14%, #FFF 87.25%); } */
