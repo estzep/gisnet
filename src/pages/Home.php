@@ -542,7 +542,7 @@
                     </div>
                     <div class="item">
                         <div class="img">
-                            <img src="" alt="Logo Dell">
+                            <img src="src/assets/img/logos/panini.svg" alt="Logo Dell" class="dell">
                         </div>
                         <h6>Dell</h6>
                         <p class="text-3">
@@ -551,7 +551,7 @@
                     </div>
                     <div class="item">
                         <div class="img">
-                            <img src="" alt="Logo Dell">
+                            <img src="src/assets/img/logos/panini.svg" alt="Logo Dell" class="dell">
                         </div>
                         <h6>Dell</h6>
                         <p class="text-3">
