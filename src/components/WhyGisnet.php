@@ -26,7 +26,7 @@
                     </div>
                     <h6>Innovación</h6>
                     <p class="text-4">
-                        La base de un proyecto satisfactorio es la confianza. Nos comprometemos a mantener una comunicación abierta y transparente en cada etapa de nuestros proyectos.
+                        Nuestro enfoque proactivo en la adopción y desarrollo de soluciones vanguardistas nos posiciona como líderes en la transformación digital y tendencias del sector.
                     </p>
                 </div>
                 <div class="g-card">
@@ -35,7 +35,7 @@
                     </div>
                     <h6>Compromiso</h6>
                     <p class="text-4">
-                        La base de un proyecto satisfactorio es la confianza. Nos comprometemos a mantener una comunicación abierta y transparente en cada etapa de nuestros proyectos.
+                        Vamos más allá de lo convencional para superar las expectativas de nuestros clientes y  que cada aspecto de nuestro proyecto cumpla con la máxima perfección.
                     </p>
                 </div>
             </div>
