@@ -85,7 +85,7 @@ const disableCarouselControls = () => {
     var controls = carousel.querySelectorAll('.control');
     const currentScroll = inner.scrollLeft;
     controls[0].disabled = currentScroll === 0;
-    controls[1].disabled = currentScroll + inner.clientWidth >= inner.scrollWidth - 10;
+    controls[1].disabled = currentScroll + inner.clientWidth >= inner.scrollWidth - 5;
 }
 
 function moveCarousel(direction) {
