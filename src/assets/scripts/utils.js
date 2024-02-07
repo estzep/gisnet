@@ -82,11 +82,13 @@ function moveCarousel(direction) {
     var itemWidth = carouselInner.querySelector('.item').offsetWidth;
     var scrollAmount = direction === 'left' ? -(itemWidth + 10) : itemWidth + 10;
 
-    controls[0].disabled = currentScroll === 0 && direction === 'left';
-    controls[1].disabled = currentScroll + inner.clientWidth >= inner.scrollWidth && direction === 'right';
+    const currentScroll = inner.scrollLeft;
 
     carouselInner.scrollBy({
         left: scrollAmount,
         behavior: 'smooth'
     });
+
+    controls[0].disabled = currentScroll === 0 && direction === 'left';
+    controls[1].disabled = currentScroll + inner.clientWidth >= inner.scrollWidth && direction === 'right';
 };
