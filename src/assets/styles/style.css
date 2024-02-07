@@ -94,8 +94,8 @@ main section#socios .column.carousel { flex: 1 1 65%; width: 65%; z-index: 4; }
 main section#why {  }
 main section#why .section-container {  }
 main section#why .section-container .content {  }
-main section#why h3 { text-align: center; margin-bottom: 3rem; }
-main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; margin-bottom: 3.5rem; }
+main section#why h3 { text-align: center; margin-bottom: 2.5rem; }
+main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; margin-bottom: 3rem; }
 
 /****** slider ******/
 :root { --n-logos: 6; }
