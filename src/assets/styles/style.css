@@ -47,18 +47,6 @@ main section .section-container .content { padding: 6.5rem 0; }
 main section#clientes {  }
 main section#clientes .section-container {  }
 main section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
-/****** slider ******/
-:root { --n-logos: 6; }
-@keyframes sliderAnimation {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-600% / var(--n-logos))); }
-}
-.slider { overflow-x: hidden; position: relative; z-index: 4; }
-.slider .overlay { position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 3; background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 5%, rgba(255,255,255,0) 95%, rgba(255,255,255,1) 100%); }
-.slider .track { display: flex; animation: sliderAnimation 30s linear infinite; position: relative; z-index: 2; }
-.slider:hover .track { animation-play-state: paused; }
-.slider .track .item { position: relative; flex: 0 0 calc(100% / var(--n-logos)); padding: 0 1.5rem; }
-.slider .track .item img { width: 100%; height: auto; display: block; text-align: center; margin: 0 auto; }
 
 main section#empresa { background: var(--bg-color-1); }
 main section#empresa .section-container {  }
@@ -99,6 +87,19 @@ main section#socios .text-1 { line-height: 2; }
 main section#socios .column {  }
 main section#socios .column.heading { flex: 1 1 35%; width: 35%; padding-right: 3rem; position: relative; box-shadow: 1rem 0 1.5rem .5rem #FFFFFF; z-index: 5; }
 main section#socios .column.carousel { flex: 1 1 65%; width: 65%; z-index: 4; }
+
+/****** slider ******/
+:root { --n-logos: 6; }
+@keyframes sliderAnimation {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-600% / var(--n-logos))); }
+}
+.slider { overflow-x: hidden; position: relative; z-index: 4; }
+.slider .overlay { position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 3; background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 5%, rgba(255,255,255,0) 95%, rgba(255,255,255,1) 100%); }
+.slider .track { display: flex; animation: sliderAnimation 30s linear infinite; position: relative; z-index: 2; }
+.slider:hover .track { animation-play-state: paused; }
+.slider .track .item { position: relative; flex: 0 0 calc(100% / var(--n-logos)); padding: 0 1.5rem; }
+.slider .track .item img { width: 100%; height: auto; display: block; text-align: center; margin: 0 auto; }
 
 .squares-1 { padding-top: 2rem; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: space-between; align-content: flex-start; gap: 3rem; }
 .squares-1 .square { flex: 1 0 0%; background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 40px 0 rgba(25, 85, 139, 0.03); }
