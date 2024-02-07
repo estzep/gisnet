@@ -511,7 +511,14 @@
                 </p>
             </div>
             <div class="column carousel">
-                <!-- <div class="controls"></div> -->
+                <div class="controls">
+                    <div class="control left">
+                        <img src="src/assets/icons/icon-arrow-right.svg" alt="Previous">
+                    </div>
+                    <div class="control right">
+                        <img src="src/assets/icons/icon-arrow-right.svg" alt="Next">
+                    </div>
+                </div>
                 <div class="inner">
                     <div class="item">
                         <div class="img">
