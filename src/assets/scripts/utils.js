@@ -79,7 +79,7 @@ function moveCarousel(direction) {
     var carouselInner = document.getElementById('sociosCarouselInner');
     // var scrollAmount = direction === 'left' ? -carouselInner.offsetWidth : carouselInner.offsetWidth;
     var itemWidth = carouselInner.querySelector('.item').offsetWidth;
-    var scrollAmount = direction === 'left' ? -itemWidth : itemWidth;
+    var scrollAmount = direction === 'left' ? -(itemWidth + 10) : itemWidth + 10;
 
     carouselInner.scrollBy({
         left: scrollAmount,
