@@ -97,7 +97,7 @@ main section#socios .section-container .content { padding: 6.5rem 0 10rem 0; dis
 main section#socios h3 {  }
 main section#socios .text-1 { line-height: 2; }
 main section#socios .column {  }
-main section#socios .column.heading { flex: 1 1 35%; padding-right: 3rem; position: relative; box-shadow: 1.5rem 0 1.5rem 0 #FFFFFF; z-index: 5; }
+main section#socios .column.heading { flex: 1 1 35%; padding-right: 3rem; position: relative; box-shadow: 1.5rem 0 1rem .5rem #FFFFFF; z-index: 5; }
 main section#socios .column.carousel { flex: 1 1 65%; z-index: 4; }
 
 .squares-1 { padding-top: 2rem; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: space-between; align-content: flex-start; gap: 3rem; }
