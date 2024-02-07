@@ -519,7 +519,7 @@
                         <img src="src/assets/icons/icon-arrow-right.svg" alt="Next">
                     </button>
                 </div>
-                <div class="inner">
+                <div id="sociosCarouselInner" class="inner">
                     <div class="item">
                         <div class="img">
                             <img src="src/assets/img/logos/dell.svg" alt="Logo Dell" class="dell">

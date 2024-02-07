@@ -1,4 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
+    function sociosCarouselMargin() {
+        var carousel = document.getElementById('sociosCarouselInner');
+        var carouselRight = element.getBoundingClientRect().right;
+        var windowWidth = window.innerWidth;
+
+        var distanceToWindowRight = windowWidth - carouselRight;
+        carousel.style.marginRight = -distanceToWindowRight + 'px';
+    }
+
     function mainPadding() {
         var navbar = document.getElementsByTagName("nav")[0];
         var navbarHeight = navbar.offsetHeight;
@@ -6,10 +15,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     
     mainPadding();
+    sociosCarouselMargin();
     
     window.addEventListener("resize", function() {
         mainPadding();
         closeNav();
+        sociosCarouselMargin();
     });
 
     window.addEventListener("click", function(event) {
