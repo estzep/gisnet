@@ -159,11 +159,13 @@ main section#socios .column.carousel { flex: 1 1 65%; z-index: 4; }
 
 .carousel { position: relative; }
 .carousel .controls { text-align: end; padding-bottom: 2rem; }
-.carousel .control { display: inline-block; background: var(--pri-color); padding: .5rem .75rem; margin: 0 .25rem; border: 0; }
+.carousel .control { display: inline-block; background: var(--pri-color); padding: .5rem .75rem; margin: 0 .25rem; border: 0; transition: 0.4s; }
+.carousel .control:disabled { background: var(--lighter-pri-color); }
 .carousel .control.left {  }
 .carousel .control.left img { transform: rotate(180deg); }
 .carousel .control.right {  }
-.carousel .control img { width: 1rem; height: 1rem; filter: var(--light-text-color-filter); }
+.carousel .control img { width: 1rem; height: 1rem; filter: var(--light-text-color-filter); transition: 0.4s; }
+.carousel .control:disabled img { filter: var(--light-pri-color-filter); }
 .carousel .inner { display: flex; flex-wrap: nowrap; flex-direction: row; align-items: stretch; justify-content: flex-start; overflow-x: auto; gap: 1.7rem; padding: 0 1.7rem; transition: 0.2s; }
 .carousel .item { position: relative; background: var(--bg-color); flex: 0 0 30%; border: 1px solid var(--stroke-color); padding: 1.2rem; box-shadow: 0px 4px 40px 0px rgba(25, 85, 139, 0.03); }
 .carousel .item .img {  }

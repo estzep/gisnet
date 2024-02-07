@@ -512,7 +512,7 @@
             </div>
             <div id="sociosCarousel" class="column carousel">
                 <div class="controls">
-                    <button class="control left" onclick="moveCarousel('left')">
+                    <button class="control left" onclick="moveCarousel('left')" disabled>
                         <img src="src/assets/icons/icon-arrow-right.svg" alt="Previous">
                     </button>
                     <button class="control right" onclick="moveCarousel('right')">

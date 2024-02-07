@@ -36,6 +36,7 @@
     --pri-color: #236FB3;
     --pri-color-filter: invert(38%) sepia(97%) saturate(1238%) hue-rotate(189deg) brightness(74%) contrast(83%);
     --light-pri-color: #AFD0EE;
+    --light-pri-color-filter: invert(82%) sepia(14%) saturate(621%) hue-rotate(171deg) brightness(98%) contrast(91%);
     --lighter-pri-color: #CDE1F4;
     --dark-pri-color: #1F629E;
     --darker-pri-color: #18548B;

@@ -76,10 +76,14 @@ function toggleNav() {
 }
 
 function moveCarousel(direction) {
+    var carousel = document.getElementById('sociosCarousel');
     var carouselInner = document.getElementById('sociosCarouselInner');
-    // var scrollAmount = direction === 'left' ? -carouselInner.offsetWidth : carouselInner.offsetWidth;
+    var controls = carousel.querySelectorAll('.control');
     var itemWidth = carouselInner.querySelector('.item').offsetWidth;
     var scrollAmount = direction === 'left' ? -(itemWidth + 10) : itemWidth + 10;
+
+    controls[0].disabled = currentScroll === 0 && direction === 'left';
+    controls[1].disabled = currentScroll + inner.clientWidth >= inner.scrollWidth && direction === 'right';
 
     carouselInner.scrollBy({
         left: scrollAmount,
