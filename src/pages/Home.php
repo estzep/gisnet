@@ -510,7 +510,7 @@
                     Contamos con socios estratégicos de primer nivel para poder brindar el servicio de la más alta calidad a nuestros clientes.
                 </p>
             </div>
-            <div class="column carousel">
+            <div id="sociosCarousel" class="column carousel">
                 <div class="controls">
                     <button class="control left">
                         <img src="src/assets/icons/icon-arrow-right.svg" alt="Previous">

@@ -1,11 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
     function sociosCarouselMargin() {
-        var carousel = document.getElementById('sociosCarouselInner');
+        var carousel = document.getElementById('sociosCarousel');
+        var carouselInner = document.getElementById('sociosCarouselInner');
         var carouselRight = carousel.getBoundingClientRect().right;
         var windowWidth = window.innerWidth;
 
         var distanceToWindowRight = windowWidth - carouselRight;
-        carousel.style.marginRight = -distanceToWindowRight + 'px';
+        carouselInner.style.marginRight = -distanceToWindowRight + 'px';
     }
 
     function mainPadding() {
