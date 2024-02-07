@@ -512,10 +512,10 @@
             </div>
             <div id="sociosCarousel" class="column carousel">
                 <div class="controls">
-                    <button class="control left">
+                    <button class="control left" onclick="moveCarousel('left')">
                         <img src="src/assets/icons/icon-arrow-right.svg" alt="Previous">
                     </button>
-                    <button class="control right">
+                    <button class="control right" onclick="moveCarousel('right')">
                         <img src="src/assets/icons/icon-arrow-right.svg" alt="Next">
                     </button>
                 </div>
