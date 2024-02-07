@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
+    const sociosCarouselInner = document.getElementById('sociosCarouselInner');
+
     function sociosCarouselMargin() {
         var carousel = document.getElementById('sociosCarousel');
         var inner = document.getElementById('sociosCarouselInner');
@@ -32,6 +34,8 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         } catch (error) {}
     });
+
+    sociosCarouselInner.addEventListener('scroll', disableCarouselControls);
 });
 
 function closeAccordions() {
@@ -75,20 +79,22 @@ function toggleNav() {
     }
 }
 
-function moveCarousel(direction) {
+const disableCarouselControls = () => {
     var carousel = document.getElementById('sociosCarousel');
     var inner = document.getElementById('sociosCarouselInner');
     var controls = carousel.querySelectorAll('.control');
+    const currentScroll = inner.scrollLeft;
+    controls[0].disabled = currentScroll === 0;
+    controls[1].disabled = currentScroll + inner.clientWidth >= inner.scrollWidth;
+}
+
+function moveCarousel(direction) {
+    var inner = document.getElementById('sociosCarouselInner');
     var itemWidth = inner.querySelector('.item').offsetWidth;
     var scrollAmount = direction === 'left' ? -(itemWidth + 10) : itemWidth + 10;
-
-    const currentScroll = inner.scrollLeft;
 
     inner.scrollBy({
         left: scrollAmount,
         behavior: 'smooth'
     });
-
-    controls[0].disabled = currentScroll === 0 && direction === 'left';
-    controls[1].disabled = currentScroll + inner.clientWidth >= inner.scrollWidth && direction === 'right';
 };
