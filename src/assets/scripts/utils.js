@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
     function sociosCarouselMargin() {
         var carousel = document.getElementById('sociosCarousel');
-        var carouselInner = document.getElementById('sociosCarouselInner');
+        var inner = document.getElementById('sociosCarouselInner');
         var carouselRight = carousel.getBoundingClientRect().right;
         var windowWidth = window.innerWidth;
 
         var distanceToWindowRight = windowWidth - carouselRight;
-        carouselInner.style.marginRight = -distanceToWindowRight + 'px';
+        inner.style.marginRight = -distanceToWindowRight + 'px';
     }
 
     function mainPadding() {
@@ -77,14 +77,14 @@ function toggleNav() {
 
 function moveCarousel(direction) {
     var carousel = document.getElementById('sociosCarousel');
-    var carouselInner = document.getElementById('sociosCarouselInner');
+    var inner = document.getElementById('sociosCarouselInner');
     var controls = carousel.querySelectorAll('.control');
-    var itemWidth = carouselInner.querySelector('.item').offsetWidth;
+    var itemWidth = inner.querySelector('.item').offsetWidth;
     var scrollAmount = direction === 'left' ? -(itemWidth + 10) : itemWidth + 10;
 
     const currentScroll = inner.scrollLeft;
 
-    carouselInner.scrollBy({
+    inner.scrollBy({
         left: scrollAmount,
         behavior: 'smooth'
     });
