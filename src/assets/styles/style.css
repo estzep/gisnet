@@ -158,11 +158,11 @@ main section#socios .column.heading { flex: 1 1 35%; padding-right: 3rem; }
 
 .carousel { flex: 1 1 65%; position: relative; }
 .carousel .controls { /* display: flex; */ text-align: end; }
-.carousel .controls .control { /* flex: 0 0 auto; */ display: inline-block; background: var(--pri-color); padding: 1rem; margin: 0 1rem; }
+.carousel .controls .control { /* flex: 0 0 auto; */ display: inline-block; background: var(--pri-color); padding: .6rem; margin: 0 1rem; border: 0; }
 .carousel .controls .control.left {  }
 .carousel .controls .control.left img { transform: rotate(180deg); }
 .carousel .controls .control.right {  }
-.carousel .controls .control img { width: 2rem; height: 2rem; filter: var(--text-color-filter); }
+.carousel .controls .control img { width: 1rem; height: 1rem; filter: var(--text-color-filter); }
 .carousel .inner { display: flex; flex-wrap: nowrap; flex-direction: row; align-items: stretch; justify-content: flex-start; overflow-x: auto; gap: 1.5rem; }
 .carousel .item { background: var(--bg-color); flex: 0 0 calc(100% / 3); border: 1px solid var(--stroke-color); padding: 1.2rem; }
 .carousel .item .img {  }
