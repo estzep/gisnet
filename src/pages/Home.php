@@ -512,12 +512,12 @@
             </div>
             <div class="column carousel">
                 <div class="controls">
-                    <div class="control left">
+                    <button class="control left">
                         <img src="src/assets/icons/icon-arrow-right.svg" alt="Previous">
-                    </div>
-                    <div class="control right">
+                    </button>
+                    <button class="control right">
                         <img src="src/assets/icons/icon-arrow-right.svg" alt="Next">
-                    </div>
+                    </button>
                 </div>
                 <div class="inner">
                     <div class="item">
