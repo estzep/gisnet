@@ -171,7 +171,7 @@ main section#socios .column.carousel { flex: 1 1 65%; z-index: 4; }
 .carousel .item .img {  }
 .carousel .item .img img { width: 4rem; height: 4rem; display: block; margin: 0; padding: .6rem; border: 1px solid var(--stroke-color); margin-bottom: 1.4rem; }
 .carousel .item .img img.dell { background: #007DB8; }
-.carousel .item .img img.couchbase { background: #FFFFFF; }
+.carousel .item .img img:is(.couchbase, .seguridata, .tassta) { background: #FFFFFF; }
 .carousel .item .img img.panini { background: #1D1D1B; }
 .carousel .item h6 { margin-bottom: .7rem; }
 .carousel .item .text-3 {  }

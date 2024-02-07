@@ -531,7 +531,7 @@
                     </div>
                     <div class="item">
                         <div class="img">
-                            <img src="src/assets/img/logos/couchbase.svg" alt="Logo Dell" class="couchbase">
+                            <img src="src/assets/img/logos/couchbase.svg" alt="Logo Couchbase" class="couchbase">
                         </div>
                         <h6>Couchbase</h6>
                         <p class="text-3">
@@ -540,29 +540,29 @@
                     </div>
                     <div class="item">
                         <div class="img">
-                            <img src="src/assets/img/logos/panini.svg" alt="Logo Dell" class="panini">
+                            <img src="src/assets/img/logos/panini.svg" alt="Logo Panini" class="panini">
                         </div>
-                        <h6>Dell</h6>
+                        <h6>Panini</h6>
                         <p class="text-3">
                             Apoyo en la identidad universal para la interacción con el cliente en presencia.
                         </p>
                     </div>
                     <div class="item">
                         <div class="img">
-                            <img src="src/assets/img/logos/dell.svg" alt="Logo Dell" class="dell">
+                            <img src="src/assets/img/logos/seguridata.png" alt="Logo Seguridata" class="seguridata">
                         </div>
-                        <h6>Dell</h6>
+                        <h6>Seguridata</h6>
                         <p class="text-3">
-                            Proovedor de equipo de cómputo como monitores y hardware computacional.
+                            Empresa pionera de la Firma Electrónica en México brindando PSC.
                         </p>
                     </div>
                     <div class="item">
                         <div class="img">
-                            <img src="src/assets/img/logos/dell.svg" alt="Logo Dell" class="dell">
+                            <img src="src/assets/img/logos/tassta.svg" alt="Logo TASSTA" class="tassta">
                         </div>
-                        <h6>Dell</h6>
+                        <h6>TASSTA</h6>
                         <p class="text-3">
-                            Proovedor de equipo de cómputo como monitores y hardware computacional.
+                            TASSTA desarrolla aplicaciones para la comunicación a través de redes de banda ancha.
                         </p>
                     </div>
                 </div>
