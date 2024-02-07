@@ -93,7 +93,7 @@ main section#productos h2 { text-align: center; color: var(--light-text-color); 
 
 main section#socios {  }
 main section#socios .section-container {  }
-main section#socios .section-container .content { display: flex; }
+main section#socios .section-container .content { padding: 6.5rem 0 10rem 0; display: flex; }
 main section#socios h3 {  }
 main section#socios .text-1 { line-height: 2; }
 main section#socios .column {  }
