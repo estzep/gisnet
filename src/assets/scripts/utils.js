@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     
     mainPadding();
-    // sociosCarouselMargin();
+    sociosCarouselMargin();
     
     window.addEventListener("resize", function() {
         mainPadding();
