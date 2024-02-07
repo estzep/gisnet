@@ -158,8 +158,8 @@ main section#socios .column.carousel { flex: 1 1 65%; z-index: 4; }
 .squares-3-xs[aria-expanded="false"] .s { display: none; }
 
 .carousel { position: relative; }
-.carousel .controls { /* display: flex; */ text-align: end; padding-bottom: 2rem; }
-.carousel .control { /* flex: 0 0 auto; */ display: inline-block; background: var(--pri-color); padding: .5rem .75rem; margin: 0 .25rem; border: 0; }
+.carousel .controls { text-align: end; padding-bottom: 2rem; }
+.carousel .control { display: inline-block; background: var(--pri-color); padding: .5rem .75rem; margin: 0 .25rem; border: 0; }
 .carousel .control.left {  }
 .carousel .control.left img { transform: rotate(180deg); }
 .carousel .control.right {  }
@@ -298,5 +298,3 @@ main section#socios .column.carousel { flex: 1 1 65%; z-index: 4; }
     .squares-3 .square { flex: 0 0 100%; }
     .square-xs { display: none; }
 }
-
-/* .x { background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 43.14%, #FFF 87.25%); } */

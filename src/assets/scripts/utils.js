@@ -1,4 +1,23 @@
 document.addEventListener("DOMContentLoaded", function() {
+    const carousel = document.getElementById('sociosCarousel');
+    const inner = document.getElementById('sociosCarouselInner');
+    const controls = carousel.querySelectorAll('.control');
+    
+    const moveCarousel = (direction) => {
+        const scrollAmount = direction === 'left' ? -inner.offsetWidth : inner.offsetWidth;
+        inner.scrollBy({
+            left: scrollAmount,
+            behavior: 'smooth'
+        });
+    };
+    
+    controls.forEach(control => {
+        control.addEventListener('click', (event) => {
+            const direction = event.target.classList.contains('left') ? 'left' : 'right';
+            moveCarousel(direction);
+        });
+    });
+
     function sociosCarouselMargin() {
         var carousel = document.getElementById('sociosCarousel');
         var carouselInner = document.getElementById('sociosCarouselInner');
