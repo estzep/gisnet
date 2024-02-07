@@ -183,7 +183,7 @@ main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; }
 .carousel .item .img img.dell { background: #007DB8; }
 .carousel .item .img img:is(.couchbase, .seguridata, .tassta) { background: #FFFFFF; }
 .carousel .item .img img.panini { background: #1D1D1B; }
-.carousel .item h6 { margin-bottom: .7rem; }
+.carousel .item h4 { margin-bottom: .7rem; }
 .carousel .item .text-3 {  }
 
 .g-cards-1 {  }
