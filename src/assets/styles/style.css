@@ -157,7 +157,7 @@ main section#socios .column.heading { flex: 1 1 35%; padding-right: 3rem; }
 .squares-3-xs[aria-expanded="false"] .s { display: none; }
 
 .carousel { flex: 1 1 65%; position: relative; }
-.carousel .controls { /* display: flex; */ text-align: end; }
+.carousel .controls { /* display: flex; */ text-align: end; padding-bottom: 2rem; }
 .carousel .controls .control { /* flex: 0 0 auto; */ display: inline-block; background: var(--pri-color); padding: .6rem; margin: 0 1rem; border: 0; }
 .carousel .controls .control.left {  }
 .carousel .controls .control.left img { transform: rotate(180deg); }
