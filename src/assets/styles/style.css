@@ -222,6 +222,8 @@ main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; margi
 
     .squares-3 { gap: 2rem; }
     .squares-3 .square { flex: 0 0 calc(100% / 3 - 2rem); }
+
+    .g-cards-1 .g-card { flex: 0 0 27%; }
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
@@ -243,6 +245,8 @@ main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; margi
     main section#socios .column.heading { flex: 1 1 45%; width: 45%; padding-right: 1rem; }
     main section#socios .column.carousel { flex: 1 1 55%; width: 55%; }
 
+    main section#why .text-2 { width: 50%; }
+
     :root { --n-logos: 3; }
 
     .squares-1 { gap: 2rem; }
@@ -256,6 +260,9 @@ main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; margi
     .squares-3 .square { flex: 0 0 calc(100% / 2 - 2rem); }
 
     .carousel .item { flex: 0 0 50%; }
+
+    .g-cards-1 { gap: 2rem; }
+    .g-cards-1 .g-card { flex: 0 0 32%; }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -283,6 +290,7 @@ main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; margi
 
     main section#socios .column.heading { flex: 1 1 100%; width: 100%; padding-right: 0; box-shadow: none; }
     main section#socios .column.carousel { flex: 1 1 100%; width: 100%; }
+    main section#why .text-2 { width: 80%; }
 
     :root { --n-logos: 2.5; }
     .slider .track .item { padding: 0 .5rem; }
@@ -304,6 +312,9 @@ main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; margi
     .carousel .controls { display: none; }
     .carousel .inner { padding-left: 0; }
     .carousel .item { flex: 0 0 75%; }
+
+    .g-cards-1 { flex-wrap: wrap; }
+    .g-cards-1 .g-card { flex: 0 0 100%; }
 }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
