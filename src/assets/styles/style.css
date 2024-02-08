@@ -48,8 +48,11 @@ main section .section-container {  }
 main section .section-container .content { padding: 6.5rem 0; }
 
 main section#clientes {  }
+main section#clientes.sp { background: var(--bg-color-1); }
 main section#clientes .section-container {  }
-main section#clientes .section-container .content { padding: 2rem 0 4rem 0; }
+main section#clientes:not(.sp) .section-container .content { padding: 2rem 0 4rem 0; }
+main section#clientes h3 { text-align: center; }
+main section#clientes .text-1 { text-align: center; }
 
 main section#empresa { background: var(--bg-color-1); }
 main section#empresa .section-container {  }

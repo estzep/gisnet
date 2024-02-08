@@ -3,14 +3,14 @@
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
 ?>
-<section>
-    <div class="container">
+<section id="clientes" class="sp">
+    <div class="section-container container">
         <div class="content">
             <h3><? echo $clientsTitle ?></h3>
-            <p>
+            <p class="text-1">
                 <? echo $clientsDescription ?>
             </p>
-            <h5>Con la confianza de</h5>
+            <h5>Algunos d nuestros clientes</h5>
             <div class="slider">
                 <div class="overlay"></div>
                 <div class="track">
