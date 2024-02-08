@@ -10,7 +10,7 @@
             <p class="text-1">
                 <? echo $clientsDescription ?>
             </p>
-            <h5>Algunos d nuestros clientes</h5>
+            <h5>Algunos de nuestros clientes</h5>
             <div class="slider">
                 <div class="overlay"></div>
                 <div class="track">

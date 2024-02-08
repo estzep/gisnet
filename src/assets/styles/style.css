@@ -231,8 +231,8 @@ main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; margi
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-    main header .info { flex: 0 0 80%; }
-    main header .image { flex: 0 0 20%; }
+    main header .info { flex: 1 0 80%; }
+    main header .image { flex: 0 0 20%; display: none; }
 
     main section#empresa .heading { width: 75%; }
 
@@ -277,7 +277,7 @@ main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; margi
 
     main header#inicio { background: url('../img/bg-right-mobile.png'), var(--bg-color); background-size: 60%; background-repeat: no-repeat; background-position: right top; background-attachment: local; }
     main header .container .content { padding: 30% 0 35% 0; }
-    main header .info { flex: 0 0 90%; }
+    main header .info { flex: 1 0 90%; }
     main header .image { flex: 0 0 10%; }
     main header .links { gap: .7rem; }
     main header .links a.f-btn.desktop { display: none; }
