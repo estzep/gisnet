@@ -279,6 +279,7 @@ main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; margi
     main header#inicio { background: url('../img/bg-right-mobile.png'), var(--bg-color); background-size: 60%; background-repeat: no-repeat; background-position: right top; background-attachment: local; }
     main header .container .content { padding: 30% 0 35% 0; }
     main header .info { flex: 1 0 90%; padding-right: 0; }
+    main header#inicio .info { padding-right: 0; }
     main header .image { flex: 0 0 10%; }
     main header .links { gap: .7rem; }
     main header .links a.f-btn.desktop { display: none; }
