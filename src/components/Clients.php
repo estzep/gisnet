@@ -6,10 +6,12 @@
 <section id="clientes" class="sp">
     <div class="section-container container">
         <div class="content">
-            <h3><? echo $clientsTitle ?></h3>
-            <p class="text-1">
-                <? echo $clientsDescription ?>
-            </p>
+            <div class="heading">
+                <h3><? echo $clientsTitle ?></h3>
+                <p class="text-1">
+                    <? echo $clientsDescription ?>
+                </p>
+            </div>
             <h5>Algunos de nuestros clientes</h5>
             <div class="slider">
                 <div class="overlay"></div>
