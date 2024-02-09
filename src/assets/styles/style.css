@@ -52,8 +52,8 @@ main section#clientes {  }
 main section#clientes.sp { background: var(--bg-color-1); }
 main section#clientes .section-container {  }
 main section#clientes:not(.sp) .section-container .content { padding: 2rem 0 4rem 0; }
-main section#clientes .heading { width: 55%; margin: 0 auto; padding-bottom: 4rem; }
-main section#clientes h3 { text-align: center; margin-bottom: 4rem; }
+main section#clientes .heading { width: 55%; margin: 0 auto; padding-bottom: 6rem; }
+main section#clientes h3 { text-align: center; margin-bottom: 3rem; }
 main section#clientes .text-1 { text-align: center; }
 
 main section#empresa { background: var(--bg-color-1); }
@@ -214,6 +214,8 @@ main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; margi
     main header .info { flex: 0 0 70%; }
     main header .image { flex: 0 0 30%; }
 
+    main section#clientes .heading { width: 65%; }
+
     main section#empresa .heading { width: 65%; }
 
     main section#servicios h3 { width: 40%; }
@@ -237,6 +239,8 @@ main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; margi
 @media (max-width: 991.98px) {
     main header .info { flex: 1 0 80%; }
     main header .image { flex: 0 0 20%; display: none; }
+
+    main section#clientes .heading { width: 80%; }
 
     main section#empresa .heading { width: 75%; }
 
@@ -286,6 +290,8 @@ main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; margi
     main header .links { gap: .7rem; }
     main header .links a.f-btn.desktop { display: none; }
     main header .links a.f-btn.mobile { display: inline-block; }
+
+    main section#clientes .heading { width: 100%; }
 
     main section#empresa .heading { width: 98%; }
     main section#empresa .text-1 { font-size: 1rem; }
