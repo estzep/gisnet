@@ -1,0 +1,123 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "spname": "panini",
+            "headerTitle": "Panini",
+            "headerDescription": "Escáner para cheques y para la identificación segura a través de diferentes dispositivos que están integrados (BioCred).",
+            "headerImg": "placeholder.png",
+            "clientsTitle": "¿Busca garantizar la confiabilidad y precisión de los datos de su empresa?",
+            "clientsDescription": "Gracias a nuestro sólido bagaje tecnológico, en Panini ofrecemos los productos y servicios que permiten una mejora tangible en los servicios financieros y otras industrias. Nos aseguramos de que pueda medir la diferencia.",
+            "clients": [
+                "bbva",
+                "dn",
+                "santander",
+                "gbonl",
+                "gbogto",
+                "cecoban"
+            ]
+        },
+        {
+            "id": 2,
+            "spname": "acf-technologies",
+            "headerTitle": "ACF Technologies",
+            "headerDescription": "Sistema de Gestión de Filas, Citas y Señalización Digital.",
+            "headerImg": "placeholder.png",
+            "clientsTitle": "Crea la experiencia ideal para tu cliente",
+            "clientsDescription": "Nuestra solución de filas elimina el caos de sus ambientes al asignar automáticamente a los visitantes a los servicios que necesitan, conectando a las personas correctas para sus servicios y cerciorándose que el cliente sea atendido en el orden y prioridad correcta. Tus clientes pueden relajarse en un ambiente tipo lobby mientras tus ejecutivos reciben información para mejorar la operatividad a través de sus métricas de servicio en tiempo real.",
+            "clients": [
+                "bbva",
+                "dn",
+                "santander",
+                "gbonl",
+                "gbogto",
+                "cecoban"
+            ]
+        },
+        {
+            "id": 3,
+            "spname": "couchbase",
+            "headerTitle": "Couchbase",
+            "headerDescription": "Base de Datos NoSQL para grandes volúmenes",
+            "headerImg": "placeholder.png",
+            "clientsTitle": "Almacena tus datos de manera eficiente, segura y fácil de manejar",
+            "clientsDescription": "Couchbase ofrece una solución avanzada de Base de Datos NoSQL, diseñada para manejar grandes volúmenes de datos con una eficiencia y seguridad incomparables. Su arquitectura flexible y escalable permite un almacenamiento y acceso rápido a la información, ideal para aplicaciones que requieren un alto rendimiento y disponibilidad.",
+            "clients": [
+                "bbva",
+                "dn",
+                "santander",
+                "gbonl",
+                "gbogto",
+                "cecoban"
+            ]
+        },
+        {
+            "id": 4,
+            "spname": "security-scorecard",
+            "headerTitle": "Security Scorecard",
+            "headerDescription": "Plataforma de calificación de riesgos cibernéticos para todos los sectores",
+            "headerImg": "placeholder.png",
+            "clientsTitle": "La confianza, la transparencia y la seguridad están en nuestro ADN",
+            "clientsDescription": "Security Scorecard es una plataforma integral de calificación de riesgos cibernéticos, diseñada para servir a una amplia gama de sectores. Esta herramienta proporciona evaluaciones detalladas y continuas de la seguridad cibernética, identificando vulnerabilidades y ofreciendo insights críticos para fortalecer las defensas.",
+            "clients": [
+                "bbva",
+                "dn",
+                "santander",
+                "gbonl",
+                "gbogto",
+                "cecoban"
+            ]
+        },
+        {
+            "id": 5,
+            "spname": "corsight",
+            "headerTitle": "Corsight",
+            "headerDescription": "Protección de la Intimidad, “Privacidad por Diseño y por Defecto”",
+            "headerImg": "placeholder.png",
+            "clientsTitle": "Cualquier cara, cualquier cámara, reconocido al instante",
+            "clientsDescription": "El reconocimiento facial líder en el mundo. Proporcionamos la tecnología de reconocimiento facial más ética para condiciones altamente desafiantes, con una velocidad y precisión sin precedentes para garantizar la máxima seguridad, preservando al mismo tiempo la privacidad.",
+            "clients": [
+                "bbva",
+                "dn",
+                "santander",
+                "gbonl",
+                "gbogto",
+                "cecoban"
+            ]
+        },
+        {
+            "id": 6,
+            "spname": "scale-fusion",
+            "headerTitle": "Scalefusion",
+            "headerDescription": "Administración segura, intuitiva, y escalable para dispositivos móviles y terminales",
+            "headerImg": "placeholder.png",
+            "clientsTitle": "Administra las terminales de hoy y mañana",
+            "clientsDescription": "Scalefusion UEM facilita la administración de dispositivos y garantiza su seguridad y cumplimiento. Nuestra solución está diseñada para ayudarte a tomar el control de toda tu flota de dispositivos, ya sea que estés administrando teléfonos inteligentes, tabletas, computadoras portátiles, de escritorio, o dispositivos IoT.",
+            "clients": [
+                "bbva",
+                "dn",
+                "santander",
+                "gbonl",
+                "gbogto",
+                "cecoban"
+            ]
+        },
+        {
+            "id": 7,
+            "spname": "tassta",
+            "headerTitle": "TASSTA",
+            "headerDescription": "Sistema de Comunicación Innovadora (Comunicación encriptada, Localización, Organización y Seguridad)",
+            "headerImg": "placeholder.png",
+            "clientsTitle": "El sistema de comunicación más innovador del mercado",
+            "clientsDescription": "TASSTA es un Sistema de Comunicación Innovadora que ofrece una solución integral para la comunicación encriptada, la localización y la organización segura en una variedad de entornos, con capacidades que incluyen llamadas de voz y video, mensajería, seguimiento.",
+            "clients": [
+                "bbva",
+                "dn",
+                "santander",
+                "gbonl",
+                "gbogto",
+                "cecoban"
+            ]
+        }
+    ]
+}

@@ -1,3 +1,7 @@
-<header>
-    <h1>Contact Gisnet</h1>
-</header>
+<section>
+    <div class="section-container container">
+        <div class="content">
+            contacto
+        </div>
+    </div>
+</section>

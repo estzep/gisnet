@@ -3,27 +3,19 @@
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
     
-    $data = json_decode($jsonString);$jsonString = file_get_contents($path.'src/assets/data/services.json');
+    $jsonString = file_get_contents($path.'src/assets/data/services.json');
     $data = json_decode($jsonString, true);
 
-    $servicename = "migracion-de-acervos";
+    $spname = "migracion-de-acervos";
 
     foreach ($data['services'] as $service) {
-        if ($service['servicename'] === $servicename) {
+        if ($service['spname'] === $spname) {
             $headerTitle = $service['headerTitle'];
             $headerDescription = $service['headerDescription'];
             $headerImg = $service['headerImg'];
             $clientsTitle = $service['clientsTitle'];
             $clientsDescription = $service['clientsDescription'];
             $clients = $service['clients'];
-
-            // echo "Header Title: $headerTitle<br>";
-            // echo "Header Description: $headerDescription<br>";
-            // echo "Header Image: $headerImg<br>";
-            // echo "Clients Title: $clientsTitle<br>";
-            // echo "Clients Description: $clientsDescription<br>";
-            // echo "Clients: " . implode(', ', $clients) . "<br>";
-
             break;
         }
     }
@@ -33,7 +25,7 @@
 <section>
     <div class="container">
         <div class="content">
-            migracion de acervos
+            Contenido...
         </div>
     </div>
 </section>
