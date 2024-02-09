@@ -23,7 +23,7 @@
 <? include($path.'src/components/Header.php'); ?>
 <? include($path.'src/components/Clients.php'); ?>
 <section>
-    <div class="container">
+    <div class="section-container container">
         <div class="content">
             Contenido...
         </div>

@@ -8,14 +8,14 @@
 
     $spname = "security-scorecard";
 
-    foreach ($data['services'] as $service) {
-        if ($service['spname'] === $spname) {
-            $headerTitle = $service['headerTitle'];
-            $headerDescription = $service['headerDescription'];
-            $headerImg = $service['headerImg'];
-            $clientsTitle = $service['clientsTitle'];
-            $clientsDescription = $service['clientsDescription'];
-            $clients = $service['clients'];
+    foreach ($data['products'] as $product) {
+        if ($product['spname'] === $spname) {
+            $headerTitle = $product['headerTitle'];
+            $headerDescription = $product['headerDescription'];
+            $headerImg = $product['headerImg'];
+            $clientsTitle = $product['clientsTitle'];
+            $clientsDescription = $product['clientsDescription'];
+            $clients = $product['clients'];
             break;
         }
     }
@@ -23,7 +23,7 @@
 <? include($path.'src/components/Header.php'); ?>
 <? include($path.'src/components/Clients.php'); ?>
 <section>
-    <div class="container">
+    <div class="section-container container">
         <div class="content">
             Contenido...
         </div>
