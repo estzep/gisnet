@@ -4,31 +4,31 @@
             <div class="contact-card">
                 <h2>Contacta a ventas</h2>
                 <p class="text-2">Llena el siguiente formulario y te responderemos a la brevedad.</p>
-                <form action="" class="contact-form row">
-                    <div class="form-column col-12 col-sm-6">
+                <form action="" class="contact-form">
+                    <div class="form-column">
                         <input name="fname" type="text" placeholder="* Nombre" required>
                         <span class="error-msg">Este campo es obligatorio</span>
                     </div>
-                    <div class="form-column col-12 col-sm-6">
+                    <div class="form-column">
                         <input name="lname" type="text" placeholder="* Apellido">
                     </div>
-                    <div class="form-column col-12 col-sm-6">
+                    <div class="form-column">
                         <input name="email" type="email" placeholder="* Correo electrónico">
                         <span class="error-msg">Este campo es obligatorio</span>
                     </div>
-                    <div class="form-column col-12 col-sm-6">
+                    <div class="form-column">
                         <input name="company" type="text" placeholder="* Compañia">
                     </div>
-                    <div class="form-column col-12 col-sm-6">
+                    <div class="form-column">
                         <select name="country" id="country">
                             <option value="mexico" default>México</option>
                         </select>
                         <span class="error-msg">Este campo es obligatorio</span>
                     </div>
-                    <div class="form-column col-12 col-sm-6">
+                    <div class="form-column">
                         <input name="tel" type="number" placeholder="* Teléfono">
                     </div>
-                    <div class="form-column col-12">
+                    <div class="form-column full">
                         <select name="reason" id="reason" required>
                             <option value="0" default>Elegir asunto</option>
                             <optgroup label="Servicios">
@@ -49,10 +49,10 @@
                         </select>
                         <span class="error-msg">Este campo es obligatorio</span>
                     </div>
-                    <div class="form-column col-12">
+                    <div class="form-column full">
                         <textarea name="message" id="message" rows="4" placeholder="* Mensaje"></textarea>
                     </div>
-                    <div class="form-column col-12">
+                    <div class="form-column full">
                         <button type="submit" class="btn-type-1">
                             Enviar
                         </button>
