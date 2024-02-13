@@ -103,9 +103,11 @@ main section#why h3 { text-align: center; margin-bottom: 2rem; }
 main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; margin-bottom: 3rem; }
 
 main section#contactPage { background: var(--bg-color-1); }
+main section#contactPage .section-container {  }
+main section#contactPage .section-container .content { padding: 4rem 0 10rem 0; }
 
 .contact-card { background: var(--bg-color); box-shadow: 0px 4px 40px 0px rgba(25, 85, 139, 0.03); padding: 2rem; width: 55%; margin: 0 auto; }
-.contact-card h2 {  }
+.contact-card h2 { margin-bottom: 0; }
 .contact-card .text-2 {  }
 
 .contact-form {  }
