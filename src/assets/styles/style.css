@@ -104,6 +104,12 @@ main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; margi
 
 .contact-card {  }
 
+.contact-form {  }
+.contact-form .form-column {  }
+.contact-form .form-column input { display: block; width: 100%; }
+.contact-form .form-column .error-msg { opacity: 0; transition: 0.2s; color: red; }
+.contact-form .form-column .error-msg.show { opacity: 1; }
+
 /****** slider ******/
 :root { --n-logos: 6; }
 @keyframes sliderAnimation {
