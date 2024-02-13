@@ -30,6 +30,7 @@
                     </div>
                     <div class="form-column col-12">
                         <select name="reason" id="reason" required>
+                            <option value="0">Elegir asunto</option>
                             <optgroup label="Servicios">
                                 <option value="migracion-de-acervos">Migración de Acervos</option>
                                 <option value="implementacion-de-sistemas">Implementación de Sistemas</option>
@@ -49,7 +50,7 @@
                         <span class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column col-12">
-                        <textarea name="message" id="message" cols="4" placeholder="* Mensaje"></textarea>
+                        <textarea name="message" id="message" rows="4" placeholder="* Mensaje"></textarea>
                     </div>
                     <div class="form-column col-12">
                         <button type="submit" class="btn-type-1">
