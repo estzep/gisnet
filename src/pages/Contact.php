@@ -1,4 +1,4 @@
-<section>
+<section id="contactPage">
     <div class="section-container container">
         <div class="content">
             <div class="contact-card">
