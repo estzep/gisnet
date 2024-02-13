@@ -110,9 +110,9 @@ main section#contactPage .section-container .content { padding: 4rem 0 10rem 0; 
 .contact-card h2 { margin-bottom: 0; }
 .contact-card .text-2 {  }
 
-.contact-form { margin: 0; row-gap: 1rem; column-gap: 2rem; }
+.contact-form { display: flex; flex-wrap: wrap; margin: 0; row-gap: 1rem; column-gap: 2rem; }
 .contact-form .form-column { padding: 0; flex: 0 0 auto; width: calc(50% - 1rem); }
-.contact-form .form-column :is(input, select, textarea) { display: block; width: 100%; background: var(--bg-color-1); color: var(--text-color); border: 0; padding: .5rem 1rem; outline: none; border-right: .5rem solid transparent; }
+.contact-form .form-column :is(input, select, textarea) { display: block; width: 100%; background: var(--bg-color-1); color: var(--text-color); border: 0; padding: .7rem 1rem; outline: none; border-right: .5rem solid transparent; line-height: 1; }
 .contact-form .form-column :is(input::placeholder, select::placeholder, textarea::placeholder) { color: var(--gray-2); }
 .contact-form .form-column .error-msg { opacity: 0; transition: 0.2s; color: red; font-size: .75rem; display: inline-block; margin: 0.35rem 0; }
 .contact-form .form-column .error-msg.show { opacity: 1; }
