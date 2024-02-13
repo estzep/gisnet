@@ -6,18 +6,19 @@
                 <p class="text-2">Llena el siguiente formulario y te responderemos a la brevedad.</p>
                 <form action="" class="contact-form">
                     <div class="form-column">
-                        <input name="fname" type="text" placeholder="* Nombre" required>
+                        <input name="fname" id="fname" type="text" placeholder="* Nombre" required>
                         <span class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
-                        <input name="lname" type="text" placeholder="* Apellido">
-                    </div>
-                    <div class="form-column">
-                        <input name="email" type="email" placeholder="* Correo electrónico">
+                        <input name="lname" id="lname" type="text" placeholder="* Apellido">
                         <span class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
-                        <input name="company" type="text" placeholder="* Compañia">
+                        <input name="email" type="email" id="email" placeholder="* Correo electrónico">
+                        <span class="error-msg">Este campo es obligatorio</span>
+                    </div>
+                    <div class="form-column">
+                        <input name="company" id="company" type="text" placeholder="* Compañia">
                     </div>
                     <div class="form-column">
                         <select name="country" id="country">
@@ -26,7 +27,7 @@
                         <span class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
-                        <input name="tel" type="number" placeholder="* Teléfono" min="0">
+                        <input name="tel" id="tel" type="number" placeholder="* Teléfono" min="0">
                     </div>
                     <div class="form-column full">
                         <select name="reason" id="reason" required>
