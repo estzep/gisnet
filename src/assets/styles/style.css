@@ -114,7 +114,7 @@ main section#contactPage .section-container .content { padding: 2.5rem 0 10rem 0
 .contact-form .form-column { padding: 0; flex: 0 0 auto; width: calc(50% - 1rem); }
 .contact-form .form-column.full { flex: 0 0 auto; width: 100%; }
 .contact-form .form-column :is(input, select, textarea) { display: block; width: 100%; background: var(--bg-color-1); color: var(--text-color); border: 0; padding: .7rem 1rem; outline: none; border-right: .5rem solid transparent; line-height: 1; font-size: .95rem; }
-.contact-form .form-column :is(input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button) { appearance: none; }
+.contact-form .form-column input[type="number"]::-webkit-outer-spin-button, .contact-form .form-column input[type="number"]::-webkit-inner-spin-button { appearance: none; -webkit-appearance: none; }
 .contact-form .form-column :is(input::placeholder, select::placeholder, textarea::placeholder) { color: var(--gray-2); }
 .contact-form .form-column .error-msg { opacity: 0; transition: 0.2s; color: var(--danger-color); font-size: .75rem; display: inline-block; margin: 0.35rem 0; }
 .contact-form .form-column .error-msg.show { opacity: 1; }
