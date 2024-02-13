@@ -50,7 +50,7 @@
                         <span class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
-                        <textarea name="message" id="message" rows="4" placeholder="* Mensaje"></textarea>
+                        <textarea name="message" id="message" rows="5" placeholder="* Mensaje"></textarea>
                     </div>
                     <div class="form-column full">
                         <button type="submit" class="btn-type-1">
