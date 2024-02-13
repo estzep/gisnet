@@ -3,7 +3,7 @@
         <div class="content">
             <div class="contact-card">
                 <h2>Contacta a ventas</h2>
-                <p>Llena el siguiente formulario y te responderemos a la brevedad.</p>
+                <p class="text-2">Llena el siguiente formulario y te responderemos a la brevedad.</p>
                 <form action="" class="contact-form row">
                     <div class="form-column col-12 col-sm-6">
                         <input name="fname" type="text" placeholder="* Nombre" required>
