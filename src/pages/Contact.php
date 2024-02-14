@@ -4,18 +4,18 @@
             <div class="contact-card">
                 <h2>Contacta a ventas</h2>
                 <p class="text-2">Llena el siguiente formulario y te responderemos a la brevedad.</p>
-                <form action="" class="contact-form">
+                <form name="contactForm" id="contactForm" action="/src/assets/scripts/contact.php" class="contact-form" onsubmit="return validateContactForm()" method="post">
                     <div class="form-column">
                         <input name="fname" id="fname" type="text" placeholder="* Nombre" required>
-                        <span class="error-msg">Este campo es obligatorio</span>
+                        <span id="fnameError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
                         <input name="lname" id="lname" type="text" placeholder="* Apellido">
-                        <span class="error-msg">Este campo es obligatorio</span>
+                        <span id="lnameError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
                         <input name="email" type="email" id="email" placeholder="* Correo electrónico">
-                        <span class="error-msg">Este campo es obligatorio</span>
+                        <span id="emailError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
                         <input name="company" id="company" type="text" placeholder="* Compañia">
@@ -24,7 +24,7 @@
                         <select name="country" id="country">
                             <option value="mexico" default>México</option>
                         </select>
-                        <span class="error-msg">Este campo es obligatorio</span>
+                        <span id="countryError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
                         <input name="tel" id="tel" type="number" placeholder="* Teléfono" min="0">
@@ -48,7 +48,7 @@
                                 <option value="tassta">TASSTA</option>
                             </optgroup>
                         </select>
-                        <span class="error-msg">Este campo es obligatorio</span>
+                        <span id="reasonError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
                         <textarea name="message" id="message" rows="5" placeholder="* Mensaje"></textarea>
