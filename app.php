@@ -73,64 +73,57 @@
 <script type="text/javascript">
     function validateContactForm() {
         var errors = 0;
-        var form = document.getElementById("contactForm");
-        var inputs = form.getElementsByTagName("input");
-        var selects = form.getElementsByTagName("select");
-        var textareas = form.getElementsByTagName("textarea");
+        const form = document.getElementById("contactForm");
+        const inputs = form.getElementsByTagName("input");
+        const selects = form.getElementsByTagName("select");
+        const textareas = form.getElementsByTagName("textarea");
 
-        for (var i = 0; i < inputs.length; i++) {
+        for (let i = 0; i < inputs.length; i++) {
             const input = inputs[i];
             if (input.hasAttribute("required")) {
                 const name = input.getAttribute("name");
                 const value = input.value;
+                const error = document.getElementById(name + "Error");
                 if (value === "") {
-                    const error = document.getElementById(name + "error");
                     error.classList.add("show");
                     errors++;
                 } else {
-                    const error = document.getElementById(name + "error");
                     error.classList.remove("show");
                 }
             }
         }
 
-        for (var i = 0; i < selects.length; i++) {
+        for (let i = 0; i < selects.length; i++) {
             const select = selects[i];
             if (select.hasAttribute("required")) {
                 const name = select.getAttribute("name");
                 const value = select.value;
+                const error = document.getElementById(name + "Error");
                 if (value === "") {
-                    const error = document.getElementById(name + "Error");
                     error.classList.add("show");
                     errors++;
                 } else {
-                    const error = document.getElementById(name + "Error");
                     error.classList.remove("show");
                 }
             }
         }
 
-        for (var i = 0; i < textareas.length; i++) {
+        for (let i = 0; i < textareas.length; i++) {
             const textarea = textareas[i];
             if (textarea.hasAttribute("required")) {
                 const name = textarea.getAttribute("name");
                 const value = textarea.value;
+                const error = document.getElementById(name + "Error");
                 if (value === "") {
-                    const error = document.getElementById(name + "Error");
                     error.classList.add("show");
                     errors++;
                 } else {
-                    const error = document.getElementById(name + "Error");
                     error.classList.remove("show");
                 }
             }
         }
 
-        if (errors > 0) {
-            return false;
-        } else {
-            return true;
-        }
+        return errors === 0;
 
         // var fname = document.forms["contactForm"]["fname"].value;
         // var lname = document.forms["contactForm"]["lname"].value;
