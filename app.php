@@ -85,9 +85,15 @@
                 const value = input.value;
                 const error = document.getElementById(name + "Error");
                 if (value === "") {
-                    error.classList.add("show");
+                    input.classList.remove("error");
+                    error.classList.remove("show");
+                    setTimeout(() => {
+                        input.classList.add("error");
+                        error.classList.add("show");
+                    }, 300);
                     errors++;
                 } else {
+                    input.classList.remove("error");
                     error.classList.remove("show");
                 }
             }
@@ -100,9 +106,15 @@
                 const value = select.value;
                 const error = document.getElementById(name + "Error");
                 if (value === "") {
-                    error.classList.add("show");
+                    select.classList.remove("error");
+                    error.classList.remove("show");
+                    setTimeout(() => {
+                        select.classList.add("error");
+                        error.classList.add("show");
+                    }, 300);
                     errors++;
                 } else {
+                    select.classList.remove("error");
                     error.classList.remove("show");
                 }
             }
@@ -115,9 +127,15 @@
                 const value = textarea.value;
                 const error = document.getElementById(name + "Error");
                 if (value === "") {
-                    error.classList.add("show");
+                    textarea.classList.remove("error");
+                    error.classList.remove("show");
+                    setTimeout(() => {
+                        textarea.classList.add("error");
+                        error.classList.add("show");
+                    }, 300);
                     errors++;
                 } else {
+                    textarea.classList.remove("error");
                     error.classList.remove("show");
                 }
             }

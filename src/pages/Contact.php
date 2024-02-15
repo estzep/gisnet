@@ -4,7 +4,7 @@
             <div class="contact-card">
                 <h2>Contacta a ventas</h2>
                 <p class="text-2">Llena el siguiente formulario y te responderemos a la brevedad.</p>
-                <form name="contactForm" id="contactForm" action="../src/assets/scripts/contact.php" class="contact-form" onsubmit="return validateContactForm()" method="post">
+                <form name="contactForm" id="contactForm" action="../src/assets/scripts/contact.php" class="contact-form" onsubmit="return validateContactForm()" method="post" novalidate>
                     <div class="form-column">
                         <input name="fname" id="fname" type="text" placeholder="* Nombre" required>
                         <span id="fnameError" class="error-msg">Este campo es obligatorio</span>
