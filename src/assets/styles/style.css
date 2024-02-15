@@ -117,7 +117,7 @@ main section#contactPage .section-container .content { padding: 2.5rem 0 10rem 0
 .contact-form .form-column :is(input.error, select.error, textarea.error) { outline: 1px solid var(--danger-color); }
 .contact-form .form-column input[type="number"]::-webkit-outer-spin-button, .contact-form .form-column input[type="number"]::-webkit-inner-spin-button { appearance: none; -webkit-appearance: none; }
 .contact-form .form-column :is(input::placeholder, select::placeholder, textarea::placeholder) { color: var(--gray-2); }
-.contact-form .form-column :is(.error::placeholder, .error::placeholder, .error::placeholder) { color: var(--danger-color); }
+.contact-form .form-column input.error::placeholder, .contact-form .form-column select.error::placeholder, .contact-form .form-column textarea.error::placeholder { color: var(--danger-color); }
 .contact-form .form-column .error-msg { opacity: 0; transition: 0.2s; color: var(--danger-color); font-size: .75rem; display: inline-block; margin: 0.35rem 0; }
 .contact-form .form-column .error-msg.show { opacity: 1; }
 .contact-form .form-column button[type="submit"] { margin-top: 2rem; font-size: .95rem; }

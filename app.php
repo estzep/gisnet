@@ -90,7 +90,7 @@
                     setTimeout(() => {
                         input.classList.add("error");
                         error.classList.add("show");
-                    }, 300);
+                    }, 200);
                     errors++;
                 } else {
                     input.classList.remove("error");
@@ -105,13 +105,13 @@
                 const name = select.getAttribute("name");
                 const value = select.value;
                 const error = document.getElementById(name + "Error");
-                if (value === "") {
+                if (value == 0) {
                     select.classList.remove("error");
                     error.classList.remove("show");
                     setTimeout(() => {
                         select.classList.add("error");
                         error.classList.add("show");
-                    }, 300);
+                    }, 200);
                     errors++;
                 } else {
                     select.classList.remove("error");
@@ -132,7 +132,7 @@
                     setTimeout(() => {
                         textarea.classList.add("error");
                         error.classList.add("show");
-                    }, 300);
+                    }, 200);
                     errors++;
                 } else {
                     textarea.classList.remove("error");
