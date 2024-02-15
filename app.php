@@ -80,51 +80,52 @@
 
         for (var i = 0; i < inputs.length; i++) {
             const input = inputs[i];
-            if (input.hasAttribute("required")) {
-                const name = input.getAttribute("name");
-                const value = input.value;
-                if (value === "") {
-                    const error = document.getElementById(name + "error");
-                    error.classList.add("show");
-                    errors++;
-                } else {
-                    const error = document.getElementById(name + "error");
-                    error.classList.remove("show");
-                }
+            const name = input.getAttribute("name");
+            const value = input.value;
+            if (value === "") {
+                const error = document.getElementById(name + "error");
+                error.classList.add("show");
+                errors++;
+            } else {
+                const error = document.getElementById(name + "error");
+                error.classList.remove("show");
             }
+            // if (input.hasAttribute("required")) {
+                
+            // }
         }
 
-        for (var i = 0; i < selects.length; i++) {
-            const select = selects[i];
-            if (select.hasAttribute("required")) {
-                const name = select.getAttribute("name");
-                const value = select.value;
-                if (value === "") {
-                    const error = document.getElementById(name + "Error");
-                    error.classList.add("show");
-                    errors++;
-                } else {
-                    const error = document.getElementById(name + "Error");
-                    error.classList.remove("show");
-                }
-            }
-        }
+        // for (var i = 0; i < selects.length; i++) {
+        //     const select = selects[i];
+        //     if (select.hasAttribute("required")) {
+        //         const name = select.getAttribute("name");
+        //         const value = select.value;
+        //         if (value === "") {
+        //             const error = document.getElementById(name + "Error");
+        //             error.classList.add("show");
+        //             errors++;
+        //         } else {
+        //             const error = document.getElementById(name + "Error");
+        //             error.classList.remove("show");
+        //         }
+        //     }
+        // }
 
-        for (var i = 0; i < textareas.length; i++) {
-            const textarea = textareas[i];
-            if (textarea.hasAttribute("required")) {
-                const name = textarea.getAttribute("name");
-                const value = textarea.value;
-                if (value === "") {
-                    const error = document.getElementById(name + "Error");
-                    error.classList.add("show");
-                    errors++;
-                } else {
-                    const error = document.getElementById(name + "Error");
-                    error.classList.remove("show");
-                }
-            }
-        }
+        // for (var i = 0; i < textareas.length; i++) {
+        //     const textarea = textareas[i];
+        //     if (textarea.hasAttribute("required")) {
+        //         const name = textarea.getAttribute("name");
+        //         const value = textarea.value;
+        //         if (value === "") {
+        //             const error = document.getElementById(name + "Error");
+        //             error.classList.add("show");
+        //             errors++;
+        //         } else {
+        //             const error = document.getElementById(name + "Error");
+        //             error.classList.remove("show");
+        //         }
+        //     }
+        // }
 
         if (errors > 0) {
             return false;
