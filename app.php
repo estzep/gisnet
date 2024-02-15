@@ -15,7 +15,7 @@
                 include($path.'src/pages/Home.php');
                 break;
             case '/nosotros/':
-                include($path.'src/pages/Nosotros.php');
+                include($path.'src/pages/AboutUs.php');
                 break;
             case '/contacto/':
                 include($path.'src/pages/Contact.php');
