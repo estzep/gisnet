@@ -118,16 +118,16 @@
                 </div>
                 <div class="column image tab-content">
                     <div id="tab-tab1" class="panel tab-pane fade show active" role="tabpanel" aria-labelledby="li-tab1" tabindex="0">
-                        <img src="src/assets/img/placeholder.png" alt="Placeholder image">
+                        <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
                     </div>
                     <div id="tab-tab2" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-tab2" tabindex="0">
-                        <img src="src/assets/img/placeholder.png" alt="Placeholder image">
+                        <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
                     </div>
                     <div id="tab-tab3" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-tab3" tabindex="0">
-                        <img src="src/assets/img/placeholder.png" alt="Placeholder image">
+                        <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
                     </div>
                     <div id="tab-tab4" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-tab4" tabindex="0">
-                        <img src="src/assets/img/placeholder.png" alt="Placeholder image">
+                        <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
                     </div>
                 </div>
             </div>
