@@ -154,6 +154,7 @@ main section#contactPage .section-container .content { padding: 2.5rem 0 10rem 0
 .squares-2 .square .text-3 {  }
 
 .tabs { display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; justify-content: space-between; align-items: stretch; gap: 4rem; }
+.tabs.reversed { flex-direction: row-reverse; }
 .tabs .column { flex: 1 0 0%; position: relative; }
 .tabs .column.info {  }
 .tabs .column.image {  }
