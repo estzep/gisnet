@@ -279,6 +279,8 @@ main section#contactPage .section-container .content { padding: 2.5rem 0 10rem 0
 
     main section#why .text-2 { width: 50%; }
 
+    .contact-card { width: 90%; }
+
     :root { --n-logos: 3; }
 
     .squares-1 { gap: 2rem; }
@@ -326,8 +328,6 @@ main section#contactPage .section-container .content { padding: 2.5rem 0 10rem 0
     main section#socios .column.carousel { flex: 1 1 100%; width: 100%; }
     main section#why .text-2 { width: 80%; }
 
-    .contact-card { width: 90%; }
-
     .contact-form { column-gap: 1rem; }
     .contact-form .form-column { width: calc(50% - .5rem); }
 
@@ -371,6 +371,7 @@ main section#contactPage .section-container .content { padding: 2.5rem 0 10rem 0
     main section#productos h2 { width: 80%; }
 
     .contact-card { width: 100%; }
+    .contact-form .form-column.xs-full { width: 100%; }
     
     :root { --n-logos: 2; }
     .slider .track .item { padding: 0.2rem; }

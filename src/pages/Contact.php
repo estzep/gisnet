@@ -13,12 +13,13 @@
                         <input name="lname" id="lname" type="text" placeholder="* Apellido">
                         <span id="lnameError" class="error-msg">Este campo es obligatorio</span>
                     </div>
-                    <div class="form-column">
+                    <div class="form-column xs-full">
                         <input name="email" type="email" id="email" placeholder="* Correo electrónico" required>
                         <span id="emailError" class="error-msg">Este campo es obligatorio</span>
                     </div>
-                    <div class="form-column">
+                    <div class="form-column xs-full">
                         <input name="company" id="company" type="text" placeholder="* Compañia">
+                        <span id="companyError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
                         <select name="country" id="country" required>
@@ -28,6 +29,7 @@
                     </div>
                     <div class="form-column">
                         <input name="tel" id="tel" type="number" placeholder="* Teléfono" min="0">
+                        <span id="telError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
                         <select name="reason" id="reason" required>
