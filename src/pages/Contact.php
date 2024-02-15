@@ -6,7 +6,7 @@
                 <p class="text-2">Llena el siguiente formulario y te responderemos a la brevedad.</p>
                 <form name="contactForm" id="contactForm" action="../src/assets/scripts/contact.php" class="contact-form" onsubmit="return validateContactForm()" method="post">
                     <div class="form-column">
-                        <input name="fname" id="fname" type="text" placeholder="* Nombre" required>
+                        <input name="fname" id="fname" type="text" placeholder="* Nombre">
                         <span id="fnameError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
@@ -30,7 +30,7 @@
                         <input name="tel" id="tel" type="number" placeholder="* Teléfono" min="0">
                     </div>
                     <div class="form-column full">
-                        <select name="reason" id="reason" required>
+                        <select name="reason" id="reason">
                             <option value="0" default>Elegir asunto</option>
                             <optgroup label="Servicios">
                                 <option value="migracion-de-acervos">Migración de Acervos</option>
