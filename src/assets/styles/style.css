@@ -147,7 +147,8 @@ main section#contactPage .section-container .content { padding: 2.5rem 0 10rem 0
 .squares-1 .square.s-square {  }
 
 .squares-2 { padding-top: 5rem; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; gap: 2rem; align-items: stretch; justify-content: space-between; }
-.squares-2 .square { flex: 1 0 0%; background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 40px 0px rgba(25, 85, 139, 0.03); }
+.squares-2 .square { flex: 1 0 0%; background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 40px 0px rgba(25, 85, 139, 0.03); transition: 0.4s; }
+.squares-2 .square:hover { transform: scale(1.02); }
 .squares-2 .square .square-content { padding: 1.5rem; }
 .squares-2 .square h5 { color: var(--pri-color); font-size: 1.7rem; font-weight: 500; line-height: 1.45; margin-bottom: .5rem; text-align: start; }
 .squares-2 .square .text-3 {  }
