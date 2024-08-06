@@ -303,6 +303,9 @@
                     </div>
                 </a>
                 <a href="productos/acf-technologies" class="square">
+                    <div class="square-img">
+                        <img src="src/assets/img/productos-landing/producto-acf-cover.jpg" alt="ACF Technologies">
+                    </div>
                     <div class="square-content">
                         <h4>
                             ACF Technologies
@@ -319,6 +322,9 @@
                     </div>
                 </a>
                 <a href="productos/couchbase" class="square">
+                    <div class="square-img">
+                        <img src="src/assets/img/productos-landing/producto-couchbase-cover.jpg" alt="Couchbase">
+                    </div>
                     <div class="square-content">
                         <h4>
                             Couchbase
@@ -336,6 +342,9 @@
                 </a>
                 <div id="collapseProductos" class="squares-3 squares-3-xs collapse">
                     <a href="productos/security-scorecard" class="square">
+                        <div class="square-img">
+                            <img src="src/assets/img/productos-landing/producto-scorecard-cover.jpg" alt="Security ScoreCard">
+                        </div>
                         <div class="square-content">
                             <h4>
                                 Security ScoreCard
@@ -352,6 +361,9 @@
                         </div>
                     </a>
                     <a href="productos/corsight" class="square">
+                        <div class="square-img">
+                            <img src="src/assets/img/productos-landing/producto-corsight-cover.jpg" alt="Corsight">
+                        </div>
                         <div class="square-content">
                             <h4>
                                 Corsight
@@ -368,6 +380,9 @@
                         </div>
                     </a>
                     <a href="productos/tassta" class="square">
+                        <div class="square-img">
+                            <img src="src/assets/img/productos-landing/producto-tassta-cover.jpg" alt="TASSTA">
+                        </div>
                         <div class="square-content">
                             <h4>
                                 TASSTA
@@ -389,6 +404,9 @@
                     <span class="s">Ocultar</span>
                 </button>
                 <a href="productos/security-scorecard" class="square square-xs">
+                    <div class="square-img">
+                        <img src="src/assets/img/productos-landing/producto-scorecard-cover.jpg" alt="Security ScoreCard">
+                    </div>
                     <div class="square-content">
                         <h4>
                             Security ScoreCard
@@ -405,6 +423,9 @@
                     </div>
                 </a>
                 <a href="productos/corsight" class="square square-xs">
+                    <div class="square-img">
+                        <img src="src/assets/img/productos-landing/producto-corsight-cover.jpg" alt="Corsight">
+                    </div>
                     <div class="square-content">
                         <h4>
                             Corsight
@@ -421,6 +442,9 @@
                     </div>
                 </a>
                 <a href="productos/tassta" class="square square-xs">
+                    <div class="square-img">
+                        <img src="src/assets/img/productos-landing/producto-tassta-cover.jpg" alt="TASSTA">
+                    </div>
                     <div class="square-content">
                         <h4>
                             TASSTA
