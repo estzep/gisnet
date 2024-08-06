@@ -43,7 +43,11 @@
 <section>
     <div class="section-container container">
         <div class="content">
-            <h2>La digitalización tiene dos grandes procesos</h2>
+            <h3 class="text-center">
+                La digitalización tiene
+                <br>
+                dos grandes procesos
+            </h3>
             <h3>Digitalización</h3>
             <div class="tabs">
                 <div class="column info">
