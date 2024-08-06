@@ -207,4 +207,27 @@
         </div>
     </div>
 </section>
+<section>
+    <div class="section-container container">
+        <div class="content">
+            <h3 class="text-center">
+                Proceso de la captura jurídica
+            </h3>
+            <div class="g-cards-2">
+                <div class="g-card">
+                    <div class="list-icon">
+                        <span class="circle">
+                            <span class="inner">1</span>
+                        </span>
+                    </div>
+                    <h6 class="title">Análisis Jurídico</h6>
+                    <p class="text text-3">
+                        Apertura del folio y la creación de la carátula. Establece una base sólida y precisa para los siguientes registros.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
 <? include($path.'src/components/WhyGisnet.php'); ?>
