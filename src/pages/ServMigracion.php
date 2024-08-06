@@ -213,7 +213,7 @@
             <h3 class="text-center">
                 Proceso de la captura jurídica
             </h3>
-            <div class="g-cards-2">
+            <div class="g-cards-2 triple">
                 <div class="g-card">
                     <div class="list-icon">
                         <span class="circle">
