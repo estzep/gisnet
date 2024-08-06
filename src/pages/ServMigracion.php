@@ -225,6 +225,17 @@
                         Apertura del folio y la creación de la carátula. Establece una base sólida y precisa para los siguientes registros.
                     </p>
                 </div>
+                <div class="g-card">
+                    <div class="list-icon">
+                        <span class="circle">
+                            <span class="inner">2</span>
+                        </span>
+                    </div>
+                    <h6 class="title">Captura de los Actos Jurídicos</h6>
+                    <p class="text text-3">
+                        Respetando el tracto sucesivo vigente. Este proceso asegura la integridad y la cronología exacta de los registros.
+                    </p>
+                </div>
 
             </div>
         </div>
