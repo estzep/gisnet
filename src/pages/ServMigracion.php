@@ -166,11 +166,11 @@
                                     <p class="text-3">
                                         Se categoriza de la siguiente manera
                                         <br>
-                                        • Año / Juzgado: Clasificamos los documentos según el año y el juzgado correspondiente.
+                                        <span class="bullet-point">•</span> Año / Juzgado: Clasificamos los documentos según el año y el juzgado correspondiente.
                                         <br>
-                                        • Materia: Agrupamos los documentos por temas o áreas de interés.
+                                        <span class="bullet-point">•</span> Materia: Agrupamos los documentos por temas o áreas de interés.
                                         <br>
-                                        • Fecha: Ordenamos cronológicamente para un acceso rápido y eficiente.
+                                        <span class="bullet-point">•</span> Fecha: Ordenamos cronológicamente para un acceso rápido y eficiente.
                                     </p>
                                 </div>
                             </div>
