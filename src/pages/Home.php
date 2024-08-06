@@ -340,7 +340,7 @@
                         </button>
                     </div>
                 </a>
-                <div id="collapseProductos" class="squares-4 squares-4-xs collapse">
+                <div id="collapseProductos" class="squares-4 squares-4-xs collapse" data-bs-parent="#productos">
                     <a href="productos/security-scorecard" class="square">
                         <div class="square-img">
                             <img src="src/assets/img/productos-landing/producto-scorecard-cover.jpg" alt="Security ScoreCard">
