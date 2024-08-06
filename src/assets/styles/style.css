@@ -278,6 +278,9 @@ main section.aboutUs .section-container .content {  }
     .squares-3 { gap: 2rem; }
     .squares-3 .square { flex: 0 0 calc(100% / 3 - 2rem); }
 
+    .squares-4 { gap: 2rem; }
+    .squares-4 .square { flex: 0 0 calc(100% / 3 - 2rem); }
+
     .g-cards-1 .g-card { flex: 0 0 27%; }
 }
 
@@ -317,6 +320,8 @@ main section.aboutUs .section-container .content {  }
     .tabs .column.image { flex: 1 0 calc(30% - 2rem); } */
 
     .squares-3 .square { flex: 0 0 calc(100% / 2 - 2rem); }
+
+    .squares-4 .square { flex: 0 0 calc(100% / 2 - 2rem); }
 
     .carousel .item { flex: 0 0 50%; }
 
@@ -374,6 +379,9 @@ main section.aboutUs .section-container .content {  }
     .squares-3 { gap: 1rem; }
     .squares-3 .square { flex: 0 0 calc(100% / 2 - 1rem); }
 
+    .squares-4 { gap: 1rem; }
+    .squares-4 .square { flex: 0 0 calc(100% / 2 - 1rem); }
+
     .carousel .controls { display: none; }
     .carousel .inner { padding-left: 0; }
     .carousel .item { flex: 0 0 75%; }
@@ -406,4 +414,7 @@ main section.aboutUs .section-container .content {  }
     .squares-3 { gap: 2rem; }
     .squares-3 .square { flex: 0 0 100%; }
     .square-xs { display: none; }
+
+    .squares-4 { gap: 2rem; }
+    .squares-4 .square { flex: 0 0 100%; }
 }
