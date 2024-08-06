@@ -281,14 +281,11 @@
 <section id="productos">
     <div class="section-container container">
         <div class="content">
-            <h2>Productos innovadores para tu negocio</h2>
-            <div class="squares-3">
+            <h2>Productos para tu negocio</h2>
+            <div class="squares-4">
                 <a href="productos/panini" class="square">
                     <div class="square-content">
                         <h4>
-                            <div class="icon">
-                                <img src="src/assets/icons/icon-7.svg" alt="Icon 7">
-                            </div>
                             Panini
                         </h4>
                         <p class="text-3">
@@ -305,9 +302,6 @@
                 <a href="productos/acf-technologies" class="square">
                     <div class="square-content">
                         <h4>
-                            <div class="icon">
-                                <img src="src/assets/icons/icon-9.svg" alt="Icon 9">
-                            </div>
                             ACF Technologies
                         </h4>
                         <p class="text-3">
@@ -324,9 +318,6 @@
                 <a href="productos/couchbase" class="square">
                     <div class="square-content">
                         <h4>
-                            <div class="icon">
-                                <img src="src/assets/icons/icon-8.svg" alt="Icon 8">
-                            </div>
                             Couchbase
                         </h4>
                         <p class="text-3">
@@ -344,9 +335,6 @@
                     <a href="productos/security-scorecard" class="square">
                         <div class="square-content">
                             <h4>
-                                <div class="icon">
-                                    <img src="src/assets/icons/icon-11.svg" alt="Icon 11">
-                                </div>
                                 Security ScoreCard
                             </h4>
                             <p class="text-3">
@@ -425,9 +413,6 @@
                 <a href="productos/security-scorecard" class="square square-xs">
                     <div class="square-content">
                         <h4>
-                            <div class="icon">
-                                <img src="src/assets/icons/icon-11.svg" alt="Icon 11">
-                            </div>
                             Security ScoreCard
                         </h4>
                         <p class="text-3">
@@ -444,9 +429,6 @@
                 <a href="productos/corsight" class="square square-xs">
                     <div class="square-content">
                         <h4>
-                            <div class="icon">
-                                <img src="src/assets/icons/icon-13.svg" alt="Icon 13">
-                            </div>
                             Corsight
                         </h4>
                         <p class="text-3">
@@ -460,31 +442,9 @@
                         </button>
                     </div>
                 </a>
-                <a href="productos/scale-fusion" class="square square-xs">
-                    <div class="square-content">
-                        <h4>
-                            <div class="icon">
-                                <img src="src/assets/icons/icon-15.svg" alt="Icon 15">
-                            </div>
-                            Scale Fusion
-                        </h4>
-                        <p class="text-3">
-                            Administración segura, intuitiva, y escalable para dispositivos móviles y terminales
-                        </p>
-                        <button type="button" class="btn-type-2">
-                            Leer más
-                            <span class="arrow">
-                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
-                            </span>
-                        </button>
-                    </div>
-                </a>
                 <a href="productos/tassta" class="square square-xs">
                     <div class="square-content">
                         <h4>
-                            <div class="icon">
-                                <img src="src/assets/icons/icon-16.svg" alt="Icon 16">
-                            </div>
                             TASSTA
                         </h4>
                         <p class="text-3">
