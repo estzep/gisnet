@@ -285,7 +285,7 @@
             <div class="squares-4">
                 <a href="productos/panini" class="square">
                     <div class="square-img">
-                        <img src="src/assets/img/productos-landing/producto-panini-cover.png" alt="Panini">
+                        <img src="src/assets/img/productos-landing/producto-panini-cover.jpg" alt="Panini">
                     </div>
                     <div class="square-content">
                         <h4>
