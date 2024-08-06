@@ -15,7 +15,6 @@
             $headerImg = $product['headerImg'];
             $clientsTitle = $product['clientsTitle'];
             $clientsDescription = $product['clientsDescription'];
-            $clients = $product['clients'];
             break;
         }
     }

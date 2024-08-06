@@ -10,17 +10,33 @@
 
     foreach ($data['services'] as $service) {
         if ($service['spname'] === $spname) {
-            $headerTitle = $service['headerTitle'];
-            $headerDescription = $service['headerDescription'];
-            $headerImg = $service['headerImg'];
             $clientsTitle = $service['clientsTitle'];
             $clientsDescription = $service['clientsDescription'];
-            $clients = $service['clients'];
             break;
         }
     }
 ?>
-<? include($path.'src/components/Header.php'); ?>
+<header>
+    <div class="container">
+        <div class="content">
+            <div class="info">
+                <h1>Migración de Acervos</h1>
+                <p class="text-1">
+                    El proceso de transferir datos, documentos, imágenes y registros de un formato o sistema de almacenamiento a otro, más moderno y accesible.
+                </p>
+                <a href="<? echo $path ?>/contacto" class="btn-type-1 f-btn">
+                    Quiero comenzar
+                </a>
+                <a href="<? echo $path ?>/files/migracion-de-acervos.pdf" class="btn-type-6 s-btn">
+                    Ver certificado ISO 9001:2015
+                </a>
+            </div>
+            <div class="image">
+                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
+            </div>
+        </div>
+    </div>
+</header>
 <? include($path.'src/components/Clients.php'); ?>
 <section>
     <div class="section-container container">

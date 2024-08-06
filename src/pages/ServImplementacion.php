@@ -15,7 +15,6 @@
             $headerImg = $service['headerImg'];
             $clientsTitle = $service['clientsTitle'];
             $clientsDescription = $service['clientsDescription'];
-            $clients = $service['clients'];
             break;
         }
     }

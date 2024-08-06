@@ -110,6 +110,9 @@ body { color: var(--text-color); background: var(--darker-pri-color); font-famil
 .btn-type-5 .arrow .head { transition: 0.3s; }
 .btn-type-5:hover .arrow .head { transform: translateX(.2rem) scale(1.1); }
 
+.btn-type-6 { font-size: 1rem; display: inline-block; border: 1px solid var(--light-blue-1); color: var(--pri-color); text-decoration: none; line-height: 1; padding: .5rem 1rem; border-radius: 0; background: var(--light-blue-1); transition: 0.4s; }
+.btn-type-6:hover { background-color: var(--lighter-pri-color); border: 1px solid var(--lighter-pri-color); }
+
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {}
 

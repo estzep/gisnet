@@ -15,6 +15,9 @@
                 <a href="<? echo $path ?>/contacto" class="btn-type-1 f-btn">
                     Quiero comenzar
                 </a>
+                <a href="<? echo $path ?>/contacto" class="btn-type-5 s-btn">
+                    Ver certificado ISO 9001:2015
+                </a>
             </div>
             <div class="image">
                 <img src="<? echo $path ?>src/assets/img/sp/<? echo $headerImg ?>" alt="Producto/Servicio image">
