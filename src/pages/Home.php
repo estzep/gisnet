@@ -550,11 +550,20 @@
                     </div>
                     <div class="item">
                         <div class="img">
-                            <img src="src/assets/img/logos/seguridata.png" alt="Logo Seguridata" class="seguridata">
+                            <img src="src/assets/img/logos/security-scorecard.png" alt="Logo Security Scorecard" class="securityscorecard">
                         </div>
-                        <h4>Seguridata</h4>
+                        <h4>Security Scorecard</h4>
                         <p class="text-3">
-                            Empresa pionera de la Firma Electrónica en México brindando PSC.
+                            Líder mundial en calificaciones de ciberseguridad, asegurando la protección de las empresas.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="src/assets/img/logos/acf.png" alt="Logo ACF Technologies" class="acf">
+                        </div>
+                        <h4>ACF Technologies</h4>
+                        <p class="text-3">
+                            Líder en gestión avanzada del flujo de clientes mejorando la eficiencia operativa.
                         </p>
                     </div>
                     <div class="item">
