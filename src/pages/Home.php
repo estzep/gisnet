@@ -575,15 +575,6 @@
                             TASSTA desarrolla aplicaciones para la comunicación a través de redes de banda ancha.
                         </p>
                     </div>
-                    <div class="item opacity-0">
-                        <div class="img">
-                            <img src="src/assets/img/logos/tassta.svg" alt="Logo TASSTA" class="tassta">
-                        </div>
-                        <h4>TASSTA</h4>
-                        <p class="text-3">
-                            TASSTA desarrolla aplicaciones para la comunicación a través de redes de banda ancha.
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>
