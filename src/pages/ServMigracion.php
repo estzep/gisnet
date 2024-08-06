@@ -215,16 +215,17 @@
             </h3>
             <div class="g-cards-2 triple">
                 <div class="g-card">
-                    <div class="list-icon">
-                        <span class="circle">
+                    <div class="top">
+                        <span class="list-icon">
                             <span class="inner">1</span>
                         </span>
+                        <h6 class="title">Análisis Jurídico</h6>
                     </div>
-                    <h6 class="title">Análisis Jurídico</h6>
-                    <p class="text text-3">
+                    <p class="bottom text-3">
                         Apertura del folio y la creación de la carátula. Establece una base sólida y precisa para los siguientes registros.
                     </p>
                 </div>
+                
                 <div class="g-card">
                     <div class="list-icon">
                         <span class="circle">
