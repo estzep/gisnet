@@ -178,7 +178,7 @@ main section.aboutUs .section-container .content {  }
 .tabs .column ul li.active .body { grid-template-rows: 1fr; }
 .tabs .column ul li h6 { transition: 0.4s; flex: 1 0 0%; font-size: 1.1rem; margin-bottom: .6rem; font-weight: 500; color: var(--text-color); }
 .tabs .column ul li.active h6 { color: var(--light-text-color); }
-.tabs .column ul li :is(.more, .link) { flex: 0 1 35%; color: var(--text-color); transition: 0.4s; text-align: end; }
+.tabs .column ul li :is(.more, .link) { flex: 0 1 35%; color: var(--text-color); transition: 0.4s; text-align: end; margin-bottom: .6rem; }
 .tabs .column ul li.active :is(.more, .link) { color: var(--light-text-color); font-size: .9rem; }
 .tabs .column ul li :is(.more, .link) img { display: inline-block; width: .7rem; height: .7rem; filter: var(--text-color-filter); transition: 0.4s; }
 .tabs .column ul li:not(.active) .link { display: none; }
