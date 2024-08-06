@@ -32,41 +32,41 @@
                 <div class="overlay"></div>
                 <div class="track">
                     <div class="item">
-                        <img src="<? echo($path) ?>src/assets/img/logos/logo-bbva.png" alt="BBVA logo">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logos-colored/logo-bbva-colored.png" alt="BBVA logo">
                     </div>
                     <div class="item">
-                        <img src="<? echo($path) ?>src/assets/img/logos/logo-cecoban.png" alt="Cecoban logo">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logos-colored/logo-cecoban-colored.png" alt="Cecoban logo">
                     </div>
                     <div class="item">
-                        <img src="<? echo($path) ?>src/assets/img/logos/logo-diebold-nixdorf.png" alt="Diebold Nixdorf logo">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logos-colored/logo-diebold-nixdorf-colored.png" alt="Diebold Nixdorf logo">
                     </div>
                     <div class="item">
-                        <img src="<? echo($path) ?>src/assets/img/logos/logo-gbo-gto.png" alt="Gobierno de Guanajuato logo">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logos-colored/logo-gbo-gto-colored.png" alt="Gobierno de Guanajuato logo">
                     </div>
                     <div class="item">
-                        <img src="<? echo($path) ?>src/assets/img/logos/logo-gbo-nl.png" alt="Goierno de Nuevo León logo">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logos-colored/logo-gbo-nl-colored.png" alt="Goierno de Nuevo León logo">
                     </div>
                     <div class="item">
-                        <img src="<? echo($path) ?>src/assets/img/logos/logo-santander.png" alt="Santander logo">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logos-colored/logo-santander-colored.png" alt="Santander logo">
                     </div>
                     <!-- repeat -->
                     <div class="item">
-                        <img src="<? echo($path) ?>src/assets/img/logos/logo-bbva.png" alt="BBVA logo">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logos-colored/logo-bbva-colored.png" alt="BBVA logo">
                     </div>
                     <div class="item">
-                        <img src="<? echo($path) ?>src/assets/img/logos/logo-cecoban.png" alt="Cecoban logo">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logos-colored/logo-cecoban-colored.png" alt="Cecoban logo">
                     </div>
                     <div class="item">
-                        <img src="<? echo($path) ?>src/assets/img/logos/logo-diebold-nixdorf.png" alt="Diebold Nixdorf logo">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logos-colored/logo-diebold-nixdorf-colored.png" alt="Diebold Nixdorf logo">
                     </div>
                     <div class="item">
-                        <img src="<? echo($path) ?>src/assets/img/logos/logo-gbo-gto.png" alt="Gobierno de Guanajuato logo">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logos-colored/logo-gbo-gto-colored.png" alt="Gobierno de Guanajuato logo">
                     </div>
                     <div class="item">
-                        <img src="<? echo($path) ?>src/assets/img/logos/logo-gbo-nl.png" alt="Goierno de Nuevo León logo">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logos-colored/logo-gbo-nl-colored.png" alt="Goierno de Nuevo León logo">
                     </div>
                     <div class="item">
-                        <img src="<? echo($path) ?>src/assets/img/logos/logo-santander.png" alt="Santander logo">
+                        <img src="<? echo($path) ?>src/assets/img/logos/logos-colored/logo-santander-colored.png" alt="Santander logo">
                     </div>
                 </div>
             </div>
