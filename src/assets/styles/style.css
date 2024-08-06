@@ -1,6 +1,7 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .squares-3-xs { display: none; }
+    .squares-4-xs { display: none; }
 }
 
 /* Medium devices (tablets, 768px and up) */
