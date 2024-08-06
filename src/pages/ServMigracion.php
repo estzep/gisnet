@@ -25,10 +25,10 @@
                     El proceso de transferir datos, documentos, imágenes y registros de un formato o sistema de almacenamiento a otro, más moderno y accesible.
                 </p>
                 <div class="links">
-                    <a href="<? echo $path ?>/contacto" class="btn-type-1 f-btn">
+                    <a href="<? echo $path ?>contacto" class="btn-type-1 f-btn">
                         Quiero comenzar
                     </a>
-                    <a href="<? echo $path ?>/files/migracion-de-acervos.pdf" class="btn-type-6 s-btn">
+                    <a href="<? echo $path ?>files/migracion-de-acervos.pdf" class="btn-type-6 s-btn">
                         Ver certificado ISO 9001:2015
                     </a>
                 </div>
