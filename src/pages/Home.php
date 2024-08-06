@@ -351,9 +351,6 @@
                     <a href="productos/corsight" class="square">
                         <div class="square-content">
                             <h4>
-                                <div class="icon">
-                                    <img src="src/assets/icons/icon-13.svg" alt="Icon 13">
-                                </div>
                                 Corsight
                             </h4>
                             <p class="text-3">
@@ -367,31 +364,9 @@
                             </button>
                         </div>
                     </a>
-                    <a href="productos/scale-fusion" class="square">
-                        <div class="square-content">
-                            <h4>
-                                <div class="icon">
-                                    <img src="src/assets/icons/icon-15.svg" alt="Icon 15">
-                                </div>
-                                Scale Fusion
-                            </h4>
-                            <p class="text-3">
-                                Administración segura, intuitiva, y escalable para dispositivos móviles y terminales
-                            </p>
-                            <button type="button" class="btn-type-2">
-                                Leer más
-                                <span class="arrow">
-                                    <img src="src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
-                                </span>
-                            </button>
-                        </div>
-                    </a>
                     <a href="productos/tassta" class="square">
                         <div class="square-content">
                             <h4>
-                                <div class="icon">
-                                    <img src="src/assets/icons/icon-16.svg" alt="Icon 16">
-                                </div>
                                 TASSTA
                             </h4>
                             <p class="text-3">
