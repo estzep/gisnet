@@ -256,9 +256,9 @@ main section.aboutUs .section-container .content {  }
 .g-cards-2.double .g-card { width: 50%; flex: 0 0 50%; }
 .g-cards-2.triple .g-card { width: calc(100% / 3); flex: 0 0 calc(100% / 3); }
 .g-cards-2 .g-card .list-icon { flex: 1 0 auto; }
-.g-cards-2 .g-card .list-icon .circle { position: relative; display: inline-block; width: 1.1rem; height: 1.1rem; background: var(--pri-color); border-radius: 100%; }
+.g-cards-2 .g-card .list-icon .circle { position: relative; display: inline-block; width: 1.6rem; height: 1.6rem; background: var(--pri-color); border-radius: 100%; margin-bottom: .5rem; }
 .g-cards-2 .g-card .list-icon .circle .inner { position: absolute; display: inline-block; color: var(--light-text-color); font-size: .9rem; line-height: 1; margin-bottom: 0; font-weight: 500; top: 50%; left: 50%; transform: translate(-50%, -50%); }
-.g-cards-2 .g-card .title { flex: 1 0 auto; }
+.g-cards-2 .g-card .title { flex: 1 0 auto; line-height: 1.6; font-weight: 500; margin-bottom: .5rem; }
 .g-cards-2 .g-card .text { flex: 1 0 auto; }
 
 
