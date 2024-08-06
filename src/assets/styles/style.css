@@ -416,9 +416,9 @@ main section.aboutUs .section-container .content {  }
 
     .squares-3 { gap: 2rem; }
     .squares-3 .square { flex: 0 0 100%; }
+    .square-xs { display: none; }
 
     .squares-4 { gap: 2rem; }
     .squares-4 .square { flex: 0 0 100%; }
-
-    .square-xs { display: none; }
+    .squares-4 .square-xs { display: none; }
 }
