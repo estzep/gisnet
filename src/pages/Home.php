@@ -3,9 +3,6 @@
         <div class="content">
             <div class="info">
                 <h1>Líderes en soluciones y consultorías especializadas</h1>
-                <p class="text-1">
-                    20 años de experiencia innovando en el sector gubernamental y financiero
-                </p>
                 <div class="links">
                     <a href="contacto" class="btn-type-1 f-btn desktop">
                         Hablas con nosotros
@@ -27,7 +24,7 @@
 <section id="clientes">
     <div class="section-container container">
         <div class="content">
-            <h5>Con la confianza de</h5>
+            <h5>Nuestros clientes</h5>
             <div class="slider">
                 <div class="overlay"></div>
                 <div class="track">
@@ -77,9 +74,9 @@
     <div class="section-container container">
         <div class="content">
             <div class="heading">
-                <h3>Más de 22 años modernizando procesos de nuestros clientes</h3>
+                <h3>Modernizando procesos de nuestros clientes</h3>
                 <p class="text-1">
-                    Nos concentramos en la evolución tecnológica de nuestros clientes, mediante los servicios y productos que ofrecemos, dirigidos principalmente al sector municipal, estatal y federal.
+                    Nos concentramos en la evolución tecnológica de nuestros clientes, mediante los servicios y productos que ofrecemos, dirigidos principalmente al sector Gobierno: Municipal, Estatal, Federal, sector Financiero.
                 </p>
             </div>
             <div class="squares-1">
@@ -90,7 +87,7 @@
                             Sector Gobierno
                         </h4>
                         <p class="text-2">
-                            Hemos participado activamente y con éxito en la Modernización integral de diversas áreas, incluyendo Registros Públicos de la Propiedad, Catastros Estatales, Registros Civiles, Salud, Vivienda (Infonavit) y Transportes (SCT).
+                            Hemos participado activamente y con éxito en la Modernización integral de diversas áreas, incluyendo Registros Públicos de la Propiedad, Catastros Estatales y Municipales, Registros Civiles, Salud, Vivienda (Infonavit) y Transportes (SCT).
                         </p>
                     </div>
                 </div>
@@ -101,7 +98,7 @@
                             Sector Financiero
                         </h4>
                         <p class="text-2">
-                            Damos instalación y mantenimiento a nivel nacional a los toma turnos de Banco BBVA y Santander, contando con un Call Center (Centro de llamado), ofreciendo soporte en la operación de los equipos instalados de más de 2,000 sucursales.
+                            Damos instalación y mantenimiento a nivel nacional a los toma turnos de Banco BBVA y Santander, contando con un Call Center (Centro de llamado), ofreciendo soporte en la operación de los equipos instalados.
                         </p>
                     </div>
                 </div>
@@ -117,7 +114,7 @@
                     <img src="src/assets/img/nosotros-img.jpg" alt="Imagen representando a Nosotros">
                 </div>
                 <div class="column info">
-                    <h3>Diseñamos nuestras soluciones a tu medida</h3>
+                    <h3>Diseñamos soluciones a tu medida</h3>
                     <p class="text-1">
                         En Gisnet, nos adaptamos a tus necesidades específicas ofreciendo soluciones a medida que destacan por su excelencia. Ya sea, que busques servicios especializados, productos personalizados o asesoramiento experto.
                     </p>
@@ -132,33 +129,37 @@
             <div class="squares-2">
                 <div class="square">
                     <div class="square-content">
-                        <h5>Más de 10</h5>
+                        <h4>23</h4>
+                        <h5>años</h5>
                         <p class="text-3">
-                            Estados del país cuentan con nuestros servicios.
+                            con presencia Nacional
                         </p>
                     </div>
                 </div>
                 <div class="square">
                     <div class="square-content">
-                        <h5>Más de 75</h5>
+                        <h4>116</h4>
+                        <h5>millones</h5>
                         <p class="text-3">
-                            Empresas recurrentes contratan nuestros servicios.
+                            de imágenes digitalizadas
                         </p>
                     </div>
                 </div>
                 <div class="square">
                     <div class="square-content">
-                        <h5>Más de 5</h5>
+                        <h4>114</h4>
+                        <h5>millones</h5>
                         <p class="text-3">
-                            Países en Latinoamérica donde estamos presentes.
+                            de Actos Jurídicos Integrados en Folios Electrónicos
                         </p>
                     </div>
                 </div>
                 <div class="square">
                     <div class="square-content">
-                        <h5>100%</h5>
+                        <h4>2000+</h4>
+                        <h5>sucursales</h5>
                         <p class="text-3">
-                            Proyectos concluidos de manera satisfactoria.
+                            a nivel Nacional dando soporte
                         </p>
                     </div>
                 </div>
