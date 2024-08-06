@@ -340,7 +340,7 @@
                         </button>
                     </div>
                 </a>
-                <div id="collapseProductos" class="squares-3 squares-3-xs collapse">
+                <div id="collapseProductos" class="squares-4 squares-4-xs collapse">
                     <a href="productos/security-scorecard" class="square">
                         <div class="square-img">
                             <img src="src/assets/img/productos-landing/producto-scorecard-cover.jpg" alt="Security ScoreCard">
@@ -399,7 +399,7 @@
                         </div>
                     </a>
                 </div>
-                <button class="btn-type-4 squares-3-xs" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">
+                <button class="btn-type-4 squares-4-xs" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductos" aria-expanded="false" aria-controls="collapseProductos">
                     <span class="f">Mostrar todos los productos</span>
                     <span class="s">Ocultar</span>
                 </button>
