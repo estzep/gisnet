@@ -284,6 +284,9 @@
             <h2>Productos para tu negocio</h2>
             <div class="squares-4">
                 <a href="productos/panini" class="square">
+                    <div class="square-img">
+                        <img src="src/assets/img/productos-landing/producto-panini-cover" alt="Panini">
+                    </div>
                     <div class="square-content">
                         <h4>
                             Panini
