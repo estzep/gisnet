@@ -154,20 +154,23 @@
                         <li id="li-r-tab1" class="active" data-bs-toggle="tab" data-bs-target="#tab-r-tab1" role="tab" aria-controls="tab-r-tab1" aria-selected="true">
                             <div class="tab-content">
                                 <div class="heading">
-                                    <h6>Migración de acervos</h6>
+                                    <h6>Estructura o Nombre de los Archivos</h6>
                                     <a class="more btn-type-5">
                                         <img src="<? echo($path) ?>src/assets/icons/icon-more.svg" alt="Más" class="head">
                                     </a>
-                                    <a href="servicios/migracion-de-acervos/" class="link btn-type-5">
-                                        Leer más
-                                        <span class="arrow">
-                                            <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
-                                        </span>
+                                    <a class="link btn-type-5">
+                                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-tail.svg" alt="Menos" class="head">
                                     </a>
                                 </div>
                                 <div class="body">
                                     <p class="text-3">
-                                        Transformación de documentales a formatos digitales electrónicos, asegurando la preservación y accesibilidad de información valiosa.
+                                        Se categoriza de la siguiente manera
+                                        <br>
+                                        • Año / Juzgado: Clasificamos los documentos según el año y el juzgado correspondiente.
+                                        <br>
+                                        • Materia: Agrupamos los documentos por temas o áreas de interés.
+                                        <br>
+                                        • Fecha: Ordenamos cronológicamente para un acceso rápido y eficiente.
                                     </p>
                                 </div>
                             </div>
@@ -175,62 +178,17 @@
                         <li id="li-r-tab2" data-bs-toggle="tab" data-bs-target="#tab-r-tab2" role="tab" aria-controls="tab-r-tab2" aria-selected="false">
                             <div class="tab-content">
                                 <div class="heading">
-                                    <h6>Implementación de Sistemas</h6>
+                                    <h6>Captura de Datos para Búsquedas Efectivas (Metadatos)</h6>
                                     <a class="more btn-type-5">
                                         <img src="<? echo($path) ?>src/assets/icons/icon-more.svg" alt="Más" class="head">
                                     </a>
-                                    <a href="servicios/implementacion-de-sistemas/" class="link btn-type-5">
-                                        Leer más
-                                        <span class="arrow">
-                                            <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
-                                        </span>
+                                    <a class="link btn-type-5">
+                                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-tail.svg" alt="Menos" class="head">
                                     </a>
                                 </div>
                                 <div class="body">
                                     <p class="text-3">
-                                        Desarrollo de sistemas Registrales, Catastrales y de Gestión Documental, optimizando procesos y mejorando la eficiencia operativa.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li id="li-r-tab3" data-bs-toggle="tab" data-bs-target="#tab-r-tab3" role="tab" aria-controls="tab-r-tab3" aria-selected="false">
-                            <div class="tab-content">
-                                <div class="heading">
-                                    <h6>Limpieza de Datos</h6>
-                                    <a class="more btn-type-5">
-                                        <img src="<? echo($path) ?>src/assets/icons/icon-more.svg" alt="Más" class="head">
-                                    </a>
-                                    <a href="servicios/limpieza-de-datos/" class="link btn-type-5">
-                                        Leer más
-                                        <span class="arrow">
-                                            <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="body">
-                                    <p class="text-3">
-                                        Depuración y saneamiento de bases de datos, eliminando inexactitudes para garantizar la precisión y fiabilidad de la información.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li id="li-r-tab4" data-bs-toggle="tab" data-bs-target="#tab-r-tab4" role="tab" aria-controls="tab-r-tab4" aria-selected="false">
-                            <div class="tab-content">
-                                <div class="heading">
-                                    <h6>Desarrollo, Soporte y Mantenimiento</h6>
-                                    <a class="more btn-type-5">
-                                        <img src="<? echo($path) ?>src/assets/icons/icon-more.svg" alt="Más" class="head">
-                                    </a>
-                                    <a href="servicios/desarrollo-soporte-mantenimiento/" class="link btn-type-5">
-                                        Leer más
-                                        <span class="arrow">
-                                            <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="body">
-                                    <p class="text-3">
-                                        Servicios continuos para los sistemas instalados, asegurando su óptimo funcionamiento y actualización constante.
+                                        Registro de información clave sobre cada documento digitalizado para facilitar su posterior localización y recuperación en sistemas de búsqueda.
                                     </p>
                                 </div>
                             </div>
@@ -242,12 +200,6 @@
                         <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
                     </div>
                     <div id="tab-r-tab2" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-r-tab2" tabindex="0">
-                        <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
-                    </div>
-                    <div id="tab-r-tab3" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-r-tab3" tabindex="0">
-                        <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
-                    </div>
-                    <div id="tab-r-tab4" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-r-tab4" tabindex="0">
                         <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
                     </div>
                 </div>
