@@ -269,6 +269,8 @@ main section.aboutUs .section-container .content {  }
     main header .image { flex: 0 0 40%; }
 
     main section#empresa .heading { width: 55%; }
+
+    .g-cards-2 { --gap-size: 2rem; }
 }
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
@@ -343,6 +345,9 @@ main section.aboutUs .section-container .content {  }
 
     .g-cards-1 { gap: 2rem; }
     .g-cards-1 .g-card { flex: 0 0 32%; }
+
+    .g-cards-2 { --gap-size: 1rem; }
+    .g-cards-2.triple .g-card { width: calc(50% - var(--gap-size)); flex: 0 0 calc(50% - var(--gap-size)); }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
