@@ -38,7 +38,9 @@ document.addEventListener("DOMContentLoaded", function() {
         } catch (error) {}
     });
 
-    sociosCarouselInner.addEventListener('scroll', disableCarouselControls);
+    if (sociosCarouselInner) {
+        sociosCarouselInner.addEventListener('scroll', disableCarouselControls);
+    }
 });
 
 function closeAccordions() {
