@@ -344,7 +344,13 @@ main section.aboutUs .section-container .content {  }
 
     :root { --n-logos: 3; }
 
-    .mixed-content-1 .heading { flex: 1 0 80%; }
+    .mixed-content-1 .heading { flex: 0 1 80%; padding-bottom: 3.5rem; }
+    .mixed-content-1 .info { flex: 1 0 60%; padding-bottom: 3.5rem; }
+    .mixed-content-1 .image { flex: 1 0 40%; padding-bottom: 3.5rem; }
+    .mixed-content-1 .image img { padding-bottom: 3.5rem; }
+    .mixed-content-1 .image.f img { padding-left: 3.5rem; }
+    .mixed-content-1 .image.s img { padding-right: 3.5rem; }
+    .mixed-content-1 .note { width: 75%; flex: 0 0 75%; margin: 0 auto; }
 
     .squares-1 { gap: 2rem; }
 
@@ -405,7 +411,14 @@ main section.aboutUs .section-container .content {  }
     :root { --n-logos: 2.5; }
     .slider .track .item { padding: 0 .5rem; }
 
-    .mixed-content-1 .heading { flex: 1 0 90%; }
+    .mixed-content-1 .heading { flex: 1 1 90%; padding-bottom: 2.5rem; }
+    .mixed-content-1 .info { flex: 1 0 100%; padding-bottom: 2.5rem; }
+    .mixed-content-1 .image { flex: 1 0 100%; padding-bottom: 2.5rem; }
+    .mixed-content-1 .image.s { order: 4; }
+    .mixed-content-1 .image img { padding-bottom: 2.5rem; }
+    .mixed-content-1 .image.f img { padding-left: 0; }
+    .mixed-content-1 .image.s img { padding-right: 0; }
+    .mixed-content-1 .note { width: 100%; flex: 1 0 100%; margin: 0 auto; order: 5; }
 
     .squares-1 { padding-top: 0; }
     .squares-1 .square { flex: 1 0 100%; }
