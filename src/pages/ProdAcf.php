@@ -23,13 +23,31 @@
 <? include($path.'src/components/Clients.php'); ?>
 <section class="acf">
     <div class="section-container container">
-        <div class="content heading">
-            <div class="info">
+        <div class="content">
+            <div class="heading">
                 <h3>
                     Acciones sobre la
                     <br>
                     atención de cliente
                 </h3>
+                <p class="text-1">
+                    La plataforma cuenta con diferentes tipos de permisologías a través de grupos de usuarios y diferentes roles, y las acciones que pueden realizarse cuando se está atendiendo al usuario.
+                </p>
+            </div>
+            <div class="info">
+                <h3>Perspectiva del cliente</h3>
+                <p class="text-1">
+                    La plataforma cuenta con diferentes tipos de permisologías a través de grupos de usuarios y diferentes roles, y las acciones que pueden realizarse cuando se está atendiendo al usuario.
+                </p>
+            </div>
+            <div class="image">
+                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
+            </div>
+            <div class="image">
+                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
+            </div>
+            <div class="info">
+                <h3>Perspectiva del empleado</h3>
                 <p class="text-1">
                     La plataforma cuenta con diferentes tipos de permisologías a través de grupos de usuarios y diferentes roles, y las acciones que pueden realizarse cuando se está atendiendo al usuario.
                 </p>
