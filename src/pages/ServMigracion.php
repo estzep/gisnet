@@ -40,7 +40,7 @@
     </div>
 </header>
 <? include($path.'src/components/Clients.php'); ?>
-<section>
+<section class="migracion-de-acervos">
     <div class="section-container container">
         <div class="content">
             <h3 class="text-center">
@@ -144,7 +144,7 @@
         </div>
     </div>
 </section>
-<section>
+<section class="migracion-de-acervos">
     <div class="section-container container">
         <div class="content">
             <h3 class="text-end">Indexado y captura de metadatos</h3>
@@ -207,7 +207,7 @@
         </div>
     </div>
 </section>
-<section>
+<section class="migracion-de-acervos">
     <div class="section-container container">
         <div class="content">
             <h3 class="text-sm-center text-start">
