@@ -2,13 +2,15 @@ document.addEventListener("DOMContentLoaded", function() {
     const sociosCarouselInner = document.getElementById('sociosCarouselInner');
 
     function sociosCarouselMargin() {
-        var carousel = document.getElementById('sociosCarousel');
-        var inner = document.getElementById('sociosCarouselInner');
-        var carouselRight = carousel.getBoundingClientRect().right;
-        var windowWidth = window.innerWidth;
+        try {
+            var carousel = document.getElementById('sociosCarousel');
+            var inner = document.getElementById('sociosCarouselInner');
+            var carouselRight = carousel.getBoundingClientRect().right;
+            var windowWidth = window.innerWidth;
 
-        var distanceToWindowRight = windowWidth - carouselRight;
-        inner.style.marginRight = -distanceToWindowRight + 'px';
+            var distanceToWindowRight = windowWidth - carouselRight;
+            inner.style.marginRight = -distanceToWindowRight + 'px';
+        } catch {}
     }
 
     function mainPadding() {
