@@ -88,7 +88,7 @@
 </section>
 <section>
     <div class="section-container container">
-        <div class="content mixed-content-1">
+        <div class="content mixed-content-1 pb-0 pt-5">
             <div class="info">
                 <h3>GISNET - Toma Turnos (Direccionadores)</h3>
                 <p class="text-1">
