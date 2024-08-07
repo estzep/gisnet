@@ -210,7 +210,7 @@
 <section>
     <div class="section-container container">
         <div class="content">
-            <h3 class="text-center">
+            <h3 class="text-sm-center text-start">
                 Proceso de la captura jurídica
             </h3>
             <div class="g-cards-2 triple">

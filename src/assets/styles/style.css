@@ -365,6 +365,8 @@ main section.aboutUs .section-container .content {  }
     main header .links a.f-btn.desktop { display: none; }
     main header .links a.f-btn.mobile { display: inline-block; }
 
+    main section .section-container .content { padding: 4rem 0; }
+
     main section#clientes .heading { width: 100%; }
 
     main section#empresa .heading { width: 98%; }
