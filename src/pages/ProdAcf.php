@@ -21,7 +21,7 @@
 ?>
 <? include($path.'src/components/Header.php'); ?>
 <? include($path.'src/components/Clients.php'); ?>
-<section class="acf">
+<section>
     <div class="section-container container">
         <div class="content mixed-content-1">
             <div class="heading">
@@ -88,8 +88,20 @@
 </section>
 <section>
     <div class="section-container container">
-        <div class="content">
-            Contenido...
+        <div class="content mixed-content-1">
+            <div class="info">
+                <h3>GISNET - Toma Turnos (Direccionadores)</h3>
+                <p class="text-1">
+                    Somos fabricantes de los Toma Turnos ó Podios para integrarse con el Sistema de Gestión de Filas que ofertamos.
+                    <br>
+                    Adicionalmente, damos el servicio de soporte y mantenimiento de los Toma Turnos a nivel nacional, tanto preventivo como correctivo.
+                    <br>
+                    Podemos incluir el soporte a los dispositivos para la Señalización Digital, tanto los players como las televisiones que operan en la sucursal.
+                </p>
+            </div>
+            <div class="image t">
+                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
+            </div>
         </div>
     </div>
 </section>

@@ -347,6 +347,7 @@ main section.aboutUs .section-container .content {  }
     .mixed-content-1 .heading { flex: 0 1 80%; padding-bottom: 3.5rem; }
     .mixed-content-1 .info { flex: 1 0 60%; padding-bottom: 3.5rem; }
     .mixed-content-1 .image { flex: 1 0 40%; padding-bottom: 3.5rem; }
+    .mixed-content-1 .image.t { flex: 1 0 100%; }
     .mixed-content-1 .image img { padding-bottom: 3.5rem; }
     .mixed-content-1 .image.f img { padding-left: 3.5rem; }
     .mixed-content-1 .image.s img { padding-right: 3.5rem; }
