@@ -139,17 +139,6 @@
                                     </a>
                                 </li>
                                 <li class="dropdown-item">
-                                    <a href="<? echo($path) ?>productos/scale-fusion">
-                                        <div class="icon">
-                                            <img src="<? echo($path) ?>src/assets/icons/icon-15.svg" alt="Icon 15">
-                                        </div>
-                                        <div class="info">
-                                            <h6>Scale Fusion</h6>
-                                            <p>Administración segura, intuitiva, y escalable para dispositivos móviles y terminales.</p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="dropdown-item">
                                     <a href="<? echo($path) ?>productos/tassta">
                                         <div class="icon">
                                             <img src="<? echo($path) ?>src/assets/icons/icon-16.svg" alt="Icon 16">

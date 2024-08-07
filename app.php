@@ -53,9 +53,6 @@
             case '/productos/corsight/':
                 include($path.'src/pages/ProdCorsight.php');
                 break;
-            case '/productos/scale-fusion/':
-                include($path.'src/pages/ProdScale.php');
-                break;
             case '/productos/tassta/':
                 include($path.'src/pages/ProdTassta.php');
                 break;

@@ -64,9 +64,6 @@
                                 <p><a href="<? echo($path) ?>productos/corsight">Corsight</a></p>
                             </li>
                             <li>
-                                <p><a href="<? echo($path) ?>productos/scale-fusion">Scale Fusion</a></p>
-                            </li>
-                            <li>
                                 <p><a href="<? echo($path) ?>productos/tassta">TASSTA</a></p>
                             </li>
                         </ul>
