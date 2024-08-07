@@ -51,6 +51,8 @@ main header.aboutUs .container {  }
 main section {  }
 main section .section-container {  }
 main section .section-container .content { padding: 6.5rem 0; }
+main section .section-container .content.heading { display: flex; }
+main section .section-container .content.heading .info { flex: 0 0 55%; margin: 0 auto 0 0; padding-right: 0; }
 
 main section#clientes {  }
 main section#clientes.sp { background: var(--bg-color-1); }
