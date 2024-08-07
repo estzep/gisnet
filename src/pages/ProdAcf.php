@@ -23,7 +23,7 @@
 <? include($path.'src/components/Clients.php'); ?>
 <section class="acf">
     <div class="section-container container">
-        <div class="content">
+        <div class="content heading">
             <div class="info">
                 <h3>
                     Acciones sobre la
