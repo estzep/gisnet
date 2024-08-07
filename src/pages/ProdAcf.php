@@ -99,7 +99,7 @@
                     Podemos incluir el soporte a los dispositivos para la Señalización Digital, tanto los players como las televisiones que operan en la sucursal.
                 </p>
             </div>
-            <div class="image t">
+            <div class="image f t">
                 <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
             </div>
         </div>
