@@ -54,10 +54,10 @@
                 </p>
             </div>
             <div class="image">
-                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image" class="ps-5">
             </div>
             <div class="image">
-                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image" class="pe-5">
             </div>
             <div class="info">
                 <h3>Perspectiva del empleado</h3>
