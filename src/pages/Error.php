@@ -28,14 +28,16 @@
 <header id="inicio" class="error">
     <div class="container">
         <div class="content">
-            <h1>404</h1>
-            <p class="text-1">
-                Lo sentimos, la página no fue encontrada.
-            </p>
-            <div class="links">
-                <a href="<? echo($path) ?>" class="btn-type-1 f-btn">
-                    Regresar a inicio
-                </a>
+            <div class="info">
+                <h1>404</h1>
+                <p class="text-1">
+                    Lo sentimos, la página no fue encontrada.
+                </p>
+                <div class="links">
+                    <a href="<? echo($path) ?>" class="btn-type-1 f-btn">
+                        Regresar a inicio
+                    </a>
+                </div>
             </div>
         </div>
     </div>
