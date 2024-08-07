@@ -46,7 +46,6 @@
                                 <option value="couchbase">Couchbase</option>
                                 <option value="security-scorecard">Security ScoreCard</option>
                                 <option value="corsight">Corsight</option>
-                                <option value=scale-fusion"">Scale Fusion</option>
                                 <option value="tassta">TASSTA</option>
                             </optgroup>
                         </select>
