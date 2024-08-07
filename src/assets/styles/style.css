@@ -251,7 +251,7 @@ main section.aboutUs .section-container .content {  }
 .g-cards-1 .g-card h6 { text-align: center; }
 .g-cards-1 .g-card .text-4 { text-align: center; }
 
-.g-cards-2 { --gap-size: 1rem; position: relative; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; align-items: stretch; justify-content: flex-start; gap: var(--gap-size); }
+.g-cards-2 { --gap-size: 1rem; position: relative; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; align-items: stretch; justify-content: space-between; gap: var(--gap-size); }
 .g-cards-2 .g-card { width: 100%; flex: 0 0 100%; display: grid; grid-template-rows: repeat(2, 1fr); }
 .g-cards-2.double .g-card { width: var(--gap-size); flex: 0 0 calc(50% - var(--gap-size)); }
 .g-cards-2.triple .g-card { width: calc((100% / 3) - var(--gap-size)); flex: 0 0 calc((100% / 3) - var(--gap-size)); }
