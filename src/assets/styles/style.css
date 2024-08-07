@@ -251,7 +251,7 @@ main section.aboutUs .section-container .content {  }
 .g-cards-1 .g-card h6 { text-align: center; }
 .g-cards-1 .g-card .text-4 { text-align: center; }
 
-.g-cards-2 { position: relative; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; align-items: stretch; justify-content: flex-start; }
+/* .g-cards-2 { position: relative; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; align-items: stretch; justify-content: flex-start; }
 .g-cards-2 .g-card { border: 1px solid red; width: 100%; flex: 0 0 100%; display: flex; flex-direction: column; flex-wrap: nowrap; align-items: stretch; justify-content: flex-start; }
 .g-cards-2.double .g-card { width: 50%; flex: 0 0 50%; }
 .g-cards-2.triple .g-card { width: calc(100% / 3); flex: 0 0 calc(100% / 3); }
@@ -260,6 +260,17 @@ main section.aboutUs .section-container .content {  }
 .g-cards-2 .g-card .list-icon .inner { position: absolute; display: inline-block; color: var(--light-text-color); font-size: .9rem; line-height: 1; margin-bottom: 0; font-weight: 500; top: 50%; left: 50%; transform: translate(-50%, -50%); }
 .g-cards-2 .g-card .top .title { line-height: 1.6; font-weight: 500; margin-bottom: .5rem; }
 .g-cards-2 .g-card .bottom { flex: 1 1 auto; height: auto; }
+.g-cards-2 .g-card .bottom p {  } */
+
+.g-cards-2 { position: relative; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; align-items: stretch; justify-content: flex-start; }
+.g-cards-2 .g-card { border: 1px solid red; width: 100%; flex: 0 0 100%; display: grid; grid-template-rows: repeat(2, 1fr); }
+.g-cards-2.double .g-card { width: 50%; flex: 0 0 50%; }
+.g-cards-2.triple .g-card { width: calc(100% / 3); flex: 0 0 calc(100% / 3); }
+.g-cards-2 .g-card .top {  }
+.g-cards-2 .g-card .top .list-icon { position: relative; display: inline-block; width: 1.6rem; height: 1.6rem; background: var(--pri-color); border-radius: 100%; margin-bottom: .5rem; }
+.g-cards-2 .g-card .list-icon .inner { position: absolute; display: inline-block; color: var(--light-text-color); font-size: .9rem; line-height: 1; margin-bottom: 0; font-weight: 500; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.g-cards-2 .g-card .top .title { line-height: 1.6; font-weight: 500; margin-bottom: .5rem; }
+.g-cards-2 .g-card .bottom {  }
 .g-cards-2 .g-card .bottom p {  }
 
 
