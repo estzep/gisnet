@@ -244,37 +244,32 @@
 
             </div>
 
-            <div class="g-cards-2 triple">
-
-                <div class="g-card">
-                    <div class="top">
-                        <span class="list-icon">
-                            <span class="inner">1</span>
-                        </span>
-                        <h6 class="title">Análisis Jurídico</h6>
+            <!-- <div class="g-cards-2 triple">
+                <div class="list-icons">
+                    <div class="circle">
+                        <div class="inner">
+                            1
+                        </div>
                     </div>
-                    <div class="bottom">
-                        <p class="text-3">
-                            Apertura del folio y la creación de la carátula. Establece una base sólida y precisa para los siguientes registros.
-                        </p>
+                    <div class="circle">
+                        <div class="inner">
+                            1
+                        </div>
                     </div>
-                </div>
-
-                <div class="g-card">
-                    <div class="top">
-                        <span class="list-icon">
-                            <span class="inner">2</span>
-                        </span>
-                        <h6 class="title">Captura de los Actos Jurídicos</h6>
-                    </div>
-                    <div class="bottom">
-                        <p class="text-3">
-                            Respetando el tracto sucesivo vigente. Este proceso asegura la integridad y la cronología exacta de los registros.
-                        </p>
+                    <div class="circle">
+                        <div class="inner">
+                            1
+                        </div>
                     </div>
                 </div>
+                <div class="titles">
+                    <h6>s</h6>
+                    <h6>s</h6>
+                    <h6>s</h6>
+                </div>
+                <div class="contents"></div>
 
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
