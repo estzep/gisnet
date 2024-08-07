@@ -243,33 +243,6 @@
                 </div>
 
             </div>
-
-            <!-- <div class="g-cards-2 triple">
-                <div class="list-icons">
-                    <div class="circle">
-                        <div class="inner">
-                            1
-                        </div>
-                    </div>
-                    <div class="circle">
-                        <div class="inner">
-                            1
-                        </div>
-                    </div>
-                    <div class="circle">
-                        <div class="inner">
-                            1
-                        </div>
-                    </div>
-                </div>
-                <div class="titles">
-                    <h6>s</h6>
-                    <h6>s</h6>
-                    <h6>s</h6>
-                </div>
-                <div class="contents"></div>
-
-            </div> -->
         </div>
     </div>
 </section>
