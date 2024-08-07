@@ -147,7 +147,7 @@
 <section class="migracion-de-acervos">
     <div class="section-container container">
         <div class="content">
-            <h3 class="text-end">Indexado y captura de metadatos</h3>
+            <h3 class="text-start text-sm-end">Indexado y captura de metadatos</h3>
             <div class="tabs reversed">
                 <div class="column info">
                     <ul role="tablist">
