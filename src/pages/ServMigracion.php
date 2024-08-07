@@ -10,6 +10,9 @@
 
     foreach ($data['services'] as $service) {
         if ($service['spname'] === $spname) {
+            $headerTitle = $service['headerTitle'];
+            $headerDescription = $service['headerDescription'];
+            $headerImg = $service['headerImg'];
             $clientsTitle = $service['clientsTitle'];
             $clientsDescription = $service['clientsDescription'];
             break;
@@ -20,9 +23,9 @@
     <div class="container">
         <div class="content">
             <div class="info">
-                <h1>Migración de Acervos</h1>
+                <h1><? echo $headerTitle ?></h1>
                 <p class="text-1">
-                    El proceso de transferir datos, documentos, imágenes y registros de un formato o sistema de almacenamiento a otro, más moderno y accesible.
+                    <? echo $headerDescription ?>
                 </p>
                 <div class="links">
                     <a href="<? echo $path ?>contacto" class="btn-type-1 f-btn">
@@ -34,7 +37,7 @@
                 </div>
             </div>
             <div class="image">
-                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/sp/<? echo $headerImg ?>" alt="Producto/Servicio image">
             </div>
         </div>
     </div>
