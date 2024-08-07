@@ -227,7 +227,6 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="g-card">
                     <div class="top">
                         <span class="list-icon">
@@ -241,7 +240,59 @@
                         </p>
                     </div>
                 </div>
-
+                <div class="g-card">
+                    <div class="top">
+                        <span class="list-icon">
+                            <span class="inner">3</span>
+                        </span>
+                        <h6 class="title">Validación del Supervisor Jurídico</h6>
+                    </div>
+                    <div class="bottom">
+                        <p class="text-3">
+                            Asegura la precisión, fiabilidad y la conformidad legal de los documentos capturados para la migración.
+                        </p>
+                    </div>
+                </div>
+                <div class="g-card">
+                    <div class="top">
+                        <span class="list-icon">
+                            <span class="inner">4</span>
+                        </span>
+                        <h6 class="title">Validación y Cierre de Libro Físico</h6>
+                    </div>
+                    <div class="bottom">
+                        <p class="text-3">
+                            Es un proceso esencial que certifica que toda la información ha sido correctamente transferida y archivada.
+                        </p>
+                    </div>
+                </div>
+                <div class="g-card">
+                    <div class="top">
+                        <span class="list-icon">
+                            <span class="inner">5</span>
+                        </span>
+                        <h6 class="title">Sistema de Gestión Registro</h6>
+                    </div>
+                    <div class="bottom">
+                        <p class="text-3">
+                            Proporciona una plataforma organizada y accesible para la gestión continua y la consulta de documentos.
+                        </p>
+                    </div>
+                </div>
+                <div class="g-card">
+                    <div class="top">
+                        <span class="list-icon">
+                            <span class="inner">6</span>
+                        </span>
+                        <h6 class="title">Aplicación e-GISreg</h6>
+                    </div>
+                    <div class="bottom">
+                        <p class="text-3">
+                            Respetando el tracto sucesivo vigente. Este proceso asegura la integridad y la cronología exacta de los registros.
+                        </p>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
