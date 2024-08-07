@@ -108,5 +108,7 @@ function moveCarousel(direction) {
 
 function closeProductosAccordion() {
     const accordion = document.querySelector('#collapseProductos');
-    new bootstrap.Collapse(accordion, { toggle: false }).hide();
+    if (accordion) {
+        new bootstrap.Collapse(accordion, { toggle: false }).hide();
+    }
 }
