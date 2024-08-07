@@ -221,9 +221,11 @@
                         </span>
                         <h6 class="title">Análisis Jurídico</h6>
                     </div>
-                    <p class="bottom text-3">
-                        Apertura del folio y la creación de la carátula. Establece una base sólida y precisa para los siguientes registros.
-                    </p>
+                    <div class="bottom">
+                        <p class="text-3">
+                            Apertura del folio y la creación de la carátula. Establece una base sólida y precisa para los siguientes registros.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="g-card">
@@ -233,9 +235,11 @@
                         </span>
                         <h6 class="title">Captura de los Actos Jurídicos</h6>
                     </div>
-                    <p class="bottom text-3">
-                        Respetando el tracto sucesivo vigente. Este proceso asegura la integridad y la cronología exacta de los registros.
-                    </p>
+                    <div class="bottom">
+                        <p class="text-3">
+                            Respetando el tracto sucesivo vigente. Este proceso asegura la integridad y la cronología exacta de los registros.
+                        </p>
+                    </div>
                 </div>
 
             </div>
