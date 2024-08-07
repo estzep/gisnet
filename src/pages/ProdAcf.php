@@ -30,7 +30,7 @@
                     <br>
                     atención de cliente
                 </h3>
-                <p class="text-2">
+                <p class="text-1">
                     La plataforma cuenta con diferentes tipos de permisologías a través de grupos de usuarios y diferentes roles, y las acciones que pueden realizarse cuando se está atendiendo al usuario.
                 </p>
             </div>

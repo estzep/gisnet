@@ -271,6 +271,8 @@ main section.aboutUs .section-container .content {  }
     main header .info { flex: 0 0 60%; }
     main header .image { flex: 0 0 40%; }
 
+    main section .section-container .content.heading .info { flex: 0 0 60%; }
+
     main section#empresa .heading { width: 55%; }
 
     .g-cards-2 { --gap-size: 2rem; }
@@ -280,6 +282,8 @@ main section.aboutUs .section-container .content {  }
 @media (max-width: 1199.98px) {
     main header .info { flex: 0 0 70%; }
     main header .image { flex: 0 0 30%; }
+
+    main section .section-container .content.heading .info { flex: 0 0 70%; }
 
     main section#clientes .heading { width: 65%; }
 
@@ -309,6 +313,8 @@ main section.aboutUs .section-container .content {  }
 @media (max-width: 991.98px) {
     main header .info { flex: 1 0 80%; }
     main header .image { flex: 0 0 20%; display: none; }
+
+    main section .section-container .content.heading .info { flex: 1 0 80%; }
 
     main section#clientes .heading { width: 80%; }
 
@@ -367,6 +373,8 @@ main section.aboutUs .section-container .content {  }
     main header .links { gap: .7rem; }
     main header .links a.f-btn.desktop { display: none; }
     main header .links a.f-btn.mobile { display: inline-block; }
+
+    main section .section-container .content.heading .info { flex: 1 0 90%; }
 
     main section.migracion-de-acervos .section-container .content { padding: 4rem 0; }
 
