@@ -23,7 +23,7 @@
 <? include($path.'src/components/Clients.php'); ?>
 <section class="acf">
     <div class="section-container container">
-        <div class="content">
+        <div class="content mixed-content-1">
             <div class="heading">
                 <h3>
                     Acciones sobre la
@@ -39,6 +39,19 @@
                 <p class="text-1">
                     La plataforma cuenta con diferentes tipos de permisologías a través de grupos de usuarios y diferentes roles, y las acciones que pueden realizarse cuando se está atendiendo al usuario.
                 </p>
+                <p class="text-5">
+                    <span class="bullet-point">•</span> Segmentación de clientes
+                    <br>
+                    <span class="bullet-point">•</span> Marketing One 2 One
+                    <br>
+                    <span class="bullet-point">•</span> Fidelización
+                    <br>
+                    <span class="bullet-point">•</span> Niveles de servicio
+                    <br>
+                    <span class="bullet-point">•</span> CRM Cartelización
+                    <br>
+                    <span class="bullet-point">•</span> Personalización
+                </p>
             </div>
             <div class="image">
                 <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
@@ -50,6 +63,19 @@
                 <h3>Perspectiva del empleado</h3>
                 <p class="text-1">
                     La plataforma cuenta con diferentes tipos de permisologías a través de grupos de usuarios y diferentes roles, y las acciones que pueden realizarse cuando se está atendiendo al usuario.
+                </p>
+                <p class="text-5">
+                    <span class="bullet-point">•</span> Productividad
+                    <br>
+                    <span class="bullet-point">•</span> Trabajo
+                    <br>
+                    <span class="bullet-point">•</span> Calidad de Servicio
+                    <br>
+                    <span class="bullet-point">•</span> Ventas
+                    <br>
+                    <span class="bullet-point">•</span> CRM Cartelización
+                    <br>
+                    <span class="bullet-point">•</span> Personalización
                 </p>
             </div>
         </div>

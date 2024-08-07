@@ -28,6 +28,7 @@ main :is(header, section) p.text-1 { color: var(--gray); font-size: 1.1rem; font
 main :is(header, section) p.text-2 { color: var(--gray); font-size: 1rem; font-weight: 400; line-height: 2.15; margin-bottom: 0; }
 main :is(header, section) p.text-3 { color: var(--gray); font-size: .95rem; font-weight: 400; line-height: 2.15; margin-bottom: 0; }
 main :is(header, section) p.text-4 { color: var(--gray); font-size: .9rem; font-weight: 400; line-height: 2.15; margin-bottom: 0; }
+main :is(header, section) p.text-5 { color: var(--text-color); font-size: 1rem; font-weight: 500; line-height: 2.15; margin-bottom: 0; }
 
 main header#inicio { background: url('../img/bg-right.png'), var(--bg-color); background-size: contain; background-repeat: no-repeat; background-position: right center; background-attachment: local; }
 main header .container {  }
@@ -114,11 +115,6 @@ main section.aboutUs {  }
 main section.aboutUs .section-container {  }
 main section.aboutUs .section-container .content {  }
 
-main section.acf .section-container .content { display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; justify-content: space-between; align-items: flex-start; }
-main section.acf .section-container .content .heading { flex: 0 1 55%; margin: 0 auto 0 0; }
-main section.acf .section-container .content .info { flex: 1 0 50%; }
-main section.acf .section-container .content .image { flex: 1 0 50%; }
-
 .bullet-point { margin: 0 .5rem 0 1rem; }
 
 .contact-card { background: var(--bg-color); box-shadow: 0px 4px 40px 0px rgba(25, 85, 139, 0.03); padding: 2rem; width: 60%; margin: 0 auto; }
@@ -151,6 +147,11 @@ main section.acf .section-container .content .image { flex: 1 0 50%; }
 .slider:hover .track { animation-play-state: paused; }
 .slider .track .item { position: relative; flex: 0 0 calc(100% / var(--n-logos)); padding: 0 1.5rem; }
 .slider .track .item img { width: 100%; height: auto; display: block; text-align: center; margin: 0 auto; }
+
+.mixed-content-1 { display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; justify-content: space-between; align-items: flex-start; }
+.mixed-content-1 .heading { flex: 0 1 55%; margin: 0 auto 0 0; }
+.mixed-content-1 .info { flex: 1 0 50%; }
+.mixed-content-1 .image { flex: 1 0 50%; }
 
 .squares-1 { padding-top: 2rem; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: space-between; align-content: flex-start; gap: 3rem; }
 .squares-1 .square { flex: 1 0 0%; background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 40px 0 rgba(25, 85, 139, 0.03); }
