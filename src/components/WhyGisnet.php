@@ -13,7 +13,7 @@
             <div class="g-cards-1">
                 <div class="g-card">
                     <div class="icon">
-                        <img src="<? echo $path ?>src/assets/icons/icon-1.svg" alt="Icon">
+                        <img src="<? echo $path ?>src/assets/icons/icon-19.svg" alt="Icon">
                     </div>
                     <h6>Confianza</h6>
                     <p class="text-4">
@@ -22,7 +22,7 @@
                 </div>
                 <div class="g-card">
                     <div class="icon">
-                        <img src="<? echo $path ?>src/assets/icons/icon-1.svg" alt="Icon">
+                        <img src="<? echo $path ?>src/assets/icons/icon-18.svg" alt="Icon">
                     </div>
                     <h6>Innovación</h6>
                     <p class="text-4">
@@ -31,7 +31,7 @@
                 </div>
                 <div class="g-card">
                     <div class="icon">
-                        <img src="<? echo $path ?>src/assets/icons/icon-1.svg" alt="Icon">
+                        <img src="<? echo $path ?>src/assets/icons/icon-17.svg" alt="Icon">
                     </div>
                     <h6>Compromiso</h6>
                     <p class="text-4">
