@@ -53,11 +53,11 @@
                     <span class="bullet-point">•</span> Personalización
                 </p>
             </div>
-            <div class="image">
-                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image" class="ps-5">
+            <div class="image f">
+                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
             </div>
-            <div class="image">
-                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image" class="pe-5">
+            <div class="image s">
+                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
             </div>
             <div class="info">
                 <h3>Perspectiva del empleado</h3>
