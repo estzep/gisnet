@@ -130,7 +130,7 @@ function changeTab2(event) {
         oldTab.classList.remove('active');
         oldTab.classList.remove('hide');
         newTab.classList.remove('show');
-    }, 1000);
+    }, 500);
 
 
     // const tabs = tabs2.getElementsByClassName('tab');
