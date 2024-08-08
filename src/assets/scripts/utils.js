@@ -119,7 +119,7 @@ function changeTab2(event) {
     const activeTab = tabs2.getElementsByClassName('tab active')[0];
     activeTab.classList.add('hide');
 
-    const control = event.target.getAttribute('data-control');
+    const control = event.getAttribute('data-control');
     const newTab = document.getElementById(`tab-${control}`);
     newTab.classList.add('show');
 
