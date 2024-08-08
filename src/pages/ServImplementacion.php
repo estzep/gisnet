@@ -70,8 +70,11 @@
                                 </a>
                                 <p class="text-4">
                                     <span class="bullet-point">•</span> Dirigido a los <span class="g-strong">Registros Público de la Propiedad</span>.
+                                    <br>
                                     <span class="bullet-point">•</span> Procesos estandarizados con las mejores prácticas en la <span class="g-strong">gestión registral</span>.
-                                    <span class="bullet-point">•</span> <span class="g-strong">Atención a los usuarios</span> con trámites presenciales y virtuales para grandes usuarios.
+                                    <br>
+                                    <span class="bullet-point">•</span> <span class="g-strong">Atención a los usuarios</span> con trámites presenciales y virtuales para grandes 
+                                    <br>usuarios.
                                     <span class="bullet-point">•</span> <span class="g-strong">100% Web</span>
                                 </p>
                             </div>
@@ -92,9 +95,13 @@
                                 </a>
                                 <p class="text-4">
                                     <span class="bullet-point">•</span> e-GIScat.
+                                    <br>
                                     <span class="bullet-point">•</span> Dirigido al <span class="g-strong">Catastro Estatal o Municipal</span>.
+                                    <br>
                                     <span class="bullet-point">•</span> <span class="g-strong">Procesos estandarizados</span> e interactuando con las diferentes áreas en la Gestión Catastral.
+                                    <br>
                                     <span class="bullet-point">•</span> <span class="g-strong">Atención a los usuarios</span> con trámites presenciales y virtuales para grandes usuarios.
+                                    <br>
                                     <span class="bullet-point">•</span> Teniendo una sola <span class="g-strong">Base de Información Tabular, Cartográfica y Documental</span>.
                                 </p>
                             </div>
@@ -107,17 +114,15 @@
                         <div class="tab-content">
                             <div class="info">
                                 <h4>Sistema de Gestión Documental e-GIScat</h4>
-                                <a href="<? echo($path) ?>" class="btn-type-1">
-                                    Ver demo
-                                    <span class="arrow">
-                                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
-                                    </span>
-                                </a>
                                 <p class="text-4">
                                     <span class="bullet-point">•</span> Dirigido a las Dependencias que requieran el <span class="g-strong">resguardo de su Acervo Documental</span>.
+                                    <br>
                                     <span class="bullet-point">•</span> Dirigido al <span class="g-strong">Catastro Estatal o Municipal</span>.
+                                    <br>
                                     <span class="bullet-point">•</span> <span class="g-strong">Procesos estandarizados</span> con las mejores prácticas en la gestión documental.
+                                    <br>
                                     <span class="bullet-point">•</span> <span class="g-strong">Atención inmediata y con seguridad</span> a los usuarios autorizados.
+                                    <br>
                                     <span class="bullet-point">•</span> 100% Web.
                                 </p>
                             </div>
