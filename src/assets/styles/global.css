@@ -113,9 +113,9 @@ body { color: var(--text-color); background: var(--darker-pri-color); font-famil
 .btn-type-6 { font-size: 1rem; display: inline-block; border: 1px solid var(--light-blue-1); color: var(--pri-color); text-decoration: none; line-height: 1; padding: .5rem 1rem; border-radius: 0; background: var(--light-blue-1); transition: 0.4s; }
 .btn-type-6:hover { background-color: var(--lighter-pri-color); border: 1px solid var(--lighter-pri-color); }
 
-.btn-type-7 { font-size: 1rem; display: inline-block; border: 1px solid var(--lighter-pri-color); color: var(--text-color); text-decoration: none; line-height: 1; padding: .5rem 1rem; border-radius: 0; background: var(--lighter-pri-color); transition: 0.4s; }
-.btn-type-7:disabled { border: 1px solid var(--pri-color); color: var(--light-text-color); background: var(--pri-color); }
+.btn-type-7 { font-size: 1rem; display: inline-block; border: 1px solid var(--lighter-pri-color); color: var(--text-color); text-decoration: none; line-height: 1; padding: 1rem; border-radius: 0; background: var(--lighter-pri-color); transition: 0.4s; }
 .btn-type-7:hover { background-color: var(--light-pri-color); border: 1px solid var(--light-pri-color); }
+.btn-type-7:disabled { border: 1px solid var(--pri-color); color: var(--light-text-color); background: var(--pri-color); }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {}
