@@ -79,7 +79,7 @@
                                 </p>
                             </div>
                             <div class="image">
-                                <img src="<? echo($path) ?>src/assets/img/placeholder.png" alt="Image">
+                                <img src="<? echo($path) ?>src/assets/img/sp/placeholder.png" alt="Image">
                             </div>
                         </div>
                     </div>
@@ -106,7 +106,7 @@
                                 </p>
                             </div>
                             <div class="image">
-                                <img src="<? echo($path) ?>src/assets/img/placeholder.png" alt="Image">
+                                <img src="<? echo($path) ?>src/assets/img/sp/placeholder.png" alt="Image">
                             </div>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                                 </p>
                             </div>
                             <div class="image">
-                                <img src="<? echo($path) ?>src/assets/img/placeholder.png" alt="Image">
+                                <img src="<? echo($path) ?>src/assets/img/sp/placeholder.png" alt="Image">
                             </div>
                         </div>
                     </div>

@@ -211,10 +211,10 @@ main section.aboutUs .section-container .content {  }
 .tabs-2 .tab.active { opacity: 1; order: 1; }
 .tabs-2 .tab.hide { opacity: 0; }
 .tabs-2 .tab.show { order: 1; }
-.tabs-2 .tab .tab-content { position: relative; padding: 3rem 2rem; display: flex; }
+.tabs-2 .tab .tab-content { position: relative; padding: 3rem 2rem; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; align-items: stretch; }
 .tabs-2 .tab .tab-content .info { flex: 1 0 55%; }
 .tabs-2 .tab .tab-content .image { flex: 1 0 45%; }
-.tabs-2 .tab .tab-content .image img { display: block; width: 100%; margin: 0 auto; text-align: center; object-fit: cover; object-position: 50% 50%; }
+.tabs-2 .tab .tab-content .image img { display: block; width: 100%; height: auto; margin: 0 auto; text-align: center; object-fit: cover; object-position: 50% 50%; }
 
 
 .squares-3 { padding-top: 0; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: center; align-content: flex-start; gap: 4rem; }
