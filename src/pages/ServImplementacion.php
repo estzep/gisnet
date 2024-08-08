@@ -68,7 +68,7 @@
                                         <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
                                     </span>
                                 </a>
-                                <p class="text-4">
+                                <p class="text-3">
                                     <span class="bullet-point">•</span> Dirigido a los <span class="g-strong">Registros Público de la Propiedad</span>.
                                     <br>
                                     <span class="bullet-point">•</span> Procesos estandarizados con las mejores prácticas en la <span class="g-strong">gestión registral</span>.
@@ -93,7 +93,7 @@
                                         <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
                                     </span>
                                 </a>
-                                <p class="text-4">
+                                <p class="text-3">
                                     <span class="bullet-point">•</span> e-GIScat.
                                     <br>
                                     <span class="bullet-point">•</span> Dirigido al <span class="g-strong">Catastro Estatal o Municipal</span>.
@@ -114,7 +114,7 @@
                         <div class="tab-content">
                             <div class="info">
                                 <h4 class="title">Sistema de Gestión Documental e-GIScat</h4>
-                                <p class="text-4">
+                                <p class="text-3">
                                     <span class="bullet-point">•</span> Dirigido a las Dependencias que requieran el <span class="g-strong">resguardo de su Acervo Documental</span>.
                                     <br>
                                     <span class="bullet-point">•</span> Dirigido al <span class="g-strong">Catastro Estatal o Municipal</span>.
