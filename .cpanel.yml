@@ -9,5 +9,6 @@ deployment:
 pre_deploy:
   tasks:
     - echo "Preparing for deployment..."
+    - git fetch origin main
     - git checkout main
     - git pull origin main
