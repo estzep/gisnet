@@ -73,8 +73,8 @@
                                     <br>
                                     <span class="bullet-point">•</span> Procesos estandarizados con las mejores prácticas en la <span class="g-strong">gestión registral</span>.
                                     <br>
-                                    <span class="bullet-point">•</span> <span class="g-strong">Atención a los usuarios</span> con trámites presenciales y virtuales para grandes 
-                                    <br>usuarios.
+                                    <span class="bullet-point">•</span> <span class="g-strong">Atención a los usuarios</span> con trámites presenciales y virtuales para grandes usuarios.
+                                    <br>
                                     <span class="bullet-point">•</span> <span class="g-strong">100% Web</span>
                                 </p>
                             </div>
