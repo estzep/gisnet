@@ -115,6 +115,11 @@ function closeProductosAccordion() {
 
 function changeTab2(event) {
     const tabs2 = event.closest('.tabs-2');
+    const controls = tabs2.getElementsByClassName('control');
+
+    controls.forEach(control => {
+        control.disabled = true;
+    });
 
     const oldTab = tabs2.getElementsByClassName('tab active')[0];
     oldTab.classList.add('hide');
@@ -125,13 +130,14 @@ function changeTab2(event) {
     const newTab = document.getElementById(`tab-${newTabId}`);
     newTab.classList.add('show');
     event.classList.add('active');
-    event.disabled = true;
     setTimeout(() => {
         newTab.classList.add('active');
         oldTab.classList.remove('active');
         oldTab.classList.remove('hide');
         newTab.classList.remove('show');
-
-        oldControl.disabled = false;
+        controls.forEach(control => {
+            control.disabled = false;
+        });
+        event.disabled = true;
     }, 400);
 }
