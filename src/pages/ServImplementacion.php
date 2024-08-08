@@ -69,7 +69,6 @@
                                     </span>
                                 </a>
                                 <p class="text-4">
-                                    x
                                     <span class="bullet-point">•</span>
                                 </p>
                             </div>

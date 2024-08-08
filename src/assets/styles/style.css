@@ -116,6 +116,7 @@ main section.aboutUs .section-container {  }
 main section.aboutUs .section-container .content {  }
 
 .bullet-point { margin: 0 .5rem 0 1rem; }
+.strong-black { font-weight: 500; color: var(--text-color); }
 
 .contact-card { background: var(--bg-color); box-shadow: 0px 4px 40px 0px rgba(25, 85, 139, 0.03); padding: 2rem; width: 60%; margin: 0 auto; }
 .contact-card h2 { margin-bottom: .8rem; font-size: 2.5rem; }
