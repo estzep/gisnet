@@ -5,3 +5,9 @@ deployment:
     - echo "Starting deployment..."
     - /bin/cp -R * $DEPLOYPATH
     - echo "Deployment complete."
+    
+pre_deploy:
+  tasks:
+    - echo "Preparing for deployment..."
+    - git checkout main
+    - git pull origin main
