@@ -46,7 +46,27 @@
 <section>
     <div class="section-container container">
         <div class="content">
-            Contenido...
+            <h3 class="text-center">
+                Los sistemas más
+                <br>
+                versátiles del mercado
+            </h3>
+            <div id="implementacion-tabs" class="tabs-2">
+                <div class="controls">
+                    <button id="btn-registral" class="btn-type-1" data-control="registral" onclick="changeTab()">Gestión Registral</button>
+                    <button id="btn-catastral" class="btn-type-1" data-control="catastral" onclick="changeTab()">Gestión Catastral</button>
+                    <button id="btn-documental" class="btn-type-1" data-control="documental" onclick="changeTab()">Gestión Documental</button>
+                </div>
+                <div id="tab-registral" class="tab">
+                    resgistral
+                </div>
+                <div id="tab-catastral" class="tab">
+                    catastral
+                </div>
+                <div id="tab-documental" class="tab">
+                    documental
+                </div>
+            </div>
         </div>
     </div>
 </section>
