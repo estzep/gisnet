@@ -116,12 +116,18 @@ function closeProductosAccordion() {
 function changeTab2(event) {
     const tabs2 = event.closest('.tabs-2');
 
-    const activeTab = tabs2.getElementsByClassName('tab active')[0];
-    activeTab.classList.add('hide');
+    const oldTab = tabs2.getElementsByClassName('tab active')[0];
+    oldTab.classList.add('hide');
 
     const control = event.getAttribute('data-control');
     const newTab = document.getElementById(`tab-${control}`);
     newTab.classList.add('show');
+    setTimeout(() => {
+        newTab.classList.add('active');
+        oldTab.classList.remove('active');
+        oldTab.classList.remove('hide');
+        newTab.classList.remove('show');
+    }, 1000);
 
 
     // const tabs = tabs2.getElementsByClassName('tab');

@@ -206,8 +206,9 @@ main section.aboutUs .section-container .content {  }
 .tabs-2 .controls { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1.5rem; align-content: flex-start; }
 .tabs-2 .tab { display: none; opacity: 0; transition: 1s; }
 .tabs-2 .tab.active { display: block; opacity: 1; }
-.tabs-2 .tab.show { display: block; opacity: 1; }
 .tabs-2 .tab.hide { opacity: 0!important; }
+.tabs-2 .tab.show { display: block; }
+
 
 .squares-3 { padding-top: 0; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: center; align-content: flex-start; gap: 4rem; }
 .squares-3 .square { flex: 0 0 calc(100% / 3 - 4rem); background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 25px 0 rgba(0, 0, 0, 0.05); text-decoration: none; }
