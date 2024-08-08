@@ -123,7 +123,7 @@
                                     <br>
                                     <span class="bullet-point">•</span> <span class="g-strong">Atención inmediata y con seguridad</span> a los usuarios autorizados.
                                     <br>
-                                    <span class="bullet-point">•</span> 100% Web.
+                                    <span class="bullet-point">•</span> <span class="g-strong">100% Web</span>.
                                 </p>
                             </div>
                             <div class="image">
