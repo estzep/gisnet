@@ -125,42 +125,13 @@ function changeTab2(event) {
     const newTab = document.getElementById(`tab-${newTabId}`);
     newTab.classList.add('show');
     event.classList.add('active');
+    event.disabled = true;
     setTimeout(() => {
         newTab.classList.add('active');
         oldTab.classList.remove('active');
         oldTab.classList.remove('hide');
         newTab.classList.remove('show');
+
+        oldControl.disabled = false;
     }, 400);
-
-
-    // const tabs = tabs2.getElementsByClassName('tab');
-    // const controls = tabs2.getElementsByClassName('control');
-    
-
-
-    
-
-
-
-    // const tabs = document.querySelectorAll('.tab');
-    // const buttons = document.querySelectorAll('.controls .btn-type-1');
-    
-    // // Get the control data attribute of the clicked button
-    // const control = event.target.getAttribute('data-control');
-    
-    // // Hide all tabs
-    // tabs.forEach(tab => {
-    //     tab.style.display = 'none';
-    // });
-    
-    // // Deactivate all buttons
-    // buttons.forEach(button => {
-    //     button.classList.remove('active');
-    // });
-    
-    // // Show the selected tab
-    // document.getElementById(`tab-${control}`).style.display = 'block';
-    
-    // // Activate the clicked button
-    // event.target.classList.add('active');
 }
