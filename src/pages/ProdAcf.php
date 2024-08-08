@@ -80,7 +80,7 @@
             </div>
             <div class="note">
                 <p class="text-1 text-center">
-                    De igual manera se cuenta con <strong>diferentes indicadores</strong> entre los cuáles destacan el  servicio al cliente, negocio, caja, ventas y back office.
+                    De igual manera se cuenta con <span class="fw-medium">diferentes indicadores</span> entre los cuáles destacan el  servicio al cliente, negocio, caja, ventas y back office.
                 </p>
             </div>
         </div>

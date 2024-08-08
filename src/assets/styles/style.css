@@ -210,6 +210,7 @@ main section.aboutUs .section-container .content {  }
 .tabs-2 .tab.active { display: block; opacity: 1; }
 .tabs-2 .tab.hide { opacity: 0; }
 .tabs-2 .tab.show { display: block; }
+.tabs-2 .tab .tab-content { position: relative; padding: 2rem; }
 
 
 .squares-3 { padding-top: 0; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: center; align-content: flex-start; gap: 4rem; }

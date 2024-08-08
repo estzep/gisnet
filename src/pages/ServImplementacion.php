@@ -59,8 +59,26 @@
                 </div>
                 <div class="tabs-container">
                     <div id="tab-registral" class="tab active">
-                        resgistral
+                        <div class="tab-content">
+                            <div class="info">
+                                <h4>Sistema de Gestión Registral e-GISreg</h4>
+                                <a href="<? echo($path) ?>" class="btn-type-1">
+                                    Ver demo
+                                    <span class="arrow">
+                                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
+                                    </span>
+                                </a>
+                                <p class="text-4">
+                                    x
+                                    <span class="bullet-point">•</span>
+                                </p>
+                            </div>
+                            <div class="image">
+                                <img src="<? echo($path) ?>src/assets/img/placeholder.png" alt="Image">
+                            </div>
+                        </div>
                     </div>
+                    
                     <div id="tab-catastral" class="tab">
                         catastral
                     </div>
