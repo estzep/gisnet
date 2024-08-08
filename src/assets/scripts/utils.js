@@ -118,10 +118,13 @@ function changeTab2(event) {
 
     const oldTab = tabs2.getElementsByClassName('tab active')[0];
     oldTab.classList.add('hide');
+    const oldControl = tabs2.getElementsByClassName('control active')[0];
+    oldControl.classList.remove('active');
 
-    const control = event.getAttribute('data-control');
-    const newTab = document.getElementById(`tab-${control}`);
+    const newTabId = event.getAttribute('data-control');
+    const newTab = document.getElementById(`tab-${newTabId}`);
     newTab.classList.add('show');
+    event.classList.add('active');
     setTimeout(() => {
         newTab.classList.add('active');
         oldTab.classList.remove('active');
