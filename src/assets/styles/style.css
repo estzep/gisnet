@@ -116,7 +116,7 @@ main section.aboutUs .section-container {  }
 main section.aboutUs .section-container .content {  }
 
 .bullet-point { margin: 0 .5rem 0 1rem; }
-.strong-black { font-weight: 500; color: var(--text-color); }
+.g-strong { font-weight: 500; color: var(--text-color); }
 
 .contact-card { background: var(--bg-color); box-shadow: 0px 4px 40px 0px rgba(25, 85, 139, 0.03); padding: 2rem; width: 60%; margin: 0 auto; }
 .contact-card h2 { margin-bottom: .8rem; font-size: 2.5rem; }
@@ -211,7 +211,10 @@ main section.aboutUs .section-container .content {  }
 .tabs-2 .tab.active { opacity: 1; order: 1; }
 .tabs-2 .tab.hide { opacity: 0; }
 .tabs-2 .tab.show { order: 1; }
-.tabs-2 .tab .tab-content { position: relative; padding: 2rem; }
+.tabs-2 .tab .tab-content { position: relative; padding: 2rem; display: flex; }
+.tabs-2 .tab .tab-content .info { flex: 1 0 60%; }
+.tabs-2 .tab .tab-content .image { flex: 1 0 40%; }
+.tabs-2 .tab .tab-content .image img { display: block; width: 100%; margin: 0 auto; text-align: center; object-fit: cover; object-position: 50% 50%; }
 
 
 .squares-3 { padding-top: 0; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: center; align-content: flex-start; gap: 4rem; }

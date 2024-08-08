@@ -69,7 +69,10 @@
                                     </span>
                                 </a>
                                 <p class="text-4">
-                                    <span class="bullet-point">•</span>
+                                    <span class="bullet-point">•</span> Dirigido a los <span class="g-strong">Registros Público de la Propiedad</span>.
+                                    <span class="bullet-point">•</span> Procesos estandarizados con las mejores prácticas en la <span class="g-strong">gestión registral</span>.
+                                    <span class="bullet-point">•</span> <span class="g-strong">Atención a los usuarios</span> con trámites presenciales y virtuales para grandes usuarios.
+                                    <span class="bullet-point">•</span> <span class="g-strong">100% Web</span>
                                 </p>
                             </div>
                             <div class="image">
@@ -77,12 +80,51 @@
                             </div>
                         </div>
                     </div>
-                    
                     <div id="tab-catastral" class="tab">
-                        catastral
+                        <div class="tab-content">
+                            <div class="info">
+                                <h4>Sistema de Gestión Catastral e-GISreg</h4>
+                                <a href="<? echo($path) ?>" class="btn-type-1">
+                                    Ver demo
+                                    <span class="arrow">
+                                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
+                                    </span>
+                                </a>
+                                <p class="text-4">
+                                    <span class="bullet-point">•</span> e-GIScat.
+                                    <span class="bullet-point">•</span> Dirigido al <span class="g-strong">Catastro Estatal o Municipal</span>.
+                                    <span class="bullet-point">•</span> <span class="g-strong">Procesos estandarizados</span> e interactuando con las diferentes áreas en la Gestión Catastral.
+                                    <span class="bullet-point">•</span> <span class="g-strong">Atención a los usuarios</span> con trámites presenciales y virtuales para grandes usuarios.
+                                    <span class="bullet-point">•</span> Teniendo una sola <span class="g-strong">Base de Información Tabular, Cartográfica y Documental</span>.
+                                </p>
+                            </div>
+                            <div class="image">
+                                <img src="<? echo($path) ?>src/assets/img/placeholder.png" alt="Image">
+                            </div>
+                        </div>
                     </div>
                     <div id="tab-documental" class="tab">
-                        documental
+                        <div class="tab-content">
+                            <div class="info">
+                                <h4>Sistema de Gestión Documental e-GIScat</h4>
+                                <a href="<? echo($path) ?>" class="btn-type-1">
+                                    Ver demo
+                                    <span class="arrow">
+                                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
+                                    </span>
+                                </a>
+                                <p class="text-4">
+                                    <span class="bullet-point">•</span> Dirigido a las Dependencias que requieran el <span class="g-strong">resguardo de su Acervo Documental</span>.
+                                    <span class="bullet-point">•</span> Dirigido al <span class="g-strong">Catastro Estatal o Municipal</span>.
+                                    <span class="bullet-point">•</span> <span class="g-strong">Procesos estandarizados</span> con las mejores prácticas en la gestión documental.
+                                    <span class="bullet-point">•</span> <span class="g-strong">Atención inmediata y con seguridad</span> a los usuarios autorizados.
+                                    <span class="bullet-point">•</span> 100% Web.
+                                </p>
+                            </div>
+                            <div class="image">
+                                <img src="<? echo($path) ?>src/assets/img/placeholder.png" alt="Image">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
