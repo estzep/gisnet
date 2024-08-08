@@ -113,8 +113,8 @@ function closeProductosAccordion() {
     }
 }
 
-function changeTab2() {
-    const tabs2 = this.closest('.tabs-2');
+function changeTab2(that) {
+    const tabs2 = that.closest('.tabs-2');
 
     console.log(tabs2);
 
