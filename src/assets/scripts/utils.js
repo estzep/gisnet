@@ -117,7 +117,7 @@ function changeTab2(event) {
     const tabs2 = event.closest('.tabs-2');
     const controls = tabs2.getElementsByClassName('control');
 
-    controls.forEach(control => {
+    Array.from(controls).forEach(control => {
         control.disabled = true;
     });
 
@@ -135,7 +135,7 @@ function changeTab2(event) {
         oldTab.classList.remove('active');
         oldTab.classList.remove('hide');
         newTab.classList.remove('show');
-        controls.forEach(control => {
+        Array.from(controls).forEach(control => {
             control.disabled = false;
         });
         event.disabled = true;
