@@ -61,7 +61,7 @@
                     <div id="tab-registral" class="tab active">
                         <div class="tab-content">
                             <div class="info">
-                                <h4>Sistema de Gestión Registral e-GISreg</h4>
+                                <h4 class="title">Sistema de Gestión Registral e-GISreg</h4>
                                 <a href="<? echo($path) ?>" class="btn-type-1">
                                     Ver demo
                                     <span class="arrow">
@@ -86,7 +86,7 @@
                     <div id="tab-catastral" class="tab">
                         <div class="tab-content">
                             <div class="info">
-                                <h4>Sistema de Gestión Catastral e-GISreg</h4>
+                                <h4 class="title">Sistema de Gestión Catastral e-GISreg</h4>
                                 <a href="<? echo($path) ?>" class="btn-type-1">
                                     Ver demo
                                     <span class="arrow">
@@ -113,7 +113,7 @@
                     <div id="tab-documental" class="tab">
                         <div class="tab-content">
                             <div class="info">
-                                <h4>Sistema de Gestión Documental e-GIScat</h4>
+                                <h4 class="title">Sistema de Gestión Documental e-GIScat</h4>
                                 <p class="text-4">
                                     <span class="bullet-point">•</span> Dirigido a las Dependencias que requieran el <span class="g-strong">resguardo de su Acervo Documental</span>.
                                     <br>
