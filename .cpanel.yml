@@ -3,13 +3,12 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home1/qartaonl/public_html/gisnet
     - echo "Starting deployment..."
-    - /bin/cp -R . $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
     - echo "Deployment complete."
 
 pre_deploy:
   tasks:
     - echo "Preparing for deployment..."
-    - git reset --hard HEAD
     - git checkout main
     - git pull origin main
 
