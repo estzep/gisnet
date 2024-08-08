@@ -112,3 +112,33 @@ function closeProductosAccordion() {
         new bootstrap.Collapse(accordion, { toggle: false }).hide();
     }
 }
+
+function changeTab2() {
+    const tabs2 = this.closest('.tabs-2');
+
+    console.log(tabs2);
+
+
+
+    // const tabs = document.querySelectorAll('.tab');
+    // const buttons = document.querySelectorAll('.controls .btn-type-1');
+    
+    // // Get the control data attribute of the clicked button
+    // const control = event.target.getAttribute('data-control');
+    
+    // // Hide all tabs
+    // tabs.forEach(tab => {
+    //     tab.style.display = 'none';
+    // });
+    
+    // // Deactivate all buttons
+    // buttons.forEach(button => {
+    //     button.classList.remove('active');
+    // });
+    
+    // // Show the selected tab
+    // document.getElementById(`tab-${control}`).style.display = 'block';
+    
+    // // Activate the clicked button
+    // event.target.classList.add('active');
+}
