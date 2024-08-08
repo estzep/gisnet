@@ -53,9 +53,9 @@
             </h3>
             <div id="implementacion-tabs" class="tabs-2">
                 <div class="controls">
-                    <button id="btn-registral" class="btn-type-1" data-control="registral" onclick="changeTab()">Gestión Registral</button>
-                    <button id="btn-catastral" class="btn-type-1" data-control="catastral" onclick="changeTab()" disabled>Gestión Catastral</button>
-                    <button id="btn-documental" class="btn-type-1" data-control="documental" onclick="changeTab()" disabled>Gestión Documental</button>
+                    <button id="btn-registral" class="btn-type-7" data-control="registral" onclick="changeTab()" disabled>Gestión Registral</button>
+                    <button id="btn-catastral" class="btn-type-7" data-control="catastral" onclick="changeTab()">Gestión Catastral</button>
+                    <button id="btn-documental" class="btn-type-7" data-control="documental" onclick="changeTab()">Gestión Documental</button>
                 </div>
                 <div id="tab-registral" class="tab">
                     resgistral
