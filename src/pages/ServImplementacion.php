@@ -45,7 +45,7 @@
 <? include($path.'src/components/Clients.php'); ?>
 <section>
     <div class="section-container container">
-        <div class="content">
+        <div class="content pb-5">
             <h3 class="text-center">
                 Los sistemas más
                 <br>
