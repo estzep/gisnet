@@ -57,14 +57,16 @@
                     <button id="btn-catastral" class="control btn-type-7" data-control="catastral" onclick="changeTab2(this)">Gestión Catastral</button>
                     <button id="btn-documental" class="control btn-type-7" data-control="documental" onclick="changeTab2(this)">Gestión Documental</button>
                 </div>
-                <div id="tab-registral" class="tab active">
-                    resgistral
-                </div>
-                <div id="tab-catastral" class="tab">
-                    catastral
-                </div>
-                <div id="tab-documental" class="tab">
-                    documental
+                <div class="tabs-container">
+                    <div id="tab-registral" class="tab active">
+                        resgistral
+                    </div>
+                    <div id="tab-catastral" class="tab">
+                        catastral
+                    </div>
+                    <div id="tab-documental" class="tab">
+                        documental
+                    </div>
                 </div>
             </div>
         </div>
