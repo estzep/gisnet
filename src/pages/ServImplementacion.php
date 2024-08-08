@@ -49,7 +49,7 @@
             <h3 class="text-center">
                 Los sistemas más
                 <br>
-                versátiles del mercado
+                versátiles del mercado 2022
             </h3>
             <div id="implementacion-tabs" class="tabs-2">
                 <div class="controls">
