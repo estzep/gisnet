@@ -113,10 +113,23 @@ function closeProductosAccordion() {
     }
 }
 
-function changeTab2(that) {
-    const tabs2 = that.closest('.tabs-2');
+function changeTab2(event) {
+    const tabs2 = event.closest('.tabs-2');
 
-    console.log(tabs2);
+    const activeTab = tabs2.getElementsByClassName('tab active')[0];
+    activeTab.classList.add('hide');
+
+    const control = event.target.getAttribute('data-control');
+    const newTab = document.getElementById(`tab-${control}`);
+    newTab.classList.add('show');
+
+
+    // const tabs = tabs2.getElementsByClassName('tab');
+    // const controls = tabs2.getElementsByClassName('control');
+    
+
+
+    
 
 
 
