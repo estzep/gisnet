@@ -34,7 +34,7 @@
             </div>
             <div class="graph-1">
                 <div class="graph-container">
-                    <img src="<? echo($path) ?>src/assets/img/graphics/graphic-limpieza-datos.png" alt="Graph">
+                    <img src="<? echo($path) ?>src/assets/img/limpieza-img/graphic-limpieza-datos.png" alt="Graph">
                 </div>
             </div>
             <div class="columns">
