@@ -166,7 +166,7 @@
                                     </a>
                                 </div>
                                 <div class="body">
-                                    <div>
+                                    <div class="inner-body">
                                         <p class="text-3 mb-0">
                                             Se categoriza de la siguiente manera
                                             <br>
