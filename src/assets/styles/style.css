@@ -115,6 +115,7 @@ main section.aboutUs {  }
 main section.aboutUs .section-container {  }
 main section.aboutUs .section-container .content {  }
 
+.bullet-item { display: list-item; }
 .bullet-point { margin: 0 .5rem 0 1rem; }
 .g-strong { font-weight: 500; color: var(--text-color); }
 .bullet-list {  }

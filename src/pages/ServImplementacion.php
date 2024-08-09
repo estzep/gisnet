@@ -93,15 +93,25 @@
                                     </span>
                                 </a>
                                 <p class="text-3">
-                                    <span class="bullet-point">•</span> e-GIScat.
+                                    <span class="bullet-item">
+                                        <span class="bullet-point">•</span> e-GIScat.
+                                    </span>
                                     <br>
-                                    <span class="bullet-point">•</span> Dirigido al <span class="g-strong">Catastro Estatal o Municipal</span>.
+                                    <span class="bullet-item">
+                                        <span class="bullet-point">•</span> Dirigido al <span class="g-strong">Catastro Estatal o Municipal</span>.
+                                    </span>
                                     <br>
-                                    <span class="bullet-point">•</span> <span class="g-strong">Procesos estandarizados</span> e interactuando con las diferentes áreas en la Gestión Catastral.
+                                    <span class="bullet-item">
+                                        <span class="bullet-point">•</span> <span class="g-strong">Procesos estandarizados</span> e interactuando con las diferentes áreas en la Gestión Catastral.
+                                    </span>
                                     <br>
-                                    <span class="bullet-point">•</span> <span class="g-strong">Atención a los usuarios</span> con trámites presenciales y virtuales para grandes usuarios.
+                                    <span class="bullet-item">
+                                        <span class="bullet-point">•</span> <span class="g-strong">Atención a los usuarios</span> con trámites presenciales y virtuales para grandes usuarios.
+                                    </span>
                                     <br>
-                                    <span class="bullet-point">•</span> Teniendo una sola <span class="g-strong">Base de Información Tabular, Cartográfica y Documental</span>.
+                                    <span class="bullet-item">
+                                        <span class="bullet-point">•</span> Teniendo una sola <span class="g-strong">Base de Información Tabular, Cartográfica y Documental</span>.
+                                    </span>
                                 </p>
                             </div>
                             <div class="image">
