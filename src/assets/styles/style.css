@@ -385,6 +385,8 @@ main section.aboutUs .section-container .content {  }
     /* .tabs .column.info { flex: 1 0 calc(70% - 2rem); }
     .tabs .column.image { flex: 1 0 calc(30% - 2rem); } */
 
+    .tabs-2 .tab .tab-content .info .title { width: 75%; }
+
     .squares-3 .square { flex: 0 0 calc(100% / 2 - 2rem); }
 
     .squares-4 .square { flex: 0 0 calc(100% / 2 - 2rem); }
@@ -456,6 +458,8 @@ main section.aboutUs .section-container .content {  }
     .tabs .column.info { flex: 1 0 100%; }
     .tabs .column.image { display: none; }
 
+    .tabs-2 .tab .tab-content .image { display: none; }
+
     .squares-3 { gap: 1rem; }
     .squares-3 .square { flex: 0 0 calc(100% / 2 - 1rem); }
 
@@ -501,6 +505,8 @@ main section.aboutUs .section-container .content {  }
     .squares-4 .square .square-content { height: 100%; flex: 1 0 50%; }
     .squares-4 .square { flex: 0 0 100%; }
     .squares-4 .square-xs { display: none; }
+
+    .tabs-2 .tab .tab-content { padding: 2rem 1rem; }
 
     .g-cards-2 .g-card { width: 100%; flex: 0 0 100%; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; align-items: stretch; }
     .g-cards-2.double .g-card { width: 100%; flex: 1 0 100%; }
