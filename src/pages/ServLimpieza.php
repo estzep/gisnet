@@ -61,7 +61,7 @@
 </section>
 <section>
     <div class="section-container container">
-        <div class="content mixed-content-1">
+        <div class="content mixed-content-1 pb-0">
             <div class="info">
                 <h3>Resultados de calidad</h3>
                 <h6 class="subtitle">Precisión Mejorada</h6>
