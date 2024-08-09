@@ -8,7 +8,6 @@
     <?php
         // $page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         $page = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
-        // echo "The path: " . $path;
 
         switch ($page) {
             case '/':
