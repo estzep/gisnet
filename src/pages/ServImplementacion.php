@@ -68,11 +68,15 @@
                                         <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
                                     </span>
                                 </a>
-                                <p class="text-3">
-                                    <ul class="bullet-list">
-                                        
-                                    </ul>
-                                </p>
+                                <ul class="text-3 bullet-list">
+                                    <li>Dirigido a los <span class="g-strong">Registros Público de la Propiedad</span>.</li>
+                                    <br>
+                                    <li>Procesos estandarizados con las mejores prácticas en la <span class="g-strong">gestión registral</span>.</li>
+                                    <br>
+                                    <li><span class="g-strong">Atención a los usuarios</span> con trámites presenciales y virtuales para grandes usuarios.</li>
+                                    <br>
+                                    <li><span class="g-strong">100% Web</span></li>
+                                </ul>
                             </div>
                             <div class="image">
                                 <img src="<? echo($path) ?>src/assets/img/sp/placeholder.png" alt="Image">

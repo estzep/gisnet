@@ -24,11 +24,11 @@ main :is(header, section) h3 { color: var(--text-color); font-size: 2.3rem; font
 main :is(header, section) h4 { color: var(--text-color); font-size: 1.2rem; font-weight: 500; line-height: 1.6; margin-bottom: 0; }
 main :is(header, section) h5 { color: var(--gray); font-size: 1rem; font-weight: 400; line-height: 2; margin-bottom: 2.5rem; text-align: center; }
 main :is(header, section) h6 { color: var(--text-color); font-size: 1rem; font-weight: 400; line-height: 2.15; margin-bottom: 1rem; }
-main :is(header, section) p.text-1 { color: var(--gray); font-size: 1.1rem; font-weight: 400; line-height: 2; margin-bottom: 2rem; }
-main :is(header, section) p.text-2 { color: var(--gray); font-size: 1rem; font-weight: 400; line-height: 2.15; margin-bottom: 0; }
-main :is(header, section) p.text-3 { color: var(--gray); font-size: .95rem; font-weight: 400; line-height: 2.15; margin-bottom: 0; }
-main :is(header, section) p.text-4 { color: var(--gray); font-size: .9rem; font-weight: 400; line-height: 2.15; margin-bottom: 0; }
-main :is(header, section) p.text-5 { color: var(--text-color); font-size: 1rem; font-weight: 500; line-height: 2.15; margin-bottom: 0; }
+main :is(header, section) .text-1 { color: var(--gray); font-size: 1.1rem; font-weight: 400; line-height: 2; margin-bottom: 2rem; }
+main :is(header, section) .text-2 { color: var(--gray); font-size: 1rem; font-weight: 400; line-height: 2.15; margin-bottom: 0; }
+main :is(header, section) .text-3 { color: var(--gray); font-size: .95rem; font-weight: 400; line-height: 2.15; margin-bottom: 0; }
+main :is(header, section) .text-4 { color: var(--gray); font-size: .9rem; font-weight: 400; line-height: 2.15; margin-bottom: 0; }
+main :is(header, section) .text-5 { color: var(--text-color); font-size: 1rem; font-weight: 500; line-height: 2.15; margin-bottom: 0; }
 
 main header#inicio { background: url('../img/bg-right.png'), var(--bg-color); background-size: contain; background-repeat: no-repeat; background-position: right center; background-attachment: local; }
 main header .container {  }
@@ -115,7 +115,6 @@ main section.aboutUs {  }
 main section.aboutUs .section-container {  }
 main section.aboutUs .section-container .content {  }
 
-.bullet-item { display: list-item; }
 .bullet-point { margin: 0 .5rem 0 1rem; }
 .g-strong { font-weight: 500; color: var(--text-color); }
 .bullet-list {  }
@@ -218,7 +217,7 @@ main section.aboutUs .section-container .content {  }
 .tabs-2 .tab .tab-content .info { flex: 1 0 55%; }
 .tabs-2 .tab .tab-content .info .title { margin-bottom: 1rem; font-size: 1.5rem; display: block; width: 50%; margin-right: auto; }
 .tabs-2 .tab .tab-content .info a { font-size: .95rem; padding: 1rem; }
-.tabs-2 .tab .tab-content .info p { margin-top: 2rem; }
+.tabs-2 .tab .tab-content .info :is(p, ul) { margin-top: 2rem; }
 .tabs-2 .tab .tab-content .image { flex: 1 0 45%; }
 .tabs-2 .tab .tab-content .image img { display: block; width: 100%; height: 100%; margin: 0 auto; text-align: center; object-fit: cover; object-position: 50% 50%; }
 
