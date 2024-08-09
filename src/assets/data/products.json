@@ -87,23 +87,6 @@
         },
         {
             "id": 6,
-            "spname": "scale-fusion",
-            "headerTitle": "Scalefusion",
-            "headerDescription": "Administración segura, intuitiva, y escalable para dispositivos móviles y terminales",
-            "headerImg": "placeholder.png",
-            "clientsTitle": "Administra las terminales de hoy y mañana",
-            "clientsDescription": "Scalefusion UEM facilita la administración de dispositivos y garantiza su seguridad y cumplimiento. Nuestra solución está diseñada para ayudarte a tomar el control de toda tu flota de dispositivos, ya sea que estés administrando teléfonos inteligentes, tabletas, computadoras portátiles, de escritorio, o dispositivos IoT.",
-            "clients": [
-                "bbva",
-                "dn",
-                "santander",
-                "gbonl",
-                "gbogto",
-                "cecoban"
-            ]
-        },
-        {
-            "id": 7,
             "spname": "tassta",
             "headerTitle": "TASSTA",
             "headerDescription": "Sistema de Comunicación Innovadora (Comunicación encriptada, Localización, Organización y Seguridad)",

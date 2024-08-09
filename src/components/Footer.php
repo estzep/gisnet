@@ -40,9 +40,6 @@
                             <li>
                                 <p><a href="<? echo($path) ?>servicios/limpieza-de-datos">Limpieza de datos</a></p>
                             </li>
-                            <li>
-                                <p><a href="<? echo($path) ?>servicios/desarrollo-soporte-mantenimiento">Desarrollo, Soporte y Mantenimiento</a></p>
-                            </li>
                         </ul>
                     </div>
                     <div class="column">

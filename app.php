@@ -32,9 +32,6 @@
             case '/servicios/limpieza-de-datos/':
                 include($path.'src/pages/ServLimpieza.php');
                 break;
-            case '/servicios/desarrollo-soporte-mantenimiento/':
-                include($path.'src/pages/ServDesarrollo.php');
-                break;
             case '/productos/':
                 include($path.'src/pages/Error.php');
                 break;

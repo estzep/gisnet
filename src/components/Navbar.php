@@ -63,17 +63,6 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li class="dropdown-item">
-                                    <a href="<? echo($path) ?>servicios/desarrollo-soporte-mantenimiento">
-                                        <div class="icon">
-                                            <img src="<? echo($path) ?>src/assets/icons/icon-14.svg" alt="Icon 14">
-                                        </div>
-                                        <div class="info">
-                                            <h6>Desarrollo, Soporte y Mantenimiento</h6>
-                                            <p>A los Sistemas Instalados.</p>
-                                        </div>
-                                    </a>
-                                </li>
                             </ul>
                         </div>
                         <li class="links-item">

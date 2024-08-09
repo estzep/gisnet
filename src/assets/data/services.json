@@ -26,15 +26,6 @@
             "headerImg": "placeholder.png",
             "clientsTitle": "¿Busca garantizar la confiabilidad y precisión de los datos de su empresa?",
             "clientsDescription": "Ofrecemos un meticuloso servicio de limpieza de datos que no solo mejora la calidad de su información, sino que también refuerza la confianza en sus sistemas analíticos. A través de nuestros protocolos de validación y corrección, sus datos estarán optimizados para impulsar análisis certeros y decisiones estratégicas."
-        },
-        {
-            "id": 4,
-            "spname": "desarrollo-soporte-mantenimiento",
-            "headerTitle": "Desarrollo, Soporte y Mantenimiento",
-            "headerDescription": "A los Sistemas Instalados. Descripcion seccion 1.",
-            "headerImg": "placeholder.png",
-            "clientsTitle": "Titulo seccion 2",
-            "clientsDescription": "Descripcion seccion 2"
         }
     ]
 }
