@@ -6,8 +6,10 @@
 <?php include($path."src/components/Navbar.php");?>
 <main>
     <?php
-        // $page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-        $page = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
+        $page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+        echo "The path: " . $path;
+        $page2 = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
+        echo "The path: " . $path2;
 
         switch ($page) {
             case '/':
