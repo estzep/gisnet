@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="image">
-                <img src="<? echo $path ?>src/assets/img/sp/<? echo $headerImg ?>" alt="Producto/Servicio image">
+                <img src="<? echo $path ?><? echo $headerImg ?>" alt="Producto/Servicio image">
             </div>
         </div>
     </div>
