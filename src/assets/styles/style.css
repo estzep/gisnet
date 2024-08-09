@@ -386,6 +386,7 @@ main section.aboutUs .section-container .content {  }
     .mixed-content-1 .graph .graph-container { width: 100%; }
     .mixed-content-1 .graph .graph-container img { padding: 3rem 2rem; }
     .mixed-content-1 .columns.quad .column { flex: 1 0 calc(50% - 3rem); }
+    .mixed-content-1 .columns .column .title { margin-bottom: .5rem; }
 
     .squares-1 { gap: 2rem; }
 
