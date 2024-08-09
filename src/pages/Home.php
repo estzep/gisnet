@@ -173,8 +173,8 @@
             <h3>Servicios digitales para tu empresa</h3>
             <div class="tabs">
                 <div class="column info">
-                    <ul role="tablist">
-                        <li id="li-servicio1" class="active" data-bs-toggle="tab" data-bs-target="#tab-servicio1" role="tab" aria-controls="tab-servicio1" aria-selected="true">
+                    <ul class="tablist" role="tablist">
+                        <li id="li-servicio1" class="tab active" data-bs-toggle="tab" data-bs-target="#tab-servicio1" role="tab" aria-controls="tab-servicio1" aria-selected="true">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Migración de acervos</h6>
@@ -195,7 +195,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-servicio2" data-bs-toggle="tab" data-bs-target="#tab-servicio2" role="tab" aria-controls="tab-servicio2" aria-selected="false">
+                        <li id="li-servicio2" class="tab" data-bs-toggle="tab" data-bs-target="#tab-servicio2" role="tab" aria-controls="tab-servicio2" aria-selected="false">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Implementación de Sistemas</h6>
@@ -216,7 +216,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-servicio3" data-bs-toggle="tab" data-bs-target="#tab-servicio3" role="tab" aria-controls="tab-servicio3" aria-selected="false">
+                        <li id="li-servicio3" class="tab" data-bs-toggle="tab" data-bs-target="#tab-servicio3" role="tab" aria-controls="tab-servicio3" aria-selected="false">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Limpieza de Datos</h6>
@@ -237,7 +237,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-servicio4" data-bs-toggle="tab" data-bs-target="#tab-servicio4" role="tab" aria-controls="tab-servicio4" aria-selected="false">
+                        <li id="li-servicio4" class="tab" data-bs-toggle="tab" data-bs-target="#tab-servicio4" role="tab" aria-controls="tab-servicio4" aria-selected="false">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Desarrollo, Soporte y Mantenimiento</h6>

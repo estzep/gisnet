@@ -54,8 +54,8 @@
             <h3>Digitalización</h3>
             <div class="tabs">
                 <div class="column info">
-                    <ul role="tablist">
-                        <li id="li-tab1" class="active" data-bs-toggle="tab" data-bs-target="#tab-tab1" role="tab" aria-controls="tab-tab1" aria-selected="true">
+                    <ul class="tablist" role="tablist">
+                        <li id="li-tab1" class="tab active" data-bs-toggle="tab" data-bs-target="#tab-tab1" role="tab" aria-controls="tab-tab1" aria-selected="true">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Inventario General</h6>
@@ -73,7 +73,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-tab2" data-bs-toggle="tab" data-bs-target="#tab-tab2" role="tab" aria-controls="tab-tab2" aria-selected="false">
+                        <li id="li-tab2" class="tab" data-bs-toggle="tab" data-bs-target="#tab-tab2" role="tab" aria-controls="tab-tab2" aria-selected="false">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Depuración y revisión del acervo documental</h6>
@@ -91,7 +91,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-tab3" data-bs-toggle="tab" data-bs-target="#tab-tab3" role="tab" aria-controls="tab-tab3" aria-selected="false">
+                        <li id="li-tab3" class="tab" data-bs-toggle="tab" data-bs-target="#tab-tab3" role="tab" aria-controls="tab-tab3" aria-selected="false">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Digitalización</h6>
@@ -109,7 +109,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-tab4" data-bs-toggle="tab" data-bs-target="#tab-tab4" role="tab" aria-controls="tab-tab4" aria-selected="false">
+                        <li id="li-tab4" class="tab" data-bs-toggle="tab" data-bs-target="#tab-tab4" role="tab" aria-controls="tab-tab4" aria-selected="false">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Control de calidad en todo el proceso</h6>
@@ -153,8 +153,8 @@
             <h3 class="text-start text-sm-end">Indexado y captura de metadatos</h3>
             <div class="tabs reversed">
                 <div class="column info">
-                    <ul role="tablist">
-                        <li id="li-r-tab1" class="active" data-bs-toggle="tab" data-bs-target="#tab-r-tab1" role="tab" aria-controls="tab-r-tab1" aria-selected="true">
+                    <ul class="tablist" role="tablist">
+                        <li id="li-r-tab1" class="tab active" data-bs-toggle="tab" data-bs-target="#tab-r-tab1" role="tab" aria-controls="tab-r-tab1" aria-selected="true">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Estructura o Nombre de los Archivos</h6>
@@ -166,19 +166,17 @@
                                     </a>
                                 </div>
                                 <div class="body">
-                                    <p class="text-3">
+                                    <ul class="text-3 bullet-list">
                                         Se categoriza de la siguiente manera
                                         <br>
-                                        <span class="bullet-point">•</span> Año / Juzgado: Clasificamos los documentos según el año y el juzgado correspondiente.
-                                        <br>
-                                        <span class="bullet-point">•</span> Materia: Agrupamos los documentos por temas o áreas de interés.
-                                        <br>
-                                        <span class="bullet-point">•</span> Fecha: Ordenamos cronológicamente para un acceso rápido y eficiente.
-                                    </p>
+                                        <li><span class="bullet-point">•</span> Año / Juzgado: Clasificamos los documentos según el año y el juzgado correspondiente.</li>
+                                        <li><span class="bullet-point">•</span> Materia: Agrupamos los documentos por temas o áreas de interés.</li>
+                                        <li><span class="bullet-point">•</span> Fecha: Ordenamos cronológicamente para un acceso rápido y eficiente.</li>
+                                    </ul>
                                 </div>
                             </div>
                         </li>
-                        <li id="li-r-tab2" data-bs-toggle="tab" data-bs-target="#tab-r-tab2" role="tab" aria-controls="tab-r-tab2" aria-selected="false">
+                        <li id="li-r-tab2" class="tab" data-bs-toggle="tab" data-bs-target="#tab-r-tab2" role="tab" aria-controls="tab-r-tab2" aria-selected="false">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Captura de Datos para Búsquedas Efectivas (Metadatos)</h6>
