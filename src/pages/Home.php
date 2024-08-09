@@ -250,11 +250,8 @@
                                     <a class="more btn-type-5">
                                         <img src="<? echo($path) ?>src/assets/icons/icon-more.svg" alt="Más" class="head">
                                     </a>
-                                    <a href="servicios/desarrollo-soporte-mantenimiento/" class="link btn-type-5">
-                                        Leer más
-                                        <span class="arrow">
-                                            <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
-                                        </span>
+                                    <a class="link btn-type-5">
+                                        <img src="<? echo($path) ?>src/assets/icons/icon-arrow-tail.svg" alt="Menos" class="head">
                                     </a>
                                 </div>
                                 <div class="body">
