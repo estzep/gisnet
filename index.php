@@ -1,7 +1,7 @@
 <?php
     $title = 'Gisnet';
     $robots = 'noindex, nofollow';
-    $url = 'http://gisnet.qartaonline.com';
+    $url = 'https://gisnet.qartaonline.com';
 
     $base = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
     echo "base: " . $base;
