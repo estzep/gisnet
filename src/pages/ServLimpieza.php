@@ -32,9 +32,10 @@
                     Diversas empresas cuentan con bases de datos que pueden tener la información necesaria,  pero a menudo acumulan información redundante, desactualizada o incorrecta. Una base de datos que no se mantiene adecuadamente puede llevar a ineficiencias operativas, errores en la toma de decisiones y pérdida de oportunidades estratégicas.
                 </p>
             </div>
-            <div class="graph-1">
+            <div class="graph">
                 <div class="graph-container">
-                    <img src="<? echo($path) ?>src/assets/img/graphics/graphic-limpieza-datos.png" alt="Graph">
+                    <img src="<? echo($path) ?>src/assets/img/limpieza-img/graphic-limpieza-datos.png" alt="Graph" class="d-none d-md-block">
+                    <img src="<? echo($path) ?>src/assets/img/limpieza-img/graphic-limpieza-datos-mobile.png" alt="Graph" class="d-block d-md-none">
                 </div>
             </div>
             <div class="columns">
