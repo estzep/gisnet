@@ -84,7 +84,7 @@ main section#nosotros .heading .column.info a.btn .arrow img.head {  }
 
 main section#servicios {  }
 main section#servicios .section-container {  }
-main section#servicios .section-container .content {  }
+main section#servicios .section-container .content { padding-bottom: 10rem; }
 main section#servicios h3 { display: block; width: 30%; margin-left: 0; margin-right: auto; margin-bottom: 2.5rem; }
 
 main section#productos { background: var(--bg-color-3); }
