@@ -25,10 +25,8 @@
     <div class="section-container container">
         <div class="content mixed-content-1">
             <div class="heading">
-                <h3>
-                    Acciones sobre la
-                    <br>
-                    atención de cliente
+                <h3 class="title-1">
+                    Acciones sobre la atención de cliente
                 </h3>
                 <p class="text-1">
                     La plataforma cuenta con diferentes tipos de permisologías a través de grupos de usuarios y diferentes roles, y las acciones que pueden realizarse cuando se está atendiendo al usuario.
