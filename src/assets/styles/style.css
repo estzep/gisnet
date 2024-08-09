@@ -161,7 +161,7 @@ main section.aboutUs .section-container .content {  }
 .mixed-content-1 .note { flex: 0 0 40%; margin: 0 auto; }
 .mixed-content-1 .graph { flex: 1 0 100%; }
 .mixed-content-1 .graph .graph-container { display: block; width: 80%; margin: 0 auto; text-align: center; background: var(--light-blue-1); }
-.mixed-content-1 .graph .graph-container img { display: block; width: 100%; height: auto; object-fit: contain; object-position: 50% 50%; padding: 4rem 3rem; }
+.mixed-content-1 .graph .graph-container img { display: block; width: 100%; height: auto; object-fit: contain; object-position: 50% 50%; padding: 4rem 3rem; margin: 0 auto; }
 .mixed-content-1 .columns {  }
 .mixed-content-1 .columns .column {  }
 
@@ -453,6 +453,7 @@ main section.aboutUs .section-container .content {  }
     .mixed-content-1 .image.f img { padding-left: 0; }
     .mixed-content-1 .image.s img { padding-right: 0; }
     .mixed-content-1 .note { flex: 1 0 100%; order: 5; }
+    .mixed-content-1 .graph .graph-container { width: auto; height: 100%; }
     .mixed-content-1 .graph .graph-container img { padding: 0; }
 
     .squares-1 { padding-top: 0; }
