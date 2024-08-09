@@ -40,19 +40,19 @@
             </div>
             <ul class="columns quad">
                 <il class="column">
-                    <h5>Validación</h5>
+                    <h4>Validación</h4>
                     <p class="text-3">Cada dato pasa por un proceso de validación riguroso para garantizar su precisión y relevancia.</p>
                 </il>
                 <il class="column">
-                    <h5>Estandarización (Archivo Digital)</h5>
+                    <h4>Estandarización (Archivo Digital)</h4>
                     <p class="text-3">Normalizamos los datos para que cumplan con formatos estándar y sean coherentes en todo el archivo digital.</p>
                 </il>
                 <il class="column">
-                    <h5>Integración de los Folios y Actos</h5>
+                    <h4>Integración de los Folios y Actos</h4>
                     <p class="text-3">Consolidamos la información de los folios y actos jurídicos, asegurando la integridad de la secuencia.</p>
                 </il>
                 <il class="column">
-                    <h5>Listados de Inconsistencias</h5>
+                    <h4>Listados de Inconsistencias</h4>
                     <p class="text-3">Generamos listados detallados de cualquier inconsistencia encontrada para su revisión y corrección.</p>
                 </il>
             </ul>
