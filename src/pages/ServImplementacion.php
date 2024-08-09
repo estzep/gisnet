@@ -69,7 +69,9 @@
                                     </span>
                                 </a>
                                 <p class="text-3">
-                                    
+                                    <ul class="bullet-list">
+                                        
+                                    </ul>
                                 </p>
                             </div>
                             <div class="image">
