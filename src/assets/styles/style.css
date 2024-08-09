@@ -162,9 +162,9 @@ main section.aboutUs .section-container .content {  }
 .mixed-content-1 .graph { flex: 1 0 100%; }
 .mixed-content-1 .graph .graph-container { display: block; width: 80%; margin: 0 auto; text-align: center; background: var(--light-blue-1); }
 .mixed-content-1 .graph .graph-container img { display: block; width: 100%; height: auto; object-fit: contain; object-position: 50% 50%; padding: 4rem 3rem; margin: 0 auto; }
-.mixed-content-1 .columns { gap: 2rem; display: flex; }
+.mixed-content-1 .columns { gap: 2rem; display: flex; padding-left: 0; margin-bottom: 0; }
 .mixed-content-1 .columns .column { flex: 1 0 100%; }
-.mixed-content-1 .columns.quad .column { flex: 1 0 calc(25% - 1rem); }
+.mixed-content-1 .columns.quad .column { flex: 1 0 calc(25% - 2rem); }
 
 .squares-1 { padding-top: 2rem; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: space-between; align-content: flex-start; gap: 3rem; }
 .squares-1 .square { flex: 1 0 0%; background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 40px 0 rgba(25, 85, 139, 0.03); }
