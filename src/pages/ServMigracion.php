@@ -166,15 +166,17 @@
                                     </a>
                                 </div>
                                 <div class="body">
-                                    <p class="text-3 mb-0">
-                                        Se categoriza de la siguiente manera
-                                        <br>
-                                    </p>
-                                    <ul class="text-3 bullet-list">
-                                        <li>Año / Juzgado: Clasificamos los documentos según el año y el juzgado correspondiente.</li>
-                                        <li>Materia: Agrupamos los documentos por temas o áreas de interés.</li>
-                                        <li>Fecha: Ordenamos cronológicamente para un acceso rápido y eficiente.</li>
-                                    </ul>
+                                    <div>
+                                        <p class="text-3 mb-0">
+                                            Se categoriza de la siguiente manera
+                                            <br>
+                                        </p>
+                                        <ul class="text-3 bullet-list">
+                                            <li>Año / Juzgado: Clasificamos los documentos según el año y el juzgado correspondiente.</li>
+                                            <li>Materia: Agrupamos los documentos por temas o áreas de interés.</li>
+                                            <li>Fecha: Ordenamos cronológicamente para un acceso rápido y eficiente.</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </li>
