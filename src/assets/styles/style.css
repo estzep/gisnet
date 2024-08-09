@@ -453,8 +453,7 @@ main section.aboutUs .section-container .content {  }
     .mixed-content-1 .image.f img { padding-left: 0; }
     .mixed-content-1 .image.s img { padding-right: 0; }
     .mixed-content-1 .note { flex: 1 0 100%; order: 5; }
-    .mixed-content-1 .graph .graph-container { width: auto; height: 100%; }
-    .mixed-content-1 .graph .graph-container img { padding: 0; }
+    .mixed-content-1 .graph .graph-container img { width: auto; height: 100%; padding: 0; }
 
     .squares-1 { padding-top: 0; }
     .squares-1 .square { flex: 1 0 100%; }
