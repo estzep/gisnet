@@ -21,7 +21,7 @@
                 <div class="links-container container">
                     <ul id="accordionLinks" class="links-content accordion">
                         <li class="links-item">
-                            <a href="<? echo($path) ?>/contacto" onclick="closeNav()">Empresa</a>
+                            <a href="<? echo($path) ?>nosotros" onclick="closeNav()">Empresa</a>
                         </li>
                         <li class="links-item">
                             <a class="accordion-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#collapseNavbarServicios" aria-expanded="false" aria-controls="collapseNavbarServicios">
