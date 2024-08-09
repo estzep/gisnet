@@ -69,13 +69,12 @@
                                     </span>
                                 </a>
                                 <p class="text-3">
-                                    <span class="bullet-point">•</span> Dirigido a los <span class="g-strong">Registros Público de la Propiedad</span>.
-                                    <br>
-                                    <span class="bullet-point">•</span> Procesos estandarizados con las mejores prácticas en la <span class="g-strong">gestión registral</span>.
-                                    <br>
-                                    <span class="bullet-point">•</span> <span class="g-strong">Atención a los usuarios</span> con trámites presenciales y virtuales para grandes usuarios.
-                                    <br>
-                                    <span class="bullet-point">•</span> <span class="g-strong">100% Web</span>
+                                    <ul class="bullet-list">
+                                        <li>Dirigido a los <span class="g-strong">Registros Público de la Propiedad</span>.</li>
+                                        <li>Procesos estandarizados con las mejores prácticas en la <span class="g-strong">gestión registral</span>.</li>
+                                        <li><span class="g-strong">Atención a los usuarios</span> con trámites presenciales y virtuales para grandes usuarios.</li>
+                                        <li><span class="g-strong">100% Web</span></li>
+                                    </ul>
                                 </p>
                             </div>
                             <div class="image">
