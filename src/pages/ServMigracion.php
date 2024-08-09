@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="image">
-                <img src="<? echo $path ?>src/assets/img/sp/<? echo $headerImg ?>" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>/<? echo $headerImg ?>" alt="Producto/Servicio image">
             </div>
         </div>
     </div>
@@ -55,7 +55,7 @@
             <div class="tabs">
                 <div class="column info">
                     <ul class="tablist" role="tablist">
-                        <li id="li-tab1" class="tab active" data-bs-toggle="tab" data-bs-target="#tab-tab1" role="tab" aria-controls="tab-tab1" aria-selected="true">
+                        <li id="li-tab1" class="tab active" aria-selected="true">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Inventario General</h6>
@@ -75,7 +75,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-tab2" class="tab" data-bs-toggle="tab" data-bs-target="#tab-tab2" role="tab" aria-controls="tab-tab2" aria-selected="false">
+                        <li id="li-tab2" class="tab" aria-selected="false">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Depuración y revisión del acervo documental</h6>
@@ -95,7 +95,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-tab3" class="tab" data-bs-toggle="tab" data-bs-target="#tab-tab3" role="tab" aria-controls="tab-tab3" aria-selected="false">
+                        <li id="li-tab3" class="tab" aria-selected="false">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Digitalización</h6>
@@ -115,7 +115,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-tab4" class="tab" data-bs-toggle="tab" data-bs-target="#tab-tab4" role="tab" aria-controls="tab-tab4" aria-selected="false">
+                        <li id="li-tab4" class="tab" aria-selected="false">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Control de calidad en todo el proceso</h6>
