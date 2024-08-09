@@ -4,8 +4,11 @@
     $url = 'https://qartaonline.com/gisnet';
 
     $base = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
+    echo "base: " . $base;
     $segments = count(array_filter(explode('/', $base)));
+    echo "segments: " . $segments;
     $path = str_repeat('../', $segments);
+    echo "path: " . $path;
 ?>
 
 <!DOCTYPE html>
