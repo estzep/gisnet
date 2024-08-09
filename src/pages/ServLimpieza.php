@@ -38,9 +38,24 @@
                     <img src="<? echo($path) ?>src/assets/img/limpieza-img/graphic-limpieza-datos-mobile.png" alt="Graph" class="d-block d-md-none">
                 </div>
             </div>
-            <div class="columns">
-
-            </div>
+            <ol class="columns quad">
+                <il class="column">
+                    <h6>Validación</h6>
+                    <p class="text-3">Cada dato pasa por un proceso de validación riguroso para garantizar su precisión y relevancia.</p>
+                </il>
+                <il class="column">
+                    <h6>Estandarización (Archivo Digital)</h6>
+                    <p class="text-3">Normalizamos los datos para que cumplan con formatos estándar y sean coherentes en todo el archivo digital.</p>
+                </il>
+                <il class="column">
+                    <h6>Integración de los Folios y Actos</h6>
+                    <p class="text-3">Consolidamos la información de los folios y actos jurídicos, asegurando la integridad de la secuencia.</p>
+                </il>
+                <il class="column">
+                    <h6>Listados de Inconsistencias</h6>
+                    <p class="text-3">Generamos listados detallados de cualquier inconsistencia encontrada para su revisión y corrección.</p>
+                </il>
+            </ol>
         </div>
     </div>
 </section>
