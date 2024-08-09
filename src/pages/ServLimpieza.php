@@ -64,19 +64,19 @@
         <div class="content mixed-content-1">
             <div class="info">
                 <h3>Resultados de calidad</h3>
-                <h6>Precisión Mejorada</h6>
+                <h5>Precisión Mejorada</h5>
                 <p class="text-1">
                     La base de datos migrada y limpia cuenta con una precisión significativamente mayor, eliminando errores e inexactitudes.
                 </p>
-                <h6>Consistencia</h6>
+                <h5>Consistencia</h5>
                 <p class="text-1">
                     Los datos se estandarizan siguiendo un formato uniforme, lo que facilita el análisis y la integración con otros sistemas.
                 </p>
-                <h6>Optimización de Rendimiento</h6>
+                <h5>Optimización de Rendimiento</h5>
                 <p class="text-1">
                     La base de datos presenta un rendimiento óptimo, con tiempos de respuesta más rápidos y una gestión más eficiente.
                 </p>
-                <h6>Mayor Seguridad</h6>
+                <h5>Mayor Seguridad</h5>
                 <p class="text-1">
                     Garantizando que la información sensible esté protegida y la base de datos sea más confiable y segura para su uso.
                 </p>
