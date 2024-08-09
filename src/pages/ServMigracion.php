@@ -67,9 +67,11 @@
                                     </a>
                                 </div>
                                 <div class="body">
-                                    <p class="text-3">
-                                        Creación de un listado detallado de todos los documentos del acervo, identificando y catalogando cada elemento.
-                                    </p>
+                                    <div class="inner-body">
+                                        <p class="text-3">
+                                            Creación de un listado detallado de todos los documentos del acervo, identificando y catalogando cada elemento.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -85,9 +87,11 @@
                                     </a>
                                 </div>
                                 <div class="body">
-                                    <p class="text-3">
-                                        Evaluación y selección de documentos para determinar cuáles deben digitalizarse, eliminando duplicados o material irrelevante.
-                                    </p>
+                                    <div class="inner-body">
+                                        <p class="text-3">
+                                            Evaluación y selección de documentos para determinar cuáles deben digitalizarse, eliminando duplicados o material irrelevante.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -103,9 +107,11 @@
                                     </a>
                                 </div>
                                 <div class="body">
-                                    <p class="text-3">
-                                        Conversión de documentos físicos a formato digital mediante escaneo u otros métodos apropiados.
-                                    </p>
+                                    <div class="inner-body">
+                                        <p class="text-3">
+                                            Conversión de documentos físicos a formato digital mediante escaneo u otros métodos apropiados.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -121,9 +127,11 @@
                                     </a>
                                 </div>
                                 <div class="body">
-                                    <p class="text-3">
-                                        Verificación continua de la precisión y legibilidad de los documentos digitalizados en cada etapa del proceso.
-                                    </p>
+                                    <div class="inner-body">
+                                        <p class="text-3">
+                                            Verificación continua de la precisión y legibilidad de los documentos digitalizados en cada etapa del proceso.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -192,9 +200,11 @@
                                     </a>
                                 </div>
                                 <div class="body">
-                                    <p class="text-3">
-                                        Registro de información clave sobre cada documento digitalizado para facilitar su posterior localización y recuperación en sistemas de búsqueda.
-                                    </p>
+                                    <div class="inner-body">
+                                        <p class="text-3">
+                                            Registro de información clave sobre cada documento digitalizado para facilitar su posterior localización y recuperación en sistemas de búsqueda.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </li>
