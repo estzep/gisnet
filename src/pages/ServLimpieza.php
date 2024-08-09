@@ -32,7 +32,7 @@
     <div class="section-container container">
         <div class="content mixed-content-1">
             <div class="heading">
-                <h3 class="title-1">
+                <h3>
                     Nuestro proceso de extracción y transformación de datos
                 </h3>
                 <p class="text-1">

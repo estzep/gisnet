@@ -25,7 +25,7 @@
     <div class="section-container container">
         <div class="content mixed-content-1">
             <div class="heading">
-                <h3 class="title-1">
+                <h3>
                     Acciones sobre la
                     <br>
                     atención de cliente
