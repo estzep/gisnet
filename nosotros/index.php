@@ -3,7 +3,7 @@
     $robots = 'noindex, nofollow';
     $url = 'https://gisnet.qartaonline.com';
 
-    $base = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
+    $base = $_SERVER['REQUEST_URI'];
     echo "base: " . $base;
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
