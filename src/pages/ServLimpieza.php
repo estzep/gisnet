@@ -59,4 +59,32 @@
         </div>
     </div>
 </section>
+<section>
+    <div class="section-container container">
+        <div class="content mixed-content-1">
+            <div class="info">
+                <h3>Resultados de calidad</h3>
+                <h6>Precisión Mejorada</h6>
+                <p class="text-1">
+                    La base de datos migrada y limpia cuenta con una precisión significativamente mayor, eliminando errores e inexactitudes.
+                </p>
+                <h6>Consistencia</h6>
+                <p class="text-1">
+                    Los datos se estandarizan siguiendo un formato uniforme, lo que facilita el análisis y la integración con otros sistemas.
+                </p>
+                <h6>Optimización de Rendimiento</h6>
+                <p class="text-1">
+                    La base de datos presenta un rendimiento óptimo, con tiempos de respuesta más rápidos y una gestión más eficiente.
+                </p>
+                <h6>Mayor Seguridad</h6>
+                <p class="text-1">
+                    Garantizando que la información sensible esté protegida y la base de datos sea más confiable y segura para su uso.
+                </p>
+            </div>
+            <div class="image f t">
+                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
+            </div>
+        </div>
+    </div>
+</section>
 <? include($path.'src/components/WhyGisnet.php'); ?>
