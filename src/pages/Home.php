@@ -189,9 +189,11 @@
                                     </a>
                                 </div>
                                 <div class="body">
-                                    <p class="text-3">
-                                        Transformación de documentales a formatos digitales electrónicos, asegurando la preservación y accesibilidad de información valiosa.
-                                    </p>
+                                    <div class="inner-body">
+                                        <p class="text-3">
+                                            Transformación de documentales a formatos digitales electrónicos, asegurando la preservación y accesibilidad de información valiosa.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -210,9 +212,11 @@
                                     </a>
                                 </div>
                                 <div class="body">
-                                    <p class="text-3">
-                                        Desarrollo de sistemas Registrales, Catastrales y de Gestión Documental, optimizando procesos y mejorando la eficiencia operativa.
-                                    </p>
+                                    <div class="inner-body">
+                                        <p class="text-3">
+                                            Desarrollo de sistemas Registrales, Catastrales y de Gestión Documental, optimizando procesos y mejorando la eficiencia operativa.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -231,9 +235,11 @@
                                     </a>
                                 </div>
                                 <div class="body">
-                                    <p class="text-3">
-                                        Depuración y saneamiento de bases de datos, eliminando inexactitudes para garantizar la precisión y fiabilidad de la información.
-                                    </p>
+                                    <div class="inner-body">
+                                        <p class="text-3">
+                                            Depuración y saneamiento de bases de datos, eliminando inexactitudes para garantizar la precisión y fiabilidad de la información.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -252,9 +258,11 @@
                                     </a>
                                 </div>
                                 <div class="body">
-                                    <p class="text-3">
-                                        Servicios continuos para los sistemas instalados, asegurando su óptimo funcionamiento y actualización constante.
-                                    </p>
+                                    <div class="inner-body">
+                                        <p class="text-3">
+                                            Servicios continuos para los sistemas instalados, asegurando su óptimo funcionamiento y actualización constante.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </li>
