@@ -373,7 +373,7 @@ main section.aboutUs .section-container .content {  }
 
     main section#why .text-2 { width: 50%; }
 
-    .bullet-list.lg { list-style-type: disc; padding-left: 2rem; }
+    .bullet-list.lg { list-style-type: disc; padding-left: 1.5rem; }
 
     .contact-card { width: 90%; }
 
