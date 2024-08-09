@@ -209,12 +209,12 @@ main section.aboutUs .section-container .content {  }
 .tabs-2 { padding-top: 1rem; }
 .tabs-2 .controls { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1.5rem; align-content: flex-start; padding-bottom: 3rem; }
 .tabs-2 .controls button { font-size: .9rem; }
-.tabs-2 .tabs-container { display: flex; flex-direction: row; align-items: flex-start; flex-wrap: nowrap; justify-content: normal; overflow: hidden; }
+.tabs-2 .tabs-container { display: flex; flex-direction: row; align-items: stretch; flex-wrap: nowrap; justify-content: normal; overflow: hidden; }
 .tabs-2 .tab { width: 100%; flex: 1 0 100%; display: block; opacity: 0; transition: .4s; border: 1px solid var(--stroke-color); box-shadow: 0px 4px 40px 0 rgba(var(--darker-pri-color-rgb), .03); order: 2; }
 .tabs-2 .tab.active { opacity: 1; order: 1; }
 .tabs-2 .tab.hide { opacity: 0; }
 .tabs-2 .tab.show { order: 1; }
-.tabs-2 .tab .tab-content { position: relative; padding: 3rem 2rem; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; align-items: stretch; }
+.tabs-2 .tab .tab-content { position: relative; padding: 3rem 2rem; display: flex; flex-direction: row; flex-wrap: wrap; align-content: stretch; align-items: stretch; height: 100%; }
 .tabs-2 .tab .tab-content .info { flex: 1 0 55%; }
 .tabs-2 .tab .tab-content .info .title { margin-bottom: 1rem; font-size: 1.5rem; display: block; width: 50%; margin-right: auto; }
 .tabs-2 .tab .tab-content .info a { font-size: .95rem; padding: 1rem; }
