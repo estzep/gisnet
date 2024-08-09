@@ -92,7 +92,7 @@
                 </ul>
             </div>
             <div class="image f t">
-                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/limpieza-img/img-2.jpg" alt="Producto/Servicio image">
             </div>
         </div>
     </div>
