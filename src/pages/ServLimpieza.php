@@ -33,12 +33,10 @@
         <div class="content mixed-content-1">
             <div class="heading">
                 <h3 class="title-1">
-                    Acciones sobre la
-                    <br>
-                    atención de cliente
+                    Nuestro proceso de extracción y transformación de datos
                 </h3>
                 <p class="text-1">
-                    La plataforma cuenta con diferentes tipos de permisologías a través de grupos de usuarios y diferentes roles, y las acciones que pueden realizarse cuando se está atendiendo al usuario.
+                    Diversas empresas cuentan con bases de datos que pueden tener la información necesaria,  pero a menudo acumulan información redundante, desactualizada o incorrecta. Una base de datos que no se mantiene adecuadamente puede llevar a ineficiencias operativas, errores en la toma de decisiones y pérdida de oportunidades estratégicas.
                 </p>
             </div>
             <div class="graph-1"></div>
