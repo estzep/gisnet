@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="image">
-                <img src="<? echo $path ?>/<? echo $headerImg ?>" alt="Producto/Servicio image">
+                <img src="<? echo $path ?><? echo $headerImg ?>" alt="Producto/Servicio image">
             </div>
         </div>
     </div>
@@ -139,7 +139,7 @@
                 </div>
                 <div class="column image tab-content">
                     <div class="panel tab-pane fade show active">
-                        <img src="<?php echo($path); ?>src/assets/img/migracion-img/img-2.jpg.png" alt="Digitalización">
+                        <img src="<?php echo($path); ?>src/assets/img/migracion-img/img-2.jpg" alt="Digitalización">
                     </div>
                 </div>
             </div>
@@ -203,7 +203,7 @@
                 </div>
                 <div class="column image tab-content">
                     <div class="panel tab-pane fade show active">
-                        <img src="<?php echo($path); ?>src/assets/img/migracion-img/img-2a.jpg.png" alt="Indexado y captura de metadatos">
+                        <img src="<?php echo($path); ?>src/assets/img/migracion-img/img-2a.jpg" alt="Indexado y captura de metadatos">
                     </div>
                 </div>
             </div>
