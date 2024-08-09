@@ -203,7 +203,7 @@
                 </div>
                 <div class="column image tab-content">
                     <div class="panel tab-pane fade show active">
-                        <img src="<?php echo($path); ?>src/assets/img/migracion-img/img-2a.jpg" alt="Indexado y captura de metadatos">
+                        <img src="<?php echo($path); ?>src/assets/img/migracion-img/img-3.jpg" alt="Indexado y captura de metadatos">
                     </div>
                 </div>
             </div>
