@@ -91,11 +91,11 @@
                                     </span>
                                 </a>
                                 <ul class="text-3 bullet-list">
-                                    <li><span class="bullet-point">•</span> e-GIScat.</li>
-                                    <li><span class="bullet-point">•</span> Dirigido al <span class="g-strong">Catastro Estatal o Municipal</span>.</li>
-                                    <li><span class="bullet-point">•</span> <span class="g-strong">Procesos estandarizados</span> e interactuando con las diferentes áreas en la Gestión Catastral.</li>
-                                    <li><span class="bullet-point">•</span> <span class="g-strong">Atención a los usuarios</span> con trámites presenciales y virtuales para grandes usuarios.</li>
-                                    <li><span class="bullet-point">•</span> Teniendo una sola <span class="g-strong">Base de Información Tabular, Cartográfica y Documental</span>.</li>
+                                    <li>e-GIScat.</li>
+                                    <li>Dirigido al <span class="g-strong">Catastro Estatal o Municipal</span>.</li>
+                                    <li><span class="g-strong">Procesos estandarizados</span> e interactuando con las diferentes áreas en la Gestión Catastral.</li>
+                                    <li><span class="g-strong">Atención a los usuarios</span> con trámites presenciales y virtuales para grandes usuarios.</li>
+                                    <li>Teniendo una sola <span class="g-strong">Base de Información Tabular, Cartográfica y Documental</span>.</li>
                                 </ul>
                             </div>
                             <div class="image">
@@ -108,11 +108,11 @@
                             <div class="info">
                                 <h4 class="title">Sistema de Gestión Documental e-GIScat</h4>
                                 <ul class="text-3 bullet-list">
-                                    <li><span class="bullet-point">•</span> Dirigido a las Dependencias que requieran el <span class="g-strong">resguardo de su Acervo Documental</span>.</li>
-                                    <ul><span class="bullet-point">•</span> Dirigido al <span class="g-strong">Catastro Estatal o Municipal</span>.</ul>
-                                    <ul><span class="bullet-point">•</span> <span class="g-strong">Procesos estandarizados</span> con las mejores prácticas en la gestión documental.</ul>
-                                    <ul><span class="bullet-point">•</span> <span class="g-strong">Atención inmediata y con seguridad</span> a los usuarios autorizados.</ul>
-                                    <ul><span class="bullet-point">•</span> <span class="g-strong">100% Web</span>.</ul>
+                                    <li>Dirigido a las Dependencias que requieran el <span class="g-strong">resguardo de su Acervo Documental</span>.</li>
+                                    <il>Dirigido al <span class="g-strong">Catastro Estatal o Municipal</span>.</il>
+                                    <li><span class="g-strong">Procesos estandarizados</span> con las mejores prácticas en la gestión documental.</li>
+                                    <li><span class="g-strong">Atención inmediata y con seguridad</span> a los usuarios autorizados.</li>
+                                    <li><span class="g-strong">100% Web</span>.</li>
                                 </ul>
                             </div>
                             <div class="image">
