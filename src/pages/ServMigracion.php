@@ -139,7 +139,7 @@
                 </div>
                 <div class="column image tab-content">
                     <div class="panel tab-pane fade show active">
-                        <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
+                        <img src="<?php echo($path); ?>src/assets/img/migracion-img/img-2.jpg.png" alt="Digitalización">
                     </div>
                 </div>
             </div>
@@ -202,11 +202,8 @@
                     </ul>
                 </div>
                 <div class="column image tab-content">
-                    <div id="tab-r-tab1" class="panel tab-pane fade show active" role="tabpanel" aria-labelledby="li-r-tab1" tabindex="0">
-                        <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
-                    </div>
-                    <div id="tab-r-tab2" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-r-tab2" tabindex="0">
-                        <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
+                    <div class="panel tab-pane fade show active">
+                        <img src="<?php echo($path); ?>src/assets/img/migracion-img/img-2a.jpg.png" alt="Indexado y captura de metadatos">
                     </div>
                 </div>
             </div>
