@@ -392,7 +392,7 @@ main section.aboutUs .section-container .content {  }
     .mixed-content-1 .image.t { flex: 1 0 100%; }
     .mixed-content-1 .image img { padding-bottom: 3.5rem; position: relative; }
     .mixed-content-1 .image.f img { padding-left: 3.5rem; }
-    .mixed-content-1 .image.f.t img { padding-left: 0; }
+    .mixed-content-1 .image.f.t img { padding-left: 0; max-height: 55vh; }
     .mixed-content-1 .image.s img { padding-right: 3.5rem; }
     .mixed-content-1 .note { flex: 0 0 75%; }
     .mixed-content-1 .graph .graph-container { width: 100%; }
