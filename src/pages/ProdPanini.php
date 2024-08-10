@@ -24,7 +24,7 @@
 <section>
     <div class="container section-container">
         <div class="content">
-            <h3 class="text-center pb-5">¿Qué ofrece Panini?</h3>
+            <h3 class="text-center mb-5">¿Qué ofrece Panini?</h3>
             <div class="g-cards-1">
                 <div class="g-card panini">
                     <div class="top">
