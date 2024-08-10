@@ -54,7 +54,7 @@
                 <img src="<? echo $path ?>src/assets/img/acf-img/img-2.jpg" alt="Producto/Servicio image">
             </div>
             <div class="image s">
-                <img src="<? echo $path ?>src/assets/img/acf-img/img-2.jpg" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/acf-img/img-3.jpg" alt="Producto/Servicio image">
             </div>
             <div class="info">
                 <h3>Perspectiva del empleado</h3>
@@ -96,7 +96,7 @@
                     Podemos incluir el soporte a los dispositivos para la Señalización Digital, tanto los players como las televisiones que operan en la sucursal.
                 </p>
             </div>
-            <div class="image f t">
+            <div class="image f t contain">
                 <img src="<? echo $path ?>src/assets/img/acf-img/img-4.jpg" alt="Producto/Servicio image">
             </div>
         </div>

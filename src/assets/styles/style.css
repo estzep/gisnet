@@ -159,6 +159,7 @@ main section.aboutUs .section-container .content {  }
 .mixed-content-1 .info .text { margin-bottom: 1rem; }
 .mixed-content-1 .image { flex: 1 0 50%; overflow: hidden; padding-bottom: 4.5rem; position: relative; }
 .mixed-content-1 .image img { display: block; margin: 0 auto; text-align: center; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; padding-bottom: 4.5rem; position: absolute; }
+.mixed-content-1 .image.contain img { object-fit: contain; }
 .mixed-content-1 .image.f img { padding-left: 4.5rem; }
 .mixed-content-1 .image.s img { padding-right: 4.5rem; }
 .mixed-content-1 .note { flex: 0 0 55%; margin: 0 auto; }
@@ -389,7 +390,7 @@ main section.aboutUs .section-container .content {  }
     .mixed-content-1 .info { flex: 1 0 60%; padding-bottom: 3.5rem; }
     .mixed-content-1 .image { flex: 1 0 40%; padding-bottom: 3.5rem; }
     .mixed-content-1 .image.t { flex: 1 0 100%; }
-    .mixed-content-1 .image img { padding-bottom: 3.5rem; }
+    .mixed-content-1 .image img { padding-bottom: 3.5rem; position: relative; }
     .mixed-content-1 .image.f img { padding-left: 3.5rem; }
     .mixed-content-1 .image.f.t img { padding-left: 0; }
     .mixed-content-1 .image.s img { padding-right: 3.5rem; }
