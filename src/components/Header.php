@@ -12,7 +12,7 @@
                 <p class="text-1">
                     <? echo $headerDescription ?>
                 </p>
-                <a href="<? echo $path ?>/contacto" class="btn-type-1 f-btn">
+                <a href="<? echo $path ?>contacto" class="btn-type-1 f-btn">
                     Quiero comenzar
                 </a>
             </div>
