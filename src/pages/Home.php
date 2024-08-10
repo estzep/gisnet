@@ -267,16 +267,16 @@
                 </div>
                 <div class="column image tab-content">
                     <div id="tab-servicio1" class="panel tab-pane fade show active" role="tabpanel" aria-labelledby="li-servicio1" tabindex="0">
-                        <img src="src/assets/img/landing-img/img-2-migracion.jpg" alt="Placeholder image">
+                        <img src="src/assets/img/landing-img/img-2-migracion.jpg" alt="Migración de Acervos Imagen">
                     </div>
                     <div id="tab-servicio2" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio2" tabindex="0">
-                        <img src="src/assets/img/landing-img/img-3-sistemas.jpg" alt="Placeholder image">
+                        <img src="src/assets/img/landing-img/img-3-sistemas.jpg" alt="Implementación de Sistemas Imagen">
                     </div>
                     <div id="tab-servicio3" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio3" tabindex="0">
-                        <img src="src/assets/img/landing-img/img-4-limpieza.jpg" alt="Placeholder image">
+                        <img src="src/assets/img/landing-img/img-4-limpieza.jpg" alt="Limpieza de datos Imagen">
                     </div>
                     <div id="tab-servicio4" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio4" tabindex="0">
-                        <img src="src/assets/img/landing-img/img-5-soporte.jpg" alt="Placeholder image">
+                        <img src="src/assets/img/landing-img/img-5-soporte.jpg" alt="Desarrollo, Soporte y Mantenimiento Imagen">
                     </div>
                 </div>
             </div>
