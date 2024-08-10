@@ -76,7 +76,7 @@
                                 </ul>
                             </div>
                             <div class="image">
-                                <img src="<? echo($path) ?>src/assets/img/sp/placeholder.png" alt="Image">
+                                <img src="<? echo($path) ?>src/assets/img/sistemas-img/img-2-gisreg.jpg" alt="Image">
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                                 </ul>
                             </div>
                             <div class="image">
-                                <img src="<? echo($path) ?>src/assets/img/sp/placeholder.png" alt="Image">
+                                <img src="<? echo($path) ?>src/assets/img/sistemas-img/img-2-giscat.jpg" alt="Image">
                             </div>
                         </div>
                     </div>
