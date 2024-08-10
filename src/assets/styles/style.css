@@ -290,7 +290,7 @@ main section.aboutUs .section-container .content {  }
 .g-cards-1 .g-card:hover { transform: scale(1.02); }
 .g-cards-1 .g-card .icon { width: 4rem; height: 4rem; border: 1px solid var(--stroke-color); display: block; margin: 0 auto; text-align: center; position: relative; margin-bottom: 1rem; }
 .g-cards-1 .g-card .icon img { padding: .5rem; width: 100%; height: 100%; }
-.g-cards-1 .g-card .icon:not(.panini) img { filter: var(--pri-color-filter); }
+.g-cards-1 .g-card:not(.panini) .icon img { filter: var(--pri-color-filter); }
 .g-cards-1 .g-card h6 { text-align: center; }
 .g-cards-1 .g-card .text-4 { text-align: center; }
 .g-cards-1 .g-card.panini .text-4 { margin-bottom: 1.5rem; }
