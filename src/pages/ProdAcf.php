@@ -36,9 +36,6 @@
             </div>
             <div class="info">
                 <h3>Perspectiva del cliente</h3>
-                <p class="text-1">
-                    La plataforma cuenta con diferentes tipos de permisologías a través de grupos de usuarios y diferentes roles, y las acciones que pueden realizarse cuando se está atendiendo al usuario.
-                </p>
                 <p class="text-5">
                     <span class="bullet-point">•</span> Segmentación de clientes
                     <br>
@@ -54,15 +51,15 @@
                 </p>
             </div>
             <div class="image f">
-                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/acf-img/img-2.jpg" alt="Producto/Servicio image">
             </div>
             <div class="image s">
-                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/acf-img/img-2.jpg" alt="Producto/Servicio image">
             </div>
             <div class="info">
                 <h3>Perspectiva del empleado</h3>
                 <p class="text-1">
-                    La plataforma cuenta con diferentes tipos de permisologías a través de grupos de usuarios y diferentes roles, y las acciones que pueden realizarse cuando se está atendiendo al usuario.
+                    Mediciones de:
                 </p>
                 <p class="text-5">
                     <span class="bullet-point">•</span> Productividad
@@ -100,7 +97,7 @@
                 </p>
             </div>
             <div class="image f t">
-                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/acf-img/img-4.jpg" alt="Producto/Servicio image">
             </div>
         </div>
     </div>

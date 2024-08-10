@@ -161,7 +161,7 @@ main section.aboutUs .section-container .content {  }
 .mixed-content-1 .image img { display: block; margin: 0 auto; text-align: center; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; padding-bottom: 4.5rem; position: absolute; }
 .mixed-content-1 .image.f img { padding-left: 4.5rem; }
 .mixed-content-1 .image.s img { padding-right: 4.5rem; }
-.mixed-content-1 .note { flex: 0 0 40%; margin: 0 auto; }
+.mixed-content-1 .note { flex: 0 0 55%; margin: 0 auto; }
 .mixed-content-1 .graph { flex: 1 0 100%; }
 .mixed-content-1 .graph .graph-container { display: block; width: 80%; margin: 0 auto; text-align: center; background: var(--light-blue-1); }
 .mixed-content-1 .graph .graph-container img { display: block; width: 100%; height: auto; object-fit: contain; object-position: 50% 50%; padding: 4rem 3rem; margin: 0 auto; }
