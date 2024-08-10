@@ -286,7 +286,7 @@ main section.aboutUs .section-container .content {  }
 .carousel .item .text-3 {  }
 
 .g-cards-1 { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center; align-items: stretch; gap: 3.5rem; }
-.g-cards-1 .g-card { flex: 0 0 22%; box-shadow: 0px 4px 40px 0px rgba(25, 85, 139, 0.03); border: 1px solid var(--stroke-color); background: var(--bg-color); padding: 1.5rem; position: relative; transition: 0.4s; display: flex; flex-direction: row; }
+.g-cards-1 .g-card { flex: 0 0 22%; box-shadow: 0px 4px 40px 0px rgba(25, 85, 139, 0.03); border: 1px solid var(--stroke-color); background: var(--bg-color); padding: 1.5rem; position: relative; transition: 0.4s; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: space-between; align-items: stretch; }
 .g-cards-1 .g-card .top { flex: 0 0 auto; }
 .g-cards-1 .g-card .bottom { flex: 0 0 auto; }
 .g-cards-1 .g-card:hover { transform: scale(1.02); }
