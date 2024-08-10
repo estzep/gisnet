@@ -164,13 +164,13 @@
                 </div>
                 <div class="column image tab-content">
                     <div id="tab-panini1" class="panel tab-pane fade show active" role="tabpanel" aria-labelledby="li-panini1" tabindex="0">
-                        <img src="src/assets/img/panini-img/img-2-biocred.jpg" alt="Biocred">
+                        <img src="<? echo($path) ?>src/assets/img/panini-img/img-2-biocred.jpg" alt="Biocred">
                     </div>
                     <div id="tab-panini2" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-panini2" tabindex="0">
-                        <img src="src/assets/img/panini-img/img-3-visionx.jpg" alt="VisionX">
+                        <img src="<? echo($path) ?>src/assets/img/panini-img/img-3-visionx.jpg" alt="VisionX">
                     </div>
                     <div id="tab-panini3" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-panini3" tabindex="0">
-                        <img src="src/assets/img/panini-img/img-4-evernext.jpg" alt="Biocred">
+                        <img src="<? echo($path) ?>src/assets/img/panini-img/img-4-evernext.jpg" alt="Biocred">
                     </div>
                 </div>
             </div>
