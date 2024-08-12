@@ -116,6 +116,10 @@ main section.aboutUs {  }
 main section.aboutUs .section-container {  }
 main section.aboutUs .section-container .content {  }
 
+main section.badges { background: var(--bg-color-1); }
+main section.badges .section-container {  }
+main section.badges .section-container .content {  }
+
 .bullet-point { margin: 0 .5rem 0 1rem; }
 .g-strong { font-weight: 500; color: var(--text-color); }
 .bullet-list { list-style-type: disc; }
@@ -312,6 +316,9 @@ main section.aboutUs .section-container .content {  }
 .g-cards-2 .g-card .bottom {  }
 .g-cards-2 .g-card .bottom p {  }
 
+.badges-container { display: flex; }
+.badges-container .badge { flex: 0 0 calc(100% / 5); }
+.badges-container .badge img { display: block; width: 100%; height: 100%; text-align: center; margin: 0 auto; }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {

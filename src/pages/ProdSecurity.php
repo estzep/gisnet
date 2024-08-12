@@ -42,10 +42,27 @@
         </div>
     </div>
 </section>
-<section>
+<section class="badges">
     <div class="section-container container">
         <div class="content">
-            Contenido...
+            <h3 class="text-center">Reconocimientos de la industria</h3>
+            <div class="badges-container">
+                <div class="badge">
+                    <img src="<? echo($path) ?>src/assets/img/security-scorecard-img/partner.png" alt="Badge">
+                </div>
+                <div class="badge">
+                    <img src="<? echo($path) ?>src/assets/img/security-scorecard-img/snowflake.png" alt="Badge">
+                </div>
+                <div class="badge">
+                    <img src="<? echo($path) ?>src/assets/img/security-scorecard-img/momentum.png" alt="Badge">
+                </div>
+                <div class="badge">
+                    <img src="<? echo($path) ?>src/assets/img/security-scorecard-img/global.png" alt="Badge">
+                </div>
+                <div class="badge">
+                    <img src="<? echo($path) ?>src/assets/img/security-scorecard-img/black-unicorn.png" alt="Badge">
+                </div>
+            </div>
         </div>
     </div>
 </section>
