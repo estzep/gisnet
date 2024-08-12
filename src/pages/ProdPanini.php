@@ -36,14 +36,6 @@
                             La última innovación de Panini, una obra maestra de la consolidación inteligente, aborda varias funciones clave para la verificación de la identidad y la autenticidad de los clientes de forma fiable e intuitiva.
                         </p>
                     </div>
-                    <div class="bottom">
-                        <a href="<? echo($path) ?>" class="link btn-type-2">
-                            Descubra BioCred
-                            <span class="arrow">
-                                <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
-                            </span>
-                        </a>
-                    </div>
                 </div>
                 <div class="g-card panini">
                     <div class="top">
@@ -55,14 +47,6 @@
                             Los sistemas de captura escalables de Panini responden a una variedad de modelos de procesamiento distribuido de cheques, ofreciendo un rendimiento y una fiabilidad superior.
                         </p>
                     </div>
-                    <div class="bottom">
-                        <a href="<? echo($path) ?>" class="link btn-type-2">
-                            Nuestra gama
-                            <span class="arrow">
-                                <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
-                            </span>
-                        </a>
-                    </div>
                 </div>
                 <div class="g-card panini">
                     <div class="top">
@@ -73,14 +57,6 @@
                         <p class="text-4">
                             Gracias a décadas de experiencia y a un profundo conocimiento de sus necesidades, podemos ofrecer sistemáticamente a nuestros clientes bancarios una mejora decisiva de sus procesos.
                         </p>
-                    </div>
-                    <div class="bottom">
-                        <a href="<? echo($path) ?>" class="link btn-type-2">
-                            Diferencia clave
-                            <span class="arrow">
-                                <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
-                            </span>
-                        </a>
                     </div>
                 </div>
             </div>
