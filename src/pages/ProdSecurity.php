@@ -45,7 +45,7 @@
 <section class="badges">
     <div class="section-container container">
         <div class="content">
-            <h3 class="text-center">Reconocimientos de la industria</h3>
+            <h3 class="text-center mb-5">Reconocimientos de la industria</h3>
             <div class="badges-container">
                 <div class="badge">
                     <img src="<? echo($path) ?>src/assets/img/security-scorecard-img/gartner.png" alt="Badge">
