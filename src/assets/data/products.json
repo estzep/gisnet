@@ -32,7 +32,7 @@
             "spname": "security-scorecard",
             "headerTitle": "Security Scorecard",
             "headerDescription": "Plataforma de calificación de riesgos cibernéticos para todos los sectores",
-            "headerImg": "src/assets/img/sp/placeholder.png",
+            "headerImg": "src/assets/img/security-scorecard-img/img-1.jpg",
             "clientsTitle": "La confianza, la transparencia y la seguridad están en nuestro ADN",
             "clientsDescription": "Security Scorecard es una plataforma integral de calificación de riesgos cibernéticos, diseñada para servir a una amplia gama de sectores. Esta herramienta proporciona evaluaciones detalladas y continuas de la seguridad cibernética, identificando vulnerabilidades y ofreciendo insights críticos para fortalecer las defensas."
         },
