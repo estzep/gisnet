@@ -118,7 +118,7 @@
             <h3 class="text-center mb-5">Seguridad, certificados y cumplimientos</h3>
             <div class="badges-container">
                 <div class="badge">
-                    <img src="<? echo($path) ?>src/assets/img/tassta-img/3pp.png" alt="Badge">
+                    <img src="<? echo($path) ?>src/assets/img/tassta-img/3gpp.png" alt="Badge">
                 </div>
                 <div class="badge">
                     <img src="<? echo($path) ?>src/assets/img/tassta-img/etsi.png" alt="Badge">
