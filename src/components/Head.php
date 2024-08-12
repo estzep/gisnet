@@ -1,7 +1,7 @@
 <?php
 if ($robots == "") { $robots = 'noindex, nofollow'; }
-if ($title == "") { $robots = 'GISnet'; }
-if ($url == "") { $url = 'https://qartaonline.com/gisnet'; }
+if ($title == "") { $title = 'GISnet'; }
+if ($url == "") { $url = 'https://gisnet.qartaonline.com'; }
 
 if ($path == "") { $path = ''; }
 

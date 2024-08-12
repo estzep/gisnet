@@ -1,14 +1,12 @@
 <?php
-    $base = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
+    $base = $_SERVER['REQUEST_URI'];
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
 ?>
 <?php include($path."src/components/Navbar.php");?>
 <main>
     <?php
-        // $page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-        $page = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
-        // echo "The path: " . $path;
+        $page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
         switch ($page) {
             case '/':

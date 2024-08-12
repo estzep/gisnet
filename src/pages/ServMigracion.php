@@ -1,5 +1,5 @@
 <?php
-    $base = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
+    $base = $_SERVER['REQUEST_URI'];
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
     
@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="image">
-                <img src="<? echo $path ?>src/assets/img/sp/<? echo $headerImg ?>" alt="Producto/Servicio image">
+                <img src="<? echo $path ?><? echo $headerImg ?>" alt="Producto/Servicio image">
             </div>
         </div>
     </div>
@@ -138,17 +138,8 @@
                     </ul>
                 </div>
                 <div class="column image tab-content">
-                    <div id="tab-tab1" class="panel tab-pane fade show active" role="tabpanel" aria-labelledby="li-tab1" tabindex="0">
-                        <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
-                    </div>
-                    <div id="tab-tab2" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-tab2" tabindex="0">
-                        <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
-                    </div>
-                    <div id="tab-tab3" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-tab3" tabindex="0">
-                        <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
-                    </div>
-                    <div id="tab-tab4" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-tab4" tabindex="0">
-                        <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
+                    <div class="panel tab-pane fade show active">
+                        <img src="<?php echo($path); ?>src/assets/img/migracion-img/img-2.jpg" alt="Digitalización">
                     </div>
                 </div>
             </div>
@@ -211,11 +202,8 @@
                     </ul>
                 </div>
                 <div class="column image tab-content">
-                    <div id="tab-r-tab1" class="panel tab-pane fade show active" role="tabpanel" aria-labelledby="li-r-tab1" tabindex="0">
-                        <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
-                    </div>
-                    <div id="tab-r-tab2" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-r-tab2" tabindex="0">
-                        <img src="<?php echo($path); ?>src/assets/img/placeholder.png" alt="Placeholder image">
+                    <div class="panel tab-pane fade show active">
+                        <img src="<?php echo($path); ?>src/assets/img/migracion-img/img-3.jpg" alt="Indexado y captura de metadatos">
                     </div>
                 </div>
             </div>

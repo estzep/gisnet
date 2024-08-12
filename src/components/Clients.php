@@ -1,8 +1,9 @@
 <?php
-    $base = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
+    $base = $_SERVER['REQUEST_URI'];
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
 ?>
+
 <section id="clientes" class="sp">
     <div class="section-container container">
         <div class="content">

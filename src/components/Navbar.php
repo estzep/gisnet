@@ -1,5 +1,5 @@
 <?php
-    $base = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
+    $base = $_SERVER['REQUEST_URI'];
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
 ?>
@@ -21,7 +21,7 @@
                 <div class="links-container container">
                     <ul id="accordionLinks" class="links-content accordion">
                         <li class="links-item">
-                            <a href="<? echo($path) ?>#empresa" onclick="closeNav()">Empresa</a>
+                            <a href="<? echo($path) ?>nosotros" onclick="closeNav()">Empresa</a>
                         </li>
                         <li class="links-item">
                             <a class="accordion-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#collapseNavbarServicios" aria-expanded="false" aria-controls="collapseNavbarServicios">

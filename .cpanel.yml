@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/qartaonl/public_html/gisnet
+    - export DEPLOYPATH=/home1/qartaonl/gisnet.qartaonline.com
     - echo "Starting deployment..."
     - /bin/cp -R * $DEPLOYPATH
     - echo "Deployment complete."

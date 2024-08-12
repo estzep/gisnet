@@ -1,5 +1,5 @@
 <?php
-    $base = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
+    $base = $_SERVER['REQUEST_URI'];
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
     
@@ -38,8 +38,61 @@
                     <img src="<? echo($path) ?>src/assets/img/limpieza-img/graphic-limpieza-datos-mobile.png" alt="Graph" class="d-block d-md-none">
                 </div>
             </div>
-            <div class="columns">
-
+            <ul class="columns quad">
+                <il class="column">
+                    <h4 class="title">Validación</h4>
+                    <p class="text-3">Cada dato pasa por un proceso de validación riguroso para garantizar su precisión y relevancia.</p>
+                </il>
+                <il class="column">
+                    <h4 class="title">Estandarización (Archivo Digital)</h4>
+                    <p class="text-3">Normalizamos los datos para que cumplan con formatos estándar y sean coherentes en todo el archivo digital.</p>
+                </il>
+                <il class="column">
+                    <h4 class="title">Integración de los Folios y Actos</h4>
+                    <p class="text-3">Consolidamos la información de los folios y actos jurídicos, asegurando la integridad de la secuencia.</p>
+                </il>
+                <il class="column">
+                    <h4 class="title">Listados de Inconsistencias</h4>
+                    <p class="text-3">Generamos listados detallados de cualquier inconsistencia encontrada para su revisión y corrección.</p>
+                </il>
+            </ul>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="section-container container">
+        <div class="content mixed-content-1 pb-0">
+            <div class="info">
+                <h3>Resultados de calidad</h3>
+                <ul class="bullet-list lg">
+                    <li>
+                        <h6 class="subtitle">Precisión Mejorada</h6>
+                        <p class="text text-3">
+                            La base de datos migrada y limpia cuenta con una precisión significativamente mayor, eliminando errores e inexactitudes.
+                        </p>
+                    </li>
+                    <li>
+                        <h6 class="subtitle">Consistencia</h6>
+                        <p class="text text-3">
+                            Los datos se estandarizan siguiendo un formato uniforme, lo que facilita el análisis y la integración con otros sistemas.
+                        </p>
+                    </li>
+                    <li>
+                        <h6 class="subtitle">Optimización de Rendimiento</h6>
+                        <p class="text text-3">
+                            La base de datos presenta un rendimiento óptimo, con tiempos de respuesta más rápidos y una gestión más eficiente.
+                        </p>
+                    </li>
+                    <li>
+                        <h6 class="subtitle">Mayor Seguridad</h6>
+                        <p class="text text-3">
+                            Garantizando que la información sensible esté protegida y la base de datos sea más confiable y segura para su uso.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="image f t">
+                <img src="<? echo $path ?>src/assets/img/limpieza-img/img-2.jpg" alt="Producto/Servicio image">
             </div>
         </div>
     </div>

@@ -59,7 +59,7 @@ main section#clientes .section-container {  }
 main section#clientes:not(.sp) .section-container .content { padding: 2rem 0 4rem 0; }
 main section#clientes .heading { width: 55%; margin: 0 auto; }
 main section#clientes h3 { text-align: center; margin-bottom: 3rem; }
-main section#clientes .text-1 { text-align: center; }
+main section#clientes .text-1 { text-align: center; margin-bottom: 0; }
 
 main section#empresa { background: var(--bg-color-1); }
 main section#empresa .section-container {  }
@@ -118,6 +118,7 @@ main section.aboutUs .section-container .content {  }
 .bullet-point { margin: 0 .5rem 0 1rem; }
 .g-strong { font-weight: 500; color: var(--text-color); }
 .bullet-list { list-style-type: disc; }
+.bullet-list.lg { list-style-type: none; padding-left: 0; margin-bottom: 0; }
 .bullet-list li { padding: .25rem 0; }
 
 .contact-card { background: var(--bg-color); box-shadow: 0px 4px 40px 0px rgba(25, 85, 139, 0.03); padding: 2rem; width: 60%; margin: 0 auto; }
@@ -154,16 +155,21 @@ main section.aboutUs .section-container .content {  }
 .mixed-content-1 { display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; justify-content: space-between; align-items: stretch; }
 .mixed-content-1 .heading { flex: 0 1 65%; margin: 0 auto 0 0; padding-bottom: 3.5rem; }
 .mixed-content-1 .info { flex: 1 0 50%; padding-bottom: 4.5rem; }
-.mixed-content-1 .image { flex: 1 0 50%; overflow: hidden; padding-bottom: 4.5rem; }
-.mixed-content-1 .image img { display: block; margin: 0 auto; text-align: center; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; padding-bottom: 4.5rem; }
+.mixed-content-1 .info .subtitle { margin-bottom: 0; }
+.mixed-content-1 .info .text { margin-bottom: 1rem; }
+.mixed-content-1 .image { flex: 1 0 50%; overflow: hidden; padding-bottom: 4.5rem; position: relative; }
+.mixed-content-1 .image img { display: block; margin: 0 auto; text-align: center; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; padding-bottom: 4.5rem; position: absolute; }
+.mixed-content-1 .image.contain img { object-fit: contain; }
 .mixed-content-1 .image.f img { padding-left: 4.5rem; }
 .mixed-content-1 .image.s img { padding-right: 4.5rem; }
-.mixed-content-1 .note { flex: 0 0 40%; margin: 0 auto; }
+.mixed-content-1 .note { flex: 0 0 55%; margin: 0 auto; }
 .mixed-content-1 .graph { flex: 1 0 100%; }
 .mixed-content-1 .graph .graph-container { display: block; width: 80%; margin: 0 auto; text-align: center; background: var(--light-blue-1); }
 .mixed-content-1 .graph .graph-container img { display: block; width: 100%; height: auto; object-fit: contain; object-position: 50% 50%; padding: 4rem 3rem; margin: 0 auto; }
-.mixed-content-1 .columns {  }
-.mixed-content-1 .columns .column {  }
+.mixed-content-1 .columns { gap: 3rem; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; justify-content: center; align-items: stretch; padding-left: 0; margin-bottom: 0; padding-top: 5rem; }
+.mixed-content-1 .columns .column { flex: 1 0 100%; }
+.mixed-content-1 .columns.quad .column { flex: 1 0 calc(25% - 3rem); }
+.mixed-content-1 .columns .column .title { margin-bottom: 1.5rem; }
 
 .squares-1 { padding-top: 2rem; display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; justify-content: space-between; align-content: flex-start; gap: 3rem; }
 .squares-1 .square { flex: 1 0 0%; background: var(--bg-color); border: 1px solid var(--stroke-color); box-shadow: 0px 4px 40px 0 rgba(25, 85, 139, 0.03); }
@@ -209,10 +215,11 @@ main section.aboutUs .section-container .content {  }
 .tabs .column ul.tablist li.tab.active .text-3 { color: var(--light-text-color); }
 .tabs .column .panel { height: 100%; }
 .tabs .column .panel.active {  }
-.tabs .column .panel img { width: 100%; height: 100%; display: block; margin: 0 auto; object-fit: cover; }
+.tabs .column .panel img { max-height: 55vh; width: 100%; height: 100%; display: block; margin: 0 auto; object-fit: cover; object-position: 50% 50%; }
+.tabs .column .panel.contain img { object-fit: contain; }
 
 .tabs-2 { padding-top: 1rem; }
-.tabs-2 .controls { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1.5rem; align-content: flex-start; padding-bottom: 3rem; }
+.tabs-2 .controls { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: stretch; gap: 1.5rem; align-content: flex-start; padding-bottom: 3rem; }
 .tabs-2 .controls button { font-size: .9rem; }
 .tabs-2 .tabs-container { display: flex; flex-direction: row; align-items: stretch; flex-wrap: nowrap; justify-content: normal; overflow: hidden; }
 .tabs-2 .tab { width: 100%; flex: 1 0 100%; display: block; opacity: 0; transition: .4s; border: 1px solid var(--stroke-color); box-shadow: 0px 4px 40px 0 rgba(var(--darker-pri-color-rgb), .03); order: 2; }
@@ -281,12 +288,17 @@ main section.aboutUs .section-container .content {  }
 .carousel .item .text-3 {  }
 
 .g-cards-1 { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center; align-items: stretch; gap: 3.5rem; }
-.g-cards-1 .g-card { flex: 0 0 22%; box-shadow: 0px 4px 40px 0px rgba(25, 85, 139, 0.03); border: 1px solid var(--stroke-color); background: var(--bg-color); padding: 1.5rem; position: relative; transition: 0.4s; }
+.g-cards-1 .g-card { flex: 0 0 22%; box-shadow: 0px 4px 40px 0px rgba(25, 85, 139, 0.03); border: 1px solid var(--stroke-color); background: var(--bg-color); padding: 1.5rem; position: relative; transition: 0.4s; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: space-between; align-items: stretch; }
+.g-cards-1 .g-card .top { flex: 0 0 auto; }
+.g-cards-1 .g-card .bottom { flex: 0 0 auto; }
 .g-cards-1 .g-card:hover { transform: scale(1.02); }
 .g-cards-1 .g-card .icon { width: 4rem; height: 4rem; border: 1px solid var(--stroke-color); display: block; margin: 0 auto; text-align: center; position: relative; margin-bottom: 1rem; }
-.g-cards-1 .g-card .icon img { padding: .5rem; filter: var(--pri-color-filter); width: 100%; height: 100%; }
+.g-cards-1 .g-card .icon img { padding: 0; width: 100%; height: 100%; }
+.g-cards-1 .g-card:not(.panini) .icon img { padding: .5rem; filter: var(--pri-color-filter); }
 .g-cards-1 .g-card h6 { text-align: center; }
 .g-cards-1 .g-card .text-4 { text-align: center; }
+.g-cards-1 .g-card.panini .text-4 { margin-bottom: 1.5rem; }
+.g-cards-1 .g-card .link { font-size: .9rem; }
 
 .g-cards-2 { --gap-size: 4rem; position: relative; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; align-items: stretch; justify-content: space-between; column-gap: var(--gap-size); }
 .g-cards-2 .g-card { width: 100%; flex: 0 0 100%; display: grid; grid-template-rows: repeat(2, 1fr); }
@@ -368,6 +380,8 @@ main section.aboutUs .section-container .content {  }
 
     main section#why .text-2 { width: 50%; }
 
+    .bullet-list.lg { list-style-type: disc; padding-left: 1.5rem; }
+
     .contact-card { width: 90%; }
 
     :root { --n-logos: 3; }
@@ -376,13 +390,15 @@ main section.aboutUs .section-container .content {  }
     .mixed-content-1 .info { flex: 1 0 60%; padding-bottom: 3.5rem; }
     .mixed-content-1 .image { flex: 1 0 40%; padding-bottom: 3.5rem; }
     .mixed-content-1 .image.t { flex: 1 0 100%; }
-    .mixed-content-1 .image img { padding-bottom: 3.5rem; }
+    .mixed-content-1 .image img { padding-bottom: 3.5rem; position: relative; }
     .mixed-content-1 .image.f img { padding-left: 3.5rem; }
-    .mixed-content-1 .image.f.t img { padding-left: 0; }
+    .mixed-content-1 .image.f.t img { padding-left: 0; max-height: 55vh; }
     .mixed-content-1 .image.s img { padding-right: 3.5rem; }
     .mixed-content-1 .note { flex: 0 0 75%; }
     .mixed-content-1 .graph .graph-container { width: 100%; }
     .mixed-content-1 .graph .graph-container img { padding: 3rem 2rem; }
+    .mixed-content-1 .columns.quad .column { flex: 1 0 calc(50% - 3rem); }
+    .mixed-content-1 .columns .column .title { margin-bottom: .5rem; }
 
     .squares-1 { gap: 2rem; }
 
@@ -466,6 +482,7 @@ main section.aboutUs .section-container .content {  }
     .tabs .column.info { flex: 1 0 100%; }
     .tabs .column.image { display: none; }
 
+    .tabs-2 .controls button { flex: 1; }
     .tabs-2 .tab .tab-content .image { display: none; }
 
     .squares-3 { gap: 1rem; }
@@ -500,6 +517,8 @@ main section.aboutUs .section-container .content {  }
     
     :root { --n-logos: 2; }
     .slider .track .item { padding: 0.2rem; }
+
+    .mixed-content-1 .columns.quad .column { flex: 1 0 100%; }
 
     .squares-2 .square { flex: 1 0 100%; }
 

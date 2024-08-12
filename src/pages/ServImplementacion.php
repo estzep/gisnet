@@ -1,5 +1,5 @@
 <?php
-    $base = substr($_SERVER['REQUEST_URI'], strlen('/gisnet'));
+    $base = $_SERVER['REQUEST_URI'];
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
     
@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="image">
-                <img src="<? echo $path ?>src/assets/img/sp/<? echo $headerImg ?>" alt="Producto/Servicio image">
+                <img src="<? echo $path ?><? echo $headerImg ?>" alt="Producto/Servicio image">
             </div>
         </div>
     </div>
@@ -76,14 +76,14 @@
                                 </ul>
                             </div>
                             <div class="image">
-                                <img src="<? echo($path) ?>src/assets/img/sp/placeholder.png" alt="Image">
+                                <img src="<? echo($path) ?>src/assets/img/sistemas-img/img-2-gisreg.jpg" alt="Image">
                             </div>
                         </div>
                     </div>
                     <div id="tab-catastral" class="tab">
                         <div class="tab-content">
                             <div class="info">
-                                <h4 class="title">Sistema de Gestión Catastral e-GISreg</h4>
+                                <h4 class="title">Sistema de Gestión Catastral e-GIScat</h4>
                                 <a href="<? echo($path) ?>" class="btn-type-1">
                                     Ver demo
                                     <span class="arrow">
@@ -99,14 +99,14 @@
                                 </ul>
                             </div>
                             <div class="image">
-                                <img src="<? echo($path) ?>src/assets/img/sp/placeholder.png" alt="Image">
+                                <img src="<? echo($path) ?>src/assets/img/sistemas-img/img-2-giscat.jpg" alt="Image">
                             </div>
                         </div>
                     </div>
                     <div id="tab-documental" class="tab">
                         <div class="tab-content">
                             <div class="info">
-                                <h4 class="title">Sistema de Gestión Documental e-GIScat</h4>
+                                <h4 class="title">Sistema de Gestión Documental e-GISdoc</h4>
                                 <ul class="text-3 bullet-list">
                                     <li>Dirigido a las Dependencias que requieran el <span class="g-strong">resguardo de su Acervo Documental</span>.</li>
                                     <il>Dirigido al <span class="g-strong">Catastro Estatal o Municipal</span>.</il>
