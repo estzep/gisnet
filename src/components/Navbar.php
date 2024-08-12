@@ -111,7 +111,7 @@
                                             <img src="<? echo($path) ?>src/assets/icons/icon-11.svg" alt="Icon 11">
                                         </div>
                                         <div class="info">
-                                            <h6>Security ScoreCard</h6>
+                                            <h6>Security Scorecard</h6>
                                             <p>Plataforma de calificación de riesgos cibernéticos para todos los sectores.</p>
                                         </div>
                                     </a>
