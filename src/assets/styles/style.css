@@ -295,7 +295,7 @@ main section.badges .section-container .content {  }
 .g-cards-1 { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center; align-items: stretch; gap: 3.5rem; }
 .g-cards-1 .g-card { flex: 0 0 22%; box-shadow: 0px 4px 40px 0px rgba(25, 85, 139, 0.03); border: 1px solid var(--stroke-color); background: var(--bg-color); padding: 1.5rem; position: relative; transition: 0.4s; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: space-between; align-items: stretch; }
 .g-cards-1 .g-card .top { flex: 0 0 auto; }
-.g-cards-1 .g-card .bottom { flex: 0 0 auto; }
+.g-cards-1 .g-card .bottom { flex: 0 0 auto; padding-top: 1rem; }
 .g-cards-1 .g-card:hover { transform: scale(1.02); }
 .g-cards-1 .g-card .icon { width: 4rem; height: 4rem; border: 1px solid var(--stroke-color); display: block; margin: 0 auto; text-align: center; position: relative; margin-bottom: 1rem; }
 .g-cards-1 .g-card .icon img { padding: 0; width: 100%; height: 100%; }

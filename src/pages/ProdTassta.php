@@ -108,7 +108,9 @@
     <div class="container section-container">
         <div class="content">
             <h3>Características</h3>
-            <div class="g-cards-3"></div>
+            <div class="g-cards-3">
+                <div class="g-card"></div>
+            </div>
         </div>
     </div>
 </section>
