@@ -48,7 +48,7 @@
             <h3 class="text-center">Reconocimientos de la industria</h3>
             <div class="badges-container">
                 <div class="badge">
-                    <img src="<? echo($path) ?>src/assets/img/security-scorecard-img/partner.png" alt="Badge">
+                    <img src="<? echo($path) ?>src/assets/img/security-scorecard-img/gartner.png" alt="Badge">
                 </div>
                 <div class="badge">
                     <img src="<? echo($path) ?>src/assets/img/security-scorecard-img/snowflake.png" alt="Badge">
