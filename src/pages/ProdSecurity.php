@@ -29,7 +29,9 @@
                 <p class="text-3">
                     Security Scorecard es el líder mundial en calificaciones de ciberseguridad y el único servicio con millones de organizaciones continuamente calificadas. Miles de organizaciones aprovechan nuestra tecnología de calificación patentada para autovigilancia, gestión de riesgos de terceros, informes de la junta y suscripción de seguros cibernéticos.
                     <br>
+                    <br>
                     Pero no paramos ahí. A través de un compromiso centrado en el cliente y basado en soluciones con nuestros socios, estamos transformando el panorama digital construyendo un camino hacia la resiliencia.
+                    <br>
                     <br>
                     Obtenga una comprensión completa del riesgo de su superficie de ataque y ecosistema de negocios. Conocer en un instante si una organización merece su confianza y mostrar a otros que se merecen la suya. Desde calificaciones de seguridad y gestión de riesgos de terceros hasta pruebas forenses digitales y respuesta de incidentes, Security Scorecard está aquí para usted. Juntos hacemos del mundo un lugar más seguro.
                 </p>
