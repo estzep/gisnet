@@ -23,7 +23,7 @@
 <? include($path.'src/components/Clients.php'); ?>
 <section>
     <div class="section-container container">
-        <div class="content mixed-content-1">
+        <div class="content mixed-content-1 pb-0">
             <div class="info">
                 <h3>¿Cuáles son las bases de datos NoSQL y por qué importan?</h3>
                 <p class="text-3">
@@ -33,35 +33,12 @@
             <div class="image f contain">
                 <img src="<? echo $path ?>src/assets/img/couchbase-img/img-2.jpg" alt="Producto/Servicio image">
             </div>
-
-            <div class="image s contain">
-                <img src="<? echo $path ?>src/assets/img/couchbase-img/img-3.jpg" alt="Producto/Servicio image">
-            </div>
-            <div class="info">
-                <h3>Arquitectura de base de datos distribuida</h3>
-                <p class="text-3">
-                    Las aplicaciones modernas enfocadas en el usuario presentan necesidades específicas, como contar con diversos patrones de acceso a datos que simplifiquen la arquitectura, proporcionen movilidad y aseguren un rendimiento distribuido excelente en la nube que prefieras.
-                </p>
-            </div>
-
-            <div class="info">
-                <p class="text-3 mb-4">
-                    Cientos de empresas de Global 2000, junto con decenas de miles de empresas más pequeñas y startups, han adoptado NoSQL. Para muchos, el uso de NoSQL comenzó con una caché, prueba de concepto o una pequeña aplicación, luego se expandió aplicaciones objetivo de misión crítica, y agora es la base para todo desarrollo de aplicaciones.
-                </p>
-                <p class="text-3">
-                    Con NoSQL, las empresas están en mejores condiciones de desarrollarse con agilidad y operar a cualquier escala y ofrecer el rendimiento y disponibilidad necesarios para satisfacer las demandas de las empresas de Economía Digital.
-                </p>
-            </div>
-            <div class="image f contain">
-                <img src="<? echo $path ?>src/assets/img/couchbase-img/img-4.jpg" alt="Producto/Servicio image">
-            </div>
-
         </div>
     </div>
 </section>
-<!-- <section>
+<section>
     <div class="section-container container">
-        <div class="content mixed-content-1">
+        <div class="content mixed-content-1 pb-0">
             <div class="image s contain">
                 <img src="<? echo $path ?>src/assets/img/couchbase-img/img-3.jpg" alt="Producto/Servicio image">
             </div>
@@ -76,7 +53,7 @@
 </section>
 <section>
     <div class="section-container container">
-        <div class="content mixed-content-1">
+        <div class="content mixed-content-1 pb-0">
             <div class="info">
                 <p class="text-3 mb-4">
                     Cientos de empresas de Global 2000, junto con decenas de miles de empresas más pequeñas y startups, han adoptado NoSQL. Para muchos, el uso de NoSQL comenzó con una caché, prueba de concepto o una pequeña aplicación, luego se expandió aplicaciones objetivo de misión crítica, y agora es la base para todo desarrollo de aplicaciones.
@@ -90,5 +67,5 @@
             </div>
         </div>
     </div>
-</section> -->
+</section>
 <? include($path.'src/components/WhyGisnet.php'); ?>
