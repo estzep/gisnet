@@ -32,8 +32,8 @@
                     Corsight AI está clasificada por el NIST como la compañía de reconocimiento facial con sede en Occidente con mejor rendimiento.
                 </p>
             </div>
-            <div class="image f contain">
-                <img src="<? echo $path ?>src/assets/img/corsgiht-img/img-2.jpg" alt="Producto/Servicio image">
+            <div class="image f">
+                <img src="<? echo $path ?>src/assets/img/corsight-img/img-2.jpg" alt="Producto/Servicio image">
             </div>
         </div>
     </div>
@@ -41,7 +41,7 @@
 <section>
     <div class="section-container container">
         <div class="content mixed-content-1 pb-0">
-            <div class="image s contain">
+            <div class="image s">
                 <img src="<? echo $path ?>src/assets/img/corsight-img/img-3.jpg" alt="Producto/Servicio image">
             </div>
             <div class="info">
@@ -62,7 +62,7 @@
                     Impulsada por la IA autónoma, la tecnología de reconocimiento facial de Corsight AI supera la capacidad del cerebro humano para identificar con precisión a las personas, independientemente de si llevan una máscara protectora u otra cobertura, si se encuentran en condiciones climáticas extremas o con poca luz, o si las fotos son tomadas en ángulos agudos o de grandes multitudes.
                 </p>
             </div>
-            <div class="image f contain">
+            <div class="image f">
                 <img src="<? echo $path ?>src/assets/img/corsight-img/img-4.jpg" alt="Producto/Servicio image">
             </div>
         </div>
