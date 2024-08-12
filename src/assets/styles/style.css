@@ -32,7 +32,8 @@ main :is(header, section) .text-5 { color: var(--text-color); font-size: 1rem; f
 
 main header#inicio { background: url('../img/bg-right.png'), var(--bg-color); background-size: contain; background-repeat: no-repeat; background-position: right center; background-attachment: local; }
 main header .container {  }
-main header .container .content { padding: 10rem 0; display: flex; }
+main header .container .content { padding: 7rem 0; display: flex; }
+main header#inicio .container .content { padding: 10rem 0; }
 main header .info { flex: 0 0 55%; margin: 0 auto 0 0; padding-right: 5rem; }
 main header#inicio .info { padding-right: 0; }
 main header .image { flex: 0 0 45%; }
