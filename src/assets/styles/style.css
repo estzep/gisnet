@@ -429,6 +429,8 @@ main section.badges .section-container .content {  }
 
     .g-cards-2 { --gap-size: 1rem; }
     .g-cards-2.triple .g-card { width: calc(50% - var(--gap-size)); flex: 0 0 calc(50% - var(--gap-size)); }
+
+    .badges-container .badge { flex: 0 0 calc((100% / 3) - 2rem); }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -505,6 +507,10 @@ main section.badges .section-container .content {  }
 
     .g-cards-1 { flex-wrap: wrap; }
     .g-cards-1 .g-card { flex: 0 0 100%; }
+
+    .badges-container { gap: 1rem; }
+    .badges-container .badge { flex: 0 0 calc((100% / 3) - 1rem); }
+    .badges-container .badge img { width: 100%; }
 }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
