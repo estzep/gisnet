@@ -28,9 +28,9 @@
     <div class="container">
         <div class="content">
             <div class="info">
-                <h1><? echo($errorCode) ?></h1>
+                <h1><? echo $error['title'] ?></h1>
                 <p class="text-1">
-                    Lo sentimos, la página no fue encontrada.
+                    <? echo $error['message'] ?>
                 </p>
                 <div class="links">
                     <a href="<? echo($path) ?>" class="btn-type-1 f-btn">
