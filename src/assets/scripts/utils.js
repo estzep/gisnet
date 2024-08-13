@@ -141,20 +141,3 @@ function changeTab2(event) {
         event.disabled = true;
     }, 400);
 }
-
-function closeTab(tab) {
-    if (tab.classList.contains("active")) {
-        // Deactivate the current tab
-        tab.classList.remove('active');
-        const targetId = tab.getAttribute('data-bs-target');
-        const targetContent = document.querySelector(targetId);
-        
-        if (targetContent) {
-            targetContent.classList.remove('active', 'show');
-        }
-
-        // Set the aria-selected attribute to false
-        tab.setAttribute('aria-selected', 'false');
-        
-    }
-}
