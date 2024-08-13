@@ -1,5 +1,6 @@
 <?php
     $title = 'Gisnet';
+    $description = 'Gisnet description';
     $robots = 'noindex, nofollow';
     $url = 'https://gisnet.qartaonline.com';
 

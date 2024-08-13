@@ -1,7 +1,8 @@
 <?php
 if ($robots == "") { $robots = 'noindex, nofollow'; }
 if ($title == "") { $title = 'GISnet'; }
-if ($url == "") { $url = 'https://gisnet.qartaonline.com'; }
+if ($description == "") { $description = 'Líderes en soluciones y consultorías especializadas. Apasionados por la modernización de nuestros clientes a través de servicios de calidad.'; }
+if ($url == "") { $url = 'https://gisnet.qartaonline.com/'; }
 
 if ($path == "") { $path = ''; }
 
@@ -15,7 +16,7 @@ if ($path == "") { $path = ''; }
     <meta name="robots" content="<?php echo($robots); ?>">
     <meta name="author" content="Qarta Online">
     <title><?php echo($title);?></title>
-    <meta name="description" content="Gisnet description">
+    <meta name="description" content="<?php echo($description);?>">
     <link rel="canonical" href="<?php echo($url);?>">
     <meta name="url" content="<?php echo($url);?>">
     <link rel="icon" href="<?php echo($path);?>src/assets/img/logos/logo-gisnet.png">
@@ -23,13 +24,13 @@ if ($path == "") { $path = ''; }
     <meta name="msapplication-TileImage" content="<?php echo($path);?>src/assets/img/logos/logo-gisnet.png">
     <!-- Redes Sociales -->
     <meta property="og:title" content="<?php echo($title);?>">
-    <meta property="og:description" content="Gisnet description">
+    <meta property="og:description" content="<?php echo($description);?>">
     <meta property="og:url" content="<?php echo($url);?>">
     <meta property="og:site_name" content="GISnet">
-    <meta property="og:image" content="<?php echo($url);?>/src/assets/img/logos/logo-gisnet.png">
-    <meta property="og:image:secure_url" content="<?php echo($url);?>/src/assets/img/logos/logo-gisnet.png">
+    <meta property="og:image" content="<?php echo($url);?>src/assets/img/logos/logo-gisnet.png">
+    <meta property="og:image:secure_url" content="<?php echo($url);?>src/assets/img/logos/logo-gisnet.png">
     <meta name="twitter:title" content="<?php echo($title);?>">
-    <meta name="twitter:description" content="Gisnet description">
+    <meta name="twitter:description" content="<?php echo($description);?>">
     <meta name="twitter:image" content="<?php echo($path);?>src/assets/img/logos/logo-gisnet.png">
     <meta name="twitter:card" content="summary_large_image">
     <!-- Stylesheets -->
