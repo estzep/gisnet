@@ -290,7 +290,7 @@ main section.badges .section-container .content {  }
 .carousel .control:disabled { background: var(--lighter-pri-color); }
 .carousel .control.left {  }
 .carousel .control.left img { transform: rotate(180deg); }
-.carousel .control.lfet:hover img { transform: rotate(180deg) translateX(-.1rem) scale(1.02); }
+.carousel .control.left:hover img { transform: rotate(180deg) translateX(-.1rem) scale(1.02); }
 .carousel .control.right {  }
 .carousel .control.right:hover img { transform: translateX(.1rem) scale(1.02); }
 .carousel .control img { width: 1rem; height: 1rem; filter: var(--light-text-color-filter); transition: 0.4s; }
