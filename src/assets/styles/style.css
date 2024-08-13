@@ -129,6 +129,10 @@ main section.badges { background: var(--bg-color-1); }
 main section.badges .section-container {  }
 main section.badges .section-container .content {  }
 
+main section.demo-cards { background: var(--bg-color-3); }
+main section.demo-cards .section-container {  }
+main section.demo-cards .section-container .content {  }
+
 .bullet-point { margin: 0 .5rem 0 1rem; }
 .g-strong { font-weight: 500!important; color: var(--text-color)!important; }
 .bullet-list { list-style-type: disc; }
@@ -342,6 +346,12 @@ main section.badges .section-container .content {  }
 .badges-container { display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; justify-content: center; align-items: center; gap: 2rem; }
 .badges-container .badge { flex: 0 0 calc(20% - 2rem); }
 .badges-container .badge img { display: block; width: 90%; height: auto; text-align: center; margin: 0 auto; object-fit: contain; object-position: 50% 50%; }
+
+.demo-cards-container { --gap-size: 1rem; position: relative; display: flex; gap: var(--gap-size); }
+.demo-cards-container .demo-card { flex: 1 0 calc((100% / 3) - var(--gap-size)); color: var(--light-text-color); }
+.demo-cards-container .demo-card .title {  }
+.demo-cards-container .demo-card ul {  }
+.demo-cards-container .demo-card ul li {  }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
