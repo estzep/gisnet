@@ -6,8 +6,8 @@
             "headerTitle": "Migración de Acervos",
             "headerDescription": "El proceso de transferir datos, documentos, imágenes y registros de un formato o sistema de almacenamiento a otro, más moderno y accesible.",
             "headerImg": "src/assets/img/migracion-img/img-1.jpg",
-            "clientsTitle": "¿Está listo para llevar su acervo documental al siguiente nivel?",
-            "clientsDescription": "Transformamos su colección física en un activo digital accesible y preservado. Con nuestra experiencia en Migración de Acervos, aseguramos una transición fluida de sus documentos valiosos a medios electrónicos, permitiendo una integración perfecta con las últimas herramientas digitales y de gestión de información."
+            "summaryTitle": "¿Está listo para llevar su acervo documental al siguiente nivel?",
+            "summaryDescription": "Transformamos su colección física en un activo digital accesible y preservado. Con nuestra experiencia en Migración de Acervos, aseguramos una transición fluida de sus documentos valiosos a medios electrónicos, permitiendo una integración perfecta con las últimas herramientas digitales y de gestión de información."
         },
         {
             "id": 2,
@@ -15,8 +15,8 @@
             "headerTitle": "Implementación de Sistemas",
             "headerDescription": "Nuestros servicios abarcan la optimización y modernización en las áreas de gestión registral, catastral y documental.",
             "headerImg": "src/assets/img/sistemas-img/img-1.jpg",
-            "clientsTitle": "¿Cómo puede mejorar la eficiencia operativa a través de la tecnología?",
-            "clientsDescription": "Nos especializamos en la implementación de sistemas para la gestión registral, catastral y documental, proporcionamos soluciones que modernizan procesos, mejoran la atención al usuario y maximizan la accesibilidad a la información. Nos enfocamos en crear sistemas robustos y seguros que faciliten la gestión y el análisis de datos en todas las plataformas."
+            "summaryTitle": "¿Cómo puede mejorar la eficiencia operativa a través de la tecnología?",
+            "summaryDescription": "Nos especializamos en la implementación de sistemas para la gestión registral, catastral y documental, proporcionamos soluciones que modernizan procesos, mejoran la atención al usuario y maximizan la accesibilidad a la información. Nos enfocamos en crear sistemas robustos y seguros que faciliten la gestión y el análisis de datos en todas las plataformas."
         },
         {
             "id": 3,
@@ -24,8 +24,8 @@
             "headerTitle": "Limpieza de datos",
             "headerDescription": "Los datos son extraídos de diferentes fuentes para ser auditados y cargados en la base de datos renovada.",
             "headerImg": "src/assets/img/limpieza-img/img-1.jpg",
-            "clientsTitle": "¿Busca garantizar la confiabilidad y precisión de los datos de su empresa?",
-            "clientsDescription": "Ofrecemos un meticuloso servicio de limpieza de datos que no solo mejora la calidad de su información, sino que también refuerza la confianza en sus sistemas analíticos. A través de nuestros protocolos de validación y corrección, sus datos estarán optimizados para impulsar análisis certeros y decisiones estratégicas."
+            "summaryTitle": "¿Busca garantizar la confiabilidad y precisión de los datos de su empresa?",
+            "summaryDescription": "Ofrecemos un meticuloso servicio de limpieza de datos que no solo mejora la calidad de su información, sino que también refuerza la confianza en sus sistemas analíticos. A través de nuestros protocolos de validación y corrección, sus datos estarán optimizados para impulsar análisis certeros y decisiones estratégicas."
         }
     ]
 }

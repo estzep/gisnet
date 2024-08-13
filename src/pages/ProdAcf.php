@@ -13,14 +13,14 @@
             $headerTitle = $product['headerTitle'];
             $headerDescription = $product['headerDescription'];
             $headerImg = $product['headerImg'];
-            $clientsTitle = $product['clientsTitle'];
-            $clientsDescription = $product['clientsDescription'];
+            $summaryTitle = $product['summaryTitle'];
+            $summaryDescription = $product['summaryDescription'];
             break;
         }
     }
 ?>
 <? include($path.'src/components/Header.php'); ?>
-<? include($path.'src/components/Clients.php'); ?>
+<? include($path.'src/components/Summary.php'); ?>
 <section>
     <div class="section-container container">
         <div class="content mixed-content-1">

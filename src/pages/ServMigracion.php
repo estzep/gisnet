@@ -13,8 +13,8 @@
             $headerTitle = $service['headerTitle'];
             $headerDescription = $service['headerDescription'];
             $headerImg = $service['headerImg'];
-            $clientsTitle = $service['clientsTitle'];
-            $clientsDescription = $service['clientsDescription'];
+            $summaryTitle = $service['summaryTitle'];
+            $summaryDescription = $service['summaryDescription'];
             break;
         }
     }
@@ -42,7 +42,7 @@
         </div>
     </div>
 </header>
-<? include($path.'src/components/Clients.php'); ?>
+<? include($path.'src/components/Summary.php'); ?>
 <section class="migracion-de-acervos">
     <div class="section-container container">
         <div class="content">

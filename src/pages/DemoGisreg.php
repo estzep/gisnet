@@ -3,8 +3,8 @@
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
     
-    $clientsTitle = "Tranforma tu registro público con procesos modernos";
-    $clientsDescription = "e-GISreg es una solución tecnológica capaz de ofrecer un modelo de gestión, eficiente y eficaz, para la atención de los trámites  que sean presentados, de manera remota o en sitio, ante la dependencia. Parametrizable y diseñada bajo los más modernos estándares de desarrollo.";
+    $summaryTitle = "Tranforma tu registro público con procesos modernos";
+    $summaryDescription = "e-GISreg es una solución tecnológica capaz de ofrecer un modelo de gestión, eficiente y eficaz, para la atención de los trámites  que sean presentados, de manera remota o en sitio, ante la dependencia. Parametrizable y diseñada bajo los más modernos estándares de desarrollo.";
 ?>
 <header>
     <div class="container">
@@ -21,7 +21,7 @@
         </div>
     </div>
 </header>
-<? include($path.'src/components/Clients.php'); ?>
+<? include($path.'src/components/Summary.php'); ?>
 <section>
     <div class="section-container container">
         <div class="content">

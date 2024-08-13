@@ -4,13 +4,13 @@
     $path = str_repeat('../', $segments);
 ?>
 
-<section id="clientes" class="sp">
+<section id="summary" class="sp">
     <div class="section-container container">
         <div class="content">
             <div class="heading">
-                <h3><? echo $clientsTitle ?></h3>
+                <h3><? echo $summaryTitle ?></h3>
                 <p class="text-1">
-                    <? echo $clientsDescription ?>
+                    <? echo $summaryDescription ?>
                 </p>
             </div>
         </div>

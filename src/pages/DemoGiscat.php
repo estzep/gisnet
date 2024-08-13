@@ -3,8 +3,8 @@
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
     
-    $clientsTitle = "La herramienta clave para transformar tu catastro";
-    $clientsDescription = "Con e-GIScat, se logrará la transformación de la Gestión Catastral, fortaleciendo la recaudación de las contribuciones asociadas a la propiedad y se convierta en el motor del desarrollo económico del territorio al proporcionar una valiosa fuente de información para la planeación del desarrollo social y urbano, seguridad pública, protección civil, etc.";
+    $summaryTitle = "La herramienta clave para transformar tu catastro";
+    $summaryDescription = "Con e-GIScat, se logrará la transformación de la Gestión Catastral, fortaleciendo la recaudación de las contribuciones asociadas a la propiedad y se convierta en el motor del desarrollo económico del territorio al proporcionar una valiosa fuente de información para la planeación del desarrollo social y urbano, seguridad pública, protección civil, etc.";
 ?>
 <header>
     <div class="container">
@@ -21,7 +21,7 @@
         </div>
     </div>
 </header>
-<? include($path.'src/components/Clients.php'); ?>
+<? include($path.'src/components/Summary.php'); ?>
 <section>
     <div class="section-container container">
         <div class="content">

@@ -6,8 +6,8 @@
             "headerTitle": "Panini",
             "headerDescription": "Escáner para cheques y para la identificación segura a través de diferentes dispositivos que están integrados (BioCred).",
             "headerImg": "src/assets/img/panini-img/img-1.jpg",
-            "clientsTitle": "Nos aseguramos de que pueda medir la diferencia",
-            "clientsDescription": "Gracias a nuestro sólido bagaje tecnológico, en Panini ofrecemos los productos y servicios que permiten una mejora tangible en los servicios financieros y otras industrias. Nos aseguramos de que pueda medir la diferencia."
+            "summaryTitle": "Nos aseguramos de que pueda medir la diferencia",
+            "summaryDescription": "Gracias a nuestro sólido bagaje tecnológico, en Panini ofrecemos los productos y servicios que permiten una mejora tangible en los servicios financieros y otras industrias. Nos aseguramos de que pueda medir la diferencia."
         },
         {
             "id": 2,
@@ -15,8 +15,8 @@
             "headerTitle": "ACF Technologies",
             "headerDescription": "Sistema de Gestión de Filas, Citas y Señalización Digital.",
             "headerImg": "src/assets/img/acf-img/img-1.jpg",
-            "clientsTitle": "Crea la experiencia ideal para tu cliente",
-            "clientsDescription": "Nuestra solución de filas elimina el caos de sus ambientes al asignar automáticamente a los visitantes a los servicios que necesitan, conectando a las personas correctas para sus servicios y cerciorándose que el cliente sea atendido en el orden y prioridad correcta. Tus clientes pueden relajarse en un ambiente tipo lobby mientras tus ejecutivos reciben información para mejorar la operatividad a través de sus métricas de servicio en tiempo real."
+            "summaryTitle": "Crea la experiencia ideal para tu cliente",
+            "summaryDescription": "Nuestra solución de filas elimina el caos de sus ambientes al asignar automáticamente a los visitantes a los servicios que necesitan, conectando a las personas correctas para sus servicios y cerciorándose que el cliente sea atendido en el orden y prioridad correcta. Tus clientes pueden relajarse en un ambiente tipo lobby mientras tus ejecutivos reciben información para mejorar la operatividad a través de sus métricas de servicio en tiempo real."
         },
         {
             "id": 3,
@@ -24,8 +24,8 @@
             "headerTitle": "Couchbase",
             "headerDescription": "Base de Datos NoSQL para grandes volúmenes",
             "headerImg": "src/assets/img/couchbase-img/img-1.jpg",
-            "clientsTitle": "Almacena tus datos de manera eficiente, segura y fácil de manejar",
-            "clientsDescription": "Couchbase ofrece una solución avanzada de Base de Datos NoSQL, diseñada para manejar grandes volúmenes de datos con una eficiencia y seguridad incomparables. Su arquitectura flexible y escalable permite un almacenamiento y acceso rápido a la información, ideal para aplicaciones que requieren un alto rendimiento y disponibilidad."
+            "summaryTitle": "Almacena tus datos de manera eficiente, segura y fácil de manejar",
+            "summaryDescription": "Couchbase ofrece una solución avanzada de Base de Datos NoSQL, diseñada para manejar grandes volúmenes de datos con una eficiencia y seguridad incomparables. Su arquitectura flexible y escalable permite un almacenamiento y acceso rápido a la información, ideal para aplicaciones que requieren un alto rendimiento y disponibilidad."
         },
         {
             "id": 4,
@@ -33,8 +33,8 @@
             "headerTitle": "Security Scorecard",
             "headerDescription": "Plataforma de calificación de riesgos cibernéticos para todos los sectores",
             "headerImg": "src/assets/img/security-scorecard-img/img-1.jpg",
-            "clientsTitle": "La confianza, la transparencia y la seguridad están en nuestro ADN",
-            "clientsDescription": "Security Scorecard es una plataforma integral de calificación de riesgos cibernéticos, diseñada para servir a una amplia gama de sectores. Esta herramienta proporciona evaluaciones detalladas y continuas de la seguridad cibernética, identificando vulnerabilidades y ofreciendo insights críticos para fortalecer las defensas."
+            "summaryTitle": "La confianza, la transparencia y la seguridad están en nuestro ADN",
+            "summaryDescription": "Security Scorecard es una plataforma integral de calificación de riesgos cibernéticos, diseñada para servir a una amplia gama de sectores. Esta herramienta proporciona evaluaciones detalladas y continuas de la seguridad cibernética, identificando vulnerabilidades y ofreciendo insights críticos para fortalecer las defensas."
         },
         {
             "id": 5,
@@ -42,8 +42,8 @@
             "headerTitle": "Corsight",
             "headerDescription": "Protección de la Intimidad, “Privacidad por Diseño y por Defecto”",
             "headerImg": "src/assets/img/corsight-img/img-1.jpg",
-            "clientsTitle": "Cualquier cara, cualquier cámara, reconocido al instante",
-            "clientsDescription": "El reconocimiento facial líder en el mundo. Proporcionamos la tecnología de reconocimiento facial más ética para condiciones altamente desafiantes, con una velocidad y precisión sin precedentes para garantizar la máxima seguridad, preservando al mismo tiempo la privacidad."
+            "summaryTitle": "Cualquier cara, cualquier cámara, reconocido al instante",
+            "summaryDescription": "El reconocimiento facial líder en el mundo. Proporcionamos la tecnología de reconocimiento facial más ética para condiciones altamente desafiantes, con una velocidad y precisión sin precedentes para garantizar la máxima seguridad, preservando al mismo tiempo la privacidad."
         },
         {
             "id": 6,
@@ -51,8 +51,8 @@
             "headerTitle": "TASSTA",
             "headerDescription": "Sistema de Comunicación Innovadora (Comunicación encriptada, Localización, Organización y Seguridad)",
             "headerImg": "src/assets/img/tassta-img/img-1.jpg",
-            "clientsTitle": "El sistema de comunicación más innovador del mercado",
-            "clientsDescription": "TASSTA es un Sistema de Comunicación Innovadora que ofrece una solución integral para la comunicación encriptada, la localización y la organización segura en una variedad de entornos, con capacidades que incluyen llamadas de voz y video, mensajería, seguimiento."
+            "summaryTitle": "El sistema de comunicación más innovador del mercado",
+            "summaryDescription": "TASSTA es un Sistema de Comunicación Innovadora que ofrece una solución integral para la comunicación encriptada, la localización y la organización segura en una variedad de entornos, con capacidades que incluyen llamadas de voz y video, mensajería, seguimiento."
         }
     ]
 }
