@@ -18,6 +18,22 @@
             break;
         }
     }
+
+    $cards = '[
+        {
+            "icon": "icon-20.svg",
+            "title": "Llamada Grupal"
+        },
+        {
+            "icon": "icon-21.svg",
+            "title": "Reunión"
+        },
+        {
+            "icon": "icon-22.svg",
+            "title": "Video Conferencia"
+        }
+    ]';
+    $cards_array = json_decode($cards, true);
 ?>
 <? include($path.'src/components/Header.php'); ?>
 <? include($path.'src/components/Clients.php'); ?>
@@ -109,15 +125,16 @@
         <div class="content">
             <h3>Características</h3>
             <div class="g-cards-3">
-                <div class="g-card">
-                    <div class="icon">
-                        <img src="<? echo($path) ?>src/assets/icons/icon-20.svg" alt="Icon">
+                <?php foreach ($cards_array as $card): ?>
+                    <div class="g-card">
+                        <div class="icon">
+                            <img src="<?php echo($path); ?>src/assets/icons/<?php echo $card['icon']; ?>" alt="Icon">
+                        </div>
+                        <div class="title">
+                            <h6><?php echo $card['title']; ?></h6>
+                        </div>
                     </div>
-                    <div class="title">
-                        <h6>Llamada Grupal</h6>
-                    </div>
-                </div>
-                
+                <?php endforeach; ?>
             </div>
         </div>
     </div>
