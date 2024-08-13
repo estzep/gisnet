@@ -1,24 +1,24 @@
 <?php
-    // $errorCode = http_response_code();
+    $errorCode = http_response_code();
 
-    // $errorMessages = [
-    //     404 => [
-    //         'title' => '404',
-    //         'message' => 'Lo sentimos, la página no fue encontrada.'
-    //     ],
-    //     403 => [
-    //         'title' => '403',
-    //         'message' => 'Accesso no autorizado.'
-    //     ],
-    // ];
-    // if (array_key_exists($errorCode, $errorMessages)) {
-    //     $error = $errorMessages[$errorCode];
-    // } else {
-    //     $error = [
-    //         'title' => 'Error',
-    //         'message' => 'Ocurrió un error inesperado.'
-    //     ];
-    // }
+    $errorMessages = [
+        404 => [
+            'title' => '404',
+            'message' => 'Lo sentimos, la página no fue encontrada.'
+        ],
+        403 => [
+            'title' => '403',
+            'message' => 'Accesso no autorizado.'
+        ],
+    ];
+    if (array_key_exists($errorCode, $errorMessages)) {
+        $error = $errorMessages[$errorCode];
+    } else {
+        $error = [
+            'title' => 'Error',
+            'message' => 'Ocurrió un error inesperado.'
+        ];
+    }
     $base = $_SERVER['REQUEST_URI'];
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
@@ -28,7 +28,7 @@
     <div class="container">
         <div class="content">
             <div class="info">
-                <h1>404</h1>
+                <h1><? echo($errorCode) ?></h1>
                 <p class="text-1">
                     Lo sentimos, la página no fue encontrada.
                 </p>

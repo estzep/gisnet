@@ -19,6 +19,7 @@
                 include($path.'src/pages/Contact.php');
                 break;
             case '/servicios/':
+                http_response_code(404);
                 include($path.'src/pages/Error.php');
                 break;
             case '/servicios/migracion-de-acervos/':
@@ -37,6 +38,7 @@
                 include($path.'src/pages/ServLimpieza.php');
                 break;
             case '/productos/':
+                http_response_code(404);
                 include($path.'src/pages/Error.php');
                 break;
             case '/productos/panini/':
