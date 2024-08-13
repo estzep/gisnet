@@ -318,9 +318,9 @@ main section.badges .section-container .content {  }
 .g-cards-2 .g-card .bottom p {  }
 
 .g-cards-3 { --gap-size: 1rem; position: relative; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; justify-content: flex-start; align-items: stretch; gap: var(--gap-size); }
-.g-cards-3 .g-card { flex: 0 1 calc((100% / 3) - var(--gap-size)); border: 1px solid var(--stroke-color); background: var(--bg-color); box-shadow: 0 4px 40px 0 rgba(var(--darker-pri-color-rgb), 0.03); padding: 1rem; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-items: center; }
-.g-cards-3 .g-card .icon { flex: 0 1 3rem; }
-.g-cards-3 .g-card .icon img { display: block; width: 100%; height: 100%; padding: .5rem; border: 1px solid var(--dark-stroke-color); }
+.g-cards-3 .g-card { flex: 0 1 calc((100% / 3) - var(--gap-size)); border: 1px solid var(--stroke-color); background: var(--bg-color); box-shadow: 0 4px 40px 0 rgba(var(--darker-pri-color-rgb), 0.03); padding: .8rem; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; align-items: center; }
+.g-cards-3 .g-card .icon { flex: 0 1 3.5rem; }
+.g-cards-3 .g-card .icon img { display: block; width: 100%; height: 100%; padding: .8rem; border: 1px solid var(--dark-stroke-color); }
 .g-cards-3 .g-card .title { flex: 1 1 auto; padding-left: 1rem; }
 .g-cards-3 .g-card .title h6 { margin-bottom: 0; }
 
