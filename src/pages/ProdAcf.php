@@ -95,7 +95,7 @@
                     <br>
                     Podemos incluir el soporte a los dispositivos para la Señalización Digital, tanto los players como las televisiones que operan en la sucursal.
                 </p>
-                <a href="<? echo($path) ?>productos/acf-technologies/direccionadores/" class="btn-type-1">
+                <a href="<? echo($path) ?>productos/acf-technologies/direccionadores/" class="btn-type-1 p-3">
                     Ver especificaciones
                     <span class="arrow">
                         <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
