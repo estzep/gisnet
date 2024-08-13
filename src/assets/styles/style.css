@@ -290,9 +290,10 @@ main section.badges .section-container .content {  }
 .carousel .control:disabled { background: var(--lighter-pri-color); }
 .carousel .control.left {  }
 .carousel .control.left img { transform: rotate(180deg); }
+.carousel .control.lfet:hover img { transform: rotate(180deg) translateX(-.1rem) scale(1.02); }
 .carousel .control.right {  }
+.carousel .control.right:hover img { transform: translateX(.1rem) scale(1.02); }
 .carousel .control img { width: 1rem; height: 1rem; filter: var(--light-text-color-filter); transition: 0.4s; }
-.carousel .control:hover img { transform: translateX(.2rem) scale(1.02); }
 .carousel .control:disabled img { filter: var(--light-pri-color-filter); }
 .carousel .inner { display: flex; flex-wrap: nowrap; flex-direction: row; align-items: stretch; justify-content: flex-start; overflow-x: auto; gap: 1.7rem; padding: 2rem 1.7rem; transition: 0.2s; }
 .carousel .item { position: relative; background: var(--bg-color); flex: 0 0 30%; border: 1px solid var(--stroke-color); padding: 1.2rem; box-shadow: 0px 4px 40px 0px rgba(25, 85, 139, 0.03); max-width: 20rem; transition: 0.5s; }
