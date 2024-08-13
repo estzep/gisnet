@@ -129,7 +129,7 @@ main section.badges { background: var(--bg-color-1); }
 main section.badges .section-container {  }
 main section.badges .section-container .content {  }
 
-main section.demo-cards { background: var(--bg-color-3); }
+main section.demo-cards { background: var(--bg-color-3); color: var(--light-text-color); }
 main section.demo-cards .section-container {  }
 main section.demo-cards .section-container .content {  }
 

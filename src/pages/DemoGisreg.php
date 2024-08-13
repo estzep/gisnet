@@ -25,7 +25,7 @@
 <section class="demo-cards">
     <div class="section-container container">
         <div class="content">
-            <h3>Beneficios de trabajar con e-GISreg</h3>
+            <h3 class="text-center">Beneficios de trabajar con e-GISreg</h3>
             <div class="demo-cards-container">
                 <div class="demo-card">
                     <h6 class="title">Procesos</h6>
