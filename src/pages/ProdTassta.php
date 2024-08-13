@@ -104,7 +104,7 @@
 </section>
 <section>
     <div class="container section-container">
-        <div class="content pt-0">
+        <div class="content py-0">
             <h3 class="text-center mb-5">Componentes Principales</h3>
             <div class="g-cards-1">
                 <div class="g-card tassta">
