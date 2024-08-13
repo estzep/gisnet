@@ -9,7 +9,7 @@
         <div class="content mixed-content-1 pb-0">
             <div class="info">
                 <h3>Especificaciones Técnicas del Toma Turnos</h3>
-                <p class="text-3">Touch Screen</p>
+                <p class="text-3 g-strong">Touch Screen</p>
                 <ul class="text-3 bullet-list">
                     <li>15" Tactil Touch- Screen</li>
                     <li>Anti-glade</li>
@@ -24,7 +24,7 @@
                     <li>Prueba de golpe: 35 000 000 veces</li>
                     <li>Cubierta de Vidrio: 2 mm</li>
                 </ul>
-                <p class="text-3">TFT</p>
+                <p class="text-3 g-strong">TFT</p>
                 <ul class="text-3 bullet-list">
                     <li>15" TFT Liquit Crystal Display</li>
                     <li>Resolucion display 1024x768 pixel</li>
