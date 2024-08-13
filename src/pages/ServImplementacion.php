@@ -62,7 +62,7 @@
                         <div class="tab-content">
                             <div class="info">
                                 <h4 class="title">Sistema de Gestión Registral e-GISreg</h4>
-                                <a href="<? echo($path) ?>" class="btn-type-1">
+                                <a href="<? echo($path) ?>servicios/implementacion-de-sistemas/gisreg/" class="btn-type-1">
                                     Ver demo
                                     <span class="arrow">
                                         <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
@@ -84,7 +84,7 @@
                         <div class="tab-content">
                             <div class="info">
                                 <h4 class="title">Sistema de Gestión Catastral e-GIScat</h4>
-                                <a href="<? echo($path) ?>" class="btn-type-1">
+                                <a href="<? echo($path) ?>servicios/implementacion-de-sistemas/giscat/" class="btn-type-1">
                                     Ver demo
                                     <span class="arrow">
                                         <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">

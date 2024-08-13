@@ -27,6 +27,12 @@
             case '/servicios/implementacion-de-sistemas/':
                 include($path.'src/pages/ServImplementacion.php');
                 break;
+            case '/servicios/implementacion-de-sistemas/gisreg/':
+                include($path.'src/pages/DemoGisreg.php');
+                break;
+            case '/servicios/implementacion-de-sistemas/giscat/':
+                include($path.'src/pages/DemoGiscat.php');
+                break;
             case '/servicios/limpieza-de-datos/':
                 include($path.'src/pages/ServLimpieza.php');
                 break;
@@ -41,6 +47,9 @@
                 break;
             case '/productos/acf-technologies/':
                 include($path.'src/pages/ProdAcf.php');
+                break;
+            case '/productos/acf-technologies/direccionadores/':
+                include($path.'src/pages/SpecsDireccionadores.php');
                 break;
             case '/productos/security-scorecard/':
                 include($path.'src/pages/ProdSecurity.php');
