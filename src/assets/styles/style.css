@@ -173,7 +173,7 @@ main section.badges .section-container .content {  }
 .mixed-content-1 .info .text { margin-bottom: 1rem; }
 .mixed-content-1 .image { flex: 1 0 50%; overflow: hidden; padding-bottom: 4.5rem; position: relative; }
 .mixed-content-1 .image img { display: block; margin: 0 auto; text-align: center; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; padding-bottom: 4.5rem; position: absolute; }
-.mixed-content-1 .image.contain img { object-fit: contain; object-position: 50% 0%; }
+.mixed-content-1 .image.contain img { object-fit: contain; object-position: 50% 0%; max-height: 65vh; }
 .mixed-content-1 .image.f img { padding-left: 4.5rem; }
 .mixed-content-1 .image.s img { padding-right: 4.5rem; }
 .mixed-content-1 .note { flex: 0 0 55%; margin: 0 auto; }
