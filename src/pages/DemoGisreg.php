@@ -10,9 +10,9 @@
     <div class="container">
         <div class="content">
             <div class="info">
-                <h1>Gisreg</h1>
+                <h1>e-GISreg</h1>
                 <p class="text-1">
-                    Description
+                    Transformar al Registro Público de la Propiedad en una Institución totalmente DIGITAL, con procesos estandarizados basados en las mejores prácticas, así como plataformas tecnológicas.
                 </p>
             </div>
             <div class="image">
