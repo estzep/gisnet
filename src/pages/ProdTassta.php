@@ -40,7 +40,7 @@
 </section>
 <section>
     <div class="container section-container">
-        <div class="content">
+        <div class="content pt-0">
             <h3 class="text-center mb-5">Componentes Principales</h3>
             <div class="g-cards-1">
                 <div class="g-card tassta">
@@ -113,7 +113,11 @@
                     <div class="icon">
                         <img src="<? echo($path) ?>src/assets/icons/icon-20.svg" alt="Icon">
                     </div>
+                    <div class="title">
+                        <h6>Llamada Grupal</h6>
+                    </div>
                 </div>
+                
             </div>
         </div>
     </div>
