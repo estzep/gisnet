@@ -67,7 +67,7 @@
                         <div class="icon">
                             <img src="<? echo $path ?>src/assets/img/tassta-img/flex.jpg" alt="Icon">
                         </div>
-                        <h6>Escáner de Cheques</h6>
+                        <h6>T.Flex</h6>
                         <p class="text-4">
                             Solución profesional push-to-talk (PTT) de banda ancha
                         </p>
@@ -86,7 +86,7 @@
                         <div class="icon">
                             <img src="<? echo $path ?>src/assets/img/tassta-img/lion.jpg" alt="Icon">
                         </div>
-                        <h6>Innovación para los bancos</h6>
+                        <h6>T.Lion</h6>
                         <p class="text-4">
                             Servidor de nube y standalone
                         </p>
@@ -109,7 +109,11 @@
         <div class="content">
             <h3>Características</h3>
             <div class="g-cards-3">
-                <div class="g-card"></div>
+                <div class="g-card">
+                    <div class="icon">
+                        <img src="<? echo($path) ?>src/assets/icons/icon-20.svg" alt="Icon">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
