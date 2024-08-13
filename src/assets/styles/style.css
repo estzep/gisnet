@@ -200,7 +200,7 @@ main section.badges .section-container .content {  }
 .tabs .column.image {  }
 .tabs .column ul.tablist { display: flex; flex-direction: column; justify-content: flex-start; align-items: stretch; margin-bottom: 0; padding-left: 0; list-style: none; }
 .tabs .column ul.tablist li.tab { cursor: pointer; flex: 1 0 100%; color: var(--text-color); transition: 0.4s; border-bottom: 1px solid var(--stroke-color); }
-.tabs .column ul.tablist li.tab:hover { background: var(--light-blue-3); }
+.tabs .column ul.tablist li.tab:hover { background: var(--light-blue-2); }
 /* .tabs .column ul.tablist li.tab:first-child { border-top: 1px solid var(--stroke-color); } */
 .tabs .column ul.tablist li.tab.active { background: var(--pri-color); color: var(--light-text-color); }
 .tabs .column ul.tablist li.tab .tab-content { padding: 1.8rem 1.5rem 1.2rem 1.5rem; }
