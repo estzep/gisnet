@@ -63,6 +63,7 @@
                 include($path.'src/pages/ProdTassta.php');
                 break;
             default:
+                http_response_code(404);
                 include('src/pages/Error.php');
                 break;
         }
