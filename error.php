@@ -11,8 +11,8 @@
 
 <!DOCTYPE html>
 <html lang="es">
-    <?php require($path."src/components/Head.php");?>
+    <?php require("src/components/Head.php");?>
 	<body>
-        <?php require($path."app.php");?>
+        <?php require("app.php");?>
 	</body>
 </html>
