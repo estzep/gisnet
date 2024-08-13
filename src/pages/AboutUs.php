@@ -76,4 +76,44 @@
         </div>
     </div>
 </section>
+<section>
+    <div class="section-container container">
+        <div class="content mixed-content-1 pb-0">
+            <div class="info">
+                <h3>Nuestra metodología</h3>
+                <p class="text-3 pb-5">
+                    Colaboramos estrechamente con nuestros clientes, adoptando un enfoque ágil para garantizar proyectos eficientes y alineados con sus objetivos a largo plazo. Nuestra metodología, centrada en la transparencia y adaptabilidad, permite exceder las expectativas y forjar relaciones duraderas.
+                </p>
+            </div>
+            <div class="image f">
+                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="section-container container">
+        <div class="content mixed-content-1 pb-0">
+            <div class="image s">
+                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
+            </div>
+            <div class="info">
+                <h3>Compromiso Firme</h3>
+                <p class="text-3 pb-5">
+                    Nuestro compromiso radica en la excelencia, la innovación y la responsabilidad social. Nos esforzamos por superar expectativas, entregando soluciones de impacto y construyendo relaciones de confianza duraderas.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="section-container container">
+        <div class="content">
+            <h3>Equipo</h3>
+            <div class="team">
+                team...
+            </div>
+        </div>
+    </div>
+</section>
 <? include($path.'src/components/Partners.php'); ?>
