@@ -348,8 +348,8 @@ main section.demo-cards .section-container .content {  }
 .badges-container .badge img { display: block; width: 90%; height: auto; text-align: center; margin: 0 auto; object-fit: contain; object-position: 50% 50%; }
 
 .demo-cards-container { --gap-size: 1rem; position: relative; display: flex; gap: var(--gap-size); }
-.demo-cards-container .demo-card { flex: 1 0 calc((100% / 3) - var(--gap-size)); color: var(--light-text-color); }
-.demo-cards-container .demo-card .title {  }
+.demo-cards-container .demo-card { flex: 1 0 calc((100% / 3) - var(--gap-size)); background: var(--pri-color); color: var(--light-text-color); }
+.demo-cards-container .demo-card .title { color: var(--light-text-color); }
 .demo-cards-container .demo-card ul {  }
 .demo-cards-container .demo-card ul li {  }
 
