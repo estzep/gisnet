@@ -26,11 +26,59 @@
         },
         {
             "icon": "icon-21.svg",
-            "title": "Reunión"
+            "title": "Llamada Individual"
         },
         {
             "icon": "icon-22.svg",
-            "title": "Video Conferencia"
+            "title": "Llamada Prioritaria"
+        },
+        {
+            "icon": "icon-23.svg",
+            "title": "Llamada de Emergencia"
+        },
+        {
+            "icon": "icon-24.svg",
+            "title": "Control Remoto"
+        },
+        {
+            "icon": "icon-25.svg",
+            "title": "Localización GPS"
+        },
+        {
+            "icon": "icon-26.svg",
+            "title": "GPS Rutas"
+        },
+        {
+            "icon": "icon-27.svg",
+            "title": "Localización de interiores"
+        },
+        {
+            "icon": "icon-28.svg",
+            "title": "Mensajes de Texto y Datos"
+        },
+        {
+            "icon": "icon-29.svg",
+            "title": "Estatus de los Mensajes"
+        },
+        {
+            "icon": "icon-30.svg",
+            "title": "Protección de Hombre Caído"
+        },
+        {
+            "icon": "icon-31.svg",
+            "title": "Grabación de Llamadas"
+        },
+        {
+            "icon": "icon-32.svg",
+            "title": "Histórico de Llamadas"
+        },
+        {
+            "icon": "icon-33.svg",
+            "title": "GPS Histórico"
+        },
+        {
+            "icon": "icon-34.svg",
+            "title": "Gestión de Tareas"
         }
     ]';
     $cards_array = json_decode($cards, true);
