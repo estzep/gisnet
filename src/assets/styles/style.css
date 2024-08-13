@@ -130,7 +130,7 @@ main section.badges .section-container {  }
 main section.badges .section-container .content {  }
 
 .bullet-point { margin: 0 .5rem 0 1rem; }
-.g-strong { font-weight: 500; color: var(--text-color); }
+.g-strong { font-weight: 500!important; color: var(--text-color)!important; }
 .bullet-list { list-style-type: disc; }
 .bullet-list.lg { list-style-type: none; padding-left: 0; margin-bottom: 0; }
 .bullet-list li { padding: .25rem 0; }
