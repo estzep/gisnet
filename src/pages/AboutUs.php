@@ -6,8 +6,15 @@
 <header class="aboutUs">
     <div class="container">
         <div class="content">
-            <h2>Sobre Gisnet</h2>
-            <p class="text-1 subtitle"> Apasionados por la modernización de nuestros clientes a través de servicios de calidad </p>
+            <div class="info">
+                <h1>Sobre Gisnet</h1>
+                <p class="text-1">
+                    Apasionados por la modernización de nuestros clientes a través de servicios de calidad
+                </p>
+            </div>
+            <div class="image">
+                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Sobre Gisnet">
+            </div>
         </div>
     </div>
 </header>

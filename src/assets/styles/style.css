@@ -47,7 +47,7 @@ main header a.s-btn {  }
 main header.error h1 { font-size: 5.5rem; margin-bottom: 0; }
 main header.error .text-1 { font-size: 1.9rem; }
 
-main header.aboutUs {  }
+main header.aboutUs { background: var(--light-blue-1); }
 main header.aboutUs .container {  }
 
 main section {  }
