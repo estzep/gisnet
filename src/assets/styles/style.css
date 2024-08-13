@@ -358,6 +358,8 @@ main section.badges .section-container .content {  }
 
     main section#clientes .heading { width: 65%; }
 
+    main section#summary .heading { width: 65%; }
+
     main section#empresa .heading { width: 65%; }
 
     main section#servicios h3 { width: 40%; }
@@ -389,6 +391,8 @@ main section.badges .section-container .content {  }
     main header .image { flex: 0 0 20%; display: none; }
 
     main section#clientes .heading { width: 80%; }
+
+    main section#summary .heading { width: 80%; }
 
     main section#empresa .heading { width: 75%; }
 
@@ -471,6 +475,8 @@ main section.badges .section-container .content {  }
     main section.migracion-de-acervos .section-container .content { padding: 4rem 0; }
 
     main section#clientes .heading { width: 100%; }
+
+    main section#summary .heading { width: 100%; }
 
     main section#empresa .heading { width: 98%; }
     main section#empresa .text-1 { font-size: 1rem; }
