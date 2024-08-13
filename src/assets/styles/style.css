@@ -564,4 +564,5 @@ main section.badges .section-container .content {  }
     .g-cards-2.triple .g-card { width: 100%; flex: 1 0 100%; }
 
     .g-cards-3 .g-card { flex: 1 1 calc(100% - var(--gap-size)); }
+    .g-cards-3 .g-card .icon img { padding: .5rem; }
 }
