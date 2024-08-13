@@ -22,7 +22,7 @@
     </div>
 </header>
 <? include($path.'src/components/Summary.php'); ?>
-<section>
+<section class="demo-cards">
     <div class="section-container container">
         <div class="content">
             Contenido...
