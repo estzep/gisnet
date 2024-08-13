@@ -111,6 +111,7 @@ main section#socios .column.heading { flex: 1 1 35%; width: 35%; padding-right: 
 main section#socios .column.carousel { flex: 1 1 65%; width: 65%; z-index: 4; }
 
 main section#why {  }
+main section#why.aboutUs { background: var(--light-blue-1); }
 main section#why .section-container {  }
 main section#why .section-container .content { padding: 6.5rem 0 10rem 0; }
 main section#why h3 { text-align: center; margin-bottom: 2rem; }
