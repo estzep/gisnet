@@ -70,7 +70,7 @@
             <div class="tabs">
                 <div class="column info">
                     <ul class="tablist" role="tablist">
-                        <li id="li-panini1" class="tab active" data-bs-toggle="tab" data-bs-target="#tab-panini1" role="tab" aria-controls="tab-panini1" aria-selected="true">
+                        <li id="li-panini1" class="tab active" data-bs-toggle="tab" data-bs-target="#tab-panini1" role="tab" aria-controls="tab-panini1" aria-selected="true" onclick="closeTab(this)">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Biocred</h6>
@@ -96,7 +96,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-panini2" class="tab" data-bs-toggle="tab" data-bs-target="#tab-panini2" role="tab" aria-controls="tab-panini2" aria-selected="false">
+                        <li id="li-panini2" class="tab" data-bs-toggle="tab" data-bs-target="#tab-panini2" role="tab" aria-controls="tab-panini2" aria-selected="false" onclick="closeTab(this)">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>VisionX</h6>
@@ -116,7 +116,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-panini3" class="tab" data-bs-toggle="tab" data-bs-target="#tab-panini3" role="tab" aria-controls="tab-panini3" aria-selected="false">
+                        <li id="li-panini3" class="tab" data-bs-toggle="tab" data-bs-target="#tab-panini3" role="tab" aria-controls="tab-panini3" aria-selected="false" onclick="closeTab(this)">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>EverneXt</h6>
