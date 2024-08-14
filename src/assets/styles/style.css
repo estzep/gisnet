@@ -348,9 +348,9 @@ main section.demo-cards .section-container .content {  }
 .badges-container .badge { flex: 0 0 calc(20% - 2rem); }
 .badges-container .badge img { display: block; width: 90%; height: auto; text-align: center; margin: 0 auto; object-fit: contain; object-position: 50% 50%; }
 
-.demo-cards-container { --gap-size: 2rem; position: relative; display: flex; gap: var(--gap-size); }
-.demo-cards-container .demo-card { flex: 1 0 calc((100% / 3) - var(--gap-size)); background: var(--pri-color); color: var(--light-text-color); padding: 2rem; }
-.demo-cards-container .demo-card .title { color: var(--light-text-color); }
+.demo-cards-container { --gap-size: 2.5rem; position: relative; display: flex; gap: var(--gap-size); }
+.demo-cards-container .demo-card { flex: 1 0 calc((100% / 3) - var(--gap-size)); background: var(--pri-color); color: var(--light-text-color); padding: 2.5rem; }
+.demo-cards-container .demo-card .title { color: var(--light-text-color); margin-bottom: 1.2rem; }
 .demo-cards-container .demo-card ul {  }
 .demo-cards-container .demo-card ul li { color: var(--light-text-color); }
 
