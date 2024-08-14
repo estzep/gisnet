@@ -1,0 +1,12 @@
+{
+    "/": {
+        "title": "Gisnet",
+        "description": "Description",
+        "robots": "noindex, nofollow"
+    },
+    "/nosotros/": {
+        "title": "Gisnet Nosotros",
+        "description": "Description",
+        "robots": "noindex, nofollow"
+    }
+}
