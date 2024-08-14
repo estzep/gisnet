@@ -132,7 +132,7 @@ main section.badges .section-container .content {  }
 main section.demo-cards { background: var(--bg-color-3); color: var(--light-text-color); }
 main section.demo-cards .section-container {  }
 main section.demo-cards .section-container .content {  }
-main section.demo-cards h3 { width: 55%; margin: 0 auto; text-align: center; color: var(--light-text-color); margin-bottom: 2.5rem; }
+main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--light-text-color); margin-bottom: 2.5rem; }
 
 .bullet-point { margin: 0 .5rem 0 1rem; }
 .g-strong { font-weight: 500!important; color: var(--text-color)!important; }
