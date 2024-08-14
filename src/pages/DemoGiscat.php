@@ -49,13 +49,13 @@
                 </div>
                 <div class="demo-card">
                     <h4 class="title">Arquitectura</h4>
-                    <p class="text-3">Arquitecturas abiertas</p>
+                    <p class="subtitle text-3">Arquitecturas abiertas</p>
                     <ul class="text-3 bullet-list">
                         <li>Desarrollador de Java</li>
                         <li>Base de datos</li>
                         <li>Geoespacial PostgreSQL - PostGis.</li>
                     </ul>
-                    <p class="text-3">Procesos</p>
+                    <p class="subtitle text-3">Procesos</p>
                     <ul class="text-3 bullet-list">
                         <li>Información en tiempo real, integral, veraz y oportuna.</li>
                         <li>Actualiza la información tabular y cartográfica.</li>
@@ -65,7 +65,7 @@
                 </div>
                 <div class="demo-card">
                     <h4 class="title">Alcances</h4>
-                    <p class="text-3">Fortalecer los procesos del Catastro</p>
+                    <p class="subtitle text-3">Fortalecer los procesos del Catastro</p>
                     <ul class="text-3 bullet-list">
                         <li>Definir una operación homogénea, estandarizada y sistematizada.</li>
                         <li>Trazabilidad de todos los trámites.</li>

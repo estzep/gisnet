@@ -353,6 +353,7 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
 .demo-cards-container .demo-card { flex: 1 0 calc((100% / 3) - var(--gap-size)); background: var(--pri-color); color: var(--light-text-color); padding: 2.5rem; transition: 0.5s; }
 .demo-cards-container .demo-card:hover { box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.1); transform: scale(1.008); }
 .demo-cards-container .demo-card .title { color: var(--light-text-color); margin-bottom: 1.5rem; }
+.demo-cards-container .demo-card .subtitle { color: var(--light-text-color); }
 .demo-cards-container .demo-card ul {  }
 .demo-cards-container .demo-card ul li { color: var(--light-text-color); }
 
