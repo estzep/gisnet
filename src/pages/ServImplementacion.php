@@ -45,7 +45,7 @@
 <? include($path.'src/components/Summary.php'); ?>
 <section>
     <div class="section-container container">
-        <div class="content pb-5">
+        <div class="content">
             <h3 class="text-center">
                 Los sistemas más
                 <br>
