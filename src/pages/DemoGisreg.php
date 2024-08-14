@@ -28,7 +28,7 @@
             <h3 class="text-center">Beneficios de trabajar con e-GISreg</h3>
             <div class="demo-cards-container">
                 <div class="demo-card">
-                    <h6 class="title">Procesos</h6>
+                    <h4 class="title">Procesos</h4>
                     <ul class="text-3 bullet-list">
                         <li>Permite Ingreso y Entrega de forma electrónica.</li>
                         <li>Gestión del tramite con el expediente digital (Digitalización de los documentos del trámite previo al Ingreso).</li>
@@ -38,7 +38,7 @@
                     </ul>
                 </div>
                 <div class="demo-card">
-                    <h6 class="title">Arquitectura de la app</h6>
+                    <h4 class="title">Arquitectura de la app</h4>
                     <ul class="text-3 bullet-list">
                         <li>Lenguaje y Base de datos Libre de pago de Licencias, arquitecturas abiertas.</li>
                         <li>Plataforma WEB / Accesible desde cualquier dispositivo.</li>
@@ -46,7 +46,7 @@
                     </ul>
                 </div>
                 <div class="demo-card">
-                    <h6 class="title">Servicios en línea</h6>
+                    <h4 class="title">Servicios en línea</h4>
                     <ul class="text-3 bullet-list">
                         <li>Posibilidad de emisión en línea de CERTIFICADO DE LIBERTAD DE GRAVAMEN.</li>
                         <li><span class="g-strong light">Notario:</span> Ventanilla Electrónica (ingreso de trámites mediante firma electrónica), Consulta de todos los trámites ingresados de su notaría ( En proceso, Terminados, Suspendidos, Rechazados).</li>
