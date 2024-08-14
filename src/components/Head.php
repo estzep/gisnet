@@ -8,7 +8,7 @@
     $robots = 'noindex, nofollow';
     $url = 'https://gisnet.qartaonline.com';
 
-    $metadataFile = $path.'src/assets/data/metadata.json';
+    $metadataFile = 'src/assets/data/metadata.json';
     if (file_exists($metadataFile)) {
         $metadata = json_decode(file_get_contents($metadataFile), true);
         if (isset($metadata[$base])) {
