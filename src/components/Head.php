@@ -1,10 +1,12 @@
 <?php
-if ($robots == "") { $robots = 'noindex, nofollow'; }
-if ($title == "") { $title = 'GISnet'; }
-if ($description == "") { $description = 'Líderes en soluciones y consultorías especializadas. Apasionados por la modernización de nuestros clientes a través de servicios de calidad.'; }
-if ($url == "") { $url = 'https://gisnet.qartaonline.com/'; }
+    $base = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+    $segments = count(array_filter(explode('/', $base)));
+    $path = str_repeat('../', $segments);
 
-if ($path == "") { $path = ''; }
+    if ($robots == "") { $robots = 'noindex, nofollow'; }
+    if ($title == "") { $title = 'GISnet'; }
+    if ($description == "") { $description = 'Líderes en soluciones y consultorías especializadas. Apasionados por la modernización de nuestros clientes a través de servicios de calidad.'; }
+    if ($url == "") { $url = 'https://gisnet.qartaonline.com/'; }
 
 ?>
 
