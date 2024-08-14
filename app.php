@@ -10,57 +10,57 @@
 
         switch ($page) {
             case '/':
-                include($path.'src/pages/Home.php');
+                include('src/pages/Home.php');
                 break;
             case '/nosotros/':
-                include($path.'src/pages/AboutUs.php');
+                include('src/pages/AboutUs.php');
                 break;
             case '/contacto/':
-                include($path.'src/pages/Contact.php');
+                include('src/pages/Contact.php');
                 break;
             case '/servicios/':
                 http_response_code(404);
-                include($path.'src/pages/Error.php');
+                include('src/pages/Error.php');
                 break;
             case '/servicios/migracion-de-acervos/':
-                include($path.'src/pages/ServMigracion.php');
+                include('src/pages/ServMigracion.php');
                 break;
             case '/servicios/implementacion-de-sistemas/':
-                include($path.'src/pages/ServImplementacion.php');
+                include('src/pages/ServImplementacion.php');
                 break;
             case '/servicios/implementacion-de-sistemas/gisreg/':
-                include($path.'src/pages/DemoGisreg.php');
+                include('src/pages/DemoGisreg.php');
                 break;
             case '/servicios/implementacion-de-sistemas/giscat/':
-                include($path.'src/pages/DemoGiscat.php');
+                include('src/pages/DemoGiscat.php');
                 break;
             case '/servicios/limpieza-de-datos/':
-                include($path.'src/pages/ServLimpieza.php');
+                include('src/pages/ServLimpieza.php');
                 break;
             case '/productos/':
                 http_response_code(404);
-                include($path.'src/pages/Error.php');
+                include('src/pages/Error.php');
                 break;
             case '/productos/panini/':
-                include($path.'src/pages/ProdPanini.php');
+                include('src/pages/ProdPanini.php');
                 break;
             case '/productos/couchbase/':
-                include($path.'src/pages/ProdCouchbase.php');
+                include('src/pages/ProdCouchbase.php');
                 break;
             case '/productos/acf-technologies/':
-                include($path.'src/pages/ProdAcf.php');
+                include('src/pages/ProdAcf.php');
                 break;
             case '/productos/acf-technologies/direccionadores/':
-                include($path.'src/pages/SpecsDireccionadores.php');
+                include('src/pages/SpecsDireccionadores.php');
                 break;
             case '/productos/security-scorecard/':
-                include($path.'src/pages/ProdSecurity.php');
+                include('src/pages/ProdSecurity.php');
                 break;
             case '/productos/corsight/':
-                include($path.'src/pages/ProdCorsight.php');
+                include('src/pages/ProdCorsight.php');
                 break;
             case '/productos/tassta/':
-                include($path.'src/pages/ProdTassta.php');
+                include('src/pages/ProdTassta.php');
                 break;
             default:
                 http_response_code(404);
