@@ -30,7 +30,7 @@
         </div>
     </div>
 </section>
-<? include($path.'src/components/Clients.php'); ?>
+<? include('src/components/Clients.php'); ?>
 <section id="why" class="aboutUs">
     <div class="container section-container">
         <div class="content">
@@ -116,4 +116,4 @@
         </div>
     </div>
 </section>
-<? include($path.'src/components/Partners.php'); ?>
+<? include('src/components/Partners.php'); ?>

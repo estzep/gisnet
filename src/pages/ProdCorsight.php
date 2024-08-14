@@ -3,7 +3,7 @@
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
     
-    $jsonString = file_get_contents($path.'src/assets/data/products.json');
+    $jsonString = file_get_contents('src/assets/data/products.json');
     $data = json_decode($jsonString, true);
 
     $spname = "corsight";
@@ -19,8 +19,8 @@
         }
     }
 ?>
-<? include($path.'src/components/Header.php'); ?>
-<? include($path.'src/components/Summary.php'); ?>
+<? include('src/components/Header.php'); ?>
+<? include('src/components/Summary.php'); ?>
 <section>
     <div class="section-container container">
         <div class="content mixed-content-1 pb-0">
@@ -68,4 +68,4 @@
         </div>
     </div>
 </section>
-<? include($path.'src/components/WhyGisnet.php'); ?>
+<? include('src/components/WhyGisnet.php'); ?>

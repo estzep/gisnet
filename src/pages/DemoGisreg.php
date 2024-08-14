@@ -24,7 +24,7 @@
         </div>
     </div>
 </header>
-<? include($path.'src/components/Summary.php'); ?>
+<? include('src/components/Summary.php'); ?>
 <section class="demo-cards">
     <div class="section-container container">
         <div class="content">
@@ -65,4 +65,4 @@
         </div>
     </div>
 </section>
-<? include($path.'src/components/WhyGisnet.php'); ?>
+<? include('src/components/WhyGisnet.php'); ?>

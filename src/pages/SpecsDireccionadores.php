@@ -48,4 +48,4 @@
         </div>
     </div>
 </section>
-<? include($path.'src/components/WhyGisnet.php'); ?>
+<? include('src/components/WhyGisnet.php'); ?>

@@ -21,7 +21,7 @@
         </div>
     </div>
 </header>
-<? include($path.'src/components/Clients.php'); ?>
+<? include('src/components/Clients.php'); ?>
 <section id="empresa">
     <div class="section-container container">
         <div class="content">
@@ -421,4 +421,4 @@
         </div>
     </div>
 </section>
-<? include($path.'src/components/Partners.php'); ?>
+<? include('src/components/Partners.php'); ?>
