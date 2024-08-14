@@ -118,7 +118,7 @@
                         </p>
                     </div>
                     <div class="bottom">
-                        <a href="<? echo($path) ?>" class="link btn-type-2">
+                        <a href="<? echo($path) ?>/files/tassta_t_rondon.pdf" class="link btn-type-2" target="_blank">
                             Ver PDF
                             <span class="arrow">
                                 <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
@@ -137,7 +137,7 @@
                         </p>
                     </div>
                     <div class="bottom">
-                        <a href="<? echo($path) ?>" class="link btn-type-2">
+                        <a href="<? echo($path) ?>/files/tassta_t_flex.pdf" class="link btn-type-2" target="_blank">
                             Ver PDF
                             <span class="arrow">
                                 <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
@@ -156,7 +156,7 @@
                         </p>
                     </div>
                     <div class="bottom">
-                        <a href="<? echo($path) ?>" class="link btn-type-2">
+                        <a href="<? echo($path) ?>/files/tassta_t_lion.pdf" class="link btn-type-2" target="_blank">
                             Ver PDF
                             <span class="arrow">
                                 <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
