@@ -16,7 +16,7 @@
                 </p>
             </div>
             <div class="image video">
-                <video width="400" controls>
+                <video width="400" controls controlsList="nodownload">
                     <source src="<? echo($path) ?>src/assets/video/gisreg.mp4" type="video/mp4">
                     Your browser does not support HTML video.
                 </video>
