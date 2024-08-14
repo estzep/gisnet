@@ -352,7 +352,7 @@ main section.demo-cards .section-container .content {  }
 .demo-cards-container .demo-card { flex: 1 0 calc((100% / 3) - var(--gap-size)); background: var(--pri-color); color: var(--light-text-color); padding: 2rem; }
 .demo-cards-container .demo-card .title { color: var(--light-text-color); }
 .demo-cards-container .demo-card ul {  }
-.demo-cards-container .demo-card ul li {  }
+.demo-cards-container .demo-card ul li { color: var(--light-text-color); }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
