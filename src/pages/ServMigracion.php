@@ -28,7 +28,7 @@
                     <? echo $headerDescription ?>
                 </p>
                 <div class="links">
-                    <a href="<? echo $path ?>contacto" class="btn-type-1 f-btn">
+                    <a href="<? echo $path ?>contacto?asunto=<? echo($spname) ?>" class="btn-type-1 f-btn">
                         Quiero comenzar
                     </a>
                     <a href="<? echo $path ?>files/migracion-de-acervos.pdf" class="btn-type-6 s-btn">
