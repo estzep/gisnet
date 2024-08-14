@@ -2,13 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home1/qartaonl/gisnet.qartaonline.com
-    - echo "Starting deployment..."
     - /bin/cp -R * $DEPLOYPATH
-    - echo "Deployment complete."
-    
-pre_deploy:
-  tasks:
-    - echo "Preparing for deployment..."
-    - git fetch origin main
-    - git checkout main
-    - git pull origin main
