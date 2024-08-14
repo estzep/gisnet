@@ -3,8 +3,8 @@ ErrorDocument 403 /error.php
 
 RewriteEngine On
 
-# Exclude the src/ folder from being rewritten
 RewriteCond %{REQUEST_URI} !^/src/
+RewriteCond %{REQUEST_URI} !^/files/
 
 RewriteCond %{REQUEST_URI} !^/index\.php$
 RewriteRule ^(.*)$ /index.php [L]
