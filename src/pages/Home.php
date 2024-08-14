@@ -2,7 +2,7 @@
     <div class="container">
         <div class="content">
             <div class="info">
-                <h1>Líderes en soluciones y consultorías especializadas hola</h1>
+                <h1>Líderes en soluciones y consultorías especializadas</h1>
                 <div class="links">
                     <a href="contacto" class="btn-type-1 f-btn desktop">
                         Hablas con nosotros
