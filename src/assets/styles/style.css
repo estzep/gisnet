@@ -51,6 +51,7 @@ main header.aboutUs { background: var(--light-blue-1); }
 main header.aboutUs .container {  }
 
 main section {  }
+main section.bg-color-1 { background: var(--bg-color-1); }
 main section .section-container {  }
 main section .section-container .content { padding: 6.5rem 0; }
 

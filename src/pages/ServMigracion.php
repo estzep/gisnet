@@ -210,7 +210,7 @@
         </div>
     </div>
 </section>
-<section class="migracion-de-acervos">
+<section class="migracion-de-acervos bg-color-1">
     <div class="section-container container">
         <div class="content">
             <h3 class="text-sm-center text-start">

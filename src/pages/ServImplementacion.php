@@ -125,7 +125,7 @@
         </div>
     </div>
 </section>
-<section>
+<section class="bg-color-1">
     <div class="section-container container">
         <div class="content">
             <h3>
