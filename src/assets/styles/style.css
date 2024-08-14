@@ -556,6 +556,8 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
     .badges-container { gap: 1rem; }
     .badges-container .badge { flex: 0 0 calc((100% / 3) - 1rem); }
     .badges-container .badge img { width: 100%; }
+
+    .demo-cards-container .demo-card { flex: 1 0 calc(100% - var(--gap-size)); padding: 2rem; }
 }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
