@@ -19,7 +19,6 @@
     }
 ?>
 
-
 <head>
     <!-- General -->
     <meta charset="utf-8">
