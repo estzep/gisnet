@@ -3,12 +3,22 @@
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
 
-    if ($robots == "") { $robots = 'noindex, nofollow'; }
-    if ($title == "") { $title = 'GISnet'; }
-    if ($description == "") { $description = 'Líderes en soluciones y consultorías especializadas. Apasionados por la modernización de nuestros clientes a través de servicios de calidad.'; }
-    if ($url == "") { $url = 'https://gisnet.qartaonline.com/'; }
+    $title = 'GISnet';
+    $description = 'Líderes en soluciones y consultorías especializadas. Apasionados por la modernización de nuestros clientes a través de servicios de calidad.';
+    $robots = 'noindex, nofollow';
+    $url = 'https://gisnet.qartaonline.com';
 
+    $metadataFile = $path.'src/assets/data/metadata.json';
+    if (file_exists($metadataFile)) {
+        $metadata = json_decode(file_get_contents($metadataFile), true);
+        if (isset($metadata[$base])) {
+            $title = $metadata[$base]['title'] ?? $title;
+            $description = $metadata[$base]['description'] ?? $description;
+            $robots = $metadata[$base]['robots'] ?? $robots;
+        }
+    }
 ?>
+
 
 <head>
     <!-- General -->
@@ -19,15 +29,15 @@
     <meta name="author" content="Qarta Online">
     <title><?php echo($title);?></title>
     <meta name="description" content="<?php echo($description);?>">
-    <link rel="canonical" href="<?php echo($url);?>">
-    <meta name="url" content="<?php echo($url);?>">
+    <link rel="canonical" href="<?php echo($url.$base);?>">
+    <meta name="url" content="<?php echo($url.$base);?>">
     <link rel="icon" href="<?php echo($path);?>src/assets/img/logos/logo-gisnet.png">
     <link rel="apple-touch-icon" href="<?php echo($path);?>src/assets/img/logos/logo-gisnet.png">
     <meta name="msapplication-TileImage" content="<?php echo($path);?>src/assets/img/logos/logo-gisnet.png">
     <!-- Redes Sociales -->
     <meta property="og:title" content="<?php echo($title);?>">
     <meta property="og:description" content="<?php echo($description);?>">
-    <meta property="og:url" content="<?php echo($url);?>">
+    <meta property="og:url" content="<?php echo($url.$base);?>">
     <meta property="og:site_name" content="GISnet">
     <meta property="og:image" content="<?php echo($url);?>src/assets/img/logos/logo-gisnet.png">
     <meta property="og:image:secure_url" content="<?php echo($url);?>src/assets/img/logos/logo-gisnet.png">
