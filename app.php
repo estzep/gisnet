@@ -7,6 +7,7 @@
 <main>
     <?php
         $page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+        echo($page);
 
         switch ($page) {
             case '/':
