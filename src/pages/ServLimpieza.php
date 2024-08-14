@@ -3,7 +3,7 @@
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
     
-    $jsonString = file_get_contents($path.'src/assets/data/services.json');
+    $jsonString = file_get_contents('src/assets/data/services.json');
     $data = json_decode($jsonString, true);
 
     $spname = "limpieza-de-datos";

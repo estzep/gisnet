@@ -42,7 +42,7 @@
         </div>
     </div>
 </header>
-<? include($path.'src/components/Summary.php'); ?>
+<? include('src/components/Summary.php'); ?>
 <section class="migracion-de-acervos">
     <div class="section-container container">
         <div class="content">
