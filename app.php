@@ -1,5 +1,5 @@
 <?php
-    $base = $_SERVER['REQUEST_URI'];
+    $base = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
 ?>
@@ -7,7 +7,6 @@
 <main>
     <?php
         $page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-        echo($page);
 
         switch ($page) {
             case '/':
