@@ -22,7 +22,7 @@
             "id": 3,
             "spname": "couchbase",
             "headerTitle": "Couchbase",
-            "headerDescription": "Base de Datos NoSQL para grandes volúmenes",
+            "headerDescription": "Base de Datos moderna NoSQL para aplicaciones de corporativas",
             "headerImg": "src/assets/img/couchbase-img/img-1.jpg",
             "summaryTitle": "Almacena tus datos de manera eficiente, segura y fácil de manejar",
             "summaryDescription": "Couchbase ofrece una solución avanzada de Base de Datos NoSQL, diseñada para manejar grandes volúmenes de datos con una eficiencia y seguridad incomparables. Su arquitectura flexible y escalable permite un almacenamiento y acceso rápido a la información, ideal para aplicaciones que requieren un alto rendimiento y disponibilidad."
