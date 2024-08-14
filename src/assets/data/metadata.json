@@ -8,5 +8,10 @@
         "title": "Gisnet Nosotros",
         "description": "Description",
         "robots": "noindex, nofollow"
+    },
+    "/contacto/": {
+        "title": "Gisnet Contacto",
+        "description": "Description",
+        "robots": "noindex, nofollow"
     }
 }
