@@ -15,8 +15,11 @@
                     Transformar al Registro Público de la Propiedad en una Institución totalmente DIGITAL, con procesos estandarizados basados en las mejores prácticas, así como plataformas tecnológicas.
                 </p>
             </div>
-            <div class="image">
-                <img src="<? echo $path ?>src/assets/img/sp/placeholder.png" alt="Producto/Servicio image">
+            <div class="image video">
+                <video width="400" controls>
+                    <source src="<? echo($path) ?>src/assets/video/gisreg.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
             </div>
         </div>
     </div>
