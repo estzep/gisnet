@@ -86,7 +86,7 @@
                 </p>
             </div>
             <div class="image f">
-                <img src="<? echo $path ?>src/assets/img/sobre-nosotros-img/img-1.jpg" alt="Sobre Gisnet">
+                <img src="<? echo $path ?>src/assets/img/sobre-nosotros-img/img-2.jpg" alt="Sobre Gisnet">
             </div>
         </div>
     </div>
@@ -95,7 +95,7 @@
     <div class="section-container container">
         <div class="content mixed-content-1 pb-0">
             <div class="image s">
-                <img src="<? echo $path ?>src/assets/img/sobre-nosotros-img/img-1.jpg" alt="Sobre Gisnet">
+                <img src="<? echo $path ?>src/assets/img/sobre-nosotros-img/img-3.jpg" alt="Sobre Gisnet">
             </div>
             <div class="info">
                 <h3>Compromiso Firme</h3>
