@@ -360,11 +360,11 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
 .demo-cards-container .demo-card ul {  }
 .demo-cards-container .demo-card ul li { color: var(--light-text-color); }
 
-.team { --gap-size: 1rem; gap: 1rem; display: flex; }
-.team .member { flex: 0 1 calc((100% / 3) - var(--gap-size)); text-align: center; }
+.team { --gap-size: 2rem; gap: var(--gap-size); display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-content: flex-start; align-items: flex-start; }
+.team .member { flex: 0 1 calc((100% / 3) - var(--gap-size)); text-align: center; padding: 1rem; }
 .team .member .name {  }
 .team .member p {  }
-.team .member p a {  }
+.team .member p a { text-decoration: none; color: inherit; }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
