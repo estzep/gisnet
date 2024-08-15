@@ -18,10 +18,6 @@
             case '/contacto/':
                 include('src/pages/Contact.php');
                 break;
-            case '/servicios/':
-                http_response_code(404);
-                include('src/pages/Error.php');
-                break;
             case '/servicios/migracion-de-acervos/':
                 include('src/pages/ServMigracion.php');
                 break;
@@ -36,10 +32,6 @@
                 break;
             case '/servicios/limpieza-de-datos/':
                 include('src/pages/ServLimpieza.php');
-                break;
-            case '/productos/':
-                http_response_code(404);
-                include('src/pages/Error.php');
                 break;
             case '/productos/panini/':
                 include('src/pages/ProdPanini.php');
