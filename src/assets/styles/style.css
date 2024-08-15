@@ -483,6 +483,9 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
     .g-cards-3 .g-card { flex: 1 1 calc((100% / 2) - var(--gap-size)); }
 
     .badges-container .badge { flex: 0 0 calc((100% / 3) - 2rem); }
+
+    .team { --gap-size: 1rem; }
+    .team .member { flex: 1 1 calc((100% / 1) - var(--gap-size)); }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -611,4 +614,6 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
 
     .g-cards-3 .g-card { flex: 1 1 calc(100% - var(--gap-size)); }
     .g-cards-3 .g-card .icon img { padding: .5rem; }
+    .team { --gap-size: 2rem; }
+    .team .member { flex: 1 1 100%; }
 }
