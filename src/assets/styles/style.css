@@ -485,7 +485,7 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
     .badges-container .badge { flex: 0 0 calc((100% / 3) - 2rem); }
 
     .team { --gap-size: 1rem; }
-    .team .member { flex: 1 1 calc((100% / 1) - var(--gap-size)); }
+    .team .member { flex: 1 1 calc((100% / 2) - var(--gap-size)); }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
