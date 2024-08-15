@@ -13,5 +13,65 @@
         "title": "Gisnet Contacto",
         "description": "Description",
         "robots": "noindex, nofollow"
+    },
+        "/servicios/migracion-de-acervos/": {
+        "title": "Gisnet",
+        "description": "Description",
+        "robots": "noindex, nofollow"
+    },
+    "/servicios/implementacion-de-sistemas/": {
+        "title": "Gisnet",
+        "description": "Description",
+        "robots": "noindex, nofollow"
+    },
+    "/servicios/implementacion-de-sistemas/gisreg/": {
+        "title": "Gisnet",
+        "description": "Description",
+        "robots": "noindex, nofollow"
+    },
+    "/servicios/implementacion-de-sistemas/giscat/": {
+        "title": "Gisnet",
+        "description": "Description",
+        "robots": "noindex, nofollow"
+    },
+    "/servicios/limpieza-de-datos/": {
+        "title": "Gisnet",
+        "description": "Description",
+        "robots": "noindex, nofollow"
+    },
+    "/productos/panini/": {
+        "title": "Gisnet",
+        "description": "Description",
+        "robots": "noindex, nofollow"
+    },
+    "/productos/couchbase/": {
+        "title": "Gisnet",
+        "description": "Description",
+        "robots": "noindex, nofollow"
+    },
+    "/productos/acf-technologies/": {
+        "title": "Gisnet",
+        "description": "Description",
+        "robots": "noindex, nofollow"
+    },
+    "/productos/acf-technologies/direccionadores/": {
+        "title": "Gisnet",
+        "description": "Description",
+        "robots": "noindex, nofollow"
+    },
+    "/productos/security-scorecard/": {
+        "title": "Gisnet",
+        "description": "Description",
+        "robots": "noindex, nofollow"
+    },
+    "/productos/corsight/": {
+        "title": "Gisnet",
+        "description": "Description",
+        "robots": "noindex, nofollow"
+    },
+    "/productos/tassta/": {
+        "title": "Gisnet",
+        "description": "Description",
+        "robots": "noindex, nofollow"
     }
 }
