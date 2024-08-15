@@ -109,9 +109,48 @@
 <section>
     <div class="section-container container">
         <div class="content">
-            <h3>Equipo</h3>
+            <h3 class="text-center">Equipo</h3>
             <div class="team">
-                team...
+                <div class="member">
+                    <h6 class="name">Efraían Hernández Romo</h6>
+                    <p class="text-4">
+                        Director General
+                        <br>
+                        <a href="malito:ehernandez@e-gisnet.com">ehernandez@e-gisnet.com</a>
+                    </p>
+                </div>
+                <div class="member">
+                    <h6 class="name">Edgar E. Cortez Salvador</h6>
+                    <p class="text-4">
+                        Director Adjunto
+                        <br>
+                        <a href="malito:ecortez@e-gisnet.com">ecortez@e-gisnet.com</a>
+                    </p>
+                </div>
+                <div class="member">
+                    <h6 class="name">Raúl Dávalos Alonso</h6>
+                    <p class="text-4">
+                        Director Asociado
+                        <br>
+                        <a href="malito:rdavalos@e-gisnet.com">rdavalos@e-gisnet.com</a>
+                    </p>
+                </div>
+                <div class="member">
+                    <h6 class="name">Martín P. García García</h6>
+                    <p class="text-4">
+                        Director Comercial
+                        <br>
+                        <a href="malito:mgarcia@e-gisnet.com">mgarcia@e-gisnet.com</a>
+                    </p>
+                </div>
+                <div class="member">
+                    <h6 class="name">Pedro R. López Duarte</h6>
+                    <p class="text-4">
+                        Gerente de Administración
+                        <br>
+                        <a href="malito:plopez@e-gisnet.com">plopez@e-gisnet.com</a>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
