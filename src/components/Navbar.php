@@ -31,7 +31,7 @@
                         <div id="collapseNavbarServicios" class="accordion-collapse servicios collapse g-navbar-collapse" data-bs-parent="#accordionLinks">
                             <ul class="dropdown">
                                 <li class="dropdown-item">
-                                    <a href="<? echo($path) ?>servicios/migracion-de-acervos/">
+                                    <a href="<? echo($path) ?>servicios/migracion-de-acervos">
                                         <div class="icon">
                                             <img src="<? echo($path) ?>src/assets/icons/icon-10.svg" alt="Icon 10">
                                         </div>
@@ -42,7 +42,7 @@
                                     </a>
                                 </li>
                                 <li class="dropdown-item">
-                                    <a href="<? echo($path) ?>servicios/implementacion-de-sistemas/">
+                                    <a href="<? echo($path) ?>servicios/implementacion-de-sistemas">
                                         <div class="icon">
                                             <img src="<? echo($path) ?>src/assets/icons/icon-12.svg" alt="Icon 12">
                                         </div>
@@ -53,7 +53,7 @@
                                     </a>
                                 </li>
                                 <li class="dropdown-item">
-                                    <a href="<? echo($path) ?>servicios/limpieza-de-datos/">
+                                    <a href="<? echo($path) ?>servicios/limpieza-de-datos">
                                         <div class="icon">
                                             <img src="<? echo($path) ?>src/assets/icons/icon-5-sm.svg" alt="Icon 5">
                                         </div>
@@ -73,7 +73,7 @@
                         <div id="collapseNavbarProductos" class="accordion-collapse productos collapse g-navbar-collapse" data-bs-parent="#accordionLinks">
                             <ul class="dropdown">
                                 <li class="dropdown-item">
-                                    <a href="<? echo($path) ?>productos/panini/">
+                                    <a href="<? echo($path) ?>productos/panini">
                                         <div class="icon">
                                             <img src="<? echo($path) ?>src/assets/icons/icon-7.svg" alt="Icon 7">
                                         </div>
@@ -84,7 +84,7 @@
                                     </a>
                                 </li>
                                 <li class="dropdown-item">
-                                    <a href="<? echo($path) ?>productos/acf-technologies/">
+                                    <a href="<? echo($path) ?>productos/acf-technologies">
                                         <div class="icon">
                                             <img src="<? echo($path) ?>src/assets/icons/icon-9.svg" alt="Icon 9">
                                         </div>
@@ -95,7 +95,7 @@
                                     </a>
                                 </li>
                                 <li class="dropdown-item">
-                                    <a href="<? echo($path) ?>productos/couchbase/">
+                                    <a href="<? echo($path) ?>productos/couchbase">
                                         <div class="icon">
                                             <img src="<? echo($path) ?>src/assets/icons/icon-8.svg" alt="Icon 8">
                                         </div>
@@ -106,7 +106,7 @@
                                     </a>
                                 </li>
                                 <li class="dropdown-item">
-                                    <a href="<? echo($path) ?>productos/security-scorecard/">
+                                    <a href="<? echo($path) ?>productos/security-scorecard">
                                         <div class="icon">
                                             <img src="<? echo($path) ?>src/assets/icons/icon-11.svg" alt="Icon 11">
                                         </div>
@@ -117,7 +117,7 @@
                                     </a>
                                 </li>
                                 <li class="dropdown-item">
-                                    <a href="<? echo($path) ?>productos/corsight/">
+                                    <a href="<? echo($path) ?>productos/corsight">
                                         <div class="icon">
                                             <img src="<? echo($path) ?>src/assets/icons/icon-13.svg" alt="Icon 13">
                                         </div>
@@ -128,7 +128,7 @@
                                     </a>
                                 </li>
                                 <li class="dropdown-item">
-                                    <a href="<? echo($path) ?>productos/tassta/">
+                                    <a href="<? echo($path) ?>productos/tassta">
                                         <div class="icon">
                                             <img src="<? echo($path) ?>src/assets/icons/icon-16.svg" alt="Icon 16">
                                         </div>

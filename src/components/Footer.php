@@ -24,7 +24,7 @@
                         <h5><a href="<? echo($path) ?>#empresa">Empresa</a></h5>
                         <ul>
                             <li>
-                                <p><a href="<? echo($path) ?>nosotros/">Sobre Gisnet</a></p>
+                                <p><a href="<? echo($path) ?>nosotros">Sobre Gisnet</a></p>
                             </li>
                         </ul>
                     </div>
@@ -32,36 +32,36 @@
                         <h5><a href="<? echo($path) ?>#servicios">Servicios</a></h5>
                         <ul>
                             <li>
-                                <p><a href="<? echo($path) ?>servicios/migracion-de-acervos/">Migración de acervos</a></p>
+                                <p><a href="<? echo($path) ?>servicios/migracion-de-acervos">Migración de acervos</a></p>
                             </li>
                             <li>
-                                <p><a href="<? echo($path) ?>servicios/implementacion-de-sistemas/">Implementación de sistemas</a></p>
+                                <p><a href="<? echo($path) ?>servicios/implementacion-de-sistemas">Implementación de sistemas</a></p>
                             </li>
                             <li>
-                                <p><a href="<? echo($path) ?>servicios/limpieza-de-datos/">Limpieza de datos</a></p>
+                                <p><a href="<? echo($path) ?>servicios/limpieza-de-datos">Limpieza de datos</a></p>
                             </li>
                         </ul>
                     </div>
                     <div class="column">
-                        <h5><a href="<? echo($path) ?>#productos/">Productos</a></h5>
+                        <h5><a href="<? echo($path) ?>#productos">Productos</a></h5>
                         <ul>
                             <li>
-                                <p><a href="<? echo($path) ?>productos/panini/">PANINI</a></p>
+                                <p><a href="<? echo($path) ?>productos/panini">PANINI</a></p>
                             </li>
                             <li>
-                                <p><a href="<? echo($path) ?>productos/acf-technologies/">ACF Technologies</a></p>
+                                <p><a href="<? echo($path) ?>productos/acf-technologies">ACF Technologies</a></p>
                             </li>
                             <li>
-                                <p><a href="<? echo($path) ?>productos/couchbase/">COUCHBASE</a></p>
+                                <p><a href="<? echo($path) ?>productos/couchbase">COUCHBASE</a></p>
                             </li>
                             <li>
-                                <p><a href="<? echo($path) ?>productos/security-scorecard/">Security ScoreCard</a></p>
+                                <p><a href="<? echo($path) ?>productos/security-scorecard">Security ScoreCard</a></p>
                             </li>
                             <li>
-                                <p><a href="<? echo($path) ?>productos/corsight/">Corsight</a></p>
+                                <p><a href="<? echo($path) ?>productos/corsight">Corsight</a></p>
                             </li>
                             <li>
-                                <p><a href="<? echo($path) ?>productos/tassta/">TASSTA</a></p>
+                                <p><a href="<? echo($path) ?>productos/tassta">TASSTA</a></p>
                             </li>
                         </ul>
                     </div>
