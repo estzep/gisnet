@@ -38,8 +38,8 @@
     <meta property="og:description" content="<?php echo($description);?>">
     <meta property="og:url" content="<?php echo($url.$base);?>">
     <meta property="og:site_name" content="GISnet">
-    <meta property="og:image" content="<?php echo($url);?>src/assets/img/logos/logo-gisnet.png">
-    <meta property="og:image:secure_url" content="<?php echo($url);?>src/assets/img/logos/logo-gisnet.png">
+    <meta property="og:image" content="<?php echo($url);?>/src/assets/img/logos/logo-gisnet.png">
+    <meta property="og:image:secure_url" content="<?php echo($url);?>/src/assets/img/logos/logo-gisnet.png">
     <meta name="twitter:title" content="<?php echo($title);?>">
     <meta name="twitter:description" content="<?php echo($description);?>">
     <meta name="twitter:image" content="<?php echo($path);?>src/assets/img/logos/logo-gisnet.png">
