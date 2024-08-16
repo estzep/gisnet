@@ -16,13 +16,13 @@
     },
         "/servicios/migracion-de-acervos/": {
         "title": "Gisnet",
-        "description": "Description",
-        "robots": "noindex, nofollow"
+        "description": "El proceso de transferir datos, documentos, imágenes y registros de un formato o sistema de almacenamiento a otro, más moderno y accesible.",
+        "robots": "index, nofollow"
     },
     "/servicios/implementacion-de-sistemas/": {
         "title": "Gisnet",
-        "description": "Description",
-        "robots": "noindex, nofollow"
+        "description": "Nuestros servicios abarcan la optimización y modernización en las áreas de gestión registral, catastral y documental.",
+        "robots": "index, nofollow"
     },
     "/servicios/implementacion-de-sistemas/gisreg/": {
         "title": "Gisnet",
@@ -36,23 +36,23 @@
     },
     "/servicios/limpieza-de-datos/": {
         "title": "Gisnet",
-        "description": "Description",
-        "robots": "noindex, nofollow"
+        "description": "Los datos son extraídos de diferentes fuentes para ser auditados y cargados en la base de datos renovada.",
+        "robots": "index, nofollow"
     },
     "/productos/panini/": {
         "title": "Gisnet",
-        "description": "Description",
-        "robots": "noindex, nofollow"
+        "description": "Escáner para cheques y para la identificación segura a través de diferentes dispositivos que están integrados (BioCred).",
+        "robots": "index, nofollow"
     },
     "/productos/couchbase/": {
         "title": "Gisnet",
-        "description": "Description",
-        "robots": "noindex, nofollow"
+        "description": "Base de Datos moderna NoSQL para aplicaciones de corporativas.",
+        "robots": "index, nofollow"
     },
     "/productos/acf-technologies/": {
         "title": "Gisnet",
-        "description": "Description",
-        "robots": "noindex, nofollow"
+        "description": "Sistema de Gestión de Filas, Citas y Señalización Digital.",
+        "robots": "index, nofollow"
     },
     "/productos/acf-technologies/direccionadores/": {
         "title": "Gisnet",
@@ -61,17 +61,17 @@
     },
     "/productos/security-scorecard/": {
         "title": "Gisnet",
-        "description": "Description",
-        "robots": "noindex, nofollow"
+        "description": "Plataforma de calificación de riesgos cibernéticos para todos los sectores.",
+        "robots": "index, nofollow"
     },
     "/productos/corsight/": {
         "title": "Gisnet",
-        "description": "Description",
-        "robots": "noindex, nofollow"
+        "description": "Protección de la Intimidad, “Privacidad por Diseño y por Defecto”",
+        "robots": "index, nofollow"
     },
     "/productos/tassta/": {
         "title": "Gisnet",
-        "description": "Description",
-        "robots": "noindex, nofollow"
+        "description": "Sistema de Comunicación Innovadora (Comunicación encriptada, Localización, Organización y Seguridad)",
+        "robots": "index, nofollow"
     }
 }

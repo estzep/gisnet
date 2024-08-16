@@ -4,7 +4,7 @@
     $path = str_repeat('../', $segments);
 
     $title = 'GISnet';
-    $description = 'Líderes en soluciones y consultorías especializadas. Apasionados por la modernización de nuestros clientes a través de servicios de calidad.';
+    $description = 'Líderes en soluciones y consultorías especializadas';
     $robots = 'noindex, nofollow';
     $url = 'https://gisnet.qartaonline.com';
 
