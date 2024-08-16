@@ -1,76 +1,76 @@
 {
     "/": {
-        "title": "Gisnet",
-        "description": "Description",
-        "robots": "noindex, nofollow"
+        "title": "GISnet",
+        "description": "Líderes en soluciones y consultorías especializadas.",
+        "robots": "index, follow"
     },
     "/nosotros/": {
-        "title": "Gisnet Nosotros",
-        "description": "Description",
-        "robots": "noindex, nofollow"
+        "title": "GISnet | Nosotros",
+        "description": "Apasionados por la modernización de nuestros clientes a través de servicios de calidad.",
+        "robots": "index, nofollow"
     },
     "/contacto/": {
-        "title": "Gisnet Contacto",
-        "description": "Description",
+        "title": "GISnet | Contacto",
+        "description": "Líderes en soluciones y consultorías especializadas.",
         "robots": "noindex, nofollow"
     },
         "/servicios/migracion-de-acervos/": {
-        "title": "Gisnet",
+        "title": "GISnet | Migración de Acervos",
         "description": "El proceso de transferir datos, documentos, imágenes y registros de un formato o sistema de almacenamiento a otro, más moderno y accesible.",
         "robots": "index, nofollow"
     },
     "/servicios/implementacion-de-sistemas/": {
-        "title": "Gisnet",
+        "title": "GISnet | Implementación de Sistemas",
         "description": "Nuestros servicios abarcan la optimización y modernización en las áreas de gestión registral, catastral y documental.",
         "robots": "index, nofollow"
     },
     "/servicios/implementacion-de-sistemas/gisreg/": {
-        "title": "Gisnet",
-        "description": "Description",
+        "title": "GISnet | e-GISreg",
+        "description": "Transformar al Registro Público de la Propiedad en una Institución totalmente DIGITAL, con procesos estandarizados basados en las mejores prácticas, así como plataformas tecnológicas.",
         "robots": "noindex, nofollow"
     },
     "/servicios/implementacion-de-sistemas/giscat/": {
-        "title": "Gisnet",
-        "description": "Description",
+        "title": "GISnet | e-GIScat",
+        "description": "Proporcionar una herramienta de Gestión y Actualización Catastral, que permita a los Municipios y Estados contar con información del territorio veraz y oportuna para llevar una adecuada planeación del desarrollo urbano y económico con una recaudación eficiente.",
         "robots": "noindex, nofollow"
     },
     "/servicios/limpieza-de-datos/": {
-        "title": "Gisnet",
+        "title": "GISnet | Limpieza de datos",
         "description": "Los datos son extraídos de diferentes fuentes para ser auditados y cargados en la base de datos renovada.",
         "robots": "index, nofollow"
     },
     "/productos/panini/": {
-        "title": "Gisnet",
+        "title": "GISnet | Panini",
         "description": "Escáner para cheques y para la identificación segura a través de diferentes dispositivos que están integrados (BioCred).",
         "robots": "index, nofollow"
     },
     "/productos/couchbase/": {
-        "title": "Gisnet",
+        "title": "GISnet | Couchbase",
         "description": "Base de Datos moderna NoSQL para aplicaciones de corporativas.",
         "robots": "index, nofollow"
     },
     "/productos/acf-technologies/": {
-        "title": "Gisnet",
+        "title": "GISnet | ACF Technologies",
         "description": "Sistema de Gestión de Filas, Citas y Señalización Digital.",
         "robots": "index, nofollow"
     },
     "/productos/acf-technologies/direccionadores/": {
-        "title": "Gisnet",
-        "description": "Description",
+        "title": "GISnet | Direccionadores",
+        "description": "Especificaciones Técnicas del Toma Turnos",
         "robots": "noindex, nofollow"
     },
     "/productos/security-scorecard/": {
-        "title": "Gisnet",
+        "title": "GISnet | Security Scorecard",
         "description": "Plataforma de calificación de riesgos cibernéticos para todos los sectores.",
         "robots": "index, nofollow"
     },
     "/productos/corsight/": {
-        "title": "Gisnet",
+        "title": "GISnet | Corsight",
         "description": "Protección de la Intimidad, “Privacidad por Diseño y por Defecto”",
         "robots": "index, nofollow"
     },
     "/productos/tassta/": {
-        "title": "Gisnet",
+        "title": "GISnet | TASSTA",
         "description": "Sistema de Comunicación Innovadora (Comunicación encriptada, Localización, Organización y Seguridad)",
         "robots": "index, nofollow"
     }
