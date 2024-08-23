@@ -83,7 +83,13 @@
                     </p>
                     <div class="socials">
                         <a href="https://" target="_blank">
-                            <img src="<? echo($path) ?>src/assets/icons/" alt="Face">
+                            <img src="<? echo($path) ?>src/assets/icons/linkedin-icon.svg" alt="LinkedIn">
+                        </a>
+                        <a href="https://" target="_blank">
+                            <img src="<? echo($path) ?>src/assets/icons/facebook-icon.svg" alt="Facebook">
+                        </a>
+                        <a href="https://" target="_blank">
+                            <img src="<? echo($path) ?>src/assets/icons/twitter-icon.svg" alt="Twitter">
                         </a>
                     </div>
                 </div>
