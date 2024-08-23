@@ -81,7 +81,11 @@
                     <p>
                         Gisnet es una empresa especializada en la integración de soluciones y brindando consultarías especializadas.
                     </p>
-                    <div class="socials"></div>
+                    <div class="socials">
+                        <a href="https://" target="_blank">
+                            <img src="<? echo($path) ?>src/assets/icons/" alt="Face">
+                        </a>
+                    </div>
                 </div>
                 <div class="copyright">
                     <p>
