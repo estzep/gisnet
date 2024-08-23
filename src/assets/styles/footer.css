@@ -15,7 +15,7 @@ footer ul { list-style: none; margin-bottom: 0; padding-left: 0; }
 footer ul li {  }
 footer .socials { padding-top: .5rem; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; justify-content: flex-start; align-items: flex-start; gap: .5rem; }
 footer .socials a { display: inline-block; text-decoration: none; color: inherit; }
-footer .socials a img { width: 1.5rem; height: 1.5rem; vertical-align: middle; display: inline-block; }
+footer .socials a img { width: 1.4rem; height: 1.4rem; vertical-align: middle; display: inline-block; }
 
 footer .top { background: linear-gradient(180deg, rgba(var(--darker-pri-color-rgb), 0) calc(100% - var(--ft-lg-perc)), rgba(var(--darker-pri-color-rgb), 1) 100%), linear-gradient(0deg, rgba(var(--darker-pri-color-rgb), 0) calc(100% - var(--ft-lg-perc)), rgba(var(--darker-pri-color-rgb), 1) 100%), radial-gradient(circle, rgba(var(--darker-pri-color-rgb), 0) var(--ft-rg-perc), rgba(var(--darker-pri-color-rgb), 1) 100%), url('../img/grid-bg.png'), var(--darker-pri-color); background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: local; }
 footer .top .container {  }
