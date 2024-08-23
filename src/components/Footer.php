@@ -82,13 +82,13 @@
                         Gisnet es una empresa especializada en la integración de soluciones y brindando consultarías especializadas.
                     </p>
                     <div class="socials">
-                        <a href="https://" target="_blank">
+                        <a href="https://www.linkedin.com/company/servicios-profesionales-gisnet/" target="_blank">
                             <img src="<? echo($path) ?>src/assets/icons/linkedin-icon.svg" alt="LinkedIn">
                         </a>
-                        <a href="https://" target="_blank">
+                        <!-- <a href="https://www.facebook.com/" target="_blank">
                             <img src="<? echo($path) ?>src/assets/icons/facebook-icon.svg" alt="Facebook">
-                        </a>
-                        <a href="https://" target="_blank">
+                        </a> -->
+                        <a href="https://x.com/gi_snet" target="_blank">
                             <img src="<? echo($path) ?>src/assets/icons/twitter-icon.svg" alt="Twitter">
                         </a>
                     </div>
