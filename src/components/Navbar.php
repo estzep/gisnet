@@ -8,7 +8,7 @@
     <div class="nav-container container">
         <div class="content">
             <div class="logo">
-                <a href="<? echo($path) ?>#inicio" onclick="closeNav()"><img src="<? echo($path) ?>src/assets/img/logos/gisnet.png" alt="GISnet"></a>
+                <a href="<? echo($path) ?>#inicio" onclick="closeNav()"><img src="<? echo($path) ?>src/assets/gisnet/gisnet.png" alt="GISnet"></a>
             </div>
             <div class="toggle-btn">
                 <button onclick="toggleNav()">

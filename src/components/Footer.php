@@ -76,7 +76,7 @@
                 </div>
                 <div class="about">
                     <a href="<? echo($path) ?>#inicio" class="logo">
-                        <img src="<? echo($path) ?>src/assets/img/logos/logo-gisnet-white.png" alt="Gisnet logo">
+                        <img src="<? echo($path) ?>src/assets/gisnet/gisnet-white.png" alt="Gisnet logo">
                     </a>
                     <p>
                         Gisnet es una empresa especializada en la integración de soluciones y brindando consultarías especializadas.
