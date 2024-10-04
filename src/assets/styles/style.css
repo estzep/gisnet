@@ -30,7 +30,7 @@ main :is(header, section) .text-3 { color: var(--gray); font-size: .95rem; font-
 main :is(header, section) .text-4 { color: var(--gray); font-size: .9rem; font-weight: 400; line-height: 2.15; margin-bottom: 0; }
 main :is(header, section) .text-5 { color: var(--text-color); font-size: 1rem; font-weight: 500; line-height: 2.15; margin-bottom: 0; }
 
-main header#inicio { background: url('../img/bg-right.png'), var(--bg-color); background-size: contain; background-repeat: no-repeat; background-position: right center; background-attachment: local; }
+main header#inicio { background: url('../img/hero/bg-right.png'), var(--bg-color); background-size: contain; background-repeat: no-repeat; background-position: right center; background-attachment: local; }
 main header .container {  }
 main header .container .content { padding: 7rem 0; display: flex; }
 main header#inicio .container .content { padding: 10rem 0; }
@@ -495,7 +495,7 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
     main :is(header, section) p.text-1 { margin-bottom: 2.5rem; }
     main :is(header, section) p.text-2 { font-size: .9rem; }
 
-    main header#inicio { background: url('../img/bg-right-mobile.png'), var(--bg-color); background-size: 60%; background-repeat: no-repeat; background-position: right top; background-attachment: local; }
+    main header#inicio { background: url('../img/hero/bg-right-mobile.png'), var(--bg-color); background-size: 60%; background-repeat: no-repeat; background-position: right top; background-attachment: local; }
     main header .container .content { padding: 30% 0 35% 0; }
     main header .info { flex: 1 0 90%; padding-right: 0; }
     main header .image { flex: 0 0 10%; }
