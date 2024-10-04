@@ -30,19 +30,19 @@
     <meta name="description" content="<?php echo($description);?>">
     <link rel="canonical" href="<?php echo($url.$base);?>">
     <meta name="url" content="<?php echo($url.$base);?>">
-    <link rel="icon" href="<?php echo($path);?>src/assets/img/logos/logo-gisnet.png">
-    <link rel="apple-touch-icon" href="<?php echo($path);?>src/assets/img/logos/logo-gisnet.png">
-    <meta name="msapplication-TileImage" content="<?php echo($path);?>src/assets/img/logos/logo-gisnet.png">
+    <link rel="icon" href="<?php echo($path);?>src/assets/img/logos/gisnet.png">
+    <link rel="apple-touch-icon" href="<?php echo($path);?>src/assets/img/logos/gisnet.png">
+    <meta name="msapplication-TileImage" content="<?php echo($path);?>src/assets/img/logos/gisnet.png">
     <!-- Redes Sociales -->
     <meta property="og:title" content="<?php echo($title);?>">
     <meta property="og:description" content="<?php echo($description);?>">
     <meta property="og:url" content="<?php echo($url.$base);?>">
     <meta property="og:site_name" content="GISnet">
-    <meta property="og:image" content="<?php echo($url);?>/src/assets/img/logos/logo-gisnet.png">
-    <meta property="og:image:secure_url" content="<?php echo($url);?>/src/assets/img/logos/logo-gisnet.png">
+    <meta property="og:image" content="<?php echo($url);?>/src/assets/img/logos/gisnet.png">
+    <meta property="og:image:secure_url" content="<?php echo($url);?>/src/assets/img/logos/gisnet.png">
     <meta name="twitter:title" content="<?php echo($title);?>">
     <meta name="twitter:description" content="<?php echo($description);?>">
-    <meta name="twitter:image" content="<?php echo($path);?>src/assets/img/logos/logo-gisnet.png">
+    <meta name="twitter:image" content="<?php echo($path);?>src/assets/img/gisnet/gisnet-universal.png">
     <meta name="twitter:card" content="summary_large_image">
     <!-- Stylesheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">

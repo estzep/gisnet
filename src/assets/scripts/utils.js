@@ -46,18 +46,6 @@ document.addEventListener("DOMContentLoaded", function() {
 function closeAccordions() {
     const accordions = document.querySelectorAll('.g-navbar-collapse');
     accordions.forEach(accordion => new bootstrap.Collapse(accordion, { toggle: false }).hide());
-    
-    // var accordionToggler = document.getElementsByClassName("accordion-toggler");
-    // var accordionCollapse = document.getElementsByClassName("accordion-collapse");
-    // for (var i = 0; i < accordionToggler.length; i++) {
-    //     const toggler = accordionToggler[i];
-    //     toggler.classList.add("collapsed");
-    //     toggler.setAttribute("aria-expanded", "false");
-    // }
-    // for (var i = 0; i < accordionCollapse.length; i++) {
-    //     const collapse = accordionCollapse[i];
-    //     collapse.classList.remove("show");
-    // }
 }
 
 function closeNav() {

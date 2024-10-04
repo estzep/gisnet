@@ -63,7 +63,7 @@
         <div class="content">
             <div class="heading">
                 <div class="column image">
-                    <img src="src/assets/img/landing-img/img-1-disenamos.jpg" alt="Nosotros">
+                    <img src="src/assets/img/nosotros.jpg" alt="Nosotros">
                 </div>
                 <div class="column info">
                     <h3>Diseñamos soluciones a tu medida</h3>
@@ -219,16 +219,16 @@
                 </div>
                 <div class="column image tab-content">
                     <div id="tab-servicio1" class="panel tab-pane fade show active" role="tabpanel" aria-labelledby="li-servicio1" tabindex="0">
-                        <img src="src/assets/img/landing-img/img-2-migracion.jpg" alt="Migración de Acervos Imagen">
+                        <img src="src/assets/img/services/migracion-de-acervos/cover.jpg" alt="Migración de Acervos Imagen">
                     </div>
                     <div id="tab-servicio2" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio2" tabindex="0">
-                        <img src="src/assets/img/landing-img/img-3-sistemas.jpg" alt="Implementación de Sistemas Imagen">
+                        <img src="src/assets/img/services/implementacion-de-sistemas/cover.jpg" alt="Implementación de Sistemas Imagen">
                     </div>
                     <div id="tab-servicio3" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio3" tabindex="0">
-                        <img src="src/assets/img/landing-img/img-4-limpieza.jpg" alt="Limpieza de datos Imagen">
+                        <img src="src/assets/img/services/limpieza-de-datos/cover.jpg" alt="Limpieza de datos Imagen">
                     </div>
                     <div id="tab-servicio4" class="panel tab-pane fade" role="tabpanel" aria-labelledby="li-servicio4" tabindex="0">
-                        <img src="src/assets/img/landing-img/img-5-soporte.jpg" alt="Desarrollo, Soporte y Mantenimiento Imagen">
+                        <img src="src/assets/img/services/desarrollo-soporte-mantenimiento/cover.jpg" alt="Desarrollo, Soporte y Mantenimiento Imagen">
                     </div>
                 </div>
             </div>
@@ -242,7 +242,7 @@
             <div class="squares-4">
                 <a href="productos/panini" class="square">
                     <div class="square-img">
-                        <img src="src/assets/img/productos-landing/producto-panini-cover.jpg" alt="Panini">
+                        <img src="src/assets/img/products/panini/cover.jpg" alt="Panini">
                     </div>
                     <div class="square-content">
                         <h4>
@@ -261,7 +261,7 @@
                 </a>
                 <a href="productos/acf-technologies" class="square">
                     <div class="square-img">
-                        <img src="src/assets/img/productos-landing/producto-acf-cover.jpg" alt="ACF Technologies">
+                        <img src="src/assets/img/products/acf-technologies/cover.jpg" alt="ACF Technologies">
                     </div>
                     <div class="square-content">
                         <h4>
@@ -280,7 +280,7 @@
                 </a>
                 <a href="productos/couchbase" class="square">
                     <div class="square-img">
-                        <img src="src/assets/img/productos-landing/producto-couchbase-cover.jpg" alt="Couchbase">
+                        <img src="src/assets/img/products/couchbase/cover.jpg" alt="Couchbase">
                     </div>
                     <div class="square-content">
                         <h4>
@@ -297,7 +297,64 @@
                         </button>
                     </div>
                 </a>
-                <div id="collapseProductos" class="squares-4 squares-4-xs collapse" data-bs-parent="#productos">
+                <a href="productos/security-scorecard" class="square">
+                    <div class="square-img">
+                        <img src="src/assets/img/products/security-scorecard/cover.jpg" alt="Security ScoreCard">
+                    </div>
+                    <div class="square-content">
+                        <h4>
+                            Security ScoreCard
+                        </h4>
+                        <p class="text-3">
+                            Plataforma de calificación de riesgos cibernéticos para todos los sectores
+                        </p>
+                        <button type="button" class="btn-type-2">
+                            Leer más
+                            <span class="arrow">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
+                            </span>
+                        </button>
+                    </div>
+                </a>
+                <a href="productos/corsight" class="square">
+                    <div class="square-img">
+                        <img src="src/assets/img/products/corsight/cover.jpg" alt="Corsight">
+                    </div>
+                    <div class="square-content">
+                        <h4>
+                            Corsight
+                        </h4>
+                        <p class="text-3">
+                            Protección de la Intimidad, "Privacidad por Diseño y por Defecto"
+                        </p>
+                        <button type="button" class="btn-type-2">
+                            Leer más
+                            <span class="arrow">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
+                            </span>
+                        </button>
+                    </div>
+                </a>
+                <a href="productos/tassta" class="square">
+                    <div class="square-img">
+                        <img src="src/assets/img/products/tassta/cover.jpg" alt="TASSTA">
+                    </div>
+                    <div class="square-content">
+                        <h4>
+                            TASSTA
+                        </h4>
+                        <p class="text-3">
+                            Sistema de Comunicación Innovadora (Comunicación encriptada, Localización, Organización y Seguridad)
+                        </p>
+                        <button type="button" class="btn-type-2">
+                            Leer más
+                            <span class="arrow">
+                                <img src="src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
+                            </span>
+                        </button>
+                    </div>
+                </a>
+                <!-- <div id="collapseProductos" class="squares-4 squares-4-xs collapse" data-bs-parent="#productos">
                     <a href="productos/security-scorecard" class="square">
                         <div class="square-img">
                             <img src="src/assets/img/productos-landing/producto-scorecard-cover.jpg" alt="Security ScoreCard">
@@ -416,7 +473,7 @@
                             </span>
                         </button>
                     </div>
-                </a>
+                </a> -->
             </div>
         </div>
     </div>

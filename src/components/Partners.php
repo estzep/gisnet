@@ -19,7 +19,7 @@
                 <div id="sociosCarouselInner" class="inner">
                     <div class="item">
                         <div class="img">
-                            <img src="<? echo($path) ?>src/assets/img/logos/dell.svg" alt="Logo Dell" class="dell">
+                            <img src="<? echo($path) ?>src/assets/img/logos/partners/dell.svg" alt="Logo Dell" class="dell">
                         </div>
                         <h4>Dell</h4>
                         <p class="text-3">
@@ -28,7 +28,7 @@
                     </div>
                     <div class="item">
                         <div class="img">
-                            <img src="<? echo($path) ?>src/assets/img/logos/couchbase.svg" alt="Logo Couchbase" class="couchbase">
+                            <img src="<? echo($path) ?>src/assets/img/logos/partners/couchbase.svg" alt="Logo Couchbase" class="couchbase">
                         </div>
                         <h4>Couchbase</h4>
                         <p class="text-3">
@@ -37,7 +37,7 @@
                     </div>
                     <div class="item">
                         <div class="img">
-                            <img src="<? echo($path) ?>src/assets/img/logos/panini.svg" alt="Logo Panini" class="panini">
+                            <img src="<? echo($path) ?>src/assets/img/logos/partners/panini.svg" alt="Logo Panini" class="panini">
                         </div>
                         <h4>Panini</h4>
                         <p class="text-3">
@@ -46,7 +46,7 @@
                     </div>
                     <div class="item">
                         <div class="img">
-                            <img src="<? echo($path) ?>src/assets/img/logos/security-scorecard.png" alt="Logo Security Scorecard" class="securityscorecard">
+                            <img src="<? echo($path) ?>src/assets/img/logos/partners/security-scorecard.png" alt="Logo Security Scorecard" class="securityscorecard">
                         </div>
                         <h4>Security Scorecard</h4>
                         <p class="text-3">
@@ -55,7 +55,7 @@
                     </div>
                     <div class="item">
                         <div class="img">
-                            <img src="<? echo($path) ?>src/assets/img/logos/acf.png" alt="Logo ACF Technologies" class="acf">
+                            <img src="<? echo($path) ?>src/assets/img/logos/partners/acf.png" alt="Logo ACF Technologies" class="acf">
                         </div>
                         <h4>ACF Technologies</h4>
                         <p class="text-3">
@@ -64,7 +64,7 @@
                     </div>
                     <div class="item">
                         <div class="img">
-                            <img src="<? echo($path) ?>src/assets/img/logos/tassta.svg" alt="Logo TASSTA" class="tassta">
+                            <img src="<? echo($path) ?>src/assets/img/logos/partners/tassta.svg" alt="Logo TASSTA" class="tassta">
                         </div>
                         <h4>TASSTA</h4>
                         <p class="text-3">
