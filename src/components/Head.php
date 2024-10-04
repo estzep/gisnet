@@ -30,13 +30,11 @@
     <meta name="description" content="<?php echo($description);?>">
     <link rel="canonical" href="<?php echo($url.$base);?>">
     <meta name="url" content="<?php echo($url.$base);?>">
-    
     <!-- Favicon and icons -->
     <link rel="icon" href="<?php echo($path);?>favicon.ico" sizes="any">
-    <link rel="icon" href="<?php echo($path);?>assets/gisnet/gisnet.png" type="image/png">
+    <link rel="icon" href="<?php echo($path);?>assets/gisnet/gisnet-180x180.png" type="image/png">
     <link rel="apple-touch-icon" href="<?php echo($path);?>assets/gisnet/gisnet-180x180.png">
     <meta name="msapplication-TileImage" content="<?php echo($path);?>assets/gisnet/gisnet-180x180.png">
-    
     <!-- Redes Sociales -->
     <meta property="og:title" content="<?php echo($title);?>">
     <meta property="og:description" content="<?php echo($description);?>">
