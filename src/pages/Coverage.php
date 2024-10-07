@@ -3,7 +3,7 @@
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
 ?>
-<section>
+<section id="coverage" class="bg-color-1">
     <div class="section-container container">
         <div class="content">
             <h3 class="text-center">Cobertura Nacional</h3>

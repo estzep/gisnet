@@ -116,7 +116,7 @@ main section#why.aboutUs { background: var(--light-blue-1); }
 main section#why .section-container {  }
 main section#why .section-container .content { padding: 6.5rem 0 10rem 0; }
 main section#why h3 { text-align: center; margin-bottom: 2rem; }
-main section#why .text-2 { text-align: center; width: 35%; margin: 0 auto; margin-bottom: 3rem; }
+main :is(section#why, section#coverage) .text-2 { text-align: center; width: 35%; margin: 0 auto; margin-bottom: 3rem; }
 
 main section#contactPage { background: var(--bg-color-1); min-height: calc(100vh - var(--navbar-height)); }
 main section#contactPage .section-container {  }
@@ -439,7 +439,7 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
     main section#socios .column.heading { flex: 1 1 45%; width: 45%; padding-right: 1rem; }
     main section#socios .column.carousel { flex: 1 1 55%; width: 55%; }
 
-    main section#why .text-2 { width: 50%; }
+    main :is(section#why, section#coverage) .text-2 { width: 50%; }
 
     .bullet-list.lg { list-style-type: disc; padding-left: 1.5rem; }
 
@@ -522,7 +522,7 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
 
     main section#socios .column.heading { flex: 1 1 100%; width: 100%; padding-right: 0; box-shadow: none; }
     main section#socios .column.carousel { flex: 1 1 100%; width: 100%; }
-    main section#why .text-2 { width: 80%; }
+    main :is(section#why, section#coverage) .text-2 .text-2 { width: 80%; }
 
     .contact-card { width: 100%; }
     .contact-form { column-gap: 1rem; }
