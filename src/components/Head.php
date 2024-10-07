@@ -33,8 +33,6 @@
     
     <!-- Favicon and icons -->
     <link rel="icon" href="<?php echo($path);?>favicon.ico" sizes="256x256" type="image/x-icon">
-    <link rel="icon" href="<?php echo($path);?>src/assets/gisnet/gisnet-180x180.png" type="image/png" sizes="180x180">
-    <link rel="icon" href="<?php echo($path);?>src/assets/gisnet/gisnet.png" type="image/png" sizes="180x45">
     <link rel="apple-touch-icon" href="<?php echo($path);?>src/assets/gisnet/gisnet-180x180.png">
     <meta name="msapplication-TileImage" content="<?php echo($path);?>src/assets/gisnet/gisnet-180x180.png">
     
