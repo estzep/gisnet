@@ -441,7 +441,7 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
     main section#socios .column.carousel { flex: 1 1 55%; width: 55%; }
 
     main section#why .text-2 { width: 50%; }
-    main section#coverage .text-2 { width: 800%; }
+    main section#coverage .text-2 { width: 80%; }
 
     .bullet-list.lg { list-style-type: disc; padding-left: 1.5rem; }
 
