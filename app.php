@@ -55,7 +55,7 @@
                 include('src/pages/ProdTassta.php');
                 break;
             case '/cobertura/':
-                include('src/pages/ProdTassta.php');
+                include('src/pages/Coverage.php');
                 break;
             default:
                 http_response_code(404);
