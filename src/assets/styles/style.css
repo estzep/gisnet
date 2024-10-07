@@ -522,7 +522,7 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
 
     main section#socios .column.heading { flex: 1 1 100%; width: 100%; padding-right: 0; box-shadow: none; }
     main section#socios .column.carousel { flex: 1 1 100%; width: 100%; }
-    main :is(section#why, section#coverage) .text-2 .text-2 { width: 80%; }
+    main :is(section#why, section#coverage) .text-2 { width: 80%; }
 
     .contact-card { width: 100%; }
     .contact-form { column-gap: 1rem; }
