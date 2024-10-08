@@ -8,8 +8,8 @@
     <div class="section-container container">
         <div class="content">
             <div class="heading">
-                <h3><? echo $summaryTitle ?></h3>
-                <p class="text-1">
+                <h3 class="animate opacity"><? echo $summaryTitle ?></h3>
+                <p class="text-1 animate opacity">
                     <? echo $summaryDescription ?>
                 </p>
             </div>
