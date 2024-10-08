@@ -18,9 +18,7 @@
                     </a>
                 </div>
             </div>
-            <div class="custom-icons">
-                hola
-            </div>
+            <? include('src/components/CustomIcons.php'); ?>
         </div>
     </div>
 </header>
