@@ -21,7 +21,7 @@ function initAnimations() {
 window.onscroll = () => {
 	var elements = document.getElementsByClassName("animate");
 	var positions = (sessionStorage.getItem("positions")).split(",");
-	var scrollPos = window.scrollY + (window.innerHeight * 0.8);
+	var scrollPos = window.scrollY + (window.innerHeight * 0.95);
 	for (var i = 0; i < elements.length; i++) {
 		var position = positions[i];
 		if (elements[i].getAttribute("data-state") === "hide" && scrollPos >= position) {
