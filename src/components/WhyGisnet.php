@@ -7,11 +7,11 @@
 <section id="why">
     <div class="container section-container">
         <div class="content">
-            <h3>¿Por qué Gisnet?</h3>
-            <p class="text-2">
+            <h3 class="animate opacity">¿Por qué Gisnet?</h3>
+            <p class="text-2 animate opacity">
                 En Gisnet nuestra prioridad es que nuestros clientes tengan una experiencia satisfactoria al trabajar con ellos
             </p>
-            <div class="g-cards-1">
+            <div class="g-cards-1 animate opacity">
                 <div class="g-card">
                     <div class="top">
                         <div class="icon">
