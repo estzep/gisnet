@@ -2,9 +2,11 @@
     $base = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
     $segments = count(array_filter(explode('/', $base)));
     $path = str_repeat('../', $segments);
+
+    $homePage = ($base === '/');
 ?>
 
-<nav class="animate opacity translateTop">
+<nav class="<?php echo $homePage ? 'animate opacity translateTop' : ''; ?>">
     <div class="nav-container container">
         <div class="content">
             <div class="logo">
