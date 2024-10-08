@@ -239,8 +239,8 @@
     <div class="section-container container">
         <div class="content">
             <h2 class="animate opacity">Productos para tu negocio</h2>
-            <div class="squares-4 animate opacity">
-                <a href="productos/panini" class="square">
+            <div class="squares-4">
+                <a href="productos/panini" class="square animate opacity">
                     <div class="square-img">
                         <img src="src/assets/img/products/panini/cover.jpg" alt="Panini">
                     </div>
@@ -259,7 +259,7 @@
                         </button>
                     </div>
                 </a>
-                <a href="productos/acf-technologies" class="square">
+                <a href="productos/acf-technologies" class="square animate opacity">
                     <div class="square-img">
                         <img src="src/assets/img/products/acf-technologies/cover.jpg" alt="ACF Technologies">
                     </div>
@@ -278,7 +278,7 @@
                         </button>
                     </div>
                 </a>
-                <a href="productos/couchbase" class="square">
+                <a href="productos/couchbase" class="square animate opacity">
                     <div class="square-img">
                         <img src="src/assets/img/products/couchbase/cover.jpg" alt="Couchbase">
                     </div>
@@ -297,7 +297,7 @@
                         </button>
                     </div>
                 </a>
-                <a href="productos/security-scorecard" class="square">
+                <a href="productos/security-scorecard" class="square animate opacity">
                     <div class="square-img">
                         <img src="src/assets/img/products/security-scorecard/cover.jpg" alt="Security ScoreCard">
                     </div>
@@ -316,7 +316,7 @@
                         </button>
                     </div>
                 </a>
-                <a href="productos/corsight" class="square">
+                <a href="productos/corsight" class="square animate opacity">
                     <div class="square-img">
                         <img src="src/assets/img/products/corsight/cover.jpg" alt="Corsight">
                     </div>
@@ -335,7 +335,7 @@
                         </button>
                     </div>
                 </a>
-                <a href="productos/tassta" class="square">
+                <a href="productos/tassta" class="square animate opacity">
                     <div class="square-img">
                         <img src="src/assets/img/products/tassta/cover.jpg" alt="TASSTA">
                     </div>
