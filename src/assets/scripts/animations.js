@@ -4,7 +4,12 @@ function initAnimations() {
 	var elements = document.getElementsByClassName("animate");
 	var positions = [];
 	for (var i = 0; i < elements.length; i++) {
-		positions.push(elements[i].getBoundingClientRect().top);
+		var rect = elements[i].getBoundingClientRect();
+		var position = rect.top;
+		if (elements[i].classList.contains("translateBottom")) {
+			position -= rect.height;
+		}
+		positions.push(position);
 	}
 	sessionStorage.setItem("positions",positions);
 
