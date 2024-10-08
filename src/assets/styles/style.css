@@ -32,7 +32,7 @@ main :is(header, section) .text-5 { color: var(--text-color); font-size: 1rem; f
 
 main header#inicio { background: url('../img/hero/bg-right.png'), var(--bg-color); background-size: contain; background-repeat: no-repeat; background-position: right center; background-attachment: local; }
 main header .container {  }
-main header .container .content { padding: 7rem 0; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; }
+main header .container .content { padding: 7rem 0; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; gap: 1.5rem; }
 main header#inicio .container .content { padding: 10rem 0; }
 main header .info { flex: 0 0 55%; margin: 0 auto 0 0; padding-right: 5rem; }
 main header#inicio .info { padding-right: 0; margin: 0; }
@@ -426,7 +426,7 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
 @media (max-width: 991.98px) {
     main header .info { flex: 1 0 80%; }
     main header .image { flex: 0 0 20%; display: none; }
-    main header .custom-icons { width: 100%; }
+    main header .custom-icons { width: 100%; position: relative; }
 
     main section#clientes .heading { width: 80%; }
 
@@ -507,6 +507,7 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
     main :is(header, section) p.text-2 { font-size: .9rem; }
 
     main header#inicio { background: url('../img/hero/bg-right-mobile.png'), var(--bg-color); background-size: 60%; background-repeat: no-repeat; background-position: right top; background-attachment: local; }
+    main header#inicio .container .content { padding: 3rem 0; }
     main header .container .content { padding: 30% 0 35% 0; }
     main header .info { flex: 1 0 90%; padding-right: 0; }
     main header .image { flex: 0 0 10%; }
