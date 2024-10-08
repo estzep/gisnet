@@ -58,5 +58,5 @@
     <link rel="stylesheet" href="<?php echo($path);?>src/assets/styles/style.css">
     <link rel="stylesheet" href="<?php echo($path);?>src/assets/styles/navbar.css">
     <link rel="stylesheet" href="<?php echo($path);?>src/assets/styles/footer.css">
-    <!-- <link rel="stylesheet" href="assets/styles/scrollAppearEffect.css"> -->
+    <link rel="stylesheet" href="<?php echo($path);?>src/assets/styles/animations.css">
 </head>

@@ -1,0 +1,6 @@
+.animate { transition: all 0.5s ease-in-out; }
+
+.animate.opacity { opacity: 0; }
+
+.animate.opacity[data-state="hide"] { opacity: 0; }
+.animate.opacity[data-state="show"] { opacity: 1; }

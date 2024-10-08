@@ -1,31 +1,33 @@
-appearEffect();
+initAnimations();
 
-function appearEffect() {
-	var el = document.getElementsByClassName("scrollApp");
-	var array = [];
-	for (var i = 0; i < el.length; i++) {
-		array.push(el[i].getBoundingClientRect().top);
-		sessionStorage.setItem("array",array);
+function initAnimations() {
+	var elements = document.getElementsByClassName("animate");
+	var positions = [];
+	for (var i = 0; i < elements.length; i++) {
+		positions.push(elements[i].getBoundingClientRect().top);
 	}
-	sessionStorage.setItem("array",array);
-	for (var j = 0; j < el.length; j++) {
-		var elTop = array[j];
-		if (window.pageYOffset + (window.innerHeight * 0.7) >= elTop) {
-			el[j].classList.add("scrollApp-true");
+	sessionStorage.setItem("positions",positions);
+
+	for (var j = 0; j < elements.length; j++) {
+		var position = positions[j];
+		if (window.scrollY + (window.innerHeight * 0.7) >= position) {
+			elements[j].setAttribute("data-state","show");
+		} else {
+			elements[j].setAttribute("data-state","hide");
 		}
 	}
 }
 
-window.onscroll = function() {
-	var el = document.getElementsByClassName("scrollApp");
-	var array = (sessionStorage.getItem("array")).split(",");
-	var scrollPos = window.pageYOffset + (window.innerHeight * 0.7);
-	for (var i = 0; i < el.length; i++) {
-		var elTop = array[i];
-		if (!el[i].classList.contains("scrollApp-true") && scrollPos >= elTop) {
-			el[i].classList.add("scrollApp-true");
+window.onscroll = () => {
+	var elements = document.getElementsByClassName("animate");
+	var positions = (sessionStorage.getItem("positions")).split(",");
+	var scrollPos = window.scrollY + (window.innerHeight * 0.5);
+	for (var i = 0; i < elements.length; i++) {
+		var position = positions[i];
+		if (elements[i].getAttribute("data-state") === "hide" && scrollPos >= position) {
+			elements[i].setAttribute("data-state","show");
 		}
 	}
 }
 
-window.addEventListener("resize", appearEffect);
+window.addEventListener("resize", initAnimations);
