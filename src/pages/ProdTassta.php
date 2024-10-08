@@ -97,7 +97,7 @@
                 </p>
             </div>
             <div class="image f contain">
-                <img src="<? echo $path ?>src/assets/img/tassta-img/img-2.jpg" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/products/tassta/img-2.jpg" alt="Producto/Servicio image">
             </div>
         </div>
     </div>
@@ -110,7 +110,7 @@
                 <div class="g-card tassta">
                     <div class="top">
                         <div class="icon">
-                            <img src="<? echo $path ?>src/assets/img/tassta-img/rodon.jpg" alt="Icon">
+                            <img src="<? echo $path ?>src/assets/img/products/tassta/rodon.jpg" alt="Icon">
                         </div>
                         <h6>T.Rodon</h6>
                         <p class="text-4">
@@ -129,7 +129,7 @@
                 <div class="g-card tassta">
                     <div class="top">
                         <div class="icon">
-                            <img src="<? echo $path ?>src/assets/img/tassta-img/flex.jpg" alt="Icon">
+                            <img src="<? echo $path ?>src/assets/img/products/tassta/flex.jpg" alt="Icon">
                         </div>
                         <h6>T.Flex</h6>
                         <p class="text-4">
@@ -148,7 +148,7 @@
                 <div class="g-card tassta">
                     <div class="top">
                         <div class="icon">
-                            <img src="<? echo $path ?>src/assets/img/tassta-img/lion.jpg" alt="Icon">
+                            <img src="<? echo $path ?>src/assets/img/products/tassta/lion.jpg" alt="Icon">
                         </div>
                         <h6>T.Lion</h6>
                         <p class="text-4">
@@ -193,16 +193,16 @@
             <h3 class="text-center mb-5">Seguridad, certificados y cumplimientos</h3>
             <div class="badges-container">
                 <div class="badge">
-                    <img src="<? echo($path) ?>src/assets/img/tassta-img/3gpp.png" alt="Badge">
+                    <img src="<? echo($path) ?>src/assets/img/products/tassta/3gpp.png" alt="Badge">
                 </div>
                 <div class="badge">
-                    <img src="<? echo($path) ?>src/assets/img/tassta-img/etsi.png" alt="Badge">
+                    <img src="<? echo($path) ?>src/assets/img/products/tassta/etsi.png" alt="Badge">
                 </div>
                 <div class="badge">
-                    <img src="<? echo($path) ?>src/assets/img/tassta-img/firstnet.png" alt="Badge">
+                    <img src="<? echo($path) ?>src/assets/img/products/tassta/firstnet.png" alt="Badge">
                 </div>
                 <div class="badge">
-                    <img src="<? echo($path) ?>src/assets/img/tassta-img/gs.png" alt="Badge">
+                    <img src="<? echo($path) ?>src/assets/img/products/tassta/gs.png" alt="Badge">
                 </div>
             </div>
         </div>

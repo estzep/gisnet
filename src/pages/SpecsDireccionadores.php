@@ -43,7 +43,7 @@
                 </ul>
             </div>
             <div class="image f contain">
-                <img src="<? echo $path ?>src/assets/img/acf-img/img-5.jpg" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/products/acf-technologies/img-5.jpg" alt="Producto/Servicio image">
             </div>
         </div>
     </div>

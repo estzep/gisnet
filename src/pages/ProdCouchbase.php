@@ -31,7 +31,7 @@
                 </p>
             </div>
             <div class="image f contain">
-                <img src="<? echo $path ?>src/assets/img/couchbase-img/img-2.jpg" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/products/couchbase/img-2.jpg" alt="Producto/Servicio image">
             </div>
         </div>
     </div>
@@ -63,7 +63,7 @@
                 </p>
             </div>
             <div class="image f contain">
-                <img src="<? echo $path ?>src/assets/img/couchbase-img/img-4.jpg" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/products/couchbase/img-4.jpg" alt="Producto/Servicio image">
             </div>
         </div>
     </div>

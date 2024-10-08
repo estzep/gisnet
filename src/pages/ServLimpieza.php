@@ -34,8 +34,8 @@
             </div>
             <div class="graph">
                 <div class="graph-container">
-                    <img src="<? echo($path) ?>src/assets/img/limpieza-img/graphic-limpieza-datos.png" alt="Graph" class="d-none d-md-block">
-                    <img src="<? echo($path) ?>src/assets/img/limpieza-img/graphic-limpieza-datos-mobile.png" alt="Graph" class="d-block d-md-none">
+                    <img src="<? echo($path) ?>src/assets/img/services/limpieza-de-datos/graphic-limpieza-datos.png" alt="Graph" class="d-none d-md-block">
+                    <img src="<? echo($path) ?>src/assets/img/services/limpieza-de-datos/graphic-limpieza-datos-mobile.png" alt="Graph" class="d-block d-md-none">
                 </div>
             </div>
             <ul class="columns quad">
@@ -92,7 +92,7 @@
                 </ul>
             </div>
             <div class="image f t">
-                <img src="<? echo $path ?>src/assets/img/limpieza-img/img-2.jpg" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/services/limpieza-de-datos/img-2.jpg" alt="Producto/Servicio image">
             </div>
         </div>
     </div>

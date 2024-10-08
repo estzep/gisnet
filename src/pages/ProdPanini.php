@@ -29,7 +29,7 @@
                 <div class="g-card panini">
                     <div class="top">
                         <div class="icon">
-                            <img src="<? echo $path ?>src/assets/img/panini-img/graphic-panini-identidad-segura.png" alt="Icon">
+                            <img src="<? echo $path ?>src/assets/img/products/panini/graphic-panini-identidad-segura.png" alt="Icon">
                         </div>
                         <h6>Identidad Segura</h6>
                         <p class="text-4">
@@ -40,7 +40,7 @@
                 <div class="g-card panini">
                     <div class="top">
                         <div class="icon">
-                            <img src="<? echo $path ?>src/assets/img/panini-img/graphic-panini-escaner-cheques.png" alt="Icon">
+                            <img src="<? echo $path ?>src/assets/img/products/panini/graphic-panini-escaner-cheques.png" alt="Icon">
                         </div>
                         <h6>Escáner de Cheques</h6>
                         <p class="text-4">
@@ -51,7 +51,7 @@
                 <div class="g-card panini">
                     <div class="top">
                         <div class="icon">
-                            <img src="<? echo $path ?>src/assets/img/panini-img/graphic-panini-innovacion-bancos.png" alt="Icon">
+                            <img src="<? echo $path ?>src/assets/img/products/panini/graphic-panini-innovacion-bancos.png" alt="Icon">
                         </div>
                         <h6>Innovación para los bancos</h6>
                         <p class="text-4">
@@ -140,13 +140,13 @@
                 </div>
                 <div class="column image tab-content">
                     <div id="tab-panini1" class="panel contain tab-pane fade show active" role="tabpanel" aria-labelledby="li-panini1" tabindex="0">
-                        <img src="<? echo($path) ?>src/assets/img/panini-img/img-2-biocred.jpg" alt="Biocred">
+                        <img src="<? echo($path) ?>src/assets/img/products/panini/img-2-biocred.jpg" alt="Biocred">
                     </div>
                     <div id="tab-panini2" class="panel contain tab-pane fade" role="tabpanel" aria-labelledby="li-panini2" tabindex="0">
-                        <img src="<? echo($path) ?>src/assets/img/panini-img/img-3-visionx.jpg" alt="VisionX">
+                        <img src="<? echo($path) ?>src/assets/img/products/panini/img-3-visionx.jpg" alt="VisionX">
                     </div>
                     <div id="tab-panini3" class="panel contain tab-pane fade" role="tabpanel" aria-labelledby="li-panini3" tabindex="0">
-                        <img src="<? echo($path) ?>src/assets/img/panini-img/img-4-evernext.jpg" alt="Biocred">
+                        <img src="<? echo($path) ?>src/assets/img/products/panini/img-4-evernext.jpg" alt="Biocred">
                     </div>
                 </div>
             </div>

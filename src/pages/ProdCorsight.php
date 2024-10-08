@@ -33,7 +33,7 @@
                 </p>
             </div>
             <div class="image f">
-                <img src="<? echo $path ?>src/assets/img/corsight-img/img-2.jpg" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/products/corsight/img-2.jpg" alt="Producto/Servicio image">
             </div>
         </div>
     </div>
@@ -42,7 +42,7 @@
     <div class="section-container container">
         <div class="content mixed-content-1 pb-0">
             <div class="image s">
-                <img src="<? echo $path ?>src/assets/img/corsight-img/img-3.jpg" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/products/corsight/img-3.jpg" alt="Producto/Servicio image">
             </div>
             <div class="info">
                 <h3>Protección de la privacidad</h3>
@@ -63,7 +63,7 @@
                 </p>
             </div>
             <div class="image f">
-                <img src="<? echo $path ?>src/assets/img/corsight-img/img-4.jpg" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/products/corsight/img-4.jpg" alt="Producto/Servicio image">
             </div>
         </div>
     </div>

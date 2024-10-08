@@ -37,7 +37,7 @@
                 </p>
             </div>
             <div class="image f contain">
-                <img src="<? echo $path ?>src/assets/img/security-scorecard-img/img-2.jpg" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/products/security-scorecard/img-2.jpg" alt="Producto/Servicio image">
             </div>
         </div>
     </div>
@@ -48,19 +48,19 @@
             <h3 class="text-center mb-5">Reconocimientos de la industria</h3>
             <div class="badges-container">
                 <div class="badge">
-                    <img src="<? echo($path) ?>src/assets/img/security-scorecard-img/gartner.png" alt="Badge">
+                    <img src="<? echo($path) ?>src/assets/img/products/security-scorecard/gartner.png" alt="Badge">
                 </div>
                 <div class="badge">
-                    <img src="<? echo($path) ?>src/assets/img/security-scorecard-img/snowflake.png" alt="Badge">
+                    <img src="<? echo($path) ?>src/assets/img/products/security-scorecard/snowflake.png" alt="Badge">
                 </div>
                 <div class="badge">
-                    <img src="<? echo($path) ?>src/assets/img/security-scorecard-img/momentum.png" alt="Badge">
+                    <img src="<? echo($path) ?>src/assets/img/products/security-scorecard/momentum.png" alt="Badge">
                 </div>
                 <div class="badge">
-                    <img src="<? echo($path) ?>src/assets/img/security-scorecard-img/global.png" alt="Badge">
+                    <img src="<? echo($path) ?>src/assets/img/products/security-scorecard/global.png" alt="Badge">
                 </div>
                 <div class="badge">
-                    <img src="<? echo($path) ?>src/assets/img/security-scorecard-img/black-unicorn.png" alt="Badge">
+                    <img src="<? echo($path) ?>src/assets/img/products/security-scorecard/black-unicorn.png" alt="Badge">
                 </div>
             </div>
         </div>
