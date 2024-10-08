@@ -25,7 +25,9 @@ window.onscroll = () => {
 	for (var i = 0; i < elements.length; i++) {
 		var position = positions[i];
 		if (elements[i].getAttribute("data-state") === "hide" && scrollPos >= position) {
-			elements[i].setAttribute("data-state","show");
+			setTimeout(function(element) {
+				element.setAttribute("data-state", "show");
+			}, 100 * i, elements[i]);
 		}
 	}
 }
