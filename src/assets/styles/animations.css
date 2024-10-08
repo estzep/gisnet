@@ -1,4 +1,4 @@
-.animate { transition: all 0.8s ease-in-out; }
+.animate { transition: all 0.8s ease-in-out; transition-delay: 0.4s; }
 
 .animate.opacity { opacity: 0; }
 .animate.opacity[data-state="hide"] { opacity: 0; }
