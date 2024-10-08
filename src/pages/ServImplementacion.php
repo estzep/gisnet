@@ -116,7 +116,7 @@
                                 </ul>
                             </div>
                             <div class="image">
-                                <img src="<? echo($path) ?>src/assets/img/services/implementacion-de-sistemas/placeholder.png" alt="Image">
+                                <img src="<? echo($path) ?>src/assets/img/placeholder.png" alt="Image">
                             </div>
                         </div>
                     </div>

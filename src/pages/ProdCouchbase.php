@@ -40,7 +40,7 @@
     <div class="section-container container">
         <div class="content mixed-content-1 pb-0">
             <div class="image s contain">
-                <img src="<? echo $path ?>src/assets/img/couchbase-img/img-3.jpg" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/products/couchbase/img-3.jpg" alt="Producto/Servicio image">
             </div>
             <div class="info">
                 <h3>Arquitectura de base de datos distribuida</h3>

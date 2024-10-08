@@ -51,7 +51,7 @@
                 </p>
             </div>
             <div class="image f">
-                <img src="<? echo $path ?>src/assets/img/acf/products/acf-technologies/img-2.jpg" alt="Producto/Servicio image">
+                <img src="<? echo $path ?>src/assets/img/products/acf-technologies/img-2.jpg" alt="Producto/Servicio image">
             </div>
             <div class="image s">
                 <img src="<? echo $path ?>src/assets/img/products/acf-technologies/img-3.jpg" alt="Producto/Servicio image">
