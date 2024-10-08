@@ -1,8 +1,8 @@
 <section id="clientes">
     <div class="section-container container">
-        <div class="content animate opacity translateBottom">
+        <div class="content">
             <h5>Nuestros clientes</h5>
-            <div class="slider">
+            <div class="slider animate opacity translateBottom">
                 <div class="overlay"></div>
                 <div class="track">
                     <div class="item">
