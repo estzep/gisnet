@@ -123,10 +123,10 @@
     <div class="section-container container">
         <div class="content">
             <h3 class="animate opacity">Servicios digitales para tu empresa</h3>
-            <div class="tabs animate opacity">
+            <div class="tabs">
                 <div class="column info">
                     <ul class="tablist" role="tablist">
-                        <li id="li-servicio1" class="tab active" data-bs-toggle="tab" data-bs-target="#tab-servicio1" role="tab" aria-controls="tab-servicio1" aria-selected="true">
+                        <li id="li-servicio1" class="tab active animate opacity" data-bs-toggle="tab" data-bs-target="#tab-servicio1" role="tab" aria-controls="tab-servicio1" aria-selected="true">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Migración de acervos</h6>
@@ -149,7 +149,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-servicio2" class="tab" data-bs-toggle="tab" data-bs-target="#tab-servicio2" role="tab" aria-controls="tab-servicio2" aria-selected="false">
+                        <li id="li-servicio2" class="tab animate opacity" data-bs-toggle="tab" data-bs-target="#tab-servicio2" role="tab" aria-controls="tab-servicio2" aria-selected="false">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Implementación de Sistemas</h6>
@@ -172,7 +172,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-servicio3" class="tab" data-bs-toggle="tab" data-bs-target="#tab-servicio3" role="tab" aria-controls="tab-servicio3" aria-selected="false">
+                        <li id="li-servicio3" class="tab animate opacity" data-bs-toggle="tab" data-bs-target="#tab-servicio3" role="tab" aria-controls="tab-servicio3" aria-selected="false">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Limpieza de Datos</h6>
@@ -195,7 +195,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-servicio4" class="tab" data-bs-toggle="tab" data-bs-target="#tab-servicio4" role="tab" aria-controls="tab-servicio4" aria-selected="false">
+                        <li id="li-servicio4" class="tab animate opacity" data-bs-toggle="tab" data-bs-target="#tab-servicio4" role="tab" aria-controls="tab-servicio4" aria-selected="false">
                             <div class="tab-content">
                                 <div class="heading">
                                     <h6>Desarrollo, Soporte y Mantenimiento</h6>
@@ -217,7 +217,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="column image tab-content">
+                <div class="column image tab-content animate opacity">
                     <div id="tab-servicio1" class="panel tab-pane fade show active" role="tabpanel" aria-labelledby="li-servicio1" tabindex="0">
                         <img src="src/assets/img/services/migracion-de-acervos/cover.jpg" alt="Migración de Acervos Imagen">
                     </div>
