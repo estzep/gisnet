@@ -10,7 +10,7 @@ function initAnimations() {
 
 	for (var j = 0; j < elements.length; j++) {
 		var position = positions[j];
-		if (window.scrollY + (window.innerHeight * 0.7) >= position) {
+		if (window.scrollY + (window.innerHeight * 0.5) >= position) {
 			elements[j].setAttribute("data-state","show");
 		} else {
 			elements[j].setAttribute("data-state","hide");
