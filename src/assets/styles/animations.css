@@ -7,3 +7,7 @@
 .animate.translateTop { transform: translateY(-100%); }
 .animate.translateTop[data-state="hide"] { transform: translateY(-100%); }
 .animate.translateTop[data-state="show"] { transform: translateY(0); }
+
+.animate.translateBottom { transform: translateY(100%); }
+.animate.translateBottom[data-state="hide"] { transform: translateY(100%); }
+.animate.translateBottom[data-state="show"] { transform: translateY(0); }
