@@ -1,23 +1,34 @@
-<?php
-$icons = [
-    ['src' => 'src/assets/img/hero/custom/square-2.svg', 'alt' => 'Square'],
-    ['src' => 'src/assets/img/hero/custom/arrows.svg', 'alt' => 'Arrows'],
-    ['src' => 'src/assets/img/hero/custom/square-1.svg', 'alt' => 'Square'],
-    ['src' => 'src/assets/img/hero/custom/database.svg', 'alt' => 'Database'],
-    ['src' => 'src/assets/img/hero/custom/gear.svg', 'alt' => 'Gear'],
-    ['src' => 'src/assets/img/hero/custom/interface.svg', 'alt' => 'Interface'],
-    ['src' => 'src/assets/img/hero/custom/circle.svg', 'alt' => 'Circle'],
-    ['src' => 'src/assets/img/hero/custom/user.svg', 'alt' => 'User'],
-];
-?>
 <div class="custom-icons">
     <div class="container">
         <div class="grid">
-            <?php foreach ($icons as $icon): ?>
-                <div class="icon">
-                    <img src="<?php echo $icon['src']; ?>" alt="<?php echo $icon['alt']; ?>">
-                </div>
-            <?php endforeach; ?>
+            <div class="icon blank"></div>
+            <div class="icon square">
+                <img src="src/assets/img/hero/custom/square-2.svg" alt="Square">
+            </div>
+            <div class="icon arrows">
+                <img src="src/assets/img/hero/custom/arrows.svg" alt="Arrows">
+            </div>
+            <div class="icon blank"></div>
+            <div class="icon square">
+                <img src="src/assets/img/hero/custom/square-1.svg" alt="Square">
+            </div>
+            <div class="icon database">
+                <img src="src/assets/img/hero/custom/database.svg" alt="Database">
+            </div>
+            <div class="icon gear">
+                <img src="src/assets/img/hero/custom/gear.svg" alt="Gear">
+            </div>
+            <div class="icon interface">
+                <img src="src/assets/img/hero/custom/interface.svg" alt="Interface">
+            </div>
+            <div class="icon blank"></div>
+            <div class="icon circle">
+                <img src="src/assets/img/hero/custom/circle.svg" alt="Circle">
+            </div>
+            <div class="icon user">
+                <img src="src/assets/img/hero/custom/user.svg" alt="User">
+            </div>
+            <div class="icon blank"></div>
         </div>
     </div>
 </div>
