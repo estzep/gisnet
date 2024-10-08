@@ -7,7 +7,7 @@ $icons = [
 ?>
 <div class="custom-icons">
     <div class="container">
-        <div class="content">
+        <div class="grid">
             <?php foreach ($icons as $icon): ?>
                 <div class="icon">
                     <img src="<?php echo $icon['src']; ?>" alt="<?php echo $icon['alt']; ?>">
