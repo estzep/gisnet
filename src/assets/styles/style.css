@@ -150,7 +150,6 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
 .custom-icons {  }
 .custom-icons .container { width: 100%; height: 100%; }
 .custom-icons .container .grid { display: grid; grid-template-columns: repeat(4, 0fr); grid-template-rows: repeat(3, calc(100% / 3)); gap: 0; height: 100%; align-items: stretch; justify-items: stretch; justify-content: center; position: relative; }
-.custom-icons .container .grid::before { content: ''; display: block; padding-bottom: 100%; width: 0; grid-row: 1 / 1; grid-column: 1 / 1; }
 .custom-icons .container .grid .icon { width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }
 .custom-icons .container .grid .icon img { width: auto; height: 100%; object-fit: contain; display: block; }
 
