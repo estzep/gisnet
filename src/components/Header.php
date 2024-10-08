@@ -6,7 +6,7 @@
 
 <header>
     <div class="container">
-        <div class="content">
+        <div class="content animate opacity">
             <div class="info">
                 <h1><? echo $headerTitle ?></h1>
                 <p class="text-1">
