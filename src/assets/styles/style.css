@@ -35,9 +35,12 @@ main header .container {  }
 main header .container .content { padding: 7rem 0; display: flex; }
 main header#inicio .container .content { padding: 10rem 0; }
 main header .info { flex: 0 0 55%; margin: 0 auto 0 0; padding-right: 5rem; }
-main header#inicio .info { padding-right: 0; }
+main header#inicio .info { padding-right: 0; margin: 0; }
 main header .image { flex: 0 0 45%; }
 main header .image :is(img, video) { display: block; text-align: center; margin: 0 auto; object-fit: contain; width: 100%; height: 100%; }
+
+main header .custom-icons {  }
+
 main header .links { display: flex; flex-wrap: wrap; align-content: center; justify-content: flex-start; align-items: center; gap: 1.2rem; }
 main header :is(a.f-btn, a.s-btn) { text-align: center; font-size: .9rem; font-weight: 400; line-height: 2; padding: .8rem 1.2rem; }
 main header a.f-btn {  }

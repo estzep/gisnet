@@ -18,6 +18,9 @@
                     </a>
                 </div>
             </div>
+            <div class="custom-icons">
+                hola
+            </div>
         </div>
     </div>
 </header>
