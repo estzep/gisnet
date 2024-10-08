@@ -1,7 +1,7 @@
 <header id="inicio">
     <div class="container">
         <div class="content">
-            <div class="info animate">
+            <div class="info animate opacity">
                 <h1>Líderes en soluciones y consultorías especializadas</h1>
                 <div class="links">
                     <a href="contacto" class="btn-type-1 f-btn desktop">
@@ -26,8 +26,8 @@
     <div class="section-container container">
         <div class="content">
             <div class="heading">
-                <h3 class="animate">Modernizando procesos de nuestros clientes</h3>
-                <p class="text-1 animate">
+                <h3 class="animate opacity">Modernizando procesos de nuestros clientes</h3>
+                <p class="text-1 animate opacity">
                     Nos concentramos en la evolución tecnológica de nuestros clientes, mediante los servicios y productos que ofrecemos, dirigidos principalmente al sector Gobierno: Municipal, Estatal, Federal, sector Financiero.
                 </p>
             </div>
