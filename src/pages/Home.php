@@ -25,13 +25,13 @@
 <section id="empresa">
     <div class="section-container container">
         <div class="content">
-            <div class="heading">
-                <h3 class="animate opacity">Modernizando procesos de nuestros clientes</h3>
-                <p class="text-1 animate opacity">
+            <div class="heading animate opacity">
+                <h3>Modernizando procesos de nuestros clientes</h3>
+                <p class="text-1">
                     Nos concentramos en la evolución tecnológica de nuestros clientes, mediante los servicios y productos que ofrecemos, dirigidos principalmente al sector Gobierno: Municipal, Estatal, Federal, sector Financiero.
                 </p>
             </div>
-            <div class="squares-1">
+            <div class="squares-1 animate opacity">
                 <div class="square f-square">
                     <div class="square-content">
                         <h4>
@@ -61,7 +61,7 @@
 <section id="nosotros">
     <div class="section-container container">
         <div class="content">
-            <div class="heading">
+            <div class="heading animate opacity">
                 <div class="column image">
                     <img src="src/assets/img/nosotros.jpg" alt="Nosotros">
                 </div>
@@ -78,7 +78,7 @@
                     </a>
                 </div>
             </div>
-            <div class="squares-2">
+            <div class="squares-2 animate opacity">
                 <div class="square">
                     <div class="square-content">
                         <h4>23</h4>
@@ -122,8 +122,8 @@
 <section id="servicios">
     <div class="section-container container">
         <div class="content">
-            <h3>Servicios digitales para tu empresa</h3>
-            <div class="tabs">
+            <h3 class="animate opacity">Servicios digitales para tu empresa</h3>
+            <div class="tabs animate opacity">
                 <div class="column info">
                     <ul class="tablist" role="tablist">
                         <li id="li-servicio1" class="tab active" data-bs-toggle="tab" data-bs-target="#tab-servicio1" role="tab" aria-controls="tab-servicio1" aria-selected="true">
@@ -238,8 +238,8 @@
 <section id="productos">
     <div class="section-container container">
         <div class="content">
-            <h2>Productos para tu negocio</h2>
-            <div class="squares-4">
+            <h2 class="animate opacity">Productos para tu negocio</h2>
+            <div class="squares-4 animate opacity">
                 <a href="productos/panini" class="square">
                     <div class="square-img">
                         <img src="src/assets/img/products/panini/cover.jpg" alt="Panini">

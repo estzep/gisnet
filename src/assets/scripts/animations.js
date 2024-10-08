@@ -10,7 +10,7 @@ function initAnimations() {
 
 	for (var j = 0; j < elements.length; j++) {
 		var position = positions[j];
-		if (window.scrollY + (window.innerHeight * 0.5) >= position) {
+		if (window.scrollY + (window.innerHeight * 0.95) >= position) {
 			elements[j].setAttribute("data-state","show");
 		} else {
 			elements[j].setAttribute("data-state","hide");
@@ -21,7 +21,7 @@ function initAnimations() {
 window.onscroll = () => {
 	var elements = document.getElementsByClassName("animate");
 	var positions = (sessionStorage.getItem("positions")).split(",");
-	var scrollPos = window.scrollY + (window.innerHeight * 0.5);
+	var scrollPos = window.scrollY + (window.innerHeight * 0.8);
 	for (var i = 0; i < elements.length; i++) {
 		var position = positions[i];
 		if (elements[i].getAttribute("data-state") === "hide" && scrollPos >= position) {

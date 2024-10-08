@@ -1,6 +1,6 @@
 <section id="clientes">
     <div class="section-container container">
-        <div class="content">
+        <div class="content animate opacity">
             <h5>Nuestros clientes</h5>
             <div class="slider">
                 <div class="overlay"></div>

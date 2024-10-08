@@ -1,14 +1,14 @@
 <section id="socios">
     <div class="section-container container">
         <div class="content">
-            <div class="column heading">
+            <div class="column heading animate opacity">
                 <h3>Nuestros socios estratégicos</h3>
                 <p class="text-1">
                     Contamos con socios estratégicos de primer nivel para poder brindar el servicio de la más alta calidad a nuestros clientes.
                 </p>
             </div>
             <div id="sociosCarousel" class="column carousel">
-                <div class="controls">
+                <div class="controls animate opacity">
                     <button class="control left" onclick="moveCarousel('left')" disabled>
                         <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Previous">
                     </button>
@@ -16,7 +16,7 @@
                         <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Next">
                     </button>
                 </div>
-                <div id="sociosCarouselInner" class="inner">
+                <div id="sociosCarouselInner" class="inner animate opacity">
                     <div class="item">
                         <div class="img">
                             <img src="<? echo($path) ?>src/assets/img/logos/partners/dell.svg" alt="Logo Dell" class="dell">
