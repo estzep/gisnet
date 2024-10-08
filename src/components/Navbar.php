@@ -4,7 +4,7 @@
     $path = str_repeat('../', $segments);
 ?>
 
-<nav class="animate translateTop">
+<nav class="animate opacity translateTop">
     <div class="nav-container container">
         <div class="content">
             <div class="logo">
