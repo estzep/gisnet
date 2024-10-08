@@ -202,7 +202,7 @@
                                     <a class="more btn-type-5">
                                         <img src="<? echo($path) ?>src/assets/icons/icon-more.svg" alt="Más" class="head">
                                     </a>
-                                    <a href="servicios/cobertura/" class="link btn-type-5">
+                                    <a href="cobertura/" class="link btn-type-5">
                                         Leer más
                                         <span class="arrow">
                                             <img src="<? echo($path) ?>src/assets/icons/icon-arrow-right.svg" alt="Ir a" class="head">
