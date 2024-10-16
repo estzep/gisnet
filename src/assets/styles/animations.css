@@ -28,6 +28,5 @@
 
 .custom-icons .container .grid .icon.gear img { animation: rotate 20s linear infinite; }
 .custom-icons .container .grid .icon.circle img { 
-    animation: circleScale 5s ease-in-out infinite;
-    animation-delay: 3s;
+    animation: circleScale 3s linear infinite;
 }
