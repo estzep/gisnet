@@ -55,19 +55,25 @@
             </div>
             <div class="icon arrows">
                 <svg width="154" height="123" viewBox="0 0 154 123" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <!-- Rightmost Arrow -->
-                    <path d="M154 61.5831L102.788 0.600524L102.788 122.566L154 61.5831Z" fill="#01AB7F">
-                        <animateTransform attributeName="transform" type="translate" from="-154 0" to="0 0" dur="0.8s" begin="0s" fill="freeze" />
+                    <!-- Rightmost Arrow (Starts off-screen) -->
+                    <path d="M154 61.5831L102.788 0.600524L102.788 122.566L154 61.5831Z" 
+                            fill="#01AB7F" transform="translate(-154, 0)">
+                        <animateTransform attributeName="transform" type="translate" 
+                        from="-154 0" to="0 0" dur="0.8s" begin="0s" fill="freeze" />
                     </path>
 
-                    <!-- Middle Arrow -->
-                    <path d="M103.859 61.5831L52.6473 0.600524L52.6473 122.566L103.859 61.5831Z" fill="#01AB7F">
-                        <animateTransform attributeName="transform" type="translate" from="-154 0" to="0 0" dur="0.8s" begin="0.8s" fill="freeze" />
+                    <!-- Middle Arrow (Starts off-screen) -->
+                    <path d="M103.859 61.5831L52.6473 0.600524L52.6473 122.566L103.859 61.5831Z" 
+                            fill="#01AB7F" transform="translate(-154, 0)">
+                        <animateTransform attributeName="transform" type="translate" 
+                        from="-154 0" to="0 0" dur="0.8s" begin="0.8s" fill="freeze" />
                     </path>
 
-                    <!-- Leftmost Arrow -->
-                    <path d="M52 61.5831L0.787897 0.600524L0.787895 122.566L52 61.5831Z" fill="#CDF4ED">
-                        <animateTransform attributeName="transform" type="translate" from="-154 0" to="0 0" dur="0.8s" begin="1.6s" fill="freeze" />
+                    <!-- Leftmost Arrow (Starts off-screen) -->
+                    <path d="M52 61.5831L0.787897 0.600524L0.787895 122.566L52 61.5831Z" 
+                            fill="#CDF4ED" transform="translate(-154, 0)">
+                        <animateTransform attributeName="transform" type="translate" 
+                        from="-154 0" to="0 0" dur="0.8s" begin="1.6s" fill="freeze" />
                     </path>
                 </svg>
                 <!-- <img src="<? echo($path) ?>src/assets/img/hero/custom/arrows.svg" alt="Arrows"> -->
