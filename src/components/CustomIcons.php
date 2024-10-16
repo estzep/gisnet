@@ -1,4 +1,7 @@
 <div class="custom-icons">
+    <div class="bg-img">
+        <img src="src/assets/img/hero/custom/bg.svg" alt="Background">
+    </div>
     <div class="container">
         <div class="grid">
             <div class="icon blank"></div>
