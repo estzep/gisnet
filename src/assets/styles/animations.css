@@ -18,10 +18,10 @@
 }
 
 @keyframes circleScale {
-    0% {
+    0%, 100% {
         transform: scale(0.8);
     }
-    100% {
+    50% {
         transform: scale(1);
     }
 }
