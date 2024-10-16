@@ -28,7 +28,7 @@
                         <span id="countryError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
-                        <input name="tel" id="tel" type="number" placeholder="* Teléfono" min="0">
+                        <input name="tel" id="tel" type="tel" placeholder="* Teléfono" min="0">
                         <span id="telError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
