@@ -1,3 +1,12 @@
+<?php
+$servicesJson = file_get_contents('../src/assets/data/services.json');
+$servicesData = json_decode($servicesJson, true);
+$productsJson = file_get_contents('../src/assets/data/products.json');
+$productsData = json_decode($productsJson, true);
+
+$asunto = isset($_GET['asunto']) ? $_GET['asunto'] : '';
+?>
+
 <section id="contactPage">
     <div class="section-container container">
         <div class="content">
@@ -35,19 +44,22 @@
                         <select name="reason" id="reason" required>
                             <option value="0" default>Elegir asunto</option>
                             <optgroup label="Servicios">
-                                <option value="migracion-de-acervos">Migración de Acervos</option>
-                                <option value="implementacion-de-sistemas">Implementación de Sistemas</option>
-                                <option value="limpieza-de-datos">Limpieza de Datos</option>
-                                <option value="desarrollo-soporte-mantenimiento">Desarrollo, Soporte y Mantenimiento</option>
+                                <?php
+                                foreach ($servicesData['services'] as $service) {
+                                    $selected = ($asunto === $service['spname']) ? 'selected' : '';
+                                    echo "<option value=\"{$service['spname']}\" $selected>{$service['headerTitle']}</option>";
+                                }
+                                ?>
                             </optgroup>
                             <optgroup label="Productos">
-                                <option value="panini">Panini</option>
-                                <option value="acf-technologies">ACF Technologies</option>
-                                <option value="couchbase">Couchbase</option>
-                                <option value="security-scorecard">Security ScoreCard</option>
-                                <option value="corsight">Corsight</option>
-                                <option value="tassta">TASSTA</option>
+                                <?php
+                                foreach ($productsData['products'] as $product) {
+                                    $selected = ($asunto === $product['spname']) ? 'selected' : '';
+                                    echo "<option value=\"{$product['spname']}\" $selected>{$product['headerTitle']}</option>";
+                                }
+                                ?>
                             </optgroup>
+                            <option value="other">Otro</option>
                         </select>
                         <span id="reasonError" class="error-msg">Este campo es obligatorio</span>
                     </div>
