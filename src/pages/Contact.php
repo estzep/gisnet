@@ -1,6 +1,6 @@
 <?php
-$servicesJson = file_get_contents('../assets/data/services.json');
-$productsJson = file_get_contents('../assets/data/products.json');
+$servicesJson = file_get_contents('./src/assets/data/services.json');
+$productsJson = file_get_contents('./src/assets/data/products.json');
 $servicesData = json_decode($servicesJson, true);
 $productsData = json_decode($productsJson, true);
 
@@ -12,8 +12,6 @@ $asunto = isset($_GET['asunto']) ? $_GET['asunto'] : '';
         <div class="content">
             <div class="contact-card">
                 <h2>Contacta a ventas</h2>
-                <p><?php echo $servicesJson; ?></p>
-                <p><?php echo $servicesData; ?></p>
                 <p class="text-2">Llena el siguiente formulario y te responderemos a la brevedad.</p>
                 <form name="contactForm" id="contactForm" action="../src/assets/scripts/contact.php" class="contact-form" onsubmit="return validateContactForm()" method="post" novalidate>
                     <div class="form-column">
