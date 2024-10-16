@@ -1,7 +1,7 @@
 <?php
-$servicesJson = file_get_contents('../src/assets/data/services.json');
+$servicesJson = file_get_contents('../assets/data/services.json');
 $servicesData = json_decode($servicesJson, true);
-$productsJson = file_get_contents('../src/assets/data/products.json');
+$productsJson = file_get_contents('../assets/data/products.json');
 $productsData = json_decode($productsJson, true);
 
 $asunto = isset($_GET['asunto']) ? $_GET['asunto'] : '';
