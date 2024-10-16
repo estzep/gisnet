@@ -18,13 +18,16 @@
 }
 
 @keyframes circleScale {
-    0%, 100% {
+    0% {
         transform: scale(0.8);
     }
-    50% {
+    100% {
         transform: scale(1);
     }
 }
 
-.custom-icons .container .grid .icon.gear { animation: rotate 20s linear infinite; }
-.custom-icons .container .grid .icon.circle { animation: circleScale 5s ease-in-out infinite; }
+.custom-icons .container .grid .icon.gear img { animation: rotate 20s linear infinite; }
+.custom-icons .container .grid .icon.circle img { 
+    animation: circleScale 5s ease-in-out infinite;
+    animation-delay: 3s;
+}
