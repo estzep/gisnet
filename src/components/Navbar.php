@@ -6,7 +6,7 @@
     $homePage = ($base === '/');
 ?>
 
-<nav class="<?php echo $homePage ? 'animate opacity' : ''; ?>">
+<nav class="<?php echo $homePage ? 'animate opacity translateTop' : ''; ?>">
     <div class="nav-container container">
         <div class="content">
             <div class="logo">

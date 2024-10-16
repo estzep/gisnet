@@ -1,5 +1,4 @@
 <header id="inicio">
-    <? include('src/components/CustomIcons.php'); ?>
     <div class="container">
         <div class="content">
             <div class="info animate opacity">
@@ -21,6 +20,7 @@
             </div>
         </div>
     </div>
+    <? include('src/components/CustomIcons.php'); ?>
 </header>
 <? include('src/components/Clients.php'); ?>
 <section id="empresa">
