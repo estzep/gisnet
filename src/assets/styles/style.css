@@ -31,7 +31,7 @@ main :is(header, section) .text-4 { color: var(--gray); font-size: .9rem; font-w
 main :is(header, section) .text-5 { color: var(--text-color); font-size: 1rem; font-weight: 500; line-height: 2.15; margin-bottom: 0; }
 
 main header { position: relative; }
-main header#inicio { background: url('../img/hero/bg-right.png'), var(--bg-color); background-size: contain; background-repeat: no-repeat; background-position: right center; background-attachment: local; }
+main header#inicio { background: var(--bg-color); background-size: contain; background-repeat: no-repeat; background-position: right center; background-attachment: local; }
 main header .container {  }
 main header .container .content { padding: 7rem 0; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start; }
 main header#inicio .container .content { padding: 10rem 0; }
@@ -40,7 +40,7 @@ main header#inicio .info { padding-right: 0; margin: 0; }
 main header .image { flex: 0 0 45%; }
 main header .image :is(img, video) { display: block; text-align: center; margin: 0 auto; object-fit: contain; width: 100%; height: 100%; }
 
-main header .custom-icons { position: absolute; top: 0; right: 0; bottom: 0; width: 45%; border: 1px solid red; padding: 10rem 0; }
+main header .custom-icons { position: absolute; top: 0; right: 0; bottom: 0; width: 45%; padding: 6rem 0; }
 
 main header .links { display: flex; flex-wrap: wrap; align-content: center; justify-content: flex-start; align-items: center; gap: 1.2rem; }
 main header :is(a.f-btn, a.s-btn) { text-align: center; font-size: .9rem; font-weight: 400; line-height: 2; padding: .8rem 1.2rem; }
@@ -514,7 +514,7 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
     main :is(header, section) p.text-1 { margin-bottom: 2.5rem; }
     main :is(header, section) p.text-2 { font-size: .9rem; }
 
-    main header#inicio { background: url('../img/hero/bg-right-mobile.png'), var(--bg-color); background-size: 60%; background-repeat: no-repeat; background-position: right top; background-attachment: local; }
+    main header#inicio { background: var(--bg-color); background-size: 60%; background-repeat: no-repeat; background-position: right top; background-attachment: local; }
     main header#inicio .container .content { padding: 3rem 0; }
     main header .container .content { padding: 30% 0 35% 0; }
     main header .info { flex: 1 0 90%; padding-right: 0; }
