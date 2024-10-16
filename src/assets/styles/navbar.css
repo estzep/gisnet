@@ -82,7 +82,7 @@ nav .contact-btn a { font-size: .85rem; padding: .7rem 1rem; font-weight: 400; }
 
     nav .toggle-btn { display: grid; }
     
-    nav .links { background: var(--bg-color); position: fixed; top: var(--navbar-height); right: 0; bottom: 0; left: 0; z-index: 20; transform: translateX(100%); height: calc(100vh - var(--navbar-height)); }
+    nav .links { background: var(--bg-color); position: fixed; top: var(--navbar-height); right: 0; bottom: 0; left: 0; z-index: 20; transform: translateX(100%); }
     nav.open .links { transform: translateX(0%); }
     nav .links .links-container { display: flex; flex-direction: column; flex-wrap: nowrap; align-items: stretch; justify-content: space-between; padding-right: calc(var(--bs-gutter-x) * var(--navbar-sm-multiplier)); padding-left: calc(var(--bs-gutter-x) * var(--navbar-sm-multiplier)); padding-bottom: 1rem; }
 
