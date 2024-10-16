@@ -463,6 +463,7 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
     .bullet-list.lg { list-style-type: disc; padding-left: 1.5rem; }
 
     .custom-icons .bg-img { padding: 0 1rem; }
+    .custom-icons .bg-img img { border-radius: 0; }
     .custom-icons .container { padding-top: 2rem; padding-bottom: 2rem; }
     .custom-icons .container .grid { width: 80%; }
 
