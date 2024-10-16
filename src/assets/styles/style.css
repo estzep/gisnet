@@ -151,7 +151,7 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
 .custom-icons .bg-img { position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 1; width: 100%; height: 100%; }
 .custom-icons .bg-img img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; border-radius: 0 0 0 50%; }
 .custom-icons .container { width: 100%; height: 100%; position: relative; z-index: 2; display: flex; flex-direction: column; flex-wrap: nowrap; align-items: center; justify-content: center; }
-.custom-icons .container .grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(3, calc(100% / 3)); gap: 0; height: auto; align-items: stretch; justify-items: stretch; justify-content: center; position: relative; }
+.custom-icons .container .grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(3, calc(100% / 3)); gap: 0; height: auto; align-items: stretch; justify-items: stretch; justify-content: center; position: relative; width: 80%; }
 .custom-icons .container .grid .icon { width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden; }
 .custom-icons .container .grid .icon.arrows { align-items: flex-end; }
 .custom-icons .container .grid .icon img { width: 100%; height: auto; object-fit: contain; display: block; }
