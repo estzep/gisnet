@@ -437,6 +437,7 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
     main header#inicio .container .content { gap: 1.5rem; }
     main header .info { flex: 1 0 80%; }
     main header .image { flex: 0 0 20%; display: none; }
+    main header .custom-icons { width: 100%; position: relative; }
 
     main section#clientes .heading { width: 80%; }
 
@@ -460,6 +461,10 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
     main section#coverage .text-2 { width: 80%; }
 
     .bullet-list.lg { list-style-type: disc; padding-left: 1.5rem; }
+
+    .custom-icons .bg-img { padding: 0 1rem; }
+    .custom-icons .container { padding-top: 2rem; padding-bottom: 2rem; }
+    .custom-icons .container .grid { width: 80%; }
 
     .contact-card { width: 90%; }
 
@@ -521,7 +526,6 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
     main header .container .content { padding: 30% 0 35% 0; }
     main header .info { flex: 1 0 90%; padding-right: 0; }
     main header .image { flex: 0 0 10%; }
-    main header .custom-icons { width: 100%; position: relative; }
     main header .links { gap: .7rem; }
     main header .links a.f-btn.desktop { display: none; }
     main header .links a.f-btn.mobile { display: inline-block; }
@@ -544,8 +548,6 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
     main section#socios .column.carousel { flex: 1 1 100%; width: 100%; }
     main section#why .text-2 { width: 80%; }
     main section#coverage .text-2 { width: 100%; }
-
-    .custom-icons .container { padding: 2rem 0; }
 
     .contact-card { width: 100%; }
     .contact-form { column-gap: 1rem; }
