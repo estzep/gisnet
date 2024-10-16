@@ -12,10 +12,8 @@ $asunto = isset($_GET['asunto']) ? $_GET['asunto'] : '';
         <div class="content">
             <div class="contact-card">
                 <h2>Contacta a ventas</h2>
-                <p>
-                    <?php echo $asunto; ?>
-                </p>
-                <p><?php echo $servicesData['services'][0]['headerTitle']; ?></p>
+                <p><?php echo $servicesJson; ?></p>
+                <p><?php echo $servicesData; ?></p>
                 <p class="text-2">Llena el siguiente formulario y te responderemos a la brevedad.</p>
                 <form name="contactForm" id="contactForm" action="../src/assets/scripts/contact.php" class="contact-form" onsubmit="return validateContactForm()" method="post" novalidate>
                     <div class="form-column">
