@@ -40,4 +40,5 @@
             </div>
         </div>
     </div>
+    <? include('src/components/CustomIcons.php'); ?>
 </header>
