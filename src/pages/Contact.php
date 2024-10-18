@@ -60,7 +60,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                         </select>
                         <span id="reasonError" class="error-msg">Este campo es obligatorio</span>
                     </div>
-                    <div name="service" id="serviceSelect" class="form-column full <?php echo ($serviceSelected) ? 'hidden' : ''; ?>" <?php echo ($serviceSelected) ? 'required' : ''; ?>>
+                    <div name="service" id="serviceSelect" class="form-column full <?php echo ($serviceSelected) ? '' : 'hidden'; ?>" <?php echo ($serviceSelected) ? 'required' : ''; ?>>
                         <select name="service" id="service">
                             <option value="0" <?php echo ($serviceSelected) ? 'selected' : ''; ?> disabled>Seleccionar servicio</option>
                             <?php
@@ -71,7 +71,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                         </select>
                         <span id="serviceError" class="error-msg">Este campo es obligatorio</span>
                     </div>
-                    <div name="product" id="productSelect" class="form-column full <?php echo ($productSelected) ? 'hidden' : ''; ?>" <?php echo ($productSelected) ? 'required' : ''; ?>>
+                    <div name="product" id="productSelect" class="form-column full <?php echo ($productSelected) ? '' : 'hidden'; ?>" <?php echo ($productSelected) ? 'required' : ''; ?>>
                         <select name="product" id="product">
                             <option value="0" <?php echo ($productSelected) ? 'selected' : ''; ?> disabled>Seleccionar producto</option>
                             <?php
