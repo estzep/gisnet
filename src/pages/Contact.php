@@ -53,7 +53,7 @@ $productSelected = in_array($asunto, array_column($productsData['products'], 'sp
                             <option value="0" <?php echo ($serviceSelected) ? 'selected' : ''; ?> disabled>Seleccionar servicio</option>
                             <?php
                             foreach ($servicesData['services'] as $service) {
-                                echo "<option value=\"{$service['spname']}\"" . ($service['spname'] === $asunto ? ' selected' : '') . ">{$service['headerTitle']}</option>";
+                                echo "<option value=\"{$service['spname']}\"" . ($asunto === $service['spname'] ? ' selected' : '') . ">{$service['headerTitle']}</option>";
                             }
                             ?>
                         </select>
@@ -64,7 +64,7 @@ $productSelected = in_array($asunto, array_column($productsData['products'], 'sp
                             <option value="0" <?php echo ($productSelected) ? 'selected' : ''; ?> disabled>Seleccionar producto</option>
                             <?php
                             foreach ($productsData['products'] as $product) {
-                                echo "<option value=\"{$product['spname']}\"" . ($product['spname'] === $asunto ? ' selected' : '') . ">{$product['headerTitle']}</option>";
+                                echo "<option value=\"{$product['spname']}\"" . ($asunto === $product['spname'] ? ' selected' : '') . ">{$product['headerTitle']}</option>";
                             }
                             ?>
                         </select>
@@ -100,7 +100,7 @@ function showAdditionalSelect() {
     } else if (reason === '2') {
         serviceSelect.classList.add('hidden');
         serviceSelect.removeAttribute('required');
-        
+
         productSelect.classList.remove('hidden');
         productSelect.setAttribute('required', 'true');
     }
