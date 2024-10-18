@@ -69,14 +69,63 @@ function validateContactForm() {
     }
 
     return errors === 0;
-
-    // var fname = document.forms["contactForm"]["fname"].value;
-    // var lname = document.forms["contactForm"]["lname"].value;
-    // var email = document.forms["contactForm"]["email"].value;
-    // var country = document.forms["contactForm"]["country"].value;
-    // var reason = document.forms["contactForm"]["reason"].value;
-    // if (fname == "") {
-    //     document.getElementById().classList.add("")
-    //     return false;
-    // }
 }
+
+function handleSelects() {
+    var reasonSelect = document.getElementById('reasonSelect');
+    var reasonValue = reasonSelect.value;
+    var service = document.getElementById('service');
+    var serviceSelect = document.getElementById('serviceSelect');
+    var product = document.getElementById('product');
+    var productSelect = document.getElementById('productSelect');
+
+    if (reasonValue !== '0') {
+        reasonSelect.classList.remove('disabled');
+    }
+    if (serviceSelect.value !== '0') {
+        serviceSelect.classList.remove('disabled');
+    }
+    if (productSelect.value !== '0') {
+        productSelect.classList.remove('disabled');
+    }
+
+    if (reasonValue === '1') {
+        product.classList.add('hidden');
+        productSelect.removeAttribute('required');
+    
+        service.classList.remove('hidden');
+        serviceSelect.setAttribute('required', 'true');
+    } else if (reasonValue === '2') {
+        service.classList.add('hidden');
+        serviceSelect.removeAttribute('required');
+
+        product.classList.remove('hidden');
+        productSelect.setAttribute('required', 'true');
+    } else {
+        service.classList.add('hidden');
+        serviceSelect.removeAttribute('required');
+
+        product.classList.add('hidden');
+        productSelect.removeAttribute('required');
+    }
+}
+
+function validateInput(input) {
+    const name = input.getAttribute("name");
+    const value = input.value;
+    const error = document.getElementById(name + "Error");
+
+    if (value === '' || value == 0) {
+        input.classList.remove("error");
+        error.classList.remove("show");
+        setTimeout(() => {
+            input.classList.add("error");
+            error.classList.add("show");
+        }, 200);
+    } else {
+        input.classList.remove('error');
+        error.classList.remove('show');
+    }
+}
+
+window.onload = handleSelects;

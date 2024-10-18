@@ -24,19 +24,19 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                         <span id="fnameError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
-                        <input name="lname" id="lname" type="text" placeholder="* Apellido" required>
+                        <input name="lname" id="lname" type="text" placeholder="* Apellido" required onchange="validateInput(this)">
                         <span id="lnameError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
-                        <input name="company" id="company" type="text" placeholder="Compañia">
+                        <input name="company" id="company" type="text" placeholder="Compañia" onchange="validateInput(this)">
                         <span id="companyError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
-                        <input name="tel" id="tel" type="tel" placeholder="Teléfono" min="0">
+                        <input name="tel" id="tel" type="tel" placeholder="Teléfono" min="0" onchange="validateInput(this)">
                         <span id="telError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
-                        <input name="email" type="email" id="email" placeholder="* Correo electrónico" required>
+                        <input name="email" type="email" id="email" placeholder="* Correo electrónico" required onchange="validateInput(this)">
                         <span id="emailError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
@@ -50,7 +50,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                         </select>
                         <span id="reasonError" class="error-msg">Este campo es obligatorio</span>
                     </div>
-                    <div name="service" id="service" class="form-column full <?php echo ($serviceSelected) ? '' : 'hidden'; ?>" <?php echo ($serviceSelected) ? 'required' : ''; ?>>
+                    <div id="service" class="form-column full <?php echo ($serviceSelected) ? '' : 'hidden'; ?>">
                         <select name="service" id="serviceSelect" class="<?php echo ($serviceSelected) ? '' : 'disabled'; ?>" onchange="handleSelects()">
                             <option value="0" <?php echo ($serviceSelected) ? '' : 'selected'; ?> disabled>* Seleccionar servicio</option>
                             <?php
@@ -61,7 +61,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                         </select>
                         <span id="serviceError" class="error-msg">Este campo es obligatorio</span>
                     </div>
-                    <div name="product" id="product" class="form-column full <?php echo ($productSelected) ? '' : 'hidden'; ?>" <?php echo ($productSelected) ? 'required' : ''; ?>>
+                    <div id="product" class="form-column full <?php echo ($productSelected) ? '' : 'hidden'; ?>">
                         <select name="product" id="productSelect" class="<?php echo ($productSelected) ? '' : 'disabled'; ?>" onchange="handleSelects()">
                             <option value="0" <?php echo ($productSelected) ? '' : 'selected'; ?> disabled>* Seleccionar producto</option>
                             <?php
@@ -73,7 +73,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                         <span id="productError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
-                        <textarea name="message" id="message" rows="5" placeholder="* Mensaje" required></textarea>
+                        <textarea name="message" id="message" rows="5" placeholder="* Mensaje" required onchange="validateInput(this)"></textarea>
                         <span id="messageError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
@@ -86,46 +86,3 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
         </div>
     </div>
 </section>
-
-<script>
-function handleSelects() {
-    var reasonSelect = document.getElementById('reasonSelect');
-    var reasonValue = reasonSelect.value;
-    var service = document.getElementById('service');
-    var serviceSelect = document.getElementById('serviceSelect');
-    var product = document.getElementById('product');
-    var productSelect = document.getElementById('productSelect');
-
-    if (reasonValue !== '0') {
-        reasonSelect.classList.remove('disabled');
-    }
-    if (serviceSelect.value !== '0') {
-        serviceSelect.classList.remove('disabled');
-    }
-    if (productSelect.value !== '0') {
-        productSelect.classList.remove('disabled');
-    }
-
-    if (reasonValue === '1') {
-        product.classList.add('hidden');
-        productSelect.removeAttribute('required');
-    
-        service.classList.remove('hidden');
-        serviceSelect.setAttribute('required', 'true');
-    } else if (reasonValue === '2') {
-        service.classList.add('hidden');
-        serviceSelect.removeAttribute('required');
-
-        product.classList.remove('hidden');
-        productSelect.setAttribute('required', 'true');
-    } else {
-        service.classList.add('hidden');
-        serviceSelect.removeAttribute('required');
-
-        product.classList.add('hidden');
-        productSelect.removeAttribute('required');
-    }
-}
-
-window.onload = handleSelects;
-</script>
