@@ -118,6 +118,12 @@ function handleSelects() {
 
         product.classList.remove('hidden');
         productSelect.setAttribute('required', 'true');
+    } else {
+        service.classList.add('hidden');
+        serviceSelect.removeAttribute('required');
+
+        product.classList.add('hidden');
+        productSelect.removeAttribute('required');
     }
 }
 
