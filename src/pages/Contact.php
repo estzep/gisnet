@@ -20,11 +20,13 @@ $productSelected = in_array($asunto, array_column($productsData['products'], 'sp
                     <br>
                     <?php echo($asunto) ?>
                     <br>
+                    <?php echo($serviceSelected) ?>
+                    <br>
+                    <?php echo($serviceSelected) ? 'true' : 'false'; ?>
+                    <br>
                     <?php echo($productSelected) ?>
                     <br>
                     <?php echo($productSelected) ? 'true' : 'false'; ?>
-                    <br>
-                    <?php echo($serviceSelected) ? 'true' : 'false'; ?>
                 </p>
                 <form name="contactForm" id="contactForm" action="../src/assets/scripts/contact.php" class="contact-form" onsubmit="return validateContactForm()" method="post" novalidate>
                     <div class="form-column">
