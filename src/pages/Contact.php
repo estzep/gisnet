@@ -50,9 +50,9 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                         </select>
                         <span id="reasonError" class="error-msg">Este campo es obligatorio</span>
                     </div>
-                    <div name="service" id="serviceSelect" class="form-column full <?php echo ($serviceSelected) ? '' : 'hidden'; ?>" <?php echo ($serviceSelected) ? 'required' : ''; ?>>
-                        <select name="service" id="service">
-                            <option value="0" <?php echo ($serviceSelected) ? 'selected' : ''; ?> disabled>Seleccionar servicio</option>
+                    <div name="service" id="service" class="form-column full <?php echo ($serviceSelected) ? '' : 'hidden'; ?>" <?php echo ($serviceSelected) ? 'required' : ''; ?>>
+                        <select name="service" id="serviceSelect">
+                            <option value="0" <?php echo ($serviceSelected) ? '' : 'selected'; ?> disabled>Seleccionar servicio</option>
                             <?php
                             foreach ($servicesData['services'] as $service) {
                                 echo "<option value=\"{$service['spname']}\"" . ($asunto === $service['spname'] ? ' selected' : '') . ">{$service['headerTitle']}</option>";
@@ -61,9 +61,9 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                         </select>
                         <span id="serviceError" class="error-msg">Este campo es obligatorio</span>
                     </div>
-                    <div name="product" id="productSelect" class="form-column full <?php echo ($productSelected) ? '' : 'hidden'; ?>" <?php echo ($productSelected) ? 'required' : ''; ?>>
-                        <select name="product" id="product">
-                            <option value="0" <?php echo ($productSelected) ? 'selected' : ''; ?> disabled>Seleccionar producto</option>
+                    <div name="product" id="product" class="form-column full <?php echo ($productSelected) ? '' : 'hidden'; ?>" <?php echo ($productSelected) ? 'required' : ''; ?>>
+                        <select name="product" id="productSelect">
+                            <option value="0" <?php echo ($productSelected) ? '' : 'selected'; ?> disabled>Seleccionar producto</option>
                             <?php
                             foreach ($productsData['products'] as $product) {
                                 echo "<option value=\"{$product['spname']}\"" . ($asunto === $product['spname'] ? ' selected' : '') . ">{$product['headerTitle']}</option>";
@@ -90,20 +90,26 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
 <script>
 function showAdditionalSelect() {
     var reason = document.getElementById('reason').value;
+    var service = document.getElementById('service');
     var serviceSelect = document.getElementById('serviceSelect');
+    var product = document.getElementById('product');
     var productSelect = document.getElementById('productSelect');
+
+    if (reason !== '0') {
+        reason.classList.remove('disabled');
+    }
     
     if (reason === '1') {
-        productSelect.classList.add('hidden');
+        product.classList.add('hidden');
         productSelect.removeAttribute('required');
     
-        serviceSelect.classList.remove('hidden');
+        service.classList.remove('hidden');
         serviceSelect.setAttribute('required', 'true');
     } else if (reason === '2') {
-        serviceSelect.classList.add('hidden');
+        service.classList.add('hidden');
         serviceSelect.removeAttribute('required');
 
-        productSelect.classList.remove('hidden');
+        product.classList.remove('hidden');
         productSelect.setAttribute('required', 'true');
     }
 }
