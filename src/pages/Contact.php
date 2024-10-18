@@ -14,8 +14,18 @@ $productSelected = in_array($asunto, array_column($productsData['products'], 'sp
     <div class="section-container container">
         <div class="content">
             <div class="contact-card">
-                <h2>Contacta a ventas</h2>
-                <p class="text-2">Llena el siguiente formulario y te responderemos a la brevedad.</p>
+                <h2>Contacta a GISnet</h2>
+                <p class="text-2">
+                    Llena el siguiente formulario o envía un correo a <a href="mailto:info@e-gisnet.com">info@e-gisnet.com</a> y te responderemos a la brevedad.
+                    <br>
+                    <?php echo($asunto) ?>
+                    <br>
+                    <?php echo($productSelected) ?>
+                    <br>
+                    <?php echo($productSelected) ? 'true' : 'false'; ?>
+                    <br>
+                    <?php echo($serviceSelected) ? 'true' : 'false'; ?>
+                </p>
                 <form name="contactForm" id="contactForm" action="../src/assets/scripts/contact.php" class="contact-form" onsubmit="return validateContactForm()" method="post" novalidate>
                     <div class="form-column">
                         <input name="fname" id="fname" type="text" placeholder="* Nombre" required>
