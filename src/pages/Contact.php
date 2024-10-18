@@ -35,7 +35,7 @@ $asunto = isset($_GET['asunto']) ? $_GET['asunto'] : '';
                     <div class="form-column full">
                         <select name="reason" id="reason" required onchange="showAdditionalSelect()">
                             <option value="0" default disabled>Elegir asunto</option>
-                            <option value="1" selected>Consulta sobre servicio</option>
+                            <option value="1">Consulta sobre servicio</option>
                             <option value="2">Consulta sobre producto</option>
                             <option value="3">Consulta general</option>
                             <option value="4">Soporte</option>
