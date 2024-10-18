@@ -5,7 +5,7 @@ $servicesData = json_decode($servicesJson, true);
 $productsData = json_decode($productsJson, true);
 
 $asunto = $_GET['asunto'];
-$spSelected = isset($_GET['asunto']) ? true : false;
+$spSelected = isset($asunto) ? true : false;
 $serviceSelected = (in_array($asunto, array_column($servicesData['services'], 'spname'))) ? true : false;
 $productSelected = (in_array($asunto, array_column($productsData['products'], 'spname'))) ? true : false;
 ?>
@@ -17,9 +17,6 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                 <h2>Contacta a GISnet</h2>
                 <p class="text-2">
                     Llena el siguiente formulario o envía un correo a <a href="mailto:info@e-gisnet.com">info@e-gisnet.com</a> y te responderemos a la brevedad.
-                    <br>
-                    <?php echo($asunto) ?>
-                    <?php echo($spSelected) ?>
                 </p>
                 <form name="contactForm" id="contactForm" action="../src/assets/scripts/contact.php" class="contact-form" onsubmit="return validateContactForm()" method="post" novalidate>
                     <div class="form-column">
@@ -43,7 +40,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                         <span id="emailError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
-                        <select name="reason" id="reasonSelect" class="<?php echo ($spSelected) ? 'disabled' : ''; ?>" required onchange="handleSelects(), validateInput(this)">
+                        <select name="reason" id="reasonSelect" class="<?php echo ($spSelected) ? '' : 'disabled'; ?>" required onchange="handleSelects(), validateInput(this)">
                             <option value="0" selected disabled>* Elegir asunto</option>
                             <option value="1" <?php echo ($serviceSelected) ? 'selected' : ''; ?>>Consulta sobre servicio</option>
                             <option value="2" <?php echo ($productSelected) ? 'selected' : ''; ?>>Consulta sobre producto</option>
