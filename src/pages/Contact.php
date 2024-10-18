@@ -35,8 +35,8 @@ $asunto = isset($_GET['asunto']) ? $_GET['asunto'] : '';
                         <span id="emailError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
-                        <select name="reason" id="reason" required onchange="showAdditionalSelect()">
-                            <option value="0" selected disabled>Elegir asunto</option>
+                        <select name="reason" id="reason" class="text-primary" required onchange="showAdditionalSelect()">
+                            <option value="0" selected disabled class="text-primary">Elegir asunto</option>
                             <option value="1" <?php echo (in_array($asunto, array_column($servicesData['services'], 'spname'))) ? 'selected' : ''; ?>>Consulta sobre servicio</option>
                             <option value="2" <?php echo (in_array($asunto, array_column($productsData['products'], 'spname'))) ? 'selected' : ''; ?>>Consulta sobre producto</option>
                             <option value="3">Consulta general</option>
