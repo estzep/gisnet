@@ -163,6 +163,7 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
 
 .contact-form { display: flex; flex-wrap: wrap; margin: 0; row-gap: .5rem; column-gap: 2rem; padding-top: 2rem; }
 .contact-form .form-column { padding: 0; flex: 0 0 auto; width: calc(50% - 1rem); }
+.contact-form .form-column.hidden { display: none; }
 .contact-form .form-column.full { flex: 0 0 auto; width: 100%; }
 .contact-form .form-column :is(input, select, textarea) { display: block; width: 100%; background: var(--bg-color-1); color: var(--text-color); border: 0; padding: .7rem 1rem; outline: none; border-right: .5rem solid transparent; line-height: 1; font-size: .95rem; border-radius: 0; }
 .contact-form .form-column :is(input.error, select.error, textarea.error) { outline: 1px solid var(--danger-color); }
