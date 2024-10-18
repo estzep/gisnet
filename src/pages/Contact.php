@@ -51,7 +51,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                         <span id="reasonError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div name="service" id="service" class="form-column full <?php echo ($serviceSelected) ? '' : 'hidden'; ?>" <?php echo ($serviceSelected) ? 'required' : ''; ?>>
-                        <select name="service" id="serviceSelect">
+                        <select name="service" id="serviceSelect" class="<?php echo ($serviceSelected) ? '' : 'disabled'; ?>">
                             <option value="0" <?php echo ($serviceSelected) ? '' : 'selected'; ?> disabled>Seleccionar servicio</option>
                             <?php
                             foreach ($servicesData['services'] as $service) {
@@ -62,7 +62,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                         <span id="serviceError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div name="product" id="product" class="form-column full <?php echo ($productSelected) ? '' : 'hidden'; ?>" <?php echo ($productSelected) ? 'required' : ''; ?>>
-                        <select name="product" id="productSelect">
+                        <select name="product" id="productSelect" class="<?php echo ($productSelected) ? '' : 'disabled'; ?>">
                             <option value="0" <?php echo ($productSelected) ? '' : 'selected'; ?> disabled>Seleccionar producto</option>
                             <?php
                             foreach ($productsData['products'] as $product) {
@@ -98,6 +98,12 @@ function showAdditionalSelect() {
 
     if (reasonValue !== '0') {
         reasonSelect.classList.remove('disabled');
+    }
+    if (serviceSelect.value !== '0') {
+        serviceSelect.classList.remove('disabled');
+    }
+    if (productSelect.value !== '0') {
+        productSelect.classList.remove('disabled');
     }
 
     if (reasonValue === '1') {
