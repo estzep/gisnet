@@ -171,7 +171,7 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
 .contact-form .form-column :is(input.error, select.error, textarea.error) { outline: 1px solid var(--danger-color); }
 .contact-form .form-column select.error { color: var(--danger-color); }
 .contact-form .form-column input[type="number"]::-webkit-outer-spin-button, .contact-form .form-column input[type="number"]::-webkit-inner-spin-button { appearance: none; -webkit-appearance: none; }
-.contact-form .form-column :is(input::placeholder, select::placeholder, textarea::placeholder, .disabled) { color: red; }
+.contact-form .form-column :is(input::placeholder, select::placeholder, textarea::placeholder) { color: red; }
 /* .contact-form .form-column input::placeholder { color: red; } */
 .contact-form .form-column input.error::placeholder, .contact-form .form-column select.error::placeholder, .contact-form .form-column textarea.error::placeholder { color: var(--danger-color); }
 .contact-form .form-column .error-msg { opacity: 0; transition: 0.2s; color: var(--danger-color); font-size: .75rem; display: inline-block; margin: 0.35rem 0; }
