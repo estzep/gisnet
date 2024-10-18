@@ -40,7 +40,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                         <span id="emailError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
-                        <select name="reason" id="reason" class="<?php echo ($spSelected) ? 'disabled' : ''; ?>" required onchange="showAdditionalSelect()">
+                        <select name="reason" id="reasonSelect" class="<?php echo ($spSelected) ? 'disabled' : ''; ?>" required onchange="showAdditionalSelect()">
                             <option value="0" selected disabled>Elegir asunto</option>
                             <option value="1" <?php echo ($serviceSelected) ? 'selected' : ''; ?>>Consulta sobre servicio</option>
                             <option value="2" <?php echo ($productSelected) ? 'selected' : ''; ?>>Consulta sobre producto</option>
@@ -89,23 +89,24 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
 
 <script>
 function showAdditionalSelect() {
-    var reason = document.getElementById('reason').value;
+    var reasonSelect = document.getElementById('reasonSelect');
+    var reasonValue = reasonSelect.value;
     var service = document.getElementById('service');
     var serviceSelect = document.getElementById('serviceSelect');
     var product = document.getElementById('product');
     var productSelect = document.getElementById('productSelect');
 
-    if (reason !== '0') {
-        reason.classList.remove('disabled');
+    if (reasonValue !== '0') {
+        reasonSelect.classList.remove('disabled');
     }
-    
-    if (reason === '1') {
+
+    if (reasonValue === '1') {
         product.classList.add('hidden');
         productSelect.removeAttribute('required');
     
         service.classList.remove('hidden');
         serviceSelect.setAttribute('required', 'true');
-    } else if (reason === '2') {
+    } else if (reasonValue === '2') {
         service.classList.add('hidden');
         serviceSelect.removeAttribute('required');
 
