@@ -41,7 +41,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                     </div>
                     <div class="form-column full">
                         <select name="reason" id="reasonSelect" class="<?php echo ($spSelected) ? 'disabled' : ''; ?>" required onchange="handleSelects()">
-                            <option value="0" selected disabled>Elegir asunto</option>
+                            <option value="0" selected disabled>* Elegir asunto</option>
                             <option value="1" <?php echo ($serviceSelected) ? 'selected' : ''; ?>>Consulta sobre servicio</option>
                             <option value="2" <?php echo ($productSelected) ? 'selected' : ''; ?>>Consulta sobre producto</option>
                             <option value="3">Consulta general</option>
@@ -52,7 +52,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                     </div>
                     <div name="service" id="service" class="form-column full <?php echo ($serviceSelected) ? '' : 'hidden'; ?>" <?php echo ($serviceSelected) ? 'required' : ''; ?>>
                         <select name="service" id="serviceSelect" class="<?php echo ($serviceSelected) ? '' : 'disabled'; ?>" onchange="handleSelects()">
-                            <option value="0" <?php echo ($serviceSelected) ? '' : 'selected'; ?> disabled>Seleccionar servicio</option>
+                            <option value="0" <?php echo ($serviceSelected) ? '' : 'selected'; ?> disabled>* Seleccionar servicio</option>
                             <?php
                             foreach ($servicesData['services'] as $service) {
                                 echo "<option value=\"{$service['spname']}\"" . ($asunto === $service['spname'] ? ' selected' : '') . ">{$service['headerTitle']}</option>";
@@ -63,7 +63,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                     </div>
                     <div name="product" id="product" class="form-column full <?php echo ($productSelected) ? '' : 'hidden'; ?>" <?php echo ($productSelected) ? 'required' : ''; ?>>
                         <select name="product" id="productSelect" class="<?php echo ($productSelected) ? '' : 'disabled'; ?>" onchange="handleSelects()">
-                            <option value="0" <?php echo ($productSelected) ? '' : 'selected'; ?> disabled>Seleccionar producto</option>
+                            <option value="0" <?php echo ($productSelected) ? '' : 'selected'; ?> disabled>* Seleccionar producto</option>
                             <?php
                             foreach ($productsData['products'] as $product) {
                                 echo "<option value=\"{$product['spname']}\"" . ($asunto === $product['spname'] ? ' selected' : '') . ">{$product['headerTitle']}</option>";
@@ -127,6 +127,5 @@ function handleSelects() {
     }
 }
 
-// Call the function on page load to handle pre-selected values
 window.onload = handleSelects;
 </script>
