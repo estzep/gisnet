@@ -20,23 +20,23 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                 </p>
                 <form name="contactForm" id="contactForm" action="../src/assets/scripts/contact.php" class="contact-form" onsubmit="return validateContactForm()" method="post" novalidate>
                     <div class="form-column">
-                        <input name="fname" id="fname" type="text" placeholder="* Nombre" required>
+                        <input name="fname" id="fname" type="text" placeholder="* Nombre" required oninput="validateInput(this)">
                         <span id="fnameError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
-                        <input name="lname" id="lname" type="text" placeholder="* Apellido" required onchange="validateInput(this)">
+                        <input name="lname" id="lname" type="text" placeholder="* Apellido" required oninput="validateInput(this)">
                         <span id="lnameError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
-                        <input name="company" id="company" type="text" placeholder="Compañia" onchange="validateInput(this)">
+                        <input name="company" id="company" type="text" placeholder="Compañia">
                         <span id="companyError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
-                        <input name="tel" id="tel" type="tel" placeholder="Teléfono" min="0" onchange="validateInput(this)">
+                        <input name="tel" id="tel" type="tel" placeholder="Teléfono" min="0">
                         <span id="telError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
-                        <input name="email" type="email" id="email" placeholder="* Correo electrónico" required onchange="validateInput(this)">
+                        <input name="email" type="email" id="email" placeholder="* Correo electrónico" required oninput="validateInput(this)">
                         <span id="emailError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
@@ -73,7 +73,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                         <span id="productError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
-                        <textarea name="message" id="message" rows="5" placeholder="* Mensaje" required onchange="validateInput(this)"></textarea>
+                        <textarea name="message" id="message" rows="5" placeholder="* Mensaje" required oninput="validateInput(this)"></textarea>
                         <span id="messageError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
