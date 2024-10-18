@@ -5,9 +5,9 @@ $servicesData = json_decode($servicesJson, true);
 $productsData = json_decode($productsJson, true);
 
 $asunto = isset($_GET['asunto']) ? $_GET['asunto'] : '';
-$spSelected = $asunto === '';
-$serviceSelected = in_array($asunto, array_column($servicesData['services'], 'spname'));
-$productSelected = in_array($asunto, array_column($productsData['products'], 'spname'));
+$spSelected = $asunto === '' ? true : false;
+$serviceSelected = (in_array($asunto, array_column($servicesData['services'], 'spname'))) ? true : false;
+$productSelected = (in_array($asunto, array_column($productsData['products'], 'spname'))) ? true : false;
 ?>
 
 <section id="contactPage">
