@@ -40,7 +40,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                         <span id="emailError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
-                        <select name="reason" id="reasonSelect" class="<?php echo ($spSelected) ? 'disabled' : ''; ?>" required onchange="showAdditionalSelect()">
+                        <select name="reason" id="reasonSelect" class="<?php echo ($spSelected) ? 'disabled' : ''; ?>" required onchange="handleSelects()">
                             <option value="0" selected disabled>Elegir asunto</option>
                             <option value="1" <?php echo ($serviceSelected) ? 'selected' : ''; ?>>Consulta sobre servicio</option>
                             <option value="2" <?php echo ($productSelected) ? 'selected' : ''; ?>>Consulta sobre producto</option>
@@ -51,7 +51,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                         <span id="reasonError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div name="service" id="service" class="form-column full <?php echo ($serviceSelected) ? '' : 'hidden'; ?>" <?php echo ($serviceSelected) ? 'required' : ''; ?>>
-                        <select name="service" id="serviceSelect" class="<?php echo ($serviceSelected) ? '' : 'disabled'; ?>">
+                        <select name="service" id="serviceSelect" class="<?php echo ($serviceSelected) ? '' : 'disabled'; ?>" onchange="handleSelects()">
                             <option value="0" <?php echo ($serviceSelected) ? '' : 'selected'; ?> disabled>Seleccionar servicio</option>
                             <?php
                             foreach ($servicesData['services'] as $service) {
@@ -62,7 +62,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                         <span id="serviceError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div name="product" id="product" class="form-column full <?php echo ($productSelected) ? '' : 'hidden'; ?>" <?php echo ($productSelected) ? 'required' : ''; ?>>
-                        <select name="product" id="productSelect" class="<?php echo ($productSelected) ? '' : 'disabled'; ?>">
+                        <select name="product" id="productSelect" class="<?php echo ($productSelected) ? '' : 'disabled'; ?>" onchange="handleSelects()">
                             <option value="0" <?php echo ($productSelected) ? '' : 'selected'; ?> disabled>Seleccionar producto</option>
                             <?php
                             foreach ($productsData['products'] as $product) {
@@ -88,7 +88,7 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
 </section>
 
 <script>
-function showAdditionalSelect() {
+function handleSelects() {
     var reasonSelect = document.getElementById('reasonSelect');
     var reasonValue = reasonSelect.value;
     var service = document.getElementById('service');
@@ -122,5 +122,5 @@ function showAdditionalSelect() {
 }
 
 // Call the function on page load to handle pre-selected values
-window.onload = showAdditionalSelect;
+window.onload = handleSelects;
 </script>
