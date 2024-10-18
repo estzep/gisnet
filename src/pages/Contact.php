@@ -24,9 +24,11 @@ $asunto = isset($_GET['asunto']) ? $_GET['asunto'] : '';
                     </div>
                     <div class="form-column">
                         <input name="company" id="company" type="text" placeholder="Compañia">
+                        <span id="companyError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column">
                         <input name="tel" id="tel" type="tel" placeholder="Teléfono" min="0">
+                        <span id="telError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
                         <input name="email" type="email" id="email" placeholder="* Correo electrónico" required>
@@ -52,6 +54,7 @@ $asunto = isset($_GET['asunto']) ? $_GET['asunto'] : '';
                             }
                             ?>
                         </select>
+                        <span id="serviceError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div name="product" id="productSelect" class="form-column full hidden">
                         <select name="product" id="product">
@@ -62,9 +65,11 @@ $asunto = isset($_GET['asunto']) ? $_GET['asunto'] : '';
                             }
                             ?>
                         </select>
+                        <span id="productError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
-                        <textarea name="message" id="message" rows="5" placeholder="* Mensaje"></textarea>
+                        <textarea name="message" id="message" rows="5" placeholder="* Mensaje" required></textarea>
+                        <span id="messageError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
                         <button type="submit" class="btn-type-1">
