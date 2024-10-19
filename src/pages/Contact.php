@@ -8,6 +8,8 @@ $asunto = $_GET['asunto'];
 $spSelected = isset($asunto) ? true : false;
 $serviceSelected = (in_array($asunto, array_column($servicesData['services'], 'spname'))) ? true : false;
 $productSelected = (in_array($asunto, array_column($productsData['products'], 'spname'))) ? true : false;
+
+$mail = $_GET['mail'];
 ?>
 
 <section id="contactPage">
@@ -17,6 +19,14 @@ $productSelected = (in_array($asunto, array_column($productsData['products'], 's
                 <h2>Contacta a GISnet</h2>
                 <p class="text-2">
                     Llena el siguiente formulario o envía un correo a <a href="mailto:info@e-gisnet.com">info@e-gisnet.com</a> y te responderemos a la brevedad.
+                    <br>
+                    <?php
+                    if ($mail == 'sent') {
+                        echo '<span class="success-msg">Correo enviado correctamente</span>';
+                    } else if ($mail == 'error') {
+                        echo '<span class="error-msg">Error al enviar el correo</span>';
+                    }
+                    ?>
                 </p>
                 <form name="contactForm" id="contactForm" action="../src/assets/scripts/contact.php" class="contact-form" onsubmit="return validateContactForm()" method="post" novalidate>
                     <div class="form-column">
