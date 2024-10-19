@@ -6,6 +6,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$tel = filter_input(INPUT_POST, 'tel', FILTER_UNSAFE_RAW);
 	$email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
 	$message = filter_input(INPUT_POST, 'message', FILTER_UNSAFE_RAW);
+	$reason = null;
+	$service = null;
+	$product = null;
 
 	$reasonValue = (int) filter_input(INPUT_POST, 'reason', FILTER_UNSAFE_RAW);
 	switch ($reasonValue) {
