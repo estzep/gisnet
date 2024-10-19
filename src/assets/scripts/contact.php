@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$service = null;
 	$product = null;
 
-	$reasonValue = (int) filter_input(INPUT_POST, 'reason', FILTER_UNSAFE_RAW);
+	$reasonValue = filter_input(INPUT_POST, 'reason', FILTER_UNSAFE_RAW);
 	switch ($reasonValue) {
 		case '1':
 			$reason = 'Consulta sobre servicio';
