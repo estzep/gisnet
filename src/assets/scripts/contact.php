@@ -71,10 +71,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	// 		exit();
 	// }
 
-	if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-		header("Location: ../../../contacto/?mail=invalid_email");
-		exit();
-	}
+	// if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+	// 	header("Location: ../../../contacto/?mail=invalid_email");
+	// 	exit();
+	// }
 
 	$name = $fname . ' ' . $lname;
 	$mailTo = "die-tae@hotmail.com";
