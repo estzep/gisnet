@@ -28,7 +28,7 @@ $mail = $_GET['mail'];
                     }
                     ?>
                 </p>
-                <form name="contactForm" id="contactForm" action="../src/assets/scripts/contact.php" class="contact-form" onsubmit="return validateContactForm()" method="post" novalidate>
+                <form name="contactForm" id="contactForm" action="../src/assets/scripts/contact.php" class="contact-form" onsubmit="return validateContactForm()" method="POST" novalidate>
                     <div class="form-column">
                         <input name="fname" id="fname" type="text" placeholder="* Nombre" required oninput="validateInput(this)">
                         <span id="fnameError" class="error-msg">Este campo es obligatorio</span>

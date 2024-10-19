@@ -1,5 +1,16 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+echo "Script started.<br>";
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+	echo "POST request received.<br>";
+
+	echo "POST data:<br>";
+    print_r($_POST);
+    echo "<br>";
+
 	$fname = filter_input(INPUT_POST, 'fname', FILTER_UNSAFE_RAW);
 	$lname = filter_input(INPUT_POST, 'lname', FILTER_UNSAFE_RAW);
 	$company = filter_input(INPUT_POST, 'company', FILTER_UNSAFE_RAW);
@@ -9,6 +20,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$reason = null;
 	$service = null;
 	$product = null;
+
+	echo "Sanitized data:<br>";
+    echo "Name: $fname $lname<br>";
+    echo "Email: $email<br>";
 
 	$reasonValue = filter_input(INPUT_POST, 'reason', FILTER_UNSAFE_RAW);
 	switch ($reasonValue) {
@@ -26,7 +41,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 					$service = 'Limpieza de datos';
 					break;
 				default:
-					header("Location: ../../../contacto/?mail=invalid_service");
+					// header("Location: ../../../contacto/?mail=invalid_service");
+					echo "Invalid service.<br>";
 					exit();
 			}
 			break;
@@ -53,7 +69,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 					$product = 'TASSTA';
 					break;
 				default:
-					header("Location: ../../../contacto/?mail=invalid_product");
+					// header("Location: ../../../contacto/?mail=invalid_product");
+					echo "Invalid product.<br>";
 					exit();
 			}
 			break;
@@ -67,14 +84,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			$reason = 'Otro';
 			break;
 		default:
-			header("Location: ../../../contacto/?mail=invalid_reason");
+			// header("Location: ../../../contacto/?mail=invalid_reason");
+			echo "Invalid reason.<br>";
 			exit();
 	}
 
 	if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-		header("Location: ../../../contacto/?mail=invalid_email");
+		// header("Location: ../../../contacto/?mail=invalid_email");
+		echo "Invalid email address.<br>";
 		exit();
 	}
+
+	echo "Reason: $reason<br>";
+	echo "Service: $service<br>";
+	echo "Product: $product<br>";
 
 	$name = $fname . ' ' . $lname;
 	$mailTo = "die-tae@hotmail.com";
@@ -93,6 +116,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	}
 	$txt .= "\nMensaje:\n$message";
 
+	echo "Email content prepared.<br>";
+
 	$headers = array(
 		'From' => $email,
 		'Reply-To' => $email,
@@ -100,12 +125,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	);
 
 	if (mail($mailTo, $subject, $txt, $headers)) {
-		header("Location: ../../../contacto/?mail=sent");
+		// header("Location: ../../../contacto/?mail=sent");
+		echo "Email sent.<br>";
 	} else {
-		header("Location: ../../../contacto/?mail=error");
+		// header("Location: ../../../contacto/?mail=error");
+		echo "Error sending email.<br>";
 	}
 } else {
-	header("Location: ../../../contacto/?mail=error");
+	// header("Location: ../../../contacto/?mail=error");
+	echo "No POST request received.<br>";
 }
 exit();
 ?>
