@@ -1,20 +1,20 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-	$fname = filter_input(INPUT_POST, 'fname', FILTER_UNSAFE_RAW);
-	$lname = filter_input(INPUT_POST, 'lname', FILTER_UNSAFE_RAW);
-	$company = filter_input(INPUT_POST, 'company', FILTER_UNSAFE_RAW);
-	$tel = filter_input(INPUT_POST, 'tel', FILTER_UNSAFE_RAW);
-	$email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
-	$message = filter_input(INPUT_POST, 'message', FILTER_UNSAFE_RAW);
+	$fname = $_POST['fname'];
+	$lname = $_POST['lname'];
+	$company = $_POST['company'];
+	$tel = $_POST['tel'];
+	$email = $_POST['email'];
+	$message = $_POST['message'];
 	$reason = null;
 	$service = null;
 	$product = null;
 
-	$reasonValue = filter_input(INPUT_POST, 'reason', FILTER_UNSAFE_RAW);
+	$reasonValue = $_POST['reason'];
 	switch ($reasonValue) {
 		case '1':
 			$reason = 'Consulta sobre servicio';
-			$serviceValue = filter_input(INPUT_POST, 'service', FILTER_UNSAFE_RAW);
+			$serviceValue = $_POST['service'];
 			switch ($serviceValue) {
 				case '1':
 					$service = 'Migración de Acervos';
@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			break;
 		case '2':
 			$reason = 'Consulta sobre producto';
-			$productValue = filter_input(INPUT_POST, 'product', FILTER_UNSAFE_RAW);
+			$productValue = $_POST['product'];
 			switch ($productValue) {
 				case '1':
 					$product = 'Panini';
