@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 					$service = 'Limpieza de datos';
 					break;
 				default:
-					header("Location: ../../Contact.php?mail=invalid_service");
+					header("Location: ../../../contacto/?mail=invalid_service");
 					exit();
 			}
 			break;
@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 					$product = 'TASSTA';
 					break;
 				default:
-					header("Location: ../../Contact.php?mail=invalid_product");
+					header("Location: ../../../contacto/?mail=invalid_product");
 					exit();
 			}
 			break;
@@ -64,12 +64,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			$reason = 'Otro';
 			break;
 		default:
-			header("Location: ../../Contact.php?mail=invalid_reason");
+			header("Location: ../../../contacto/?mail=invalid_reason");
 			exit();
 	}
 
 	if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-		header("Location: ../../Contact.php?mail=invalid_email");
+		header("Location: ../../../contacto/?mail=invalid_email");
 		exit();
 	}
 
@@ -97,12 +97,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	);
 
 	if (mail($mailTo, $subject, $txt, $headers)) {
-		header("Location: /contacto/?mail=sent");
+		header("Location: ../../../contacto/?mail=sent");
 	} else {
-		header("Location: /contacto/?mail=error");
+		header("Location: ../../../contacto/?mail=error");
 	}
 } else {
-	header("Location: /contacto/?mail=error");
+	header("Location: ../../../contacto/?mail=error");
 }
 exit();
 ?>
