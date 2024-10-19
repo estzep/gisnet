@@ -65,7 +65,7 @@ $mail = $_GET['mail'];
                             <option value="0" <?php echo ($serviceSelected) ? '' : 'selected'; ?> disabled>* Seleccionar servicio</option>
                             <?php
                             foreach ($servicesData['services'] as $service) {
-                                echo "<option value=\"{$service['spname']}\"" . ($asunto === $service['spname'] ? ' selected' : '') . ">{$service['headerTitle']}</option>";
+                                echo "<option value=\"{$service['id']}\"" . ($asunto === $service['spname'] ? ' selected' : '') . ">{$service['headerTitle']}</option>";
                             }
                             ?>
                         </select>
@@ -76,7 +76,7 @@ $mail = $_GET['mail'];
                             <option value="0" <?php echo ($productSelected) ? '' : 'selected'; ?> disabled>* Seleccionar producto</option>
                             <?php
                             foreach ($productsData['products'] as $product) {
-                                echo "<option value=\"{$product['spname']}\"" . ($asunto === $product['spname'] ? ' selected' : '') . ">{$product['headerTitle']}</option>";
+                                echo "<option value=\"{$product['id']}\"" . ($asunto === $product['spname'] ? ' selected' : '') . ">{$product['headerTitle']}</option>";
                             }
                             ?>
                         </select>
