@@ -10,66 +10,66 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$service = null;
 	$product = null;
 
-	// $reasonValue = $_POST['reason'];
-	// switch ($reasonValue) {
-	// 	case '1':
-	// 		$reason = 'Consulta sobre servicio';
-	// 		$serviceValue = $_POST['service'];
-	// 		switch ($serviceValue) {
-	// 			case '1':
-	// 				$service = 'Migración de Acervos';
-	// 				break;
-	// 			case '2':
-	// 				$service = 'Implementación de Sistemas';
-	// 				break;
-	// 			case '3':
-	// 				$service = 'Limpieza de datos';
-	// 				break;
-	// 			default:
-	// 				header("Location: ../../../contacto/?mail=invalid_service");
-	// 				exit();
-	// 		}
-	// 		break;
-	// 	case '2':
-	// 		$reason = 'Consulta sobre producto';
-	// 		$productValue = $_POST['product'];
-	// 		switch ($productValue) {
-	// 			case '1':
-	// 				$product = 'Panini';
-	// 				break;
-	// 			case '2':
-	// 				$product = 'ACF Technologies';
-	// 				break;
-	// 			case '3':
-	// 				$product = 'Couchbase';
-	// 				break;
-	// 			case '4':
-	// 				$product = 'Security Scorecard';
-	// 				break;
-	// 			case '5':
-	// 				$product = 'Corsight';
-	// 				break;
-	// 			case '6':
-	// 				$product = 'TASSTA';
-	// 				break;
-	// 			default:
-	// 				header("Location: ../../../contacto/?mail=invalid_product");
-	// 				exit();
-	// 		}
-	// 		break;
-	// 	case '3':
-	// 		$reason = 'Consulta general';
-	// 		break;
-	// 	case '4':
-	// 		$reason = 'Soporte';
-	// 		break;
-	// 	case '5':
-	// 		$reason = 'Otro';
-	// 		break;
-	// 	default:
-	// 		header("Location: ../../../contacto/?mail=invalid_reason");
-	// 		exit();
-	// }
+	$reasonValue = $_POST['reason'];
+	switch ($reasonValue) {
+		case '1':
+			$reason = 'Consulta sobre servicio';
+			$serviceValue = $_POST['service'];
+			switch ($serviceValue) {
+				case '1':
+					$service = 'Migración de Acervos';
+					break;
+				case '2':
+					$service = 'Implementación de Sistemas';
+					break;
+				case '3':
+					$service = 'Limpieza de datos';
+					break;
+				default:
+					header("Location: ../../../contacto/?mail=invalid_service");
+					exit();
+			}
+			break;
+		case '2':
+			$reason = 'Consulta sobre producto';
+			$productValue = $_POST['product'];
+			switch ($productValue) {
+				case '1':
+					$product = 'Panini';
+					break;
+				case '2':
+					$product = 'ACF Technologies';
+					break;
+				case '3':
+					$product = 'Couchbase';
+					break;
+				case '4':
+					$product = 'Security Scorecard';
+					break;
+				case '5':
+					$product = 'Corsight';
+					break;
+				case '6':
+					$product = 'TASSTA';
+					break;
+				default:
+					header("Location: ../../../contacto/?mail=invalid_product");
+					exit();
+			}
+			break;
+		case '3':
+			$reason = 'Consulta general';
+			break;
+		case '4':
+			$reason = 'Soporte';
+			break;
+		case '5':
+			$reason = 'Otro';
+			break;
+		default:
+			header("Location: ../../../contacto/?mail=invalid_reason");
+			exit();
+	}
 
 	// if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 	// 	header("Location: ../../../contacto/?mail=invalid_email");
@@ -107,5 +107,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
 	header("Location: ../../../contacto/?mail=error");
 }
-exit();
 ?>
