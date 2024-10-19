@@ -42,12 +42,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	);
 
 	if (mail($mailTo, $subject, $txt, $headers)) {
-		header("Location: ../../Contact.php?mail=sent");
+		header("Location: /contacto/?mail=sent");
 	} else {
-		header("Location: ../../Contact.php?mail=error");
+		header("Location: /contacto/?mail=error");
 	}
 } else {
-	header("Location: ../../Contact.php?mail=error");
+	header("Location: /contacto/?mail=error");
 }
 exit();
 ?>
