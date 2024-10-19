@@ -6,15 +6,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$tel = $_POST['tel'];
 	$email = $_POST['email'];
 	$message = $_POST['message'];
+	$reasonValue = $_POST['reason'];
+	$serviceValue = $_POST['service'];
+	$productValue = $_POST['product'];
+
 	$reason = null;
 	$service = null;
 	$product = null;
-
-	$reasonValue = $_POST['reason'];
 	switch ($reasonValue) {
 		case '1':
 			$reason = 'Consulta sobre servicio';
-			$serviceValue = $_POST['service'];
 			switch ($serviceValue) {
 				case '1':
 					$service = 'Migración de Acervos';
@@ -32,7 +33,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			break;
 		case '2':
 			$reason = 'Consulta sobre producto';
-			$productValue = $_POST['product'];
 			switch ($productValue) {
 				case '1':
 					$product = 'Panini';
@@ -85,10 +85,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$txt .= "Teléfono: $tel\n";
 	$txt .= "Compañía: $company\n";
 	$txt .= "Asunto: $reason\n";
-	if (isset($service)) {
+	if ($serviceValue) {
 		$txt .= "Servicio: $service\n";
 	}
-	if (isset($product)) {
+	if ($productValue) {
 		$txt .= "Producto: $product\n";
 	}
 	$txt .= "\nMensaje:\n$message";
@@ -98,12 +98,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		'Reply-To' => $email,
 		'X-Mailer' => 'PHP/' . phpversion()
 	);
+	
+	mail($mailTo, $subject, $txt, $headers);
 
-	if (mail($mailTo, $subject, $txt, $headers)) {
-		header("Location: ../?mail=sent");
-	} else {
-		header("Location: ../?mail=error");
-	}
+	header("Location: ../?mail=sent");
+
+	// if (mail($mailTo, $subject, $txt, $headers)) {
+	// 	header("Location: ../?mail=sent");
+	// } else {
+	// 	header("Location: ../?mail=error");
+	// }
 } else {
 	header("Location: ../?mail=error");
 }
