@@ -75,7 +75,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 	$name = $fname . ' ' . $lname;
 	$mailTo = "die-tae@hotmail.com";
-	$subject = "Nuevo contacto: " . $reasonValue;
+	$subject = "Nuevo contacto: " . $reason;
 	
 	$txt = "Nuevo correo de: $name\n";
 	$txt .= "Correo: $email\n";
