@@ -57,7 +57,7 @@ $mail = $_GET['mail'];
                     </div>
                     <div class="form-column full">
                         <select name="reason" id="reasonSelect" class="<?php echo (isset($reason)) ? '' : 'disabled'; ?>" required onchange="handleSelects(), validateInput(this)">
-                            <option value="0" selected disabled>* Elegir asunto</option>
+                            <option value="0" <?php echo (isset($reason)) ? '' : 'selected'; ?> disabled>* Elegir asunto</option>
                             <option value="servicio" <?php echo ($reason === 'servicio') ? 'selected' : ''; ?>>Consulta sobre servicio</option>
                             <option value="producto" <?php echo ($reason === 'producto') ? 'selected' : ''; ?>>Consulta sobre producto</option>
                             <option value="consulta-general" <?php echo ($reason === 'consulta-general') ? 'selected' : ''; ?>>Consulta general</option>
