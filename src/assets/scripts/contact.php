@@ -102,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	
 	// mail($mailTo, $subject, $txt, $headers);
 
-	header("Location: contacto/?mail=sent");
+	header("Location: ../../../contacto?mail=sent");
 
 	// if (mail($mailTo, $subject, $txt, $headers)) {
 	// 	header("Location: ../?mail=sent");
@@ -110,6 +110,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	// 	header("Location: ../?mail=error");
 	// }
 } else {
-	header("Location: contacto/?mail=error");
+	header("Location: ../../../contacto?mail=error");
 }
 ?>
