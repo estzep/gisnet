@@ -74,10 +74,13 @@ function validateContactForm() {
 function handleSelects() {
     var reasonSelect = document.getElementById('reasonSelect');
     var reasonValue = reasonSelect.value;
+
     var service = document.getElementById('service');
     var serviceSelect = document.getElementById('serviceSelect');
     var product = document.getElementById('product');
     var productSelect = document.getElementById('productSelect');
+    var other = document.getElementById('other');
+    var otherInput = document.getElementById('otherInput');
 
     if (reasonValue !== '0') {
         reasonSelect.classList.remove('disabled');
@@ -92,21 +95,36 @@ function handleSelects() {
     if (reasonValue === '1') {
         product.classList.add('hidden');
         productSelect.removeAttribute('required');
-    
+        other.classList.add('hidden');
+        otherInput.removeAttribute('required');
+
         service.classList.remove('hidden');
         serviceSelect.setAttribute('required', 'true');
     } else if (reasonValue === '2') {
         service.classList.add('hidden');
         serviceSelect.removeAttribute('required');
+        other.classList.add('hidden');
+        otherInput.removeAttribute('required');
 
         product.classList.remove('hidden');
         productSelect.setAttribute('required', 'true');
+    } else if (reasonValue === '5') {
+        product.classList.add('hidden');
+        productSelect.removeAttribute('required');
+        service.classList.add('hidden');
+        serviceSelect.removeAttribute('required');
+
+        other.classList.remove('hidden');
+        otherInput.setAttribute('required', 'true');
     } else {
         service.classList.add('hidden');
         serviceSelect.removeAttribute('required');
 
         product.classList.add('hidden');
         productSelect.removeAttribute('required');
+
+        other.classList.add('hidden');
+        otherInput.removeAttribute('required');
     }
 }
 

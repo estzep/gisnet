@@ -82,12 +82,16 @@ $mail = $_GET['mail'];
                         </select>
                         <span id="productError" class="error-msg">Este campo es obligatorio</span>
                     </div>
+                    <div id="other" class="form-column full <?php echo ($otherSelected) ? '' : 'hidden'; ?>">
+                        <input name="other" type="text" id="otherInput" placeholder="* Ingresar un asunto" oninput="validateInput(this)">
+                        <span id="otherError" class="error-msg">Este campo es obligatorio</span>
+                    </div>
                     <div class="form-column full">
                         <textarea name="message" id="message" rows="5" placeholder="* Mensaje" required oninput="validateInput(this)"></textarea>
                         <span id="messageError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
-                        <button type="submit" class="btn-type-1">
+                        <button name="submit" type="submit" class="btn-type-1">
                             Enviar
                         </button>
                     </div>
