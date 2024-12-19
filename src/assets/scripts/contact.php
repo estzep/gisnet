@@ -135,8 +135,8 @@ try {
 	$errorMsg = $messages[$error];
 	$errorParams = http_build_query([
 		'mail' => 'error',
-		'error' => $error,
-		'msg' => $errorMsg
+		'mailError' => $error,
+		'mailMsg' => $errorMsg
 	]);
 	header("Location: ../../../contacto/?" . $initParams . "&" . $errorParams);
 	exit();
