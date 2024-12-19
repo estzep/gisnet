@@ -82,7 +82,7 @@ $mail = $_GET['mail'];
                         </select>
                         <span id="productError" class="error-msg">Este campo es obligatorio</span>
                     </div>
-                    <div id="other" class="form-column full <?php echo ($otherSelected) ? '' : 'hidden'; ?>">
+                    <div id="other" class="form-column full hidden">
                         <input name="other" type="text" id="otherInput" placeholder="* Ingresar un asunto" oninput="validateInput(this)">
                         <span id="otherError" class="error-msg">Este campo es obligatorio</span>
                     </div>
