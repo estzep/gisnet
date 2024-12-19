@@ -14,6 +14,39 @@ $servicesJson = file_get_contents('./src/assets/data/services.json');
 $productsJson = file_get_contents('./src/assets/data/products.json');
 $servicesData = json_decode($servicesJson, true);
 $productsData = json_decode($productsJson, true);
+$reasonsData = [
+    'servicio' => 'Consulta sobre servicio',
+    'producto' => 'Consulta sobre producto',
+    'consulta-general' => 'Consulta general', 
+    'soporte' => 'Soporte',
+    'otro' => 'Otro'
+];
+
+$validReason = false;
+if (array_key_exists($reason, $reasonsData)) {
+    $validReason = true;
+}
+
+$validService = false;
+if ($reason === 'servicio' && isset($service)) {
+    foreach ($servicesData['services'] as $serviceItem) {
+        if ($serviceItem['spname'] === $service) {
+            $validService = true;
+            break;
+        }
+    }
+}
+
+$validProduct = false;
+if ($reason === 'producto' && isset($product)) {
+    foreach ($productsData['products'] as $productItem) {
+        if ($productItem['spname'] === $product) {
+            $validProduct = true;
+            break;
+        }
+    }
+}
+
 
 $mail = $_GET['mail'];
 ?>
@@ -56,33 +89,33 @@ $mail = $_GET['mail'];
                         <span id="emailError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
-                        <select name="reason" id="reasonSelect" class="<?php echo (isset($reason)) ? '' : 'disabled'; ?>" required onchange="handleSelects(), validateInput(this)">
-                            <option value="0" <?php echo (isset($reason)) ? '' : 'selected'; ?> disabled>* Elegir asunto</option>
-                            <option value="servicio" <?php echo ($reason === 'servicio') ? 'selected' : ''; ?>>Consulta sobre servicio</option>
-                            <option value="producto" <?php echo ($reason === 'producto') ? 'selected' : ''; ?>>Consulta sobre producto</option>
-                            <option value="consulta-general" <?php echo ($reason === 'consulta-general') ? 'selected' : ''; ?>>Consulta general</option>
-                            <option value="soporte" <?php echo ($reason === 'soporte') ? 'selected' : ''; ?>>Soporte</option>
-                            <option value="otro" <?php echo ($reason === 'otro') ? 'selected' : ''; ?>>Otro</option>
+                        <select name="reason" id="reasonSelect" class="<?php echo ($validReason) ? '' : 'disabled'; ?>" required onchange="handleSelects(), validateInput(this)">
+                            <option value="0" <?php echo ($validReason) ? '' : 'selected'; ?> disabled>* Elegir asunto</option>
+                            <?php
+                            foreach ($reasonsData as $key => $value) {
+                                echo "<option value=\"{$key}\"" . ($reason === $key ? ' selected' : '') . ">{$value}</option>";
+                            }
+                            ?>
                         </select>
                         <span id="reasonError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div id="service" class="form-column full <?php echo ($reason === 'servicio') ? '' : 'hidden'; ?>">
-                        <select name="service" id="serviceSelect" class="<?php echo (isset($service)) ? '' : 'disabled'; ?>" onchange="handleSelects(), validateInput(this)">
-                            <option value="0" <?php echo (isset($service)) ? '' : 'selected'; ?> disabled>* Seleccionar servicio</option>
+                        <select name="service" id="serviceSelect" class="<?php echo ($validService) ? '' : 'disabled'; ?>" onchange="handleSelects(), validateInput(this)">
+                            <option value="0" <?php echo ($validService) ? '' : 'selected'; ?> disabled>* Seleccionar servicio</option>
                             <?php
-                            foreach ($servicesData['services'] as $service) {
-                                echo "<option value=\"{$service['spname']}\"" . ($service === $service['spname'] ? ' selected' : '') . ">{$service['headerTitle']}</option>";
+                            foreach ($servicesData['services'] as $serviceItem) {
+                                echo "<option value=\"{$serviceItem['spname']}\"" . ($service === $serviceItem['spname'] ? ' selected' : '') . ">{$serviceItem['headerTitle']}</option>";
                             }
                             ?>
                         </select>
                         <span id="serviceError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div id="product" class="form-column full <?php echo ($reason === 'producto') ? '' : 'hidden'; ?>">
-                        <select name="product" id="productSelect" class="<?php echo (isset($product)) ? '' : 'disabled'; ?>" onchange="handleSelects(), validateInput(this)">
-                            <option value="0" <?php echo (isset($product)) ? '' : 'selected'; ?> disabled>* Seleccionar producto</option>
+                        <select name="product" id="productSelect" class="<?php echo ($validProduct) ? '' : 'disabled'; ?>" onchange="handleSelects(), validateInput(this)">
+                            <option value="0" <?php echo ($validProduct) ? '' : 'selected'; ?> disabled>* Seleccionar producto</option>
                             <?php
-                            foreach ($productsData['products'] as $product) {
-                                echo "<option value=\"{$product['spname']}\"" . ($product === $product['spname'] ? ' selected' : '') . ">{$product['headerTitle']}</option>";
+                            foreach ($productsData['products'] as $productItem) {
+                                echo "<option value=\"{$productItem['spname']}\"" . ($product === $productItem['spname'] ? ' selected' : '') . ">{$productItem['headerTitle']}</option>";
                             }
                             ?>
                         </select>
