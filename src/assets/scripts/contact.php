@@ -67,7 +67,7 @@ try {
 		echo "Product: " . $product . "<br>";
 		echo "Other: " . $other . "<br>";
 
-		echo "Valid email: " . filter_var($email, FILTER_VALIDATE_EMAIL) . "<br>";
+		echo "Valid email: " . (filter_var($email, FILTER_VALIDATE_EMAIL) ? 'true' : 'false') . "<br>";
 	
 		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 			throw new Exception("Correo electrónico inválido.");
