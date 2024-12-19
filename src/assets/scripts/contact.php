@@ -53,19 +53,19 @@ try {
 			}
 		}
 	
-		echo "First Name: " . $fname . "<br>";
-		echo "Last Name: " . $lname . "<br>";
-		echo "Company: " . $company . "<br>";
-		echo "Phone: " . $tel . "<br>";
-		echo "Email: " . $email . "<br>";
-		echo "Message: " . $message . "<br>";
-		echo "ReasonValue: " . $reasonValue . "<br>";
-		echo "Reason: " . $reason . "<br>";
-		echo "ServiceValue: " . $serviceValue . "<br>";
-		echo "Service: " . $service . "<br>";
-		echo "ProductValue: " . $productValue . "<br>";
-		echo "Product: " . $product . "<br>";
-		echo "Other: " . $other . "<br>";
+		// echo "First Name: " . $fname . "<br>";
+		// echo "Last Name: " . $lname . "<br>";
+		// echo "Company: " . $company . "<br>";
+		// echo "Phone: " . $tel . "<br>";
+		// echo "Email: " . $email . "<br>";
+		// echo "Message: " . $message . "<br>";
+		// echo "ReasonValue: " . $reasonValue . "<br>";
+		// echo "Reason: " . $reason . "<br>";
+		// echo "ServiceValue: " . $serviceValue . "<br>";
+		// echo "Service: " . $service . "<br>";
+		// echo "ProductValue: " . $productValue . "<br>";
+		// echo "Product: " . $product . "<br>";
+		// echo "Other: " . $other . "<br>";
 	
 		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 			throw new Exception("Correo electrónico inválido.");
