@@ -169,7 +169,6 @@ main section.demo-cards h3 { margin: 0 auto; text-align: center; color: var(--li
 .contact-form .form-column.full { flex: 0 0 auto; width: 100%; }
 .contact-form .form-column :is(input, select, textarea) { display: block; width: 100%; background: var(--bg-color-1); color: var(--text-color); border: 0; padding: .7rem 1rem; outline: none; border-right: .5rem solid transparent; line-height: 1; font-size: .95rem; border-radius: 0; }
 .contact-form .form-column :is(input.error, select.error, textarea.error) { outline: 1px solid var(--danger-color); color: var(--danger-color); }
-/* .contact-form .form-column select.error { color: var(--danger-color); } */
 .contact-form .form-column input[type="number"]::-webkit-outer-spin-button, .contact-form .form-column input[type="number"]::-webkit-inner-spin-button { appearance: none; -webkit-appearance: none; }
 .contact-form .form-column input::placeholder, .contact-form .form-column select::placeholder, .contact-form .form-column textarea::placeholder, .contact-form .form-column .disabled { color: var(--gray-2); }
 .contact-form .form-column input.error::placeholder, .contact-form .form-column select.error::placeholder, .contact-form .form-column textarea.error::placeholder { color: var(--danger-color); }
