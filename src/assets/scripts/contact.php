@@ -132,7 +132,7 @@ try {
 	}
 } catch (Exception $e) {
 	$error = $e->getMessage();
-	$errorMsg = $errors[$error];
+	$errorMsg = $messages[$error];
 	$errorParams = http_build_query([
 		'mail' => 'error',
 		'error' => $error,
