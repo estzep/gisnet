@@ -1,84 +1,57 @@
 <?php
 try {
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+		$servicesJson = file_get_contents('../data/services.json');
+		$productsJson = file_get_contents('../data/products.json');
+		$servicesData = json_decode($servicesJson, true);
+		$productsData = json_decode($productsJson, true);
+		$reasonsData = [
+			'servicio' => 'Consulta sobre servicio',
+			'producto' => 'Consulta sobre producto',
+			'consulta-general' => 'Consulta general', 
+			'soporte' => 'Soporte',
+			'otro' => 'Otro'
+		];
+
 		$fname = $_POST['fname'];
 		$lname = $_POST['lname'];
 		$company = $_POST['company'];
 		$tel = $_POST['tel'];
 		$email = $_POST['email'];
-		$message = $_POST['message'];
 		$reasonValue = $_POST['reason'];
 		$serviceValue = $_POST['service'];
 		$productValue = $_POST['product'];
 		$other = $_POST['other'];
-	
-		$reason = null;
-		$service = null;
-		$product = null;
-		switch ($reasonValue) {
-			case 'servicio':
-				$reason = 'Consulta sobre servicio';
-				switch ($serviceValue) {
-					case '1':
-						$service = 'Migración de Acervos';
-						break;
-					case '2':
-						$service = 'Implementación de Sistemas';
-						break;
-					case '3':
-						$service = 'Limpieza de datos';
-						break;
-					default:
-						throw new Exception("Servicio inválido");
-				}
-				break;
-			case 'producto':
-				$reason = 'Consulta sobre producto';
-				switch ($productValue) {
-					case '1':
-						$product = 'Panini';
-						break;
-					case '2':
-						$product = 'ACF Technologies';
-						break;
-					case '3':
-						$product = 'Couchbase';
-						break;
-					case '4':
-						$product = 'Security Scorecard';
-						break;
-					case '5':
-						$product = 'Corsight';
-						break;
-					case '6':
-						$product = 'TASSTA';
-						break;
-					default:
-						throw new Exception("Producto inválido");
-				}
-				break;
-			case '3':
-				$reason = 'Consulta general';
-				break;
-			case '4':
-				$reason = 'Soporte';
-				break;
-			case '5':
-				$reason = 'Otro';
-				break;
-			default:
-				throw new Exception("Asunto inválido");
-		}
+		$message = $_POST['message'];
 
-		$params = http_build_query([
+		$initParams = http_build_query([
 			'nombre' => $fname,
 			'apellido' => $lname,
 			'empresa' => $company,
 			'telefono' => $tel,
 			'correo' => $email,
 			'mensaje' => $message,
-			'asunto' => $reason,
+			'asunto' => $reasonValue,
+			'servicio' => $serviceValue,
+			'producto' => $productValue,
+			'otro' => $other
 		]);
+
+		$reason = $reasonsData[$reasonValue];
+		$service = null;
+		foreach ($servicesData['services'] as $serviceItem) {
+			if ($serviceItem['spname'] === $serviceValue) {
+				$service = $serviceItem['headerTitle'];
+				break;
+			}
+		}
+		$product = null;
+		foreach ($productsData['products'] as $productItem) {
+			if ($productItem['spname'] === $productValue) {
+				$product = $productItem['headerTitle'];
+				break;
+			}
+		}
 	
 		echo "First Name: " . $fname . "<br>";
 		echo "Last Name: " . $lname . "<br>";
@@ -137,7 +110,7 @@ try {
 } catch (Exception $e) {
 	$params = http_build_query([
 		'mail' => 'error',
-		'msg' => $e->getMessage()
+		'mailMsg' => $e->getMessage()
 	]);
 	header("Location: ../../../contacto/?" . $params);
 }

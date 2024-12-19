@@ -47,8 +47,8 @@ if ($reason === 'producto' && isset($product)) {
     }
 }
 
-
 $mail = $_GET['mail'];
+$mailMsg = $_GET['mailMsg'];
 ?>
 
 <section id="contactPage">
@@ -59,13 +59,7 @@ $mail = $_GET['mail'];
                 <p class="text-2">
                     Llena el siguiente formulario o envía un correo a <a href="mailto:info@e-gisnet.com">info@e-gisnet.com</a> y te responderemos a la brevedad.
                     <br>
-                    <?php
-                    if ($mail == 'sent') {
-                        echo '<span class="success-msg">Correo enviado correctamente</span>';
-                    } else if ($mail == 'error') {
-                        echo '<span class="error-msg">Error al enviar el correo</span>';
-                    }
-                    ?>
+                    <span class="mail-status <?php echo $mail; ?>"><?php echo $mailMsg; ?></span>
                 </p>
                 <form name="contactForm" id="contactForm" action="../src/assets/scripts/contact.php" class="contact-form" onsubmit="return validateContactForm()" method="POST" novalidate>
                     <div class="form-column">
