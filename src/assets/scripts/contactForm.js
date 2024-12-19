@@ -156,9 +156,9 @@ function handleErrors() {
     input.classList.add('error');
 }
 
-function onload() {
+function onLoad() {
     handleSelects();
     handleErrors();
 }
 
-window.onload = onload;
+window.onload = onLoad;
