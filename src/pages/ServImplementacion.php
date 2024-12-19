@@ -6,6 +6,7 @@
     $jsonString = file_get_contents('src/assets/data/services.json');
     $data = json_decode($jsonString, true);
 
+    $sp = "servicio";
     $spname = "implementacion-de-sistemas";
 
     foreach ($data['services'] as $service) {
@@ -28,7 +29,7 @@
                     <? echo $headerDescription ?>
                 </p>
                 <div class="links">
-                    <a href="<? echo $path ?>contacto?asunto=<? echo($spname) ?>" class="btn-type-1 f-btn">
+                    <a href="<? echo $path ?>contacto?asunto=<? echo($sp) ?>&<? echo($sp) ?>=<? echo($spname) ?>" class="btn-type-1 f-btn">
                         Quiero comenzar
                     </a>
                     <a href="<? echo $path ?>files/GISNET_RC_CERTIFICADO_DIGITAL_9.pdf" class="btn-type-6 s-btn" target="_blank">

@@ -6,6 +6,7 @@
     $jsonString = file_get_contents('src/assets/data/products.json');
     $data = json_decode($jsonString, true);
 
+    $sp = "producto";
     $spname = "corsight";
 
     foreach ($data['products'] as $product) {

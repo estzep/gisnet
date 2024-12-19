@@ -6,6 +6,7 @@
     $jsonString = file_get_contents('src/assets/data/services.json');
     $data = json_decode($jsonString, true);
 
+    $sp = "servicio";
     $spname = "limpieza-de-datos";
 
     foreach ($data['services'] as $service) {

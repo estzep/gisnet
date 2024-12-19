@@ -1,13 +1,20 @@
 <?php
+$fname = $_GET['nombre'];
+$lname = $_GET['apellido'];
+$company = $_GET['empresa'];
+$tel = $_GET['telefono'];
+$email = $_GET['correo'];
+$message = $_GET['mensaje'];
+
 $servicesJson = file_get_contents('./src/assets/data/services.json');
 $productsJson = file_get_contents('./src/assets/data/products.json');
 $servicesData = json_decode($servicesJson, true);
 $productsData = json_decode($productsJson, true);
 
-$asunto = $_GET['asunto'];
-$spSelected = isset($asunto) ? true : false;
-$serviceSelected = (in_array($asunto, array_column($servicesData['services'], 'spname'))) ? true : false;
-$productSelected = (in_array($asunto, array_column($productsData['products'], 'spname'))) ? true : false;
+$reason = $_GET['asunto'];
+$reasonSelected = isset($reason) ? true : false;
+$serviceSelected = (in_array($reason, array_column($servicesData['services'], 'spname'))) ? true : false;
+$productSelected = (in_array($reason, array_column($productsData['products'], 'spname'))) ? true : false;
 
 $mail = $_GET['mail'];
 ?>
@@ -50,13 +57,13 @@ $mail = $_GET['mail'];
                         <span id="emailError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
-                        <select name="reason" id="reasonSelect" class="<?php echo ($spSelected) ? '' : 'disabled'; ?>" required onchange="handleSelects(), validateInput(this)">
+                        <select name="reason" id="reasonSelect" class="<?php echo ($reasonSelected) ? '' : 'disabled'; ?>" required onchange="handleSelects(), validateInput(this)">
                             <option value="0" selected disabled>* Elegir asunto</option>
                             <option value="1" <?php echo ($serviceSelected) ? 'selected' : ''; ?>>Consulta sobre servicio</option>
                             <option value="2" <?php echo ($productSelected) ? 'selected' : ''; ?>>Consulta sobre producto</option>
-                            <option value="3">Consulta general</option>
-                            <option value="4">Soporte</option>
-                            <option value="5">Otro</option>
+                            <option value="3" <?php echo ($reason === '3') ? 'selected' : ''; ?>>Consulta general</option>
+                            <option value="4" <?php echo ($reason === '4') ? 'selected' : ''; ?>>Soporte</option>
+                            <option value="5" <?php echo ($reason === '5') ? 'selected' : ''; ?>>Otro</option>
                         </select>
                         <span id="reasonError" class="error-msg">Este campo es obligatorio</span>
                     </div>
@@ -65,7 +72,7 @@ $mail = $_GET['mail'];
                             <option value="0" <?php echo ($serviceSelected) ? '' : 'selected'; ?> disabled>* Seleccionar servicio</option>
                             <?php
                             foreach ($servicesData['services'] as $service) {
-                                echo "<option value=\"{$service['id']}\"" . ($asunto === $service['spname'] ? ' selected' : '') . ">{$service['headerTitle']}</option>";
+                                echo "<option value=\"{$service['id']}\"" . ($reason === $service['spname'] ? ' selected' : '') . ">{$service['headerTitle']}</option>";
                             }
                             ?>
                         </select>
@@ -76,13 +83,13 @@ $mail = $_GET['mail'];
                             <option value="0" <?php echo ($productSelected) ? '' : 'selected'; ?> disabled>* Seleccionar producto</option>
                             <?php
                             foreach ($productsData['products'] as $product) {
-                                echo "<option value=\"{$product['id']}\"" . ($asunto === $product['spname'] ? ' selected' : '') . ">{$product['headerTitle']}</option>";
+                                echo "<option value=\"{$product['id']}\"" . ($reason === $product['spname'] ? ' selected' : '') . ">{$product['headerTitle']}</option>";
                             }
                             ?>
                         </select>
                         <span id="productError" class="error-msg">Este campo es obligatorio</span>
                     </div>
-                    <div id="other" class="form-column full hidden">
+                    <div id="other" class="form-column full <?php echo ($reason === '5') ? '' : 'hidden'; ?>">
                         <input name="other" type="text" id="otherInput" placeholder="* Ingresar un asunto" oninput="validateInput(this)">
                         <span id="otherError" class="error-msg">Este campo es obligatorio</span>
                     </div>

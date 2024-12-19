@@ -16,7 +16,7 @@ try {
 		$service = null;
 		$product = null;
 		switch ($reasonValue) {
-			case '1':
+			case 'servicio':
 				$reason = 'Consulta sobre servicio';
 				switch ($serviceValue) {
 					case '1':
@@ -32,7 +32,7 @@ try {
 						throw new Exception("Servicio inválido");
 				}
 				break;
-			case '2':
+			case 'producto':
 				$reason = 'Consulta sobre producto';
 				switch ($productValue) {
 					case '1':
@@ -69,6 +69,16 @@ try {
 			default:
 				throw new Exception("Asunto inválido");
 		}
+
+		$params = http_build_query([
+			'nombre' => $fname,
+			'apellido' => $lname,
+			'empresa' => $company,
+			'telefono' => $tel,
+			'correo' => $email,
+			'mensaje' => $message,
+			'asunto' => $reason,
+		]);
 	
 		echo "First Name: " . $fname . "<br>";
 		echo "Last Name: " . $lname . "<br>";
@@ -84,10 +94,9 @@ try {
 		echo "Product: " . $product . "<br>";
 		echo "Other: " . $other . "<br>";
 	
-		// // if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-		// // 	header("Location: ../?mail=invalid_email");
-		// // 	exit();
-		// // }
+		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+			throw new Exception("Correo electrónico inválido.");
+		}
 	
 		// $name = $fname . ' ' . $lname;
 		// $mailTo = "die-tae@hotmail.com";
@@ -126,6 +135,10 @@ try {
 		throw new Exception($msg);
 	}
 } catch (Exception $e) {
-	header("Location: ../../../contacto/?mail=error&msg=" . $e->getMessage());
+	$params = http_build_query([
+		'mail' => 'error',
+		'msg' => $e->getMessage()
+	]);
+	header("Location: ../../../contacto/?" . $params);
 }
 ?>
