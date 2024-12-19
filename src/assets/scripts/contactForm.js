@@ -92,7 +92,7 @@ function handleSelects() {
         productSelect.classList.remove('disabled');
     }
 
-    if (reasonValue === '1') {
+    if (reasonValue === 'servicio') {
         product.classList.add('hidden');
         productSelect.removeAttribute('required');
         other.classList.add('hidden');
@@ -100,7 +100,7 @@ function handleSelects() {
 
         service.classList.remove('hidden');
         serviceSelect.setAttribute('required', 'true');
-    } else if (reasonValue === '2') {
+    } else if (reasonValue === 'producto') {
         service.classList.add('hidden');
         serviceSelect.removeAttribute('required');
         other.classList.add('hidden');
@@ -108,7 +108,7 @@ function handleSelects() {
 
         product.classList.remove('hidden');
         productSelect.setAttribute('required', 'true');
-    } else if (reasonValue === '5') {
+    } else if (reasonValue === 'otro') {
         product.classList.add('hidden');
         productSelect.removeAttribute('required');
         service.classList.add('hidden');
