@@ -148,11 +148,8 @@ function validateInput(input) {
 
 function handleErrors() {
     const urlParams = new URLSearchParams(window.location.search);
-    console.log(urlParams);
     const error = urlParams.get('mailError');
-    console.log(error);
     const input = document.getElementsByName(error)[0];
-    console.log(input);
     input.classList.add('error');
 }
 
