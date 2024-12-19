@@ -4,6 +4,10 @@ $lname = $_GET['apellido'];
 $company = $_GET['empresa'];
 $tel = $_GET['telefono'];
 $email = $_GET['correo'];
+$reason = $_GET['asunto'];
+$service = $_GET['servicio'];
+$product = $_GET['producto'];
+$other = $_GET['otro'];
 $message = $_GET['mensaje'];
 
 $servicesJson = file_get_contents('./src/assets/data/services.json');
@@ -11,7 +15,7 @@ $productsJson = file_get_contents('./src/assets/data/products.json');
 $servicesData = json_decode($servicesJson, true);
 $productsData = json_decode($productsJson, true);
 
-$reason = $_GET['asunto'];
+
 $reasonSelected = isset($reason) ? true : false;
 $serviceSelected = (in_array($reason, array_column($servicesData['services'], 'spname'))) ? true : false;
 $productSelected = (in_array($reason, array_column($productsData['products'], 'spname'))) ? true : false;
@@ -57,13 +61,13 @@ $mail = $_GET['mail'];
                         <span id="emailError" class="error-msg">Este campo es obligatorio</span>
                     </div>
                     <div class="form-column full">
-                        <select name="reason" id="reasonSelect" class="<?php echo ($reasonSelected) ? '' : 'disabled'; ?>" required onchange="handleSelects(), validateInput(this)">
+                        <select name="reason" id="reasonSelect" class="<?php echo (isset($reason)) ? '' : 'disabled'; ?>" required onchange="handleSelects(), validateInput(this)">
                             <option value="0" selected disabled>* Elegir asunto</option>
-                            <option value="1" <?php echo ($serviceSelected) ? 'selected' : ''; ?>>Consulta sobre servicio</option>
-                            <option value="2" <?php echo ($productSelected) ? 'selected' : ''; ?>>Consulta sobre producto</option>
-                            <option value="3" <?php echo ($reason === '3') ? 'selected' : ''; ?>>Consulta general</option>
-                            <option value="4" <?php echo ($reason === '4') ? 'selected' : ''; ?>>Soporte</option>
-                            <option value="5" <?php echo ($reason === '5') ? 'selected' : ''; ?>>Otro</option>
+                            <option value="servicio" <?php echo ($reason === 'servicio') ? 'selected' : ''; ?>>Consulta sobre servicio</option>
+                            <option value="producto" <?php echo ($reason === 'producto') ? 'selected' : ''; ?>>Consulta sobre producto</option>
+                            <option value="consulta-general" <?php echo ($reason === 'consulta-general') ? 'selected' : ''; ?>>Consulta general</option>
+                            <option value="soporte" <?php echo ($reason === 'soporte') ? 'selected' : ''; ?>>Soporte</option>
+                            <option value="otro" <?php echo ($reason === 'otro') ? 'selected' : ''; ?>>Otro</option>
                         </select>
                         <span id="reasonError" class="error-msg">Este campo es obligatorio</span>
                     </div>
