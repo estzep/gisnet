@@ -66,6 +66,8 @@ try {
 		echo "ProductValue: " . $productValue . "<br>";
 		echo "Product: " . $product . "<br>";
 		echo "Other: " . $other . "<br>";
+
+		echo "Valid email: " . filter_var($email, FILTER_VALIDATE_EMAIL) . "<br>";
 	
 		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 			throw new Exception("Correo electrónico inválido.");
@@ -108,6 +110,7 @@ try {
 		throw new Exception($msg);
 	}
 } catch (Exception $e) {
+	
 	$params = http_build_query([
 		'mail' => 'error',
 		'mailMsg' => $e->getMessage()
