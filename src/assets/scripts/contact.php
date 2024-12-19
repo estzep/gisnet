@@ -68,7 +68,6 @@ try {
 		echo "Other: " . $other . "<br>";
 	
 		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-			echo "Correo electrónico inválido.";
 			throw new Exception("Correo electrónico inválido.");
 		}
 	
@@ -109,6 +108,7 @@ try {
 		throw new Exception($msg);
 	}
 } catch (Exception $e) {
+	echo "Error: " . $e->getMessage();
 	
 	$params = http_build_query([
 		'mail' => 'error',
