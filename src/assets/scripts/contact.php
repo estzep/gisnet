@@ -11,6 +11,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$productValue = $_POST['product'];
 	$otherValue = $_POST['other'];
 
+	echo "First Name: " . $fname . "<br>";
+	echo "Last Name: " . $lname . "<br>";
+	echo "Company: " . $company . "<br>";
+	echo "Phone: " . $tel . "<br>";
+	echo "Email: " . $email . "<br>";
+	echo "Message: " . $message . "<br>";
+	echo "Reason: " . $reasonValue . "<br>";
+	echo "Service: " . $serviceValue . "<br>";
+	echo "Product: " . $productValue . "<br>";
+	echo "Other: " . $otherValue . "<br>";
+
 	// $reason = null;
 	// $service = null;
 	// $product = null;
@@ -102,7 +113,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	
 	// mail($mailTo, $subject, $txt, $headers);
 
-	header("Location: ../../../contacto?mail=sent");
+	// header("Location: ../../../contacto/?mail=sent");
 
 	// if (mail($mailTo, $subject, $txt, $headers)) {
 	// 	header("Location: ../?mail=sent");
@@ -110,6 +121,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	// 	header("Location: ../?mail=error");
 	// }
 } else {
-	header("Location: ../../../contacto?mail=error");
+	header("Location: ../../../contacto/?mail=error");
 }
 ?>
