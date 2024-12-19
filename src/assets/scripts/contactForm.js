@@ -146,4 +146,16 @@ function validateInput(input) {
     }
 }
 
-window.onload = handleSelects;
+function handleErrors() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const error = urlParams.get('error');
+    const input = document.getElementByName(error)[0];
+    input.classList.add('error');
+}
+
+function onload() {
+    handleSelects();
+    handleErrors();
+}
+
+window.onload = onload;

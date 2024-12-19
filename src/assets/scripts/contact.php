@@ -12,64 +12,88 @@ try {
 			'soporte' => 'Soporte',
 			'otro' => 'Otro'
 		];
-
-		$fname = $_POST['fname'];
-		$lname = $_POST['lname'];
-		$company = $_POST['company'];
-		$tel = $_POST['tel'];
-		$email = $_POST['email'];
-		$reasonValue = $_POST['reason'];
-		$serviceValue = $_POST['service'];
-		$productValue = $_POST['product'];
-		$other = $_POST['other'];
-		$message = $_POST['message'];
+		$messages = [
+			'error' => 'Error al enviar el correo.',
+			'fname' => 'Nombre faltante.',
+			'lname' => 'Apellido faltante.',
+			'email' => 'Correo electrónico inválido o faltante.',
+			'reason' => 'Asunto inválido o faltante.',
+			'service' => 'Servicio inválido o faltante.',
+			'product' => 'Producto inválido o faltante.',
+			'other' => 'Asunto faltante.',
+			'message' => 'Mensaje faltante.'
+		];
 
 		$initParams = http_build_query([
-			'nombre' => $fname,
-			'apellido' => $lname,
-			'empresa' => $company,
-			'telefono' => $tel,
-			'correo' => $email,
-			'mensaje' => $message,
-			'asunto' => $reasonValue,
-			'servicio' => $serviceValue,
-			'producto' => $productValue,
-			'otro' => $other
+			'nombre' => $_POST['fname'],
+			'apellido' => $_POST['lname'],
+			'empresa' => $_POST['company'],
+			'telefono' => $_POST['tel'],
+			'correo' => $_POST['email'],
+			'mensaje' => $_POST['message'],
+			'asunto' => $_POST['reason'],
+			'servicio' => $_POST['service'],
+			'producto' => $_POST['product'],
+			'otro' => $_POST['other']
 		]);
 
-		$reason = $reasonsData[$reasonValue];
+		$fname = $_POST['fname'] ?? throw new Exception("fname");
+		$lname = $_POST['lname'] ?? throw new Exception("lname");
+
+		$company = $_POST['company'];
+		$tel = $_POST['tel'];
+		$email = $_POST['email'] ?? throw new Exception("email");
+		
+		$reasonValue = $_POST['reason'];
+		$reason = $reasonsData[$reasonValue] ?? throw new Exception("reason");
+
+		$serviceValue = $_POST['service'];
 		$service = null;
-		foreach ($servicesData['services'] as $serviceItem) {
-			if ($serviceItem['spname'] === $serviceValue) {
-				$service = $serviceItem['headerTitle'];
-				break;
+		if ($reasonValue === 'servicio') {
+			foreach ($servicesData['services'] as $serviceItem) {
+				if ($serviceItem['spname'] === $serviceValue) {
+					$service = $serviceItem['headerTitle'];
+					break;
+				}
 			}
+			$service = $service ?? throw new Exception("service");
 		}
+
+		$productValue = $_POST['product'];
 		$product = null;
-		foreach ($productsData['products'] as $productItem) {
-			if ($productItem['spname'] === $productValue) {
-				$product = $productItem['headerTitle'];
-				break;
+		if ($reasonValue === 'producto') {
+			foreach ($productsData['products'] as $productItem) {
+				if ($productItem['spname'] === $productValue) {
+					$product = $productItem['headerTitle'];
+					break;
+				}
 			}
+			$product = $product ?? throw new Exception("product");
 		}
-	
-		// echo "First Name: " . $fname . "<br>";
-		// echo "Last Name: " . $lname . "<br>";
-		// echo "Company: " . $company . "<br>";
-		// echo "Phone: " . $tel . "<br>";
-		// echo "Email: " . $email . "<br>";
-		// echo "Message: " . $message . "<br>";
-		// echo "ReasonValue: " . $reasonValue . "<br>";
-		// echo "Reason: " . $reason . "<br>";
-		// echo "ServiceValue: " . $serviceValue . "<br>";
-		// echo "Service: " . $service . "<br>";
-		// echo "ProductValue: " . $productValue . "<br>";
-		// echo "Product: " . $product . "<br>";
-		// echo "Other: " . $other . "<br>";
+
+		if ($reasonValue === 'otro') {
+			$other = $_POST['other'] ?? throw new Exception("other");
+		}
+
+		$message = $_POST['message'];
 	
 		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-			throw new Exception("Correo electrónico inválido.");
+			throw new Exception("email");
 		}
+
+		echo "First Name: " . $fname . "<br>";
+		echo "Last Name: " . $lname . "<br>";
+		echo "Company: " . $company . "<br>";
+		echo "Phone: " . $tel . "<br>";
+		echo "Email: " . $email . "<br>";
+		echo "Message: " . $message . "<br>";
+		echo "ReasonValue: " . $reasonValue . "<br>";
+		echo "Reason: " . $reason . "<br>";
+		echo "ServiceValue: " . $serviceValue . "<br>";
+		echo "Service: " . $service . "<br>";
+		echo "ProductValue: " . $productValue . "<br>";
+		echo "Product: " . $product . "<br>";
+		echo "Other: " . $other . "<br>";
 	
 		// $name = $fname . ' ' . $lname;
 		// $mailTo = "die-tae@hotmail.com";
@@ -104,13 +128,15 @@ try {
 		// 	header("Location: ../?mail=error");
 		// }
 	} else {
-		$msg = "Error al enviar el correo.";
-		throw new Exception($msg);
+		throw new Exception("error");
 	}
 } catch (Exception $e) {
+	$error = $e->getMessage();
+	$errorMsg = $errors[$error];
 	$errorParams = http_build_query([
 		'mail' => 'error',
-		'mailMsg' => $e->getMessage()
+		'error' => $error,
+		'msg' => $errorMsg
 	]);
 	header("Location: ../../../contacto/?" . $initParams . "&" . $errorParams);
 	exit();
