@@ -108,11 +108,11 @@ try {
 		throw new Exception($msg);
 	}
 } catch (Exception $e) {
-	$params = http_build_query([
+	$errorParams = http_build_query([
 		'mail' => 'error',
 		'mailMsg' => $e->getMessage()
 	]);
-	header("Location: ../../../contacto/?" . $params);
+	header("Location: ../../../contacto/?" . $initParams . "&" . $errorParams);
 	exit();
 }
 ?>
