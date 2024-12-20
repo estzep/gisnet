@@ -81,16 +81,35 @@ try {
 			throw new Exception("email");
 		}
 
-		$mailTo = "die-tae@hotmail.com";
-		$subject = "Test";
-		$txt = "Test text";
-		$headers = array(
-			'From' => $email,
-			'Reply-To' => $email,
-			'X-Mailer' => 'PHP/' . phpversion()
-		);
+		$gisnetEmail = "die-tae@hotmail.com";
+		$subjectDetails = [
+			'servicio' => $service,
+			'producto' => $product, 
+			'otro' => $other
+		];
 
-		mail($mailTo, $subject, $txt, $headers);
+
+		$gisnetMail = [
+			'to' => $gisnetEmail,
+			'subject' => $reason . (isset($subjectDetails[$reasonValue]) ? ": " . $subjectDetails[$reasonValue] : ""),
+			'headers' => array(
+				'From' => $email,
+				'Reply-To' => $email,
+				'X-Mailer' => 'PHP/' . phpversion()
+			),
+			'message' => "Nuevo correo de: $name\n"
+		];
+
+		// $userMail = "";
+
+		// $txt = "Test text";
+		// $headers = array(
+		// 	'From' => $email,
+		// 	'Reply-To' => $email,
+		// 	'X-Mailer' => 'PHP/' . phpversion()
+		// );
+
+		mail($gisnetMail['to'], $gisnetMail['subject'], $gisnetMail['message'], $gisnetMail['headers']);
 
 		echo "First Name: " . $fname . "<br>";
 		echo "Last Name: " . $lname . "<br>";
