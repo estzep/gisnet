@@ -81,6 +81,17 @@ try {
 			throw new Exception("email");
 		}
 
+		$mailTo = "die-tae@hotmail.com";
+		$subject = "Test";
+		$txt = "Test text";
+		$headers = array(
+			'From' => $email,
+			'Reply-To' => $email,
+			'X-Mailer' => 'PHP/' . phpversion()
+		);
+
+		mail($mailTo, $subject, $txt, $headers);
+
 		echo "First Name: " . $fname . "<br>";
 		echo "Last Name: " . $lname . "<br>";
 		echo "Company: " . $company . "<br>";
@@ -118,7 +129,7 @@ try {
 		// 	'X-Mailer' => 'PHP/' . phpversion()
 		// );
 		
-		// mail($mailTo, $subject, $txt, $headers);
+		
 	
 		// header("Location: ../../../contacto/?mail=sent");
 	
