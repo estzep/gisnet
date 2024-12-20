@@ -94,7 +94,6 @@ try {
 			'subject' => $reason . (isset($subjectDetails[$reasonValue]) ? ": " . $subjectDetails[$reasonValue] : ""),
 			'headers' => array(
 				'From' => $email,
-				'Reply-To' => $email,
 				'X-Mailer' => 'PHP/' . phpversion()
 			),
 			'message' => "Nuevo correo de: $name\n"
