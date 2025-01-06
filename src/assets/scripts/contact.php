@@ -81,7 +81,6 @@ try {
 			throw new Exception("email");
 		}
 
-
 		$gisnetEmail = "die-tae@hotmail.com";
 		$reasonDetails = [
 			'servicio' => $service,
@@ -119,63 +118,39 @@ try {
 			'message' => $cmMail
 		];
 
-		// $userMail = "";
+		$userMail = [
+			'to' => $email,
+			'subject' => 'GISnet - Mensaje enviado con éxito',
+			'headers' => implode("\r\n", [
+				'MIME-Version: 1.0',
+				'Content-Type: text/html; charset=UTF-8',
+				'From: ' . $gisnetEmail,
+				'X-Mailer: PHP/' . phpversion()
+			]),
+			'message' => file_get_contents('../../components/ConfirmationMail.html')
+		];
 
-		// $txt = "Test text";
-		// $headers = array(
-		// 	'From' => $email,
-		// 	'Reply-To' => $email,
-		// 	'X-Mailer' => 'PHP/' . phpversion()
-		// );
+		if (mail($gisnetMail['to'], $gisnetMail['subject'], $gisnetMail['message'], $gisnetMail['headers'])) {
+			mail($userMail['to'], $userMail['subject'], $userMail['message'], $userMail['headers']);
+			header("Location: ../../../contacto/?mail=sent&mailMsg=Muchas gracias por tu interés, pronto nos comunicaremos.");
+			exit();
+		}
 
-		mail($gisnetMail['to'], $gisnetMail['subject'], $gisnetMail['message'], $gisnetMail['headers']);
+		throw new Exception("error");
 
-		echo "First Name: " . $fname . "<br>";
-		echo "Last Name: " . $lname . "<br>";
-		echo "Company: " . $company . "<br>";
-		echo "Phone: " . $tel . "<br>";
-		echo "Email: " . $email . "<br>";
-		echo "Message: " . $message . "<br>";
-		echo "ReasonValue: " . $reasonValue . "<br>";
-		echo "Reason: " . $reason . "<br>";
-		echo "ServiceValue: " . $serviceValue . "<br>";
-		echo "Service: " . $service . "<br>";
-		echo "ProductValue: " . $productValue . "<br>";
-		echo "Product: " . $product . "<br>";
-		echo "Other: " . $other . "<br>";
-	
-		// $name = $fname . ' ' . $lname;
-		// $mailTo = "die-tae@hotmail.com";
-		// $subject = "Nuevo contacto: " . $reason;
-		
-		// $txt = "Nuevo correo de: $name\n";
-		// $txt .= "Correo: $email\n";
-		// $txt .= "Teléfono: $tel\n";
-		// $txt .= "Compañía: $company\n";
-		// $txt .= "Asunto: $reason\n";
-		// if ($serviceValue) {
-		// 	$txt .= "Servicio: $service\n";
-		// }
-		// if ($productValue) {
-		// 	$txt .= "Producto: $product\n";
-		// }
-		// $txt .= "\nMensaje:\n$message";
-	
-		// $headers = array(
-		// 	'From' => $email,
-		// 	'Reply-To' => $email,
-		// 	'X-Mailer' => 'PHP/' . phpversion()
-		// );
-		
-		
-	
-		// header("Location: ../../../contacto/?mail=sent");
-	
-		// if (mail($mailTo, $subject, $txt, $headers)) {
-		// 	header("Location: ../?mail=sent");
-		// } else {
-		// 	header("Location: ../?mail=error");
-		// }
+		// echo "First Name: " . $fname . "<br>";
+		// echo "Last Name: " . $lname . "<br>";
+		// echo "Company: " . $company . "<br>";
+		// echo "Phone: " . $tel . "<br>";
+		// echo "Email: " . $email . "<br>";
+		// echo "Message: " . $message . "<br>";
+		// echo "ReasonValue: " . $reasonValue . "<br>";
+		// echo "Reason: " . $reason . "<br>";
+		// echo "ServiceValue: " . $serviceValue . "<br>";
+		// echo "Service: " . $service . "<br>";
+		// echo "ProductValue: " . $productValue . "<br>";
+		// echo "Product: " . $product . "<br>";
+		// echo "Other: " . $other . "<br>";
 	} else {
 		throw new Exception("error");
 	}
