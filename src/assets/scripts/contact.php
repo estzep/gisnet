@@ -132,7 +132,7 @@ try {
 
 		if (mail($gisnetMail['to'], $gisnetMail['subject'], $gisnetMail['message'], $gisnetMail['headers'])) {
 			mail($userMail['to'], $userMail['subject'], $userMail['message'], $userMail['headers']);
-			header("Location: ../../../contacto/?mail=sent&mailMsg=Muchas gracias por tu interés, pronto nos comunicaremos.");
+			header("Location: ../../../contacto/?mail=sent&mailMsg=Mensaje enviado exitosamente. Gracias por tu interés, pronto nos comunicaremos.");
 			exit();
 		}
 
