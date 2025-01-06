@@ -75,30 +75,48 @@ try {
 			$other = $_POST['other'] ?? throw new Exception("other");
 		}
 
-		$message = $_POST['message'];
+		$message = $_POST['message'] ?? throw new Exception("message");
 	
 		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 			throw new Exception("email");
 		}
 
+
 		$gisnetEmail = "die-tae@hotmail.com";
-		$subjectDetails = [
+		$reasonDetails = [
 			'servicio' => $service,
 			'producto' => $product, 
 			'otro' => $other
 		];
-
+		$cmReason = $reason . (isset($reasonDetails[$reasonValue]) ? ": " . $reasonDetails[$reasonValue] : "");
+		$cmMessage = $message;
+		$cmName = $fname . ' ' . $lname;
+		$cmCompany = $company ?? '';
+		$cmPhone = $tel ?? '';
+		$cmEmail = $email;
+		$cmMail = str_replace(
+			[
+				'{{reason}}',
+				'{{message}}',
+				'{{name}}',
+				'{{company}}',
+				'{{phone}}',
+				'{{email}}'
+			],
+			[$cmReason, $cmMessage, $cmName, $cmCompany, $cmPhone, $cmEmail],
+			file_get_contents('../../components/ContactMail.html')
+		);
 
 		$gisnetMail = [
 			'to' => $gisnetEmail,
-			'subject' => $reason . (isset($subjectDetails[$reasonValue]) ? ": " . $subjectDetails[$reasonValue] : ""),
+			'subject' => $cmReason,
 			'headers' => implode("\r\n", [
 				'MIME-Version: 1.0',
 				'Content-Type: text/html; charset=UTF-8',
 				'From: ' . $email,
 				'X-Mailer: PHP/' . phpversion()
 			]),
-			'message' => file_get_contents('../../components/ContactMail.html')
+			'message' => $cmMail
 		];
 
 		// $userMail = "";
