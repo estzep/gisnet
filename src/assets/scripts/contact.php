@@ -98,17 +98,7 @@ try {
 				'From: ' . $email,
 				'X-Mailer: PHP/' . phpversion()
 			]),
-			'message' => '<!DOCTYPE html>
-			<html lang="en">
-			<head>
-				<meta charset="UTF-8">
-				<meta name="viewport" content="width=device-width, initial-scale=1.0">
-				<title>Document</title>
-			</head>
-			<body>
-				hola
-			</body>
-			</html>'
+			'message' => file_get_contents('../../components/ContactMail.html')
 		];
 
 		// $userMail = "";
